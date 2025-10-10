@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BCE Schaerbeek</title>
+    <link rel="shortcut icon" href="images/ih2.ico" type="image/x-icon">
+    <meta http-equiv="content type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ïe=edge">
+    <meta charset="utf-8" />
+
+    <div id="CSS_Libraries">
+        <!-- Librerie Leaflet  https://unpkg.com/leaflet@1.7.1/dist/leaflet.css -->
+        <!-- <link rel="stylesheet" href="css/leaflet.css" /> -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin="" />
+
+        <!-- Extension  Esri Leaflet Geocoder  -->
+        <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css"
+            integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g=="
+            crossorigin="">
+
+        <!-- Librerie Leaflet.markercluster https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css -->
+        <!-- Librerie Leaflet.markercluster https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css -->
+        <link rel="stylesheet" href="css/MarkerCluster.css">
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+
+        <!-- Extension Geoportail pour Leaflet http://ignf.github.io/geoportal-extensions/leaflet-latest/dist/GpPluginLeaflet.css -->
+        <link rel="stylesheet" href="css/GpPluginLeaflet.css" />
+
+        <!-- Librerie Leaflet.EasyButton : https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css -->
+        <link rel="stylesheet" href="css/easy-button.css">
+
+        <!-- Libreria de estilo Bootstrape-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- bibliothèque interne CSS -->
+        <link rel="stylesheet" href="css/style_html_osiris.css">
+        <link rel="stylesheet" href="css/style_clusters.css">
+    </div>
+
+</head>
+
+<body id="ALL_HTML">
+    <html>
+
+    <body id="Internal_Body">
+
+        <div id="HTML_Heading">
+            <header class="page-header">
+                <h1>
+                    Coordination des Chantiers à Schaerbeek entre 2015-2021 (osiris.brussels)
+                </h1>
+            </header>
+            <br>
+        </div>
+
+
+        <div id="Region00">
+            <div id="Region07">
+                <div class="container">
+                    <div class=section>
+
+                        <button id="export" class="btn btn-primary btn-lg"
+                            style="background-color: #f57aad; border-color: #f57aad" role="button">Export</button>
+                        <!-- <button id="export">Export</button> table table-striped table-bordered -->
+
+                        <table id="exportMe" style="font-size:12px" class="table table-hover table-striped text-nowrap">
+                            <thead>
+                                <tr class="table-warning">
+                                    <th scope="col">Numéro chantier</th>
+                                    <th scope="col">Duree de chantier (jours)</th>
+                                    <th scope="col">Avis CCC</th>
+                                    <th scope="col">Debut Demandée</th>
+                                    <th scope="col">Fin Demandée</th>
+                                    <th scope="col">Debut Autorisée</th>
+                                    <th scope="col">Fin Autorisée</th>
+                                    <th scope="col">Nature du chantier</th>
+                                    <th scope="col">Demandeur</th>
+                                    <th scope="col">Gestionnaire</th>
+                                    <th scope="col">Ref. Interne</th>
+                                    <th scope="col">Organisation</th>
+                                    <th scope="col">Responsable</th>
+                                    <th scope="col">Surface (m²)</th>
+                                    <th scope="col">Urgence</th>
+                                    <th scope="col">Regime</th>
+                                    <th scope="col">Voirie Max</th>
+                                    <th scope="col">Statut</th>
+                                    <th scope="col">Rues Des Chantiers</th>
+                                    <th scope="col">Zone de Police</th>
+                                    <th scope="col">Appelant</th>
+                                    <th scope="col">Pilote</th>
+                                    <th scope="col">Impetrants Coordonnes</th>
+                                    <th scope="col">Coordinateurs</th>
+                                </tr>
+                            </thead>
+                            <tbody id="res" style="font-size:12px">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Region01">
+            <div class="container">
+                <div class="row">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <label style="font-size:1.2em; font-weight: bold; text-align: center; font-style:italic;
+                            background-color:white;
+                            color:black">Données sur les chantiers à Schaerbeek</label>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-4 mb-2">
+                                <label for="ChantierOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Numéro de chantier Osiris</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="ChantierOsiris" placeholder="numéro de chantier..." style="font-size:13px">
+                            </div>
+                            <div class="col-4 mb-2">
+                                <label for="DureeOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Duree de chantier (jours)</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="DureeOsiris" placeholder="duree de chantier..." style="font-size:13px" disabled>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="AvisCCCOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Avis CCC</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_AvisCCC" id="AvisCCCOsiris" placeholder="avis.."
+                                    style="font-size:13px">
+                                <datalist id="datalist_AvisCCC">
+                                    <option value="Y">
+                                    <option value="N">
+                                </datalist>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-3 mb-2">
+                                <label for="DateDebutOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Debut demandée</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="DateDebutOsiris" placeholder="date..." style="font-size:13px" disabled>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="DateFinOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Fin demandée</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="DateFinOsiris" placeholder="date..." style="font-size:13px" disabled>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="AnneDemOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Année</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_AnneDem" id="AnneDemOsiris" placeholder="anne..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_AnneDem">
+                                    <option value="2014">
+                                    <option value="2015">
+                                    <option value="2016">
+                                    <option value="2017">
+                                    <option value="2018">
+                                    <option value="2019">
+                                    <option value="2020">
+                                    <option value="2021">
+                                    <option value="2022">
+                                    <option value="2023">
+                                    <option value="2024">
+                                    <option value="2025">
+                                    <option value="2027">
+                                </datalist>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="MoisDemOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Mois</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_MoisDem" id="MoisDemOsiris" placeholder="mois..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_MoisDem">
+                                    <option value="-01-">
+                                    <option value="-02-">
+                                    <option value="-03-">
+                                    <option value="-04-">
+                                    <option value="-05-">
+                                    <option value="-06-">
+                                    <option value="-07-">
+                                    <option value="-08-">
+                                    <option value="-09-">
+                                    <option value="-10-">
+                                    <option value="-11-">
+                                    <option value="-12-">
+                                </datalist>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-3 mb-2">
+                                <label for="DateDebutAutorOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Debut autorisée</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="DateDebutAutorOsiris" placeholder="date..." style="font-size:13px" disabled>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="DateFinAutorOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Fin autorisée</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="DateFinAutorOsiris" placeholder="date..." style="font-size:13px" disabled>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="AnneAutOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Année</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_AnneAut" id="AnneAutOsiris" placeholder="anne..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_AnneAut">
+                                    <option value="2014">
+                                    <option value="2015">
+                                    <option value="2016">
+                                    <option value="2017">
+                                    <option value="2018">
+                                    <option value="2019">
+                                    <option value="2020">
+                                    <option value="2021">
+                                    <option value="2022">
+                                    <option value="2023">
+                                    <option value="2024">
+                                    <option value="2025">
+                                    <option value="2027">
+                                </datalist>
+                            </div>
+                            <div class="col-3 mb-2">
+                                <label for="MoisAutOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Mois</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_MoisAut" id="MoisAutOsiris" placeholder="mois..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_MoisAut">
+                                    <option value="-01-">
+                                    <option value="-02-">
+                                    <option value="-03-">
+                                    <option value="-04-">
+                                    <option value="-05-">
+                                    <option value="-06-">
+                                    <option value="-07-">
+                                    <option value="-08-">
+                                    <option value="-09-">
+                                    <option value="-10-">
+                                    <option value="-11-">
+                                    <option value="-12-">
+                                </datalist>
+                            </div>
+                        </div>
+                    </div>
+                    <hr size=3>
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 mb-2">
+                                <label for="DemandeurOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Demandeur</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="DemandeurOsiris" placeholder="denomination..." style="font-size:13px">
+                            </div>
+
+                            <div class="col-12 mb-2">
+                                <label for="RefInterneOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Reference Interne</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="RefInterneOsiris" placeholder="reference interne.." disabled
+                                    style="font-size:13px">
+                            </div>
+
+                            <div class="col-12 mb-2">
+                                <label for="NatureOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Nature du chantier</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_Nature" id="NatureOsiris" placeholder="nature..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_Nature">
+                                    <option value="Déménagement">
+                                    <option value="Equipements Accessoires souterrains (bacs, trous d'hommes, etc.)">
+                                    <option value="Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)">
+                                    <option value="Pose de conduites : câbles, canalisations, gaines & bacs">
+                                    <option value="Réparation">
+                                    <option value="Tirage / Soufflage de câble (dans gaine ou canalisation existante)">
+                                    <option value="Travaux de voirie et d'infrastructure ">
+                                    <option value="Travaux en voirie non standards">
+                                    <option
+                                        value="Travaux par suite de défauts différents d’urgences (ordonnance 3/05/2018)">
+                                    <option
+                                        value="Zone de stockage, stationnement - Placement d'échafaudage, élévateur, grue, container">
+                                </datalist>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr size=3>
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-7 mb-2">
+                                <label for="GestionnaireOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Gestionnaire</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_Gestionnaire" id="GestionnaireOsiris" placeholder="gestionnaire..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_Gestionnaire">
+                                    <option value="Administrateur Régional">
+                                    <option value="Administrateur Régional, Evere, Schaerbeek">
+                                    <option value="Administrateur Régional, Schaerbeek">
+                                    <option value="Administrateur Régional, Schaerbeek, VBX">
+                                    <option value="Evere, Schaerbeek">
+                                    <option value="Saint-Josse-ten-Noode, Schaerbeek">
+                                    <option value="Schaerbeek">
+                                    <option value="Schaerbeek, VBX">
+                                    <option value="Woluwe-Saint-Lambert">
+                                </datalist>
+                            </div>
+
+                            <div class="col-5 mb-2">
+                                <label for="StatutOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Statut</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_Statut" id="StatutOsiris" placeholder="statut..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_Statut">
+                                    <option value="Abandonné">
+                                    <option value="Accord">
+                                    <option value="Arrêté d'urgence">
+                                    <option value="Autorisé">
+                                    <option value="Avis de démarrage">
+                                    <option value="Demande d'autorisation">
+                                    <option value="En attente">
+                                    <option value="En coordination">
+                                    <option value="En remédiation">
+                                    <option value="Enregistré">
+                                    <option value="Incomplet/Non conforme">
+                                    <option value="Partiellement autorisé">
+                                    <option value="Préparation de demande d'autorisation">
+                                    <option value="Programmé">
+                                    <option value="Provisoirement terminé">
+                                    <option value="Refusé par défaut">
+                                    <option value="Renoncé">
+                                    <option value="Subdivisé">
+                                    <option value="Terminé">
+                                </datalist>
+                            </div>
+
+                            <div class="col-5 mb-2">
+                                <label for="OrganisationeOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Organisation</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="OrganisationeOsiris" placeholder="organisation..." style="font-size:13px">
+                            </div>
+
+                            <div class="col-5 mb-2">
+                                <label for="RegimeOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Regime</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_Regime" id="RegimeOsiris" placeholder="regime..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_Regime">
+                                    <option value="A">
+                                    <option value="E">
+                                    <option value="D">
+                                    <option value="Eligible pour type D">
+                                    <option value="avis de la CCC est nécessaire"></option>
+                                    <option value="PCA">
+                                </datalist>
+                            </div>
+
+                            <div class="col-2 mb-2">
+                                <label for="SurfaceOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Srf. (m²)</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="SurfaceOsiris" placeholder="surface.." disabled style="font-size:13px">
+                            </div>
+
+                            <div class="col-3 mb-2">
+                                <label for="ClasseVoirieOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Classe Voirie</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_VoirieMax" id="ClasseVoirieOsiris" placeholder="voirie.."
+                                    style="font-size:13px">
+                                <datalist id="datalist_VoirieMax">
+                                    <option value="A0">
+                                    <option value="A1">
+                                    <option value="A2">
+                                    <option value="A3">
+                                    <option value="A4">
+                                </datalist>
+                            </div>
+
+                            <div class="col-5 mb-2">
+                                <label for="UrgenceOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Urgence</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    list="datalist_Urgence" id="UrgenceOsiris" placeholder="urgence..."
+                                    style="font-size:13px">
+                                <datalist id="datalist_Urgence">
+                                    <option value="Pas d'urgence">
+                                    <option value="P1 : Urgence urgente">
+                                    <option value="P2 : Urgence non urgente">
+                                </datalist>
+                            </div>
+
+                            <div class="col-4 mb-2">
+                                <label for="ResponsableOsiris" class="form-label"
+                                    style="font-size: calc(0.5rem + 0.3vw)">Responsable</label>
+                                <input type="text" class="form-control" style="font-size: calc(0.4rem + 0.3vw)"
+                                    id="ResponsableOsiris" placeholder="responsable.." style="font-size:13px" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="col-12 mb-2">
+                            <label for="RuesOsiris" class="form-label" style="font-size: calc(0.5rem + 0.3vw)">Rues des
+                                chantiers</label>
+                            <input class="form-control" style="font-size: calc(0.4rem + 0.3vw)" list="datalist_StreetFR"
+                                id="RuesOsiris" placeholder="rue 1030..." style="font-size:13px">
+                            <datalist id="datalist_StreetFR">
+                                <option value="Non renseigné">
+                                <option value="Allée des Freesias">
+                                <option value="Avenue Adolphe Lacomblé">
+                                <option value="Avenue Albert Desenfans">
+                                <option value="Avenue Albert Giraud">
+                                <option value="Avenue Ambassadeur Van Vollenhoven">
+                                <option value="Avenue Charbo">
+                                <option value="Avenue Charles Gilisquet">
+                                <option value="Avenue Chazal">
+                                <option value="Avenue Clays">
+                                <option value="Avenue Colonel Picquart">
+                                <option value="Avenue Dailly">
+                                <option value="Avenue de La Brabançonne">
+                                <option value="Avenue de La Jeunesse">
+                                <option value="Avenue de La Reine">
+                                <option value="Avenue de La Topaze">
+                                <option value="Avenue de l'Emeraude">
+                                <option value="Avenue de L'Héliport">
+                                <option value="Avenue de L'Opale">
+                                <option value="Avenue de Mars">
+                                <option value="Avenue de Roodebeek">
+                                <option value="Avenue des Azalées">
+                                <option value="Avenue des Capucines">
+                                <option value="Avenue des Cerisiers">
+                                <option value="Avenue des Clos">
+                                <option value="Avenue des Glycines">
+                                <option value="Avenue des Héliotropes">
+                                <option value="Avenue des Jacinthes">
+                                <option value="Avenue des Jardins">
+                                <option value="Avenue Docteur Dejase">
+                                <option value="Avenue du Diamant">
+                                <option value="Avenue du Suffrage Universel">
+                                <option value="Avenue Emile Max">
+                                <option value="Avenue Emile Verhaeren">
+                                <option value="Avenue Emile Zola">
+                                <option value="Avenue Ernest Cambier">
+                                <option value="Avenue Ernest Renan">
+                                <option value="Avenue Eugène Demolder">
+                                <option value="Avenue Eugène Plasky">
+                                <option value="Avenue Félix Marchal">
+                                <option value="Avenue Fortin">
+                                <option value="Avenue Frans Courtens">
+                                <option value="Avenue Général Eisenhower">
+                                <option value="Avenue Georges Eekhoud">
+                                <option value="Avenue Georges Rodenbach">
+                                <option value="Avenue Gustave Latinis">
+                                <option value="Avenue Herbert Hoover">
+                                <option value="Avenue Huart Hamoir">
+                                <option value="Avenue Jacques Georgin">
+                                <option value="Avenue Jan Stobbaerts">
+                                <option value="Avenue Jean Jaurès">
+                                <option value="Avenue Léon Mahillon">
+                                <option value="Avenue Louis Bertrand">
+                                <option value="Avenue Maréchal Foch">
+                                <option value="Avenue Maurice Maeterlinck">
+                                <option value="Avenue Milcamps">
+                                <option value="Avenue Monplaisir">
+                                <option value="Avenue Paul Deschanel">
+                                <option value="Avenue Philippe Thomas">
+                                <option value="Avenue Princesse Elisabeth">
+                                <option value="Avenue Raymond Foucart">
+                                <option value="Avenue Rogier">
+                                <option value="Avenue Sleeckx">
+                                <option value="Avenue Urbain Britsiers">
+                                <option value="Avenue Voltaire">
+                                <option value="Avenue Zénobe Gramme">
+                                <option value="Boulevard Auguste Reyers">
+                                <option value="Boulevard du Roi Albert Ii">
+                                <option value="Boulevard Général Wahis">
+                                <option value="Boulevard Lambermont">
+                                <option value="Boulevard Léopold Iii">
+                                <option value="Boulevard Simon Bolivar">
+                                <option value="Chaussée de Haecht">
+                                <option value="Chaussée de Helmet">
+                                <option value="Chaussée de Louvain">
+                                <option value="Chemin du Forgeron">
+                                <option value="Cité Ouvrière de Linthout">
+                                <option value="Clos des Artistes">
+                                <option value="Clos des Fleurs">
+                                <option value="Clos des Mouettes">
+                                <option value="Clos des Poètes">
+                                <option value="Clos du Chemin Creux">
+                                <option value="Drève Recteur Van Waeyenbergh">
+                                <option value="Grande Rue Au Bois">
+                                <option value="Marais Moeraske">
+                                <option value="Parc Albert I">
+                                <option value="Parc Gaucheret">
+                                <option value="Parc Josaphat">
+                                <option value="Parc Lacroix">
+                                <option value="Parc Rasquinet">
+                                <option value="Parc Reine-Verte">
+                                <option value="Parc Wahis">
+                                <option value="Parc Walckiers">
+                                <option value="Petite Rue des Secours">
+                                <option value="Petite Rue L'Olivier">
+                                <option value="Place Bichon">
+                                <option value="Place Colignon">
+                                <option value="Place Colonel Bremer">
+                                <option value="Place Dailly">
+                                <option value="Place de Helmet">
+                                <option value="Place de Houffalize">
+                                <option value="Place de Jamblinne de Meux">
+                                <option value="Place de La Patrie">
+                                <option value="Place de La Reine">
+                                <option value="Place des Bienfaiteurs">
+                                <option value="Place des Carabiniers">
+                                <option value="Place des Chasseurs Ardennais">
+                                <option value="Place du Pavillon">
+                                <option value="Place Eugène Verboekhoven">
+                                <option value="Place Gaucheret">
+                                <option value="Place Général Meiser">
+                                <option value="Place Lehon">
+                                <option value="Place Liedts">
+                                <option value="Place Masui">
+                                <option value="Place Pogge">
+                                <option value="Place Princesse Elisabeth">
+                                <option value="Place Solvay">
+                                <option value="Place Stephenson">
+                                <option value="Place Terdelt">
+                                <option value="Place Wappers">
+                                <option value="Placette du Peuplier">
+                                <option value="Quartier Brabant">
+                                <option value="Quartier Collignon">
+                                <option value="Quartier Dailly">
+                                <option value="Quartier des Fleurs">
+                                <option value="Quartier Diamant (Quartier Plasky)">
+                                <option value="Quartier Gare de Schaerbeek">
+                                <option value="Quartier Helmet">
+                                <option value="Quartier Huart Hamoir">
+                                <option value="Quartier Josaphat">
+                                <option value="Quartier Gare du Nord">
+                                <option value="Quartier Terdelt">
+                                <option value="Rue Achille Detienne">
+                                <option value="Rue Adolphe Marbotin">
+                                <option value="Rue Aimé Smekens">
+                                <option value="Rue Albert de Latour">
+                                <option value="Rue Alexandre de Craene">
+                                <option value="Rue Alexandre Markelbach">
+                                <option value="Rue Allard">
+                                <option value="Rue Anatole France">
+                                <option value="Rue André Van Hasselt">
+                                <option value="Rue Armand de Roo">
+                                <option value="Rue Artan">
+                                <option value="Rue Arthur Roland">
+                                <option value="Rue Auguste Lambiotte">
+                                <option value="Rue Auguste Snieders">
+                                <option value="Rue Brichaut">
+                                <option value="Rue Camille Simoens">
+                                <option value="Rue Camille Wollès">
+                                <option value="Rue Caporal Claes">
+                                <option value="Rue Capronnier">
+                                <option value="Rue Charles Meert">
+                                <option value="Rue Charles Van Lerberghe">
+                                <option value="Rue Charles Vanderstappen">
+                                <option value="Rue Chaumontel">
+                                <option value="Rue Colonel Bourg">
+                                <option value="Rue Cornet de Grez">
+                                <option value="Rue Creuse">
+                                <option value="Rue D'Aerschot">
+                                <option value="Rue D'Anethan">
+                                <option value="Rue de Beughem">
+                                <option value="Rue de Brabant">
+                                <option value="Rue de Genève">
+                                <option value="Rue de Jérusalem">
+                                <option value="Rue de La Bruyère">
+                                <option value="Rue de La Chaumière">
+                                <option value="Rue de La Cible">
+                                <option value="Rue de La Consolation">
+                                <option value="Rue de La Constitution">
+                                <option value="Rue de La Fraternité">
+                                <option value="Rue de La Luzerne">
+                                <option value="Rue de La Marne">
+                                <option value="Rue de La Poste">
+                                <option value="Rue de La Ruche">
+                                <option value="Rue de L'Agriculture">
+                                <option value="Rue de L'Est">
+                                <option value="Rue de Linthout">
+                                <option value="Rue de Locht">
+                                <option value="Rue de L'Orme">
+                                <option value="Rue de Moerkerke">
+                                <option value="Rue de Potter">
+                                <option value="Rue de Quatrecht">
+                                <option value="Rue de Robiano">
+                                <option value="Rue des Ailes">
+                                <option value="Rue des Chardons">
+                                <option value="Rue des Compagnons">
+                                <option value="Rue des Coteaux">
+                                <option value="Rue des Mimosas">
+                                <option value="Rue des Palais">
+                                <option value="Rue des Pâquerettes">
+                                <option value="Rue des Pavots">
+                                <option value="Rue des Pensées">
+                                <option value="Rue des Plantes">
+                                <option value="Rue Désiré Desmet">
+                                <option value="Rue Destouvelles">
+                                <option value="Rue D'Hoogvorst">
+                                <option value="Rue Docteur Elie Lambotte">
+                                <option value="Rue du Corbeau">
+                                <option value="Rue du Dahlia">
+                                <option value="Rue du Foyer Schaerbeekois">
+                                <option value="Rue du Noyer">
+                                <option value="Rue du Pavillon">
+                                <option value="Rue du Progrès">
+                                <option value="Rue du Radium">
+                                <option value="Rue du Saphir">
+                                <option value="Rue du Soleil">
+                                <option value="Rue du Tilleul">
+                                <option value="Rue Dupont">
+                                <option value="Rue Edouard Fiers">
+                                <option value="Rue Emile Wittmann">
+                                <option value="Rue Emmanuel Hiel">
+                                <option value="Rue Ernest Discailles">
+                                <option value="Rue Ernest Laude">
+                                <option value="Rue Eugène Smits">
+                                <option value="Rue Fernand Séverin">
+                                <option value="Rue Floris">
+                                <option value="Rue Fontaine D'Amour">
+                                <option value="Rue Fraikin">
+                                <option value="Rue François Bossaerts">
+                                <option value="Rue François Degreef">
+                                <option value="Rue François-Joseph Navez">
+                                <option value="Rue Frans Binjé">
+                                <option value="Rue Frédéric Pelletier">
+                                <option value="Rue Gallait">
+                                <option value="Rue Gaucheret">
+                                <option value="Rue Geefs">
+                                <option value="Rue Gendebien">
+                                <option value="Rue Général Eenens">
+                                <option value="Rue Général Gratry">
+                                <option value="Rue Georges Garnir">
+                                <option value="Rue Georges Raeymaekers">
+                                <option value="Rue Godefroid Devreese">
+                                <option value="Rue Godefroid Guffens">
+                                <option value="Rue Goossens">
+                                <option value="Rue Grégoire Leroy">
+                                <option value="Rue Guido Gezelle">
+                                <option value="Rue Guillaume Kennis">
+                                <option value="Rue Gustave Fuss">
+                                <option value="Rue Gustave Huberti">
+                                <option value="Rue Hancart">
+                                <option value="Rue Henri Bergé">
+                                <option value="Rue Henri Chomé">
+                                <option value="Rue Henri Evenepoel">
+                                <option value="Rue Henri Jacobs">
+                                <option value="Rue Henri Stacquet">
+                                <option value="Rue Henry Villard">
+                                <option value="Rue Herman">
+                                <option value="Rue Herman Richir">
+                                <option value="Rue Hubert Krains">
+                                <option value="Rue Iwan Gilkin">
+                                <option value="Rue Jacques Jansen">
+                                <option value="Rue Jacques Rayé">
+                                <option value="Rue James Watt">
+                                <option value="Rue Jan Blockx">
+                                <option value="Rue Jean-Baptiste Brems">
+                                <option value="Rue Jenatzy">
+                                <option value="Rue Jolly">
+                                <option value="Rue Josaphat">
+                                <option value="Rue Joseph Brand">
+                                <option value="Rue Joseph Coosemans">
+                                <option value="Rue Joseph Jacquet">
+                                <option value="Rue Joseph Van Camp">
+                                <option value="Rue Joseph Wauters">
+                                <option value="Rue Josse Impens">
+                                <option value="Rue Jul Merckaert">
+                                <option value="Rue Jules Destrée">
+                                <option value="Rue Jules Lebrun">
+                                <option value="Rue Julius Hoste">
+                                <option value="Rue Kessels">
+                                <option value="Rue Knapen">
+                                <option value="Rue Lefrancq">
+                                <option value="Rue Léon Frédéric">
+                                <option value="Rue Léon Mignon">
+                                <option value="Rue Léopold Courouble">
+                                <option value="Rue Liedts">
+                                <option value="Rue Linné">
+                                <option value="Rue L'Olivier">
+                                <option value="Rue Louis Scutenaire">
+                                <option value="Rue Louis Socquet">
+                                <option value="Rue Marcel Mariën">
+                                <option value="Rue Marguerite Van de Wiele">
+                                <option value="Rue Massaux">
+                                <option value="Rue Masui">
+                                <option value="Rue Maurice des Ombiaux">
+                                <option value="Rue Max Roos">
+                                <option value="Rue Metsys">
+                                <option value="Rue Monrose">
+                                <option value="Rue Nestor de Tière">
+                                <option value="Rue Nicolas Defrêcheux">
+                                <option value="Rue Paul Devigne">
+                                <option value="Rue Paul Hymans">
+                                <option value="Rue Paul Leduc">
+                                <option value="Rue Philomène">
+                                <option value="Rue Pierre Theunis">
+                                <option value="Rue Portaels">
+                                <option value="Rue Potagère">
+                                <option value="Rue Quinaux">
+                                <option value="Rue Rasson">
+                                <option value="Rue Renkin">
+                                <option value="Rue Richard Vandevelde">
+                                <option value="Rue Roelandts">
+                                <option value="Rue Rogier">
+                                <option value="Rue Royale">
+                                <option value="Rue Royale-Sainte-Marie">
+                                <option value="Rue Rubens">
+                                <option value="Rue Sander Pierron">
+                                <option value="Rue Seutin">
+                                <option value="Rue Stephenson">
+                                <option value="Rue Stijn Streuvels">
+                                <option value="Rue Teniers">
+                                <option value="Rue Théo Coopman">
+                                <option value="Rue Théodore Roosevelt">
+                                <option value="Rue Thiéfry">
+                                <option value="Rue Thomas Vinçotte">
+                                <option value="Rue Van Droogenbroeck">
+                                <option value="Rue Van Dyck">
+                                <option value="Rue Van Hammée">
+                                <option value="Rue Van Hoorde">
+                                <option value="Rue Van Hove">
+                                <option value="Rue Van Oost">
+                                <option value="Rue Van Schoor">
+                                <option value="Rue Van Ysendyck">
+                                <option value="Rue Vandenbussche">
+                                <option value="Rue Vanderlinden">
+                                <option value="Rue Vandermeersch">
+                                <option value="Rue Vandeweyer">
+                                <option value="Rue Verbist">
+                                <option value="Rue Verboeckhaven">
+                                <option value="Rue Vergote">
+                                <option value="Rue Verhas">
+                                <option value="Rue Verte">
+                                <option value="Rue Verwée">
+                                <option value="Rue Victor Hugo">
+                                <option value="Rue Victor Lefèvre">
+                                <option value="Rue Victor Oudart">
+                                <option value="Rue Victor Vanderhoeft">
+                                <option value="Rue Vifquin">
+                                <option value="Rue Vogler">
+                                <option value="Rue Vonck">
+                                <option value="Rue Vondel">
+                                <option value="Rue Waelhem">
+                                <option value="Rue Walckiers">
+                                <option value="Rue Willem Kuhnen">
+                                <option value="Rue William Degouve de Nuncques">
+                                <option value="Sentier des Pommes">
+                                <option value="Square Apollo">
+                                <option value="Square des Griottiers">
+                                <option value="Square Emile Duployé">
+                                <option value="Square Eugène Plasky">
+                                <option value="Square François Riga">
+                                <option value="Square Levie">
+                                <option value="Square Prévost-Delaunay">
+                                <option value="Square Vergote">
+                                <option value="Square Willy Authom">
+                            </datalist>
+                        </div>
+                    </div>
+                    <hr size=3>
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-2 ">
+                                <button id="btnSaveData" type="button" class="btn btn-success btn-sm"
+                                    onclick="SearchData()">Filter</button>
+                            </div>
+                            <div class="col-2 ">
+                                <button id="btnClear" type="button" class="btn btn-primary btn-sm"
+                                    onclick="ClearDataSearchTable()">Clear</button>
+                            </div>
+                            <div class="col-2 ">
+                                <button id="btnClear" type="button" class="btn btn-primary btn-sm"
+                                    style="background-color: #eb4592; border-color: #eb4592"
+                                    onclick="ReturnCarte()">Carte</button>
+                            </div>
+                            <div class="col-4 mb-0">
+                                <textarea rows="1" type="text" class="form-control" id="CommentairesOsiris"
+                                    placeholder="resultats filter..." style="font-size:14px" disabled></textarea>
+                            </div>
+                            <!--
+                            <div class="col-2 ">
+                                <button id="btnClear" type="button" class="btn btn-primary btn-sm" style="background-color: #eb8845; border-color: #eb8845" onclick="Return()">Début</button>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="HTML_Footer">
+            <br>
+            <footer id="footer">
+                <span>
+                    <a>© 2021 </a></a><a href="mailto:ihhilal@gmail.com " style="color: #eea4a4 ">I.H.Hilal</a>
+                    <a>Powered for the <a href="https://www.1030.be/ " style="color: #eea4a4 ">commune de
+                            Schaerbeek</a><br>
+                        <a>The content of this page is under the Creative Commons license, <br>
+                            full information is available
+                            <a target="_blank " href="https://creativecommons.org/licenses/by-nc-sa/4.0/ "
+                                style="color: #eea4a4 ">here.</a><br>
+                            <a rel="license " href="https://creativecommons.org/licenses/by-nc-sa/4.0/ ">
+                                <img alt="Licencia Creative Commons " style="border-width:0 "
+                                    src="images/by-nc-sa.eu.png " width="50 " height="20 "></a>
+                </span>
+            </footer>
+        </div>
+    </body>
+
+    </html>
+
+    <div id="JavaScript_Libraries">
+        <div id="GeoJSON_Data">
+            <!-- Fichiers Javascript Chantiers Polygons -->
+            <script src="databases/GetWorksites_20210605_Only1030_FME_Writers.js" type="text/javascript"></script>
+            <!-- Fichiers Javascript Donnes OSIRIS-->
+            <script src="databases/GetGisDataForCluster_Schaerbeek_FME_Writers.js" type="text/javascript"></script>
+            <!-- <script src="databases/GetGisDataForCluster_B_FME_Writers.js" type="text/javascript"></script>-->
+            <!-- <script src="databases/BCE1030.js" type="text/javascript"></script>-->
+        </div>
+
+        <div id="JavaScript_ExternalLibraries">
+            <!-- Fichiers Javascript leaflet -->
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+
+            <!-- Libreria javascript de Bootstrap-->
+            <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+            <script src="js/bootstrap.bundle.min.js"></script>
+
+            <!-- bibliothèque interne JS -->
+            <!--<script src="js/index_tiles.js"></script> -->
+            <!--<script src="js/index_clusters_Chantier1030.js"></script> -->
+            <script src="js/index_DataFilter_Chantier1030_30.js"></script>
+            <script src="js/index_ClearData_Osiris.js"></script>
+            <script src="js/index_DataOSiris_HTMLViewer.js"></script>
+
+            <script>
+                document.getElementById("AnneDemOsiris").value = localStorage.getItem("AnneDemOsiris0");
+                document.getElementById("MoisDemOsiris").value = localStorage.getItem("MoisDemOsiris0");
+                document.getElementById("AnneAutOsiris").value = localStorage.getItem("AnneAutOsiris0");
+                document.getElementById("MoisAutOsiris").value = localStorage.getItem("MoisAutOsiris0");
+                document.getElementById("CommentairesOsiris").value = localStorage.getItem("CommentairesOsiris0");
+
+                document.getElementById("ChantierOsiris").value = localStorage.getItem("ChantierOsiris0");
+                document.getElementById("DemandeurOsiris").value = localStorage.getItem("DemandeurOsiris0");
+                document.getElementById("RefInterneOsiris").value = localStorage.getItem("RefInterneOsiris0");
+                document.getElementById("NatureOsiris").value = localStorage.getItem("NatureOsiris0");
+                document.getElementById("DateDebutOsiris").value = localStorage.getItem("DateDebutOsiris0");
+                document.getElementById("DateFinOsiris").value = localStorage.getItem("DateFinOsiris0");
+                document.getElementById("DureeOsiris").value = localStorage.getItem("DureeOsiris0");
+                document.getElementById("DateDebutAutorOsiris").value = localStorage.getItem("DateDebutAutorOsiris0");
+                document.getElementById("DateFinAutorOsiris").value = localStorage.getItem("DateFinAutorOsiris0");
+                document.getElementById("StatutOsiris").value = localStorage.getItem("StatutOsiris0");
+                document.getElementById("GestionnaireOsiris").value = localStorage.getItem("GestionnaireOsiris0");
+                document.getElementById("ResponsableOsiris").value = localStorage.getItem("ResponsableOsiris0");
+                document.getElementById("OrganisationeOsiris").value = localStorage.getItem("OrganisationeOsiris0");
+                document.getElementById("RuesOsiris").value = localStorage.getItem("RuesOsiris0");
+                document.getElementById("RegimeOsiris").value = localStorage.getItem("RegimeOsiris0");
+                document.getElementById("ClasseVoirieOsiris").value = localStorage.getItem("ClasseVoirieOsiris0");
+                document.getElementById("SurfaceOsiris").value = localStorage.getItem("SurfaceOsiris0");
+                document.getElementById("AvisCCCOsiris").value = localStorage.getItem("AvisCCCOsiris0");
+                document.getElementById("UrgenceOsiris").value = localStorage.getItem("UrgenceOsiris0");
+
+                localStorage.clear();
+            </script>
+
+            <script>
+                function UpperLetters(e) {
+                    e.value = e.value.toUpperCase();
+                }
+
+                function LowerLetters(e) {
+                    e.value = e.value.toLowerCase();
+                }
+
+                function LocalData1030() {
+
+                    /*
+                    if (document.getElementById("CommentairesOsiris").value == "") {
+                        document.getElementById("CommentairesOsiris").value = "Vous pouvez effectuer une recherche en combinant différents critères...."
+                    } else {
+                        document.getElementById("CommentairesOsiris").value = document.getElementById("CommentairesOsiris").value
+                    }
+                    */
+
+                    localStorage.setItem("AnneDemOsiris0", document.getElementById("AnneDemOsiris").value);
+                    localStorage.setItem("MoisDemOsiris0", document.getElementById("MoisDemOsiris").value);
+                    localStorage.setItem("AnneAutOsiris0", document.getElementById("AnneAutOsiris").value);
+                    localStorage.setItem("MoisAutOsiris0", document.getElementById("MoisAutOsiris").value);
+                    localStorage.setItem("CommentairesOsiris0", document.getElementById("CommentairesOsiris").value);
+
+                    localStorage.setItem("ChantierOsiris0", document.getElementById("ChantierOsiris").value);
+                    localStorage.setItem("DemandeurOsiris0", document.getElementById("DemandeurOsiris").value);
+                    localStorage.setItem("RefInterneOsiris0", document.getElementById("RefInterneOsiris").value);
+                    localStorage.setItem("NatureOsiris0", document.getElementById("NatureOsiris").value);
+                    localStorage.setItem("DateDebutOsiris0", document.getElementById("DateDebutOsiris").value);
+                    localStorage.setItem("DateFinOsiris0", document.getElementById("DateFinOsiris").value);
+                    localStorage.setItem("DureeOsiris0", document.getElementById("DureeOsiris").value);
+                    localStorage.setItem("DateDebutAutorOsiris0", document.getElementById("DateDebutAutorOsiris").value);
+                    localStorage.setItem("DateFinAutorOsiris0", document.getElementById("DateFinAutorOsiris").value);
+                    localStorage.setItem("StatutOsiris0", document.getElementById("StatutOsiris").value);
+                    localStorage.setItem("GestionnaireOsiris0", document.getElementById("GestionnaireOsiris").value);
+                    localStorage.setItem("ResponsableOsiris0", document.getElementById("ResponsableOsiris").value);
+                    localStorage.setItem("OrganisationeOsiris0", document.getElementById("OrganisationeOsiris").value);
+                    localStorage.setItem("RuesOsiris0", document.getElementById("RuesOsiris").value);
+                    localStorage.setItem("RegimeOsiris0", document.getElementById("RegimeOsiris").value);
+                    localStorage.setItem("ClasseVoirieOsiris0", document.getElementById("ClasseVoirieOsiris").value);
+                    localStorage.setItem("SurfaceOsiris0", document.getElementById("SurfaceOsiris").value);
+                    localStorage.setItem("AvisCCCOsiris0", document.getElementById("AvisCCCOsiris").value);
+                    localStorage.setItem("UrgenceOsiris0", document.getElementById("UrgenceOsiris").value);
+
+                }
+
+                function ReturnCarte() {
+                    window.open("Carte_ChantiersSchaerbeek_Only1030_22.html");
+                    window.close();
+                }
+
+                function Return() {
+                    window.open("Carte_ChantiersSchaerbeek_Only1030_20.html");
+                    window.close();
+                }
+
+                function ModifyData1030() {
+                    LocalData1030();
+
+                    window.open("Carte_ChantiersSchaerbeek_Only1030_20.html");
+                    window.close();
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
