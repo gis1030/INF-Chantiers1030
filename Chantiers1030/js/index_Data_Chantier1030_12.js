@@ -671,7 +671,6 @@ var Chantier1030_21B = L.geoJSON([BoundaryChantiers], {
 // END ++++++ Liste des Marqueurs (Group B) ++++++++ END
 
 
-
 // ++++++ Liste Chantier (Polygons) ++++++++
 var Chantier1030_00 = L.geoJSON([BoundaryChantiers], {
     style: PolygonStyle,
@@ -899,6 +898,14 @@ Chantier1030_00B.on("click", function (event) {
     MarkerDataView(clickedMarker)
 });
 
+//
+
+Chantier1030_99.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
 Chantier1030_01.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
@@ -1025,6 +1032,13 @@ Chantier1030_21.on("click", function (event) {
     MarkerDataView(clickedMarker)
 });
 
+//
+
+Chantier1030_99B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
 
 Chantier1030_01B.on("click", function (event) {
     var clickedMarker = event.layer;

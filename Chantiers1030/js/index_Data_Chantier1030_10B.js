@@ -108,7 +108,40 @@ function PolygonStyle_Processed(feature) {
     };
 }
 
-// ++++++ Liste des Marqueurs ++++++++
+// BEGIN ++++++ Liste des Marqueurs ++++++++ BEGIN
+var SectorLabel = "2014"
+var Marker1030_99 = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#778899', //'#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q99.addLayer(Marker1030_99)
+
+var Chantier1030_99 = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: PolygonStyle_Processed,
+    onEachFeature: onEachFeature,
+})
+
 var SectorLabel = "2015"
 var Marker1030_01 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
@@ -131,7 +164,7 @@ var Marker1030_01 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q01.addLayer(Marker1030_01)
 
 var Chantier1030_01 = L.geoJSON([BoundaryChantiers], {
@@ -164,7 +197,7 @@ var Marker1030_02 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q02.addLayer(Marker1030_02)
 
 var Chantier1030_02 = L.geoJSON([BoundaryChantiers], {
@@ -197,7 +230,7 @@ var Marker1030_03 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q03.addLayer(Marker1030_03)
 
 var Chantier1030_03 = L.geoJSON([BoundaryChantiers], {
@@ -230,7 +263,7 @@ var Marker1030_04 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q04.addLayer(Marker1030_04)
 
 var Chantier1030_04 = L.geoJSON([BoundaryChantiers], {
@@ -263,7 +296,7 @@ var Marker1030_05 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q05.addLayer(Marker1030_05)
 
 var Chantier1030_05 = L.geoJSON([BoundaryChantiers], {
@@ -296,7 +329,7 @@ var Marker1030_06 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q06.addLayer(Marker1030_06)
 
 var Chantier1030_06 = L.geoJSON([BoundaryChantiers], {
@@ -329,7 +362,7 @@ var Marker1030_07 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_Q07.addLayer(Marker1030_07)
 
 var Chantier1030_07 = L.geoJSON([BoundaryChantiers], {
@@ -341,7 +374,7 @@ var Chantier1030_07 = L.geoJSON([BoundaryChantiers], {
 })
 
 var SectorLabel = "2022"
-var Marker1030_15B = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_08 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -362,10 +395,10 @@ var Marker1030_15B = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q15B.addLayer(Marker1030_15B)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q08.addLayer(Marker1030_08)
 
-var Chantier1030_15B = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_08 = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -374,7 +407,7 @@ var Chantier1030_15B = L.geoJSON([BoundaryChantiers], {
 })
 
 var SectorLabel = "2023"
-var Marker1030_16B = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_09 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -395,10 +428,10 @@ var Marker1030_16B = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q16B.addLayer(Marker1030_16B)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q09.addLayer(Marker1030_09)
 
-var Chantier1030_16B = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_09 = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -407,7 +440,7 @@ var Chantier1030_16B = L.geoJSON([BoundaryChantiers], {
 })
 
 var SectorLabel = "2024"
-var Marker1030_17B = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_10 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -428,10 +461,10 @@ var Marker1030_17B = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q17B.addLayer(Marker1030_17B)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q10.addLayer(Marker1030_10)
 
-var Chantier1030_17B = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_10 = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -440,7 +473,7 @@ var Chantier1030_17B = L.geoJSON([BoundaryChantiers], {
 })
 
 var SectorLabel = "2025"
-var Marker1030_18B = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_11 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -461,10 +494,10 @@ var Marker1030_18B = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q18B.addLayer(Marker1030_18B)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q11.addLayer(Marker1030_11)
 
-var Chantier1030_18B = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_11 = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
     },
@@ -472,12 +505,177 @@ var Chantier1030_18B = L.geoJSON([BoundaryChantiers], {
     onEachFeature: onEachFeature,
 })
 
-//++++++++++++++++++++++++++++++++++++++++++
-
-SectorLabel = "2015"
-var Marker1030_08 = L.geoJSON([ListOSIRIS_Markers1030], {
+var SectorLabel = "2026"
+var Marker1030_12 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#778899', //'#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q12.addLayer(Marker1030_12)
+
+var Chantier1030_12 = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: PolygonStyle_Processed,
+    onEachFeature: onEachFeature,
+})
+
+var SectorLabel = "2027"
+var Marker1030_13 = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#778899', //'#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q13.addLayer(Marker1030_13)
+
+var Chantier1030_13 = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: PolygonStyle_Processed,
+    onEachFeature: onEachFeature,
+})
+
+var SectorLabel = "2028"
+var Marker1030_14 = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#778899', //'#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q14.addLayer(Marker1030_14)
+
+var Chantier1030_14 = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: PolygonStyle_Processed,
+    onEachFeature: onEachFeature,
+})
+
+var SectorLabel = "2029"
+var Marker1030_15 = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#778899', //'#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q15.addLayer(Marker1030_15)
+
+var Chantier1030_15 = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: PolygonStyle_Processed,
+    onEachFeature: onEachFeature,
+})
+
+var SectorLabel = "2030"
+var Marker1030_16 = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#778899', //'#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q16.addLayer(Marker1030_16)
+
+var Chantier1030_16 = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if (feature.properties.DateDebut.includes(SectorLabel)) return true
+    },
+    style: PolygonStyle_Processed,
+    onEachFeature: onEachFeature,
+})
+// END ++++++ Liste des Marqueurs ++++++++ END
+
+// BEGIN ++++++ Liste des Marqueurs (Group B) ++++++++ BEGIN
+SectorLabel = "2014"
+var Marker1030_99B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -496,21 +694,54 @@ var Marker1030_08 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q08.addLayer(Marker1030_08)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q99B.addLayer(Marker1030_99B)
 
-var Chantier1030_08 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_99B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: PolygonStyle_Request,
+    onEachFeature: onEachFeature,
+})
+
+SectorLabel = "2015"
+var Marker1030_01B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q01B.addLayer(Marker1030_01B)
+
+var Chantier1030_01B = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2016"
-var Marker1030_09 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_02B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -529,21 +760,21 @@ var Marker1030_09 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q09.addLayer(Marker1030_09)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q02B.addLayer(Marker1030_02B)
 
-var Chantier1030_09 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_02B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2017"
-var Marker1030_10 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_03B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -562,21 +793,21 @@ var Marker1030_10 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q10.addLayer(Marker1030_10)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q03B.addLayer(Marker1030_03B)
 
-var Chantier1030_10 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_03B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2018"
-var Marker1030_11 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_04B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -595,21 +826,21 @@ var Marker1030_11 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q11.addLayer(Marker1030_11)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q04B.addLayer(Marker1030_04B)
 
-var Chantier1030_11 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_04B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2019"
-var Marker1030_12 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_05B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -628,21 +859,21 @@ var Marker1030_12 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q12.addLayer(Marker1030_12)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q05B.addLayer(Marker1030_05B)
 
-var Chantier1030_12 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_05B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2020"
-var Marker1030_13 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_06B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -661,21 +892,21 @@ var Marker1030_13 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q13.addLayer(Marker1030_13)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q06B.addLayer(Marker1030_06B)
 
-var Chantier1030_13 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_06B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2021"
-var Marker1030_14 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_07B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -694,21 +925,21 @@ var Marker1030_14 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q14.addLayer(Marker1030_14)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q07B.addLayer(Marker1030_07B)
 
-var Chantier1030_14 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_07B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2022"
-var Marker1030_15 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_08B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -727,21 +958,21 @@ var Marker1030_15 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q15.addLayer(Marker1030_15)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q08B.addLayer(Marker1030_08B)
 
-var Chantier1030_15 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_08B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2023"
-var Marker1030_16 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_09B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -760,21 +991,21 @@ var Marker1030_16 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q16.addLayer(Marker1030_16)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q09B.addLayer(Marker1030_09B)
 
-var Chantier1030_16 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_09B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2024"
-var Marker1030_17 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_10B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -793,21 +1024,21 @@ var Marker1030_17 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q17.addLayer(Marker1030_17)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q10B.addLayer(Marker1030_10B)
 
-var Chantier1030_17 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_10B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
 SectorLabel = "2025"
-var Marker1030_18 = L.geoJSON([ListOSIRIS_Markers1030], {
+var Marker1030_11B = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: function (feature) {
         return feature.properties && feature.properties.style;
@@ -826,41 +1057,206 @@ var Marker1030_18 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-GroupMarkersMap1030_Q18.addLayer(Marker1030_18)
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q11B.addLayer(Marker1030_11B)
 
-var Chantier1030_18 = L.geoJSON([BoundaryChantiers], {
+var Chantier1030_11B = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if ((feature.properties.DateDebutAutorisee !== undefined) && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
 })
 
+SectorLabel = "2026"
+var Marker1030_12B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q12B.addLayer(Marker1030_12B)
+
+var Chantier1030_12B = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: PolygonStyle_Request,
+    onEachFeature: onEachFeature,
+})
+
+SectorLabel = "2027"
+var Marker1030_13B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q13B.addLayer(Marker1030_13B)
+
+var Chantier1030_13B = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: PolygonStyle_Request,
+    onEachFeature: onEachFeature,
+})
+
+
+SectorLabel = "2028"
+var Marker1030_14B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q14B.addLayer(Marker1030_14B)
+
+var Chantier1030_14B = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: PolygonStyle_Request,
+    onEachFeature: onEachFeature,
+})
+
+SectorLabel = "2029"
+var Marker1030_15B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q15B.addLayer(Marker1030_15B)
+
+var Chantier1030_15B = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: PolygonStyle_Request,
+    onEachFeature: onEachFeature,
+})
+
+SectorLabel = "2030"
+var Marker1030_16B = L.geoJSON([ListOSIRIS_Markers1030], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: function (feature) {
+        return feature.properties && feature.properties.style;
+    },
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+        // return L.marker(latlng, { icon: DataIcon05 });
+        return L.circleMarker(latlng, {
+            color: 'black',
+            fillColor: '#ff7f50', //'#d39f2f',
+            color: "#000", //'#d39f2f',
+            fillOpacity: 0.6,
+            radius: 8,
+            weight: 1,
+            opacity: 1
+        })
+    }
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
+GroupMarkersMap1030_Q16B.addLayer(Marker1030_16B)
+
+var Chantier1030_16B = L.geoJSON([BoundaryChantiers], {
+    filter: function (feature) {
+        if ((feature.properties.DateDebutAutorisee !== "") && (feature.properties.DateDebutAutorisee.includes(SectorLabel))) return true
+    },
+    style: PolygonStyle_Request,
+    onEachFeature: onEachFeature,
+})
+// END ++++++ Liste des Marqueurs (Group B) ++++++++ END
+
 // ++++++ Group Chantier (Polygons) ++++++++
 var Chantier1030_00 = L.geoJSON([BoundaryChantiers], {
     style: PolygonStyle,
     onEachFeature: onEachFeature,
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+})//.addTo(carte); // inutile lors de la utilisation des clusters
 //GroupMarkersMap1030_00.addLayer(Chantier1030_00)
 
 var Chantier1030_Request = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if (feature.properties.DateDebutAutorisee !== undefined) return true
+        if (feature.properties.DateDebutAutorisee !== "") return true
     },
     style: PolygonStyle_Request,
     onEachFeature: onEachFeature,
-
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+})//.addTo(carte); // inutile lors la utilisation des clusters
 
 var Chantier1030_Processed = L.geoJSON([BoundaryChantiers], {
     filter: function (feature) {
-        if (feature.properties.DateDebutAutorisee === undefined) return true
+        if (feature.properties.DateDebutAutorisee === "") return true
     },
     style: PolygonStyle_Processed,
     onEachFeature: onEachFeature,
-
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters 
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 
 // ++++++ Liste ALL Chantier (Points) ++++++++
 var Marker1030_00 = L.geoJSON([ListOSIRIS_Markers1030], {
@@ -881,7 +1277,7 @@ var Marker1030_00 = L.geoJSON([ListOSIRIS_Markers1030], {
             opacity: 1
         })
     }
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
+}) //.addTo(carte); // inutile lors de la utilisation des clusters
 GroupMarkersMap1030_00.addLayer(Marker1030_00)
 
 var GroupMarkersMap1030_ALL = new L.featureGroup([
@@ -897,6 +1293,7 @@ var GroupChantiersMap1030_ALL = new L.featureGroup([
 
 // On va regropue les marqueurs dans une group leafvar
 var GroupMarkersMap1030 = new L.featureGroup([
+    GroupMarkersMap1030_Q99,
     GroupMarkersMap1030_Q01,
     GroupMarkersMap1030_Q02,
     GroupMarkersMap1030_Q03,
@@ -911,84 +1308,148 @@ var GroupMarkersMap1030 = new L.featureGroup([
     GroupMarkersMap1030_Q12,
     GroupMarkersMap1030_Q13,
     GroupMarkersMap1030_Q14,
+    GroupMarkersMap1030_Q15,
+    GroupMarkersMap1030_Q16,
+    //
+    GroupMarkersMap1030_Q99B,
+    GroupMarkersMap1030_Q01B,
+    GroupMarkersMap1030_Q02B,
+    GroupMarkersMap1030_Q03B,
+    GroupMarkersMap1030_Q04B,
+    GroupMarkersMap1030_Q05B,
+    GroupMarkersMap1030_Q06B,
+    GroupMarkersMap1030_Q07B,
+    GroupMarkersMap1030_Q08B,
+    GroupMarkersMap1030_Q09B,
+    GroupMarkersMap1030_Q10B,
+    GroupMarkersMap1030_Q11B,
+    GroupMarkersMap1030_Q12B,
+    GroupMarkersMap1030_Q13B,
+    GroupMarkersMap1030_Q14B,
+    GroupMarkersMap1030_Q15B,
+    GroupMarkersMap1030_Q16B,
+
+]);
+
+var GroupMarkersMap1030_2014 = new L.featureGroup([
+    GroupMarkersMap1030_Q99,
+    GroupMarkersMap1030_Q99B,
+    Chantier1030_99,
+    Chantier1030_99B,
 ]);
 
 var GroupMarkersMap1030_2015 = new L.featureGroup([
     GroupMarkersMap1030_Q01,
-    GroupMarkersMap1030_Q08,
+    GroupMarkersMap1030_Q01B,
     Chantier1030_01,
-    Chantier1030_08,
+    Chantier1030_01B,
 ]);
 
 var GroupMarkersMap1030_2016 = new L.featureGroup([
     GroupMarkersMap1030_Q02,
-    GroupMarkersMap1030_Q09,
+    GroupMarkersMap1030_Q02B,
     Chantier1030_02,
-    Chantier1030_09,
+    Chantier1030_02B,
 ]);
 
 var GroupMarkersMap1030_2017 = new L.featureGroup([
     GroupMarkersMap1030_Q03,
-    GroupMarkersMap1030_Q10,
+    GroupMarkersMap1030_Q03B,
     Chantier1030_03,
-    Chantier1030_10,
+    Chantier1030_03B,
 ]);
 
 var GroupMarkersMap1030_2018 = new L.featureGroup([
     GroupMarkersMap1030_Q04,
-    GroupMarkersMap1030_Q11,
+    GroupMarkersMap1030_Q04B,
     Chantier1030_04,
-    Chantier1030_11,
+    Chantier1030_04B,
 ]);
 
 var GroupMarkersMap1030_2019 = new L.featureGroup([
     GroupMarkersMap1030_Q05,
-    GroupMarkersMap1030_Q12,
+    GroupMarkersMap1030_Q05B,
     Chantier1030_05,
-    Chantier1030_12,
+    Chantier1030_05B,
 ]);
 
 var GroupMarkersMap1030_2020 = new L.featureGroup([
     GroupMarkersMap1030_Q06,
-    GroupMarkersMap1030_Q13,
+    GroupMarkersMap1030_Q06B,
     Chantier1030_06,
-    Chantier1030_13,
+    Chantier1030_06B,
 ]);
 
 var GroupMarkersMap1030_2021 = new L.featureGroup([
     GroupMarkersMap1030_Q07,
-    GroupMarkersMap1030_Q14,
+    GroupMarkersMap1030_Q07B,
     Chantier1030_07,
-    Chantier1030_14,
+    Chantier1030_07B,
 ]);
 
 var GroupMarkersMap1030_2022 = new L.featureGroup([
+    GroupMarkersMap1030_Q08,
+    GroupMarkersMap1030_Q08B,
+    Chantier1030_08,
+    Chantier1030_08B,
+]);
+
+var GroupMarkersMap1030_2023 = new L.featureGroup([
+    GroupMarkersMap1030_Q09,
+    GroupMarkersMap1030_Q09B,
+    Chantier1030_09,
+    Chantier1030_09B,
+]);
+
+var GroupMarkersMap1030_2024 = new L.featureGroup([
+    GroupMarkersMap1030_Q10,
+    GroupMarkersMap1030_Q10B,
+    Chantier1030_10,
+    Chantier1030_10B,
+]);
+
+var GroupMarkersMap1030_2025 = new L.featureGroup([
+    GroupMarkersMap1030_Q11,
+    GroupMarkersMap1030_Q11B,
+    Chantier1030_11,
+    Chantier1030_11B,
+]);
+
+var GroupMarkersMap1030_2026 = new L.featureGroup([
+    GroupMarkersMap1030_Q12,
+    GroupMarkersMap1030_Q12B,
+    Chantier1030_12,
+    Chantier1030_12B,
+]);
+
+var GroupMarkersMap1030_2027 = new L.featureGroup([
+    GroupMarkersMap1030_Q13,
+    GroupMarkersMap1030_Q13B,
+    Chantier1030_13,
+    Chantier1030_13B,
+]);
+
+var GroupMarkersMap1030_2028 = new L.featureGroup([
+    GroupMarkersMap1030_Q14,
+    GroupMarkersMap1030_Q14B,
+    Chantier1030_14,
+    Chantier1030_14B,
+]);
+
+var GroupMarkersMap1030_2029 = new L.featureGroup([
     GroupMarkersMap1030_Q15,
     GroupMarkersMap1030_Q15B,
     Chantier1030_15,
     Chantier1030_15B,
 ]);
 
-var GroupMarkersMap1030_2023 = new L.featureGroup([
+var GroupMarkersMap1030_2030 = new L.featureGroup([
     GroupMarkersMap1030_Q16,
     GroupMarkersMap1030_Q16B,
     Chantier1030_16,
     Chantier1030_16B,
 ]);
 
-var GroupMarkersMap1030_2024 = new L.featureGroup([
-    GroupMarkersMap1030_Q17,
-    GroupMarkersMap1030_Q17B,
-    Chantier1030_17,
-    Chantier1030_17B,
-]);
-
-var GroupMarkersMap1030_2025 = new L.featureGroup([
-    GroupMarkersMap1030_Q18,
-    GroupMarkersMap1030_Q18B,
-    Chantier1030_18,
-    Chantier1030_18B,
-]);
 
 carte.addLayer(GroupMarkersMap1030_ALL)
 //carte.addLayer(GroupChantiersMap1030_ALL)
@@ -1001,6 +1462,12 @@ carte.addLayer(GroupMarkersMap1030_ALL)
 
 // BEGIN ==== Data Viewer ========
 Marker1030_00.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_99.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
@@ -1101,14 +1568,92 @@ Marker1030_16.on("click", function (event) {
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
 });
-
-Marker1030_17.on("click", function (event) {
+//
+Marker1030_99B.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
 });
 
-Marker1030_18.on("click", function (event) {
+Marker1030_01B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_02B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_03B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_04B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_05B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_06B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_07B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_08B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_09B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_10B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_11B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_12B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_13B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Marker1030_14B.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
@@ -1126,17 +1671,6 @@ Marker1030_16B.on("click", function (event) {
     MarkerDataView(clickedMarker)
 });
 
-Marker1030_17B.on("click", function (event) {
-    var clickedMarker = event.layer;
-    // console.log(clickedMarker)
-    MarkerDataView(clickedMarker)
-});
-
-Marker1030_18B.on("click", function (event) {
-    var clickedMarker = event.layer;
-    // console.log(clickedMarker)
-    MarkerDataView(clickedMarker)
-});
 // >>>>>>> END clusters <<<<<<<<<
 
 // >>>>>>> BEGIN Chantiers <<<<<<<<<
@@ -1153,6 +1687,12 @@ Chantier1030_Request.on("click", function (event) {
 });
 
 Chantier1030_Processed.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_99.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
@@ -1253,14 +1793,92 @@ Chantier1030_16.on("click", function (event) {
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
 });
-
-Chantier1030_17.on("click", function (event) {
+//
+Chantier1030_99B.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
 });
 
-Chantier1030_18.on("click", function (event) {
+Chantier1030_01B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_02B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_03B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_04B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_05B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_06B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_07B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_08B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_09B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_10B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_11B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_12B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_13B.on("click", function (event) {
+    var clickedMarker = event.layer;
+    // console.log(clickedMarker)
+    MarkerDataView(clickedMarker)
+});
+
+Chantier1030_14B.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)
@@ -1273,18 +1891,6 @@ Chantier1030_15B.on("click", function (event) {
 });
 
 Chantier1030_16B.on("click", function (event) {
-    var clickedMarker = event.layer;
-    // console.log(clickedMarker)
-    MarkerDataView(clickedMarker)
-});
-
-Chantier1030_17B.on("click", function (event) {
-    var clickedMarker = event.layer;
-    // console.log(clickedMarker)
-    MarkerDataView(clickedMarker)
-});
-
-Chantier1030_18B.on("click", function (event) {
     var clickedMarker = event.layer;
     // console.log(clickedMarker)
     MarkerDataView(clickedMarker)

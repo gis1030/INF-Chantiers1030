@@ -1,44 +1,21 @@
-// ++++++ Liste Chantier (Polygons) ++++++++
-var Chantier1030_00 = L.geoJSON([BoundaryChantiers], {
 
-    style: PolygonStyle,
-    onEachFeature: onEachFeature,
-
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-//GroupMarkersMap1030_00.addLayer(Chantier1030_00)
-
-var Chantier1030_Request = L.geoJSON([BoundaryChantiers], {
-    filter: function (feature) {
-        if (feature.properties.DateDebutAutorisee !== undefined) return true
-    },
-    style: PolygonStyle_Request,
-    onEachFeature: onEachFeature,
-
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters
-
-var Chantier1030_Processed = L.geoJSON([BoundaryChantiers], {
-    filter: function (feature) {
-        if (feature.properties.DateDebutAutorisee === undefined) return true
-    },
-    style: PolygonStyle_Processed,
-    onEachFeature: onEachFeature,
-
-}) // .addTo(carte); ; inutile lors de lúti;isation des clusters // ++++++++ Choix de cartes et Elements ++++++++
+// ++++++++ Choix de cartes et Elements ++++++++
 var CarteGroup = {
     "<b>OSM.fr Carte</b>": carte01,
     "<b>Google Terrain</b>": carte02,
     "<b>Google Streets</b>": carte03,
-    "<b>Google Satellite</b>": carte04,
+    //"<b>Google Satellite</b>": carte04,
     "<b>Google Satellite-Streets</b>": carte05,
-    "<b>Google Terrain-Cycle</b>": carte06,
-    "<b>Google Streets-Cycle</b>": carte07,
-    "<b>Google Traffic</b>": carte08,
+    //"<b>Google Terrain-Cycle</b>": carte06,
+    //"<b>Google Streets-Cycle</b>": carte07,
+    //"<b>Google Traffic</b>": carte08,
 };
 
 var GroupDataALL = {
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Chantiers (Position)</b></br>": GroupMarkersMap1030_ALL,
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Chantiers (Surface)</b></br>": GroupChantiersMap1030_ALL,
 
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2014</b></br>": GroupMarkersMap1030_2014,
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2015</b></br>": GroupMarkersMap1030_2015,
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2016</b></br>": GroupMarkersMap1030_2016,
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2017</b></br>": GroupMarkersMap1030_2017,
@@ -50,20 +27,26 @@ var GroupDataALL = {
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2023</b></br>": GroupMarkersMap1030_2023,
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2024</b></br>": GroupMarkersMap1030_2024,
     "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2025</b></br>": GroupMarkersMap1030_2025,
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2026</b></br>": GroupMarkersMap1030_2026,
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2027</b></br>": GroupMarkersMap1030_2027,
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2028</b></br>": GroupMarkersMap1030_2029,
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2029</b></br>": GroupMarkersMap1030_2029,
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2030</b></br>": GroupMarkersMap1030_2030,
+
 };
 
 var GroupDataChantiers = {
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Chantiers autorisée</b></br>": Chantier1030_Request,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Chantiers demandé</b></br>": Chantier1030_Processed,
-}
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Chantiers Demandé</b></br>": Chantier1030_Processed,
+    "<img src='images/icon-Entreprises.png' width='24px'/><b>Chantiers Autorisé</b></br>": Chantier1030_Request,
+};
 
 var LControl00 = L.control.layers(CarteGroup).addTo(carte);
 //var LControl01 = L.control.layers(GroupDataALL).addTo(carte);
 
 
 var LControl02 = L.control.layers(GroupDataALL, GroupDataChantiers).addTo(carte);
-//var LControl03 = L.control.layers(GroupDataChantiers).addTo(carte);
-//var LControl02 = L.control.layers(GroupDataALL, GroupChantierType).addTo(carte);
+// var LControl03 = L.control.layers(GroupDataChantiers).addTo(carte);
+// var LControl02 = L.control.layers(GroupDataALL, GroupChantierType).addTo(carte);
 // ++++++++ Choix de cartes et Elements ++++++++
 
 // +++++++ Revient a la position initial ++++++++

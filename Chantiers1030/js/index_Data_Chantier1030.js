@@ -85,7 +85,7 @@ var DBPolygonsChantiers = L.geoJSON([BoundaryChantiers], {
 }).addTo(carte);
 
 // ++++++ Liste des Marqueurs ++++++++
-var SectorLabel = "-2015"
+var SectorLabel = "2015"
 var Marker1030_01 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -110,7 +110,7 @@ var Marker1030_01 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q01.addLayer(Marker1030_01)
 
-var SectorLabel = "-2016"
+var SectorLabel = "2016"
 var Marker1030_02 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -135,7 +135,7 @@ var Marker1030_02 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q02.addLayer(Marker1030_02)
 
-var SectorLabel = "-2017"
+var SectorLabel = "2017"
 var Marker1030_03 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -160,7 +160,7 @@ var Marker1030_03 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q03.addLayer(Marker1030_03)
 
-var SectorLabel = "-2018"
+var SectorLabel = "2018"
 var Marker1030_04 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -185,7 +185,7 @@ var Marker1030_04 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q04.addLayer(Marker1030_04)
 
-var SectorLabel = "-2019"
+var SectorLabel = "2019"
 var Marker1030_05 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -210,7 +210,7 @@ var Marker1030_05 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q05.addLayer(Marker1030_05)
 
-var SectorLabel = "-2020"
+var SectorLabel = "2020"
 var Marker1030_06 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -235,7 +235,7 @@ var Marker1030_06 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q06.addLayer(Marker1030_06)
 
-var SectorLabel = "-2021"
+var SectorLabel = "2021"
 var Marker1030_07 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateDebut.includes(SectorLabel)) return true
@@ -260,7 +260,7 @@ var Marker1030_07 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q07.addLayer(Marker1030_07)
 
-SectorLabel = "-2015"
+SectorLabel = "2015"
 var Marker1030_08 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
@@ -285,7 +285,7 @@ var Marker1030_08 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q08.addLayer(Marker1030_08)
 
-SectorLabel = "-2016"
+SectorLabel = "2016"
 var Marker1030_09 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
@@ -310,7 +310,7 @@ var Marker1030_09 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q09.addLayer(Marker1030_09)
 
-SectorLabel = "-2017"
+SectorLabel = "2017"
 var Marker1030_10 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
@@ -335,7 +335,7 @@ var Marker1030_10 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q10.addLayer(Marker1030_10)
 
-SectorLabel = "-2018"
+SectorLabel = "2018"
 var Marker1030_11 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
@@ -360,7 +360,7 @@ var Marker1030_11 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q11.addLayer(Marker1030_11)
 
-SectorLabel = "-2019"
+SectorLabel = "2019"
 var Marker1030_12 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
@@ -385,7 +385,7 @@ var Marker1030_12 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q12.addLayer(Marker1030_12)
 
-SectorLabel = "-2020"
+SectorLabel = "2020"
 var Marker1030_13 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
@@ -410,7 +410,7 @@ var Marker1030_13 = L.geoJSON([ListOSIRIS_Markers1030], {
 }) // .addTo(carte); ; inutile lors de lúti;isation des clusters
 GroupMarkersMap1030_Q13.addLayer(Marker1030_13)
 
-SectorLabel = "-2021"
+SectorLabel = "2021"
 var Marker1030_14 = L.geoJSON([ListOSIRIS_Markers1030], {
     filter: function (feature) {
         if (feature.properties.DateFin.includes(SectorLabel)) return true
