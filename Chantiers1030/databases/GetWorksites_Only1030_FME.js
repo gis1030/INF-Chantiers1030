@@ -1794,7 +1794,7 @@ var BoundaryChantiers = {
 				"DateFin" : "02/01/2028",
 				"DateFinAutorisee" : "31/01/2026",
 				"Duree" : "200 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (26 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "Beliris, Proximus Infra, Sibelga BE-CO, VIVAQUA, VIVAQUA Assainiss, VIVAQUA Distrib",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -1805,7 +1805,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de Potter (Schaerbeek), \nRue d'Aerschot (Schaerbeek), \nRue Liedts (Schaerbeek), \nRue Rogier (Schaerbeek), \nRue d'Hoogvorst (Schaerbeek), \nRue Allard (Schaerbeek), \nRue de Quatrecht (Schaerbeek)",
 				"ReferenceInterne" : "62 1.26 ASS-DBJ-03167_03518_03522_03523-Aerschot",
 				"Regime" : "PCA",
-				"Statut" : "Autorisé (En phase de réalisation)",
+				"Statut" : "Demande d'autorisation transmise (En phase de réalisation)",
 				"Surface" : "10364",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -4750,6 +4750,73 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ 4.377896213, 50.8480600206 ],
+						[ 4.3778861056, 50.8487388011 ],
+						[ 4.3779548398, 50.8487691799 ],
+						[ 4.3780320416, 50.8487442024 ],
+						[ 4.3781307428, 50.848864587 ],
+						[ 4.3779063109, 50.8489369282 ],
+						[ 4.3778816072, 50.8489575163 ],
+						[ 4.3778831818, 50.8490496362 ],
+						[ 4.3777123282, 50.849051892 ],
+						[ 4.3777107952, 50.8490271991 ],
+						[ 4.3776748663, 50.849013538 ],
+						[ 4.377531327, 50.8490621548 ],
+						[ 4.3774317035, 50.8489412165 ],
+						[ 4.3774778944, 50.8489264456 ],
+						[ 4.377473486, 50.8488946231 ],
+						[ 4.377383838, 50.8488750128 ],
+						[ 4.3774410752, 50.8487731696 ],
+						[ 4.377523847, 50.8487919768 ],
+						[ 4.3775861917, 50.8487552496 ],
+						[ 4.3773709963, 50.8483490579 ],
+						[ 4.3773617452, 50.8483314184 ],
+						[ 4.3775348224, 50.848243525 ],
+						[ 4.3775368336, 50.8482425039 ],
+						[ 4.3775586482, 50.8482840757 ],
+						[ 4.377672855, 50.8482727127 ],
+						[ 4.3776719279, 50.8481739112 ],
+						[ 4.3777802921, 50.8481188777 ],
+						[ 4.377896213, 50.8480600206 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 223752,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37761 50.8482)",
+				"SectorName" : "Dehors",
+				"Appelant" : "VIVAQUA Distrib",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "06/02/2024",
+				"DateDebutAutorisee" : "19/02/2024",
+				"DateFin" : "18/12/2026",
+				"DateFinAutorisee" : "30/04/2026",
+				"Duree" : "100 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode, VBX",
+				"ImpetrantsCoordonnes" : "Proximus Infra, Sibelga BE-CO, VIVAQUA Distrib",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "GUTENBERG",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "VIVAQUA Distrib",
+				"Responsable" : "SAUBLENS Sébastien",
+				"Rues" : "Rue Philippe Le Bon (Bruxelles), \nRue Bonneels (Saint-Josse-ten-Noode), \nRue des Guildes (Bruxelles), \nSquare Gutenberg (Bruxelles), \nSquare Marie-Louise (Bruxelles), \nRue des Eburons (Bruxelles), \nRue Willems (Saint-Josse-ten-Noode), \nRue des Eburons (Saint-Josse-ten-Noode), \nRue de la Pacification (Bruxelles), \nRue Willems (Bruxelles)",
+				"ReferenceInterne" : "DIS VGS 04220 GUTENBERG#8000008240",
+				"Regime" : "PCA",
+				"Statut" : "Autorisé (En phase de réalisation)",
+				"Surface" : "6955",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ 4.4039169201, 50.8498168287 ],
 						[ 4.403957374, 50.849754549 ],
 						[ 4.4045746743, 50.8499301722 ],
@@ -6638,6 +6705,93 @@ var BoundaryChantiers = {
 				"Surface" : "263,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3886100452, 50.8445355626 ],
+						[ 4.3886953013, 50.844484276 ],
+						[ 4.3887636323, 50.8444431712 ],
+						[ 4.3926687123, 50.8461870936 ],
+						[ 4.394372904, 50.846971479 ],
+						[ 4.3947818353, 50.8471203402 ],
+						[ 4.3979219298, 50.8478277225 ],
+						[ 4.3999163762, 50.8482960345 ],
+						[ 4.4002963093, 50.8483807675 ],
+						[ 4.400447371, 50.8481076228 ],
+						[ 4.4005191438, 50.8481242812 ],
+						[ 4.4004421001, 50.8482666271 ],
+						[ 4.4004642834, 50.8482732939 ],
+						[ 4.4004136499, 50.8483726608 ],
+						[ 4.4004296243, 50.8484091862 ],
+						[ 4.4012363894, 50.8485887413 ],
+						[ 4.4021578014, 50.8488019143 ],
+						[ 4.402574456, 50.8489765612 ],
+						[ 4.4030220569, 50.8491986377 ],
+						[ 4.4031956915, 50.8492767254 ],
+						[ 4.4035892313, 50.8494109093 ],
+						[ 4.4035314284, 50.8494866238 ],
+						[ 4.4031648861, 50.8493475486 ],
+						[ 4.402736597, 50.8491645371 ],
+						[ 4.4021655636, 50.8489376114 ],
+						[ 4.3998007195, 50.8483815309 ],
+						[ 4.3989057348, 50.8481937467 ],
+						[ 4.3964947561, 50.8476455655 ],
+						[ 4.3958408883, 50.8474955477 ],
+						[ 4.3953509669, 50.847372349 ],
+						[ 4.3947357231, 50.8473016764 ],
+						[ 4.3942419995, 50.8472700429 ],
+						[ 4.3942342428, 50.8471943475 ],
+						[ 4.3944039577, 50.8472016351 ],
+						[ 4.3925414565, 50.8462338414 ],
+						[ 4.3923678925, 50.846233552 ],
+						[ 4.3902923868, 50.8452889637 ],
+						[ 4.3891059191, 50.8447569426 ],
+						[ 4.3890755222, 50.8447691423 ],
+						[ 4.3890164976, 50.8448225839 ],
+						[ 4.3888317212, 50.8450011324 ],
+						[ 4.3887725898, 50.8449777863 ],
+						[ 4.3888485044, 50.8449051582 ],
+						[ 4.3888206147, 50.8448945438 ],
+						[ 4.3889824996, 50.8447353206 ],
+						[ 4.3889479724, 50.8447190395 ],
+						[ 4.3889724358, 50.8446975107 ],
+						[ 4.3886100452, 50.8445355626 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 250443,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38892 50.8442)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A1",
+				"Coordinateur" : "",
+				"DateDebut" : "01/05/2026",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "05/07/2030",
+				"DateFinAutorisee" : "",
+				"Duree" : "1052 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek, VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux de voirie et d'infrastructure ",
+				"Nom" : "Rénovation lourde Belliard",
+				"Organisation" : "SPRB - BM - DGI - Tunnels EM",
+				"Pilote" : "",
+				"Responsable" : "BACKAERT Damien",
+				"Rues" : "Boulevard Auguste Reyers (Schaerbeek), \nTunnel Belliard (Schaerbeek), \nAvenue de Roodebeek (Schaerbeek), \nTunnel Reyers-Centre (Schaerbeek), \nRue du Noyer (Bruxelles), \nRue du Noyer (Schaerbeek), \nTunnel Reyers-Centre (Bruxelles), \nPlace de Jamblinne de Meux (Schaerbeek), \nAvenue de Cortenbergh (Bruxelles), \nRue Léonard de Vinci (Bruxelles), \nTunnel Belliard (Bruxelles), \nRue Véronèse (Bruxelles), \nTunnel Cinquantenaire (Bruxelles), \nAvenue de la Joyeuse Entrée (Bruxelles), \nTunnel Loi (Bruxelles), \nRue de la Loi (Bruxelles), \nRond-Point Robert Schuman (Bruxelles), \nRue Belliard (Bruxelles), \nRue Froissart (Bruxelles), \nPlace Jean Rey (Bruxelles), \nRue Juste Lipse (Bruxelles), \nChaussée d'Etterbeek (Bruxelles), \nCité Ouvrière de Linthout (Schaerbeek), \nAutoroute E40 (Schaerbeek)",
+				"ReferenceInterne" : "Rénovation lourde Belliard",
+				"Regime" : "PCA",
+				"Statut" : "Programmé",
+				"Surface" : "71047,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
 			}
 		},
 		{
@@ -13429,7 +13583,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/01/2028",
 				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "600 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Validation terme de phase (10 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode, Schaerbeek",
 				"ImpetrantsCoordonnes" : "IRISnet, Proximus Infra, SPRB - BM - DEN - Equipement, SPRB - BM - DEN - Télématique, SPRB - BM - DPV, STIB - LA - PROJET, STIB - VOIES - PROJET, Schaerbeek exe, Sibelga BE-CO, VIVAQUA Distrib, Wyre",
 				"Nature" : "Travaux de voirie et d'infrastructure ",
@@ -13667,6 +13821,64 @@ var BoundaryChantiers = {
 				"Surface" : "6,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3670757343, 50.8579742254 ],
+							[ 4.3671821172, 50.8579462569 ],
+							[ 4.3674148783, 50.8583906026 ],
+							[ 4.3675203722, 50.8586015801 ],
+							[ 4.3674029197, 50.8586047206 ],
+							[ 4.3673386926, 50.8584860884 ],
+							[ 4.3670757343, 50.8579742254 ]
+						]
+					],
+					[
+						[
+							[ 4.3679172809, 50.8577544225 ],
+							[ 4.3681776201, 50.8577014165 ],
+							[ 4.3685355053, 50.8583855987 ],
+							[ 4.3682751356, 50.8584432784 ],
+							[ 4.3680746444, 50.8580523302 ],
+							[ 4.3679172809, 50.8577544225 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 374026,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36796 50.8581)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "01/03/2022",
+				"DateDebutAutorisee" : "18/04/2022",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "19/12/2025",
+				"Duree" : "830 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
+				"Nom" : "Haute-école Galileo",
+				"Organisation" : "EJD",
+				"Pilote" : "",
+				"Responsable" : "WILFART David",
+				"Rues" : "Rue de la Poste (Schaerbeek), \nRue Royale (Schaerbeek), \nPlace de la Reine (Schaerbeek)",
+				"ReferenceInterne" : "Galileo - F 213001",
+				"Regime" : "A",
+				"Statut" : "Autorisé (En phase de réalisation)",
+				"Surface" : "2164,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -14103,11 +14315,11 @@ var BoundaryChantiers = {
 				"SectorName" : "Dehors",
 				"Appelant" : "",
 				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
+				"ClasseVoirieMax" : "A2",
 				"Coordinateur" : "",
 				"DateDebut" : "01/05/2022",
 				"DateDebutAutorisee" : "16/05/2022",
-				"DateFin" : "31/12/2025",
+				"DateFin" : "17/12/2027",
 				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "926 Jours Ouvrables",
 				"Echeances" : "",
@@ -14118,11 +14330,11 @@ var BoundaryChantiers = {
 				"Organisation" : "Socatra",
 				"Pilote" : "",
 				"Responsable" : "SOFFIE Stéphane",
-				"Rues" : "Avenue du Boulevard (Saint-Josse-ten-Noode), \nBoulevard du Jardin Botanique (Bruxelles), \nPlace Charles Rogier (Saint-Josse-ten-Noode), \nRue Gineste (Saint-Josse-ten-Noode), \nRue Saint-Lazare (Saint-Josse-ten-Noode), \nRue de Brabant (Saint-Josse-ten-Noode), \nTunnel Rogier (Bruxelles), \nTunnel Rogier (Saint-Josse-ten-Noode)",
+				"Rues" : "Boulevard du Jardin Botanique (Bruxelles), \nAvenue du Boulevard (Bruxelles), \nAvenue du Boulevard (Saint-Josse-ten-Noode), \nAvenue Galilée (Saint-Josse-ten-Noode), \nRue Saint-Lazare (Saint-Josse-ten-Noode), \nRue Gineste (Saint-Josse-ten-Noode), \nPlace Charles Rogier (Saint-Josse-ten-Noode), \nPassage Charles Rogier (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "Hôtel Palace",
 				"Regime" : "A",
-				"Statut" : "Autorisé (En phase de réalisation)",
-				"Surface" : "9434,3",
+				"Statut" : "Demande d'autorisation transmise (En phase de réalisation)",
+				"Surface" : "9460,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
 			}
@@ -14837,268 +15049,6 @@ var BoundaryChantiers = {
 				"Regime" : "PCA",
 				"Statut" : "Programmé",
 				"Surface" : "7375,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4153024966, 50.8578894802 ],
-						[ 4.4151859225, 50.8579707177 ],
-						[ 4.415079576, 50.857923268 ],
-						[ 4.4138317616, 50.8573783689 ],
-						[ 4.4133189791, 50.8571582354 ],
-						[ 4.4132796435, 50.8571637341 ],
-						[ 4.4132678648, 50.8571735372 ],
-						[ 4.4131850317, 50.8572528664 ],
-						[ 4.41303799, 50.8571711775 ],
-						[ 4.412930766, 50.8571341519 ],
-						[ 4.4129139877, 50.8570764067 ],
-						[ 4.412254439, 50.8567893528 ],
-						[ 4.41061739, 50.8560714276 ],
-						[ 4.4104338271, 50.855992836 ],
-						[ 4.4100863066, 50.8558406789 ],
-						[ 4.4100137145, 50.8558189503 ],
-						[ 4.4099614423, 50.8558094401 ],
-						[ 4.409907186, 50.8558046051 ],
-						[ 4.4098473968, 50.8558064243 ],
-						[ 4.4097667572, 50.8558383657 ],
-						[ 4.4095004027, 50.8560868397 ],
-						[ 4.4088741555, 50.8566569929 ],
-						[ 4.4081834656, 50.8572881134 ],
-						[ 4.4082183639, 50.8574077516 ],
-						[ 4.408245096, 50.857414517 ],
-						[ 4.4079129138, 50.8575158898 ],
-						[ 4.4078928857, 50.857510891 ],
-						[ 4.4078789004, 50.8575228534 ],
-						[ 4.4075445618, 50.8574075716 ],
-						[ 4.4075906924, 50.8572122079 ],
-						[ 4.4078684437, 50.8571925793 ],
-						[ 4.4082693547, 50.8568310486 ],
-						[ 4.4082730633, 50.8568247785 ],
-						[ 4.4082865957, 50.8568129836 ],
-						[ 4.4083173852, 50.8567783635 ],
-						[ 4.4083344031, 50.8567491418 ],
-						[ 4.4083415892, 50.856708924 ],
-						[ 4.4083618093, 50.8566747384 ],
-						[ 4.4083330856, 50.8566631826 ],
-						[ 4.4083183976, 50.8566337223 ],
-						[ 4.4083027572, 50.856612872 ],
-						[ 4.4082818633, 50.8565936417 ],
-						[ 4.408199738, 50.856551599 ],
-						[ 4.4080992925, 50.8565103715 ],
-						[ 4.4071893407, 50.856156762 ],
-						[ 4.407177408, 50.8561534399 ],
-						[ 4.4071595116, 50.8561513783 ],
-						[ 4.4071380669, 50.8561521046 ],
-						[ 4.4071112305, 50.8561591253 ],
-						[ 4.4070920074, 50.8561713611 ],
-						[ 4.4067360416, 50.8560609758 ],
-						[ 4.4067831846, 50.8560168755 ],
-						[ 4.4064063943, 50.8558739629 ],
-						[ 4.4054142465, 50.8554900503 ],
-						[ 4.4048466958, 50.8552949777 ],
-						[ 4.4047967024, 50.8552917032 ],
-						[ 4.4047535305, 50.8552942248 ],
-						[ 4.4046923239, 50.8552990892 ],
-						[ 4.4046337073, 50.8553105961 ],
-						[ 4.4046051702, 50.8553219317 ],
-						[ 4.4042725719, 50.8555210622 ],
-						[ 4.4038671518, 50.8557694763 ],
-						[ 4.4033343871, 50.8560886747 ],
-						[ 4.4033570417, 50.856186114 ],
-						[ 4.4033654489, 50.8561882011 ],
-						[ 4.4032990925, 50.8563565454 ],
-						[ 4.4030399846, 50.856291296 ],
-						[ 4.4029939721, 50.8562949954 ],
-						[ 4.4023157956, 50.8566581909 ],
-						[ 4.4022504875, 50.8566894035 ],
-						[ 4.4021505427, 50.8567442684 ],
-						[ 4.4020172318, 50.8568127171 ],
-						[ 4.40197734, 50.8568361912 ],
-						[ 4.4012196408, 50.8572376985 ],
-						[ 4.4011783283, 50.8572616222 ],
-						[ 4.4006452178, 50.8575424232 ],
-						[ 4.4005922603, 50.8575688669 ],
-						[ 4.4005895681, 50.8575779471 ],
-						[ 4.4005888725, 50.8575989827 ],
-						[ 4.400747684, 50.8577188974 ],
-						[ 4.4006150421, 50.8577865779 ],
-						[ 4.4004551314, 50.8576681488 ],
-						[ 4.4004065593, 50.8576696904 ],
-						[ 4.4002566343, 50.8577500077 ],
-						[ 4.4000118672, 50.8578782647 ],
-						[ 4.3997531871, 50.8580168628 ],
-						[ 4.3996126034, 50.858094462 ],
-						[ 4.3995905035, 50.8581149999 ],
-						[ 4.3995763163, 50.8581382415 ],
-						[ 4.3995714409, 50.8581536958 ],
-						[ 4.3995701427, 50.8581663263 ],
-						[ 4.3995725127, 50.8581847901 ],
-						[ 4.3995792987, 50.8582016795 ],
-						[ 4.3995932589, 50.8582209852 ],
-						[ 4.3996208842, 50.8582434425 ],
-						[ 4.3996556634, 50.8582613476 ],
-						[ 4.3988458673, 50.8586161376 ],
-						[ 4.3988241433, 50.8586052021 ],
-						[ 4.39880255, 50.8585977465 ],
-						[ 4.398775135, 50.8585926296 ],
-						[ 4.3987347967, 50.8585896737 ],
-						[ 4.3987154818, 50.8585912968 ],
-						[ 4.3986845227, 50.8585964289 ],
-						[ 4.3986500158, 50.8586059667 ],
-						[ 4.3981801992, 50.8588536586 ],
-						[ 4.3981519176, 50.858870756 ],
-						[ 4.3979778461, 50.8587973704 ],
-						[ 4.3980039199, 50.8587751582 ],
-						[ 4.3980809923, 50.8587441921 ],
-						[ 4.3982726103, 50.8586422202 ],
-						[ 4.3983541632, 50.8585975933 ],
-						[ 4.3984250137, 50.8585632352 ],
-						[ 4.3984694517, 50.8585366148 ],
-						[ 4.398489892, 50.8585183609 ],
-						[ 4.3985050729, 50.8584932763 ],
-						[ 4.3985076144, 50.8584699928 ],
-						[ 4.3984995035, 50.8584464425 ],
-						[ 4.3984877048, 50.8584305342 ],
-						[ 4.3984626952, 50.8584111233 ],
-						[ 4.3984486406, 50.8584044733 ],
-						[ 4.3991810432, 50.8580352003 ],
-						[ 4.3992093966, 50.8580198281 ],
-						[ 4.3992256899, 50.85802816 ],
-						[ 4.3992737908, 50.858043663 ],
-						[ 4.3993151394, 50.8580503043 ],
-						[ 4.3993597642, 50.8580498249 ],
-						[ 4.3993967582, 50.8580434505 ],
-						[ 4.3994365313, 50.8580302074 ],
-						[ 4.3996335336, 50.8579181905 ],
-						[ 4.3999730116, 50.8577360885 ],
-						[ 4.3999842128, 50.8577292625 ],
-						[ 4.3999917912, 50.8577206665 ],
-						[ 4.3999950655, 50.8577110468 ],
-						[ 4.3999937806, 50.8577012396 ],
-						[ 4.3999832901, 50.8576881089 ],
-						[ 4.3999073248, 50.857641431 ],
-						[ 4.4000184274, 50.8575811933 ],
-						[ 4.4001072869, 50.8576366013 ],
-						[ 4.4001537166, 50.8576385123 ],
-						[ 4.4009706495, 50.8572075908 ],
-						[ 4.4009179788, 50.8570952473 ],
-						[ 4.4010632454, 50.8570269902 ],
-						[ 4.4010971239, 50.8571078349 ],
-						[ 4.4011349113, 50.8571204095 ],
-						[ 4.4016900175, 50.8568251269 ],
-						[ 4.4016530656, 50.8567891795 ],
-						[ 4.4016318192, 50.8567598282 ],
-						[ 4.4021457305, 50.8565183459 ],
-						[ 4.4021652978, 50.856527168 ],
-						[ 4.4022067867, 50.8565522366 ],
-						[ 4.4027766456, 50.856251371 ],
-						[ 4.402770376, 50.8562233256 ],
-						[ 4.4027596677, 50.8562206251 ],
-						[ 4.4028972673, 50.8560724039 ],
-						[ 4.4030384281, 50.8561080907 ],
-						[ 4.4030607232, 50.8561048478 ],
-						[ 4.4041901261, 50.8554244505 ],
-						[ 4.4043139112, 50.8553515975 ],
-						[ 4.4044020563, 50.8552881943 ],
-						[ 4.4044119877, 50.8552753362 ],
-						[ 4.4044305692, 50.8552455752 ],
-						[ 4.4044325463, 50.8552311015 ],
-						[ 4.4044313929, 50.8552087181 ],
-						[ 4.4044274018, 50.8551899312 ],
-						[ 4.4044030888, 50.8551539808 ],
-						[ 4.4043901556, 50.8551417591 ],
-						[ 4.404366428, 50.8551281923 ],
-						[ 4.4043628158, 50.8551271861 ],
-						[ 4.4043408996, 50.8550132042 ],
-						[ 4.4043883859, 50.8549842313 ],
-						[ 4.4046076391, 50.8550266261 ],
-						[ 4.4050097735, 50.8551282612 ],
-						[ 4.4051029572, 50.8551527732 ],
-						[ 4.4051710003, 50.855173068 ],
-						[ 4.4053235688, 50.8552237204 ],
-						[ 4.4057459205, 50.8553844076 ],
-						[ 4.407490492, 50.8560646089 ],
-						[ 4.4080991107, 50.8562968711 ],
-						[ 4.4082876294, 50.8563611714 ],
-						[ 4.4084836666, 50.8564146815 ],
-						[ 4.4085711686, 50.8564331697 ],
-						[ 4.4086046885, 50.8564361246 ],
-						[ 4.4086404764, 50.8564339548 ],
-						[ 4.408683786, 50.8564254897 ],
-						[ 4.4087040884, 50.8564175719 ],
-						[ 4.4089091575, 50.8562404077 ],
-						[ 4.4089574606, 50.8561929803 ],
-						[ 4.4090205574, 50.8561399563 ],
-						[ 4.4091557946, 50.8560143258 ],
-						[ 4.4093819975, 50.8558101849 ],
-						[ 4.4094245409, 50.8557694183 ],
-						[ 4.4100576048, 50.8555926126 ],
-						[ 4.4102876163, 50.8555977106 ],
-						[ 4.410411644, 50.855599239 ],
-						[ 4.4104458549, 50.85559724 ],
-						[ 4.4104718824, 50.8555919718 ],
-						[ 4.4104926961, 50.8555847547 ],
-						[ 4.4105142588, 50.855573501 ],
-						[ 4.4105251839, 50.8555615325 ],
-						[ 4.4107721574, 50.8556645135 ],
-						[ 4.41076034, 50.8556859962 ],
-						[ 4.4107499996, 50.8557159349 ],
-						[ 4.4107473229, 50.8557397581 ],
-						[ 4.4107481969, 50.8557638496 ],
-						[ 4.410752479, 50.8557875803 ],
-						[ 4.4107679961, 50.8558281173 ],
-						[ 4.4107802272, 50.8558471705 ],
-						[ 4.4108021193, 50.8558700858 ],
-						[ 4.4108291225, 50.8558912012 ],
-						[ 4.4108832634, 50.8559250719 ],
-						[ 4.4109351254, 50.855951572 ],
-						[ 4.4109884281, 50.8559071714 ],
-						[ 4.4126681555, 50.8566405101 ],
-						[ 4.4128331122, 50.8567114643 ],
-						[ 4.413135297, 50.8568458584 ],
-						[ 4.4132556041, 50.856829604 ],
-						[ 4.4133459496, 50.8567440945 ],
-						[ 4.4135884458, 50.8568705925 ],
-						[ 4.4135105074, 50.8569456498 ],
-						[ 4.4134084826, 50.8570397194 ],
-						[ 4.4134163199, 50.8570666848 ],
-						[ 4.4148084826, 50.8576745473 ],
-						[ 4.4153024966, 50.8578894802 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 399160,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40854 50.8572)",
-				"SectorName" : "Dehors",
-				"Appelant" : "ELIA",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "01/03/2023",
-				"DateDebutAutorisee" : "03/07/2023",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "120 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Evere, Schaerbeek",
-				"ImpetrantsCoordonnes" : "Beliris, ELIA, Proximus Infra, Schaerbeek exe, Sibelga BE-CO, VIVAQUA Distrib, VOO, Wyre",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "TR42796 - 36kV Schaerbeek-Josaph-Dunan - part 3",
-				"Organisation" : "ELIA",
-				"Pilote" : "ELIA",
-				"Responsable" : "DE VRIESE Chloé",
-				"Rues" : "Boulevard Léopold III (Schaerbeek), \nRue Paul Hymans (Schaerbeek), \nRue Henri Chomé (Schaerbeek), \nRue Camille Wollès (Schaerbeek), \nAvenue de la Jeunesse (Schaerbeek), \nChaussée de Louvain (Schaerbeek), \nRue des Compagnons (Schaerbeek), \nAvenue Fortin (Schaerbeek), \nChaussée de Louvain (Evere), \nRue du Dix-sept avril (Evere), \nRue Hugo Verriest (Evere), \nRue Guillaume Van Laethem (Evere), \nPlace Jean De Paduwa (Evere), \nAvenue des Anciens Combattants (Evere), \nAvenue du Cimetière de Bruxelles (Evere), \nAvenue Léon Grosjean (Evere), \nAvenue Jacques Georgin (Schaerbeek), \nAvenue Léonard Mommaerts (Evere), \nRue de Genève (Evere), \nRue Henri Evenepoel (Schaerbeek), \nRue Jules Lebrun (Schaerbeek)",
-				"ReferenceInterne" : "TR42796 - 36kV Schaerbeek-Josaph-Dunan - part 3 (programmation du 379463)",
-				"Regime" : "PCA",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "45713,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -16231,115 +16181,6 @@ var BoundaryChantiers = {
 				"Regime" : "PCA",
 				"Statut" : "Enregistré (Brouillon)",
 				"Surface" : "1091,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3579885343, 50.8610978095 ],
-						[ 4.3576645847, 50.8604677842 ],
-						[ 4.3579184006, 50.8604135554 ],
-						[ 4.3579667157, 50.8605051235 ],
-						[ 4.3583029271, 50.8604364724 ],
-						[ 4.3583327561, 50.8604284743 ],
-						[ 4.359109291, 50.8602699618 ],
-						[ 4.3591357118, 50.8602574685 ],
-						[ 4.3591656845, 50.8602390423 ],
-						[ 4.3591945225, 50.8602125256 ],
-						[ 4.3592053198, 50.8601979634 ],
-						[ 4.3592297592, 50.8601473545 ],
-						[ 4.3592455349, 50.8600946773 ],
-						[ 4.3592375922, 50.8600356158 ],
-						[ 4.3589236893, 50.8593505033 ],
-						[ 4.3588342488, 50.8591500308 ],
-						[ 4.3585513038, 50.8592085966 ],
-						[ 4.3584982232, 50.8591089662 ],
-						[ 4.3590441595, 50.858988138 ],
-						[ 4.3592729126, 50.8595157067 ],
-						[ 4.3592618351, 50.8595177336 ],
-						[ 4.3593930026, 50.8598207249 ],
-						[ 4.3596181694, 50.8603182471 ],
-						[ 4.3580117853, 50.860622872 ],
-						[ 4.3581660553, 50.8608914885 ],
-						[ 4.3597297102, 50.8605641337 ],
-						[ 4.3598255045, 50.8607750343 ],
-						[ 4.3596095767, 50.8608199943 ],
-						[ 4.3596077616, 50.860815921 ],
-						[ 4.3593619551, 50.8608100778 ],
-						[ 4.3593513489, 50.8607892934 ],
-						[ 4.3582064755, 50.8610239718 ],
-						[ 4.3587521925, 50.8620821639 ],
-						[ 4.358748404, 50.8620880419 ],
-						[ 4.3588101125, 50.8622101391 ],
-						[ 4.3632318073, 50.8613728516 ],
-						[ 4.3632588153, 50.8613691899 ],
-						[ 4.363309071, 50.8614688726 ],
-						[ 4.3631605514, 50.8614960972 ],
-						[ 4.3631474833, 50.8615022993 ],
-						[ 4.3631422274, 50.8615061646 ],
-						[ 4.3631356928, 50.861514165 ],
-						[ 4.3631338455, 50.861522615 ],
-						[ 4.3631356911, 50.8615311551 ],
-						[ 4.3632115495, 50.8617083139 ],
-						[ 4.3633841551, 50.8620919579 ],
-						[ 4.363188251, 50.8621325997 ],
-						[ 4.3630174909, 50.8617572354 ],
-						[ 4.3629633859, 50.8616485502 ],
-						[ 4.3629205291, 50.8615535476 ],
-						[ 4.3616304625, 50.8617899339 ],
-						[ 4.3617006035, 50.8619511433 ],
-						[ 4.3616535149, 50.8619593967 ],
-						[ 4.3615061612, 50.8620033623 ],
-						[ 4.3615081948, 50.8620078148 ],
-						[ 4.3609447378, 50.8621269469 ],
-						[ 4.3607519829, 50.8619832451 ],
-						[ 4.3599933613, 50.8621339675 ],
-						[ 4.3599956886, 50.8621383887 ],
-						[ 4.3599883747, 50.8621399362 ],
-						[ 4.3601673702, 50.8625016719 ],
-						[ 4.3602298953, 50.8626314615 ],
-						[ 4.3599186672, 50.8626951047 ],
-						[ 4.3597090782, 50.862236868 ],
-						[ 4.3596659392, 50.8622447937 ],
-						[ 4.359646032, 50.8622063173 ],
-						[ 4.3588868245, 50.8623637468 ],
-						[ 4.3589548414, 50.8624950822 ],
-						[ 4.3587020107, 50.8625580938 ],
-						[ 4.3579885343, 50.8610978095 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 419681,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35973 50.8612)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/01/2026",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "30/06/2026",
-				"DateFinAutorisee" : "",
-				"Duree" : "60 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "Bolivar, Solvay, Roi Albert II, Progrès",
-				"Organisation" : "VIVAQUA Distrib",
-				"Pilote" : "",
-				"Responsable" : "CRASSET Alain",
-				"Rues" : "Rue Gaucheret (Schaerbeek), \nTunnel STIB Rue du Progrès - Gare du Nord (Schaerbeek), \nRue du Progrès (Schaerbeek), \nRue des Charbonniers (Saint-Josse-ten-Noode), \nRue du Progrès (Saint-Josse-ten-Noode), \nBoulevard du Roi Albert II (Saint-Josse-ten-Noode), \nBoulevard Simon Bolivar (Schaerbeek), \nBoulevard du Roi Albert II (Schaerbeek), \nPlace Solvay (Schaerbeek), \nRue d'Aerschot (Schaerbeek), \nRue de Quatrecht (Schaerbeek)",
-				"ReferenceInterne" : "DIS CSA 04611 BOLIVAR #8000016648",
-				"Regime" : "PCA",
-				"Statut" : "Programmé",
-				"Surface" : "18883,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -18788,73 +18629,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3889406392, 50.8760507575 ],
-						[ 4.3889758002, 50.8760181445 ],
-						[ 4.3891270738, 50.8760846196 ],
-						[ 4.3891378531, 50.8760740371 ],
-						[ 4.3892475054, 50.8761223086 ],
-						[ 4.3892642362, 50.8761078326 ],
-						[ 4.3892948756, 50.8761220214 ],
-						[ 4.3892977643, 50.8761319991 ],
-						[ 4.3893354142, 50.8761276774 ],
-						[ 4.3893314581, 50.8761139512 ],
-						[ 4.3894352662, 50.8760263213 ],
-						[ 4.389458828, 50.8760364122 ],
-						[ 4.3901486525, 50.8754351606 ],
-						[ 4.3901536205, 50.8754250915 ],
-						[ 4.3901536168, 50.8754170909 ],
-						[ 4.3901503451, 50.875409001 ],
-						[ 4.3901438063, 50.87540235 ],
-						[ 4.3901317269, 50.875396689 ],
-						[ 4.3896994117, 50.8752469797 ],
-						[ 4.3897227572, 50.8752210013 ],
-						[ 4.3901695505, 50.875373533 ],
-						[ 4.3901907865, 50.8753936742 ],
-						[ 4.3902072073, 50.8754327405 ],
-						[ 4.3902014286, 50.8754547181 ],
-						[ 4.389360415, 50.876188646 ],
-						[ 4.3893198955, 50.8761990311 ],
-						[ 4.389262966, 50.8761929368 ],
-						[ 4.3889406392, 50.8760507575 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 463149,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38965 50.8758)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "16/03/2023",
-				"DateDebutAutorisee" : "27/05/2024",
-				"DateFin" : "31/12/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "JMS/564401",
-				"Organisation" : "Proximus Infra",
-				"Pilote" : "",
-				"Responsable" : "VANCOILLIE Romeo",
-				"Rues" : "Rue Fernand Séverin (Schaerbeek), \nRue Van Droogenbroeck (Schaerbeek), \nChaussée de Helmet (Schaerbeek)",
-				"ReferenceInterne" : "JMS/564401 - Pose SRV et HDPE",
-				"Regime" : "A",
-				"Statut" : "Terminé",
-				"Surface" : "780,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.356870355, 50.8725385018 ],
 						[ 4.3572581619, 50.8726996997 ],
 						[ 4.3572581622, 50.8726984787 ],
@@ -20309,7 +20083,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "130 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (16 jours ouvrables)<br/>Accusé de réception d'une demande d'autorisation ou autorisation modificative (16 jours ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (10 jours ouvrables)<br/>Accusé de réception d'une demande d'autorisation ou autorisation modificative (10 jours ouvrables",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel, Schaerbeek exe, Sibelga BE-CO, VIVAQUA Distrib, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -20568,6 +20342,68 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ 4.3920422473, 50.8562379412 ],
+						[ 4.3919963468, 50.8561562009 ],
+						[ 4.3921067381, 50.85613511 ],
+						[ 4.3921217078, 50.856108543 ],
+						[ 4.3902604136, 50.8546358912 ],
+						[ 4.3902192717, 50.8546370227 ],
+						[ 4.3901579139, 50.8546981713 ],
+						[ 4.3900340142, 50.8545881092 ],
+						[ 4.3901031457, 50.8545191383 ],
+						[ 4.3900986336, 50.8544975284 ],
+						[ 4.3900072543, 50.8544416572 ],
+						[ 4.3901041127, 50.8543510404 ],
+						[ 4.3901894517, 50.8544032745 ],
+						[ 4.3902225691, 50.8544014074 ],
+						[ 4.3902802636, 50.8543427998 ],
+						[ 4.3904292515, 50.8544279881 ],
+						[ 4.3903670421, 50.8544899266 ],
+						[ 4.390367902, 50.8545064671 ],
+						[ 4.3923434533, 50.8560665614 ],
+						[ 4.392383792, 50.8560753627 ],
+						[ 4.3925362215, 50.8560433535 ],
+						[ 4.3925880665, 50.8561218405 ],
+						[ 4.3920422473, 50.8562379412 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 476966,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39122 50.8553)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "01/05/2026",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "50 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "EMILE WITTMANN",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "CRASSET Alain",
+				"Rues" : "Place de la Patrie (Schaerbeek), \nAvenue Rogier (Schaerbeek), \nRue Auguste Lambiotte (Schaerbeek), \nRue Emile Wittmann (Schaerbeek), \nRue Jacques Jansen (Schaerbeek)",
+				"ReferenceInterne" : "DIS CSA 03955 EMILE WITTMANN#8000002842",
+				"Regime" : "PCA",
+				"Statut" : "Planifié",
+				"Surface" : "4294,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ 4.3672549757, 50.8628466627 ],
 						[ 4.3672038634, 50.8628401928 ],
 						[ 4.3672520959, 50.8626643801 ],
@@ -20598,7 +20434,7 @@ var BoundaryChantiers = {
 				"Coordinateur" : "",
 				"DateDebut" : "12/01/2026",
 				"DateDebutAutorisee" : "",
-				"DateFin" : "30/06/2026",
+				"DateFin" : "30/04/2027",
 				"DateFinAutorisee" : "",
 				"Duree" : "60 Jours Ouvrables",
 				"Echeances" : "",
@@ -21167,7 +21003,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Henri Bergé (Schaerbeek), \nChaussée de Haecht (Schaerbeek)",
 				"ReferenceInterne" : " chantier :222-091 Renovas",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation en attente d'avis CCC (En phase de réalisation)",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "255,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -23133,57 +22969,6 @@ var BoundaryChantiers = {
 				]
 			},
 			"properties" : {
-				"Chantier" : 518448,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39445 50.8472)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/02/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "02/11/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "4 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux aux arbres (plantation / abattage / déssouchage)",
-				"Nom" : "Maintenance aux arbres",
-				"Organisation" : "SPRB - BM - DEN - Plantations, monuments et fontaines",
-				"Pilote" : "",
-				"Responsable" : "FORTIN Ludovic",
-				"Rues" : "Tunnel Belliard (Schaerbeek), \nRue du Noyer (Bruxelles), \nPlace de Jamblinne de Meux (Schaerbeek), \nTunnel Reyers-Centre (Bruxelles), \nAvenue de Roodebeek (Schaerbeek), \nTunnel Belliard (Bruxelles), \nTunnel Reyers-Centre (Schaerbeek), \nRue du Noyer (Schaerbeek)",
-				"ReferenceInterne" : "SNV-22.19: BC276.DA.Visite1 - 023.01 Jamblinne de Meux (Place)",
-				"Regime" : "A",
-				"Statut" : "Inactif",
-				"Surface" : "5829,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3930724043, 50.8472004379 ],
-						[ 4.3929258294, 50.8471882598 ],
-						[ 4.3934732832, 50.8467266313 ],
-						[ 4.3936699051, 50.8465678678 ],
-						[ 4.3938126667, 50.8466630691 ],
-						[ 4.3948504569, 50.8471048132 ],
-						[ 4.3957801198, 50.8472950623 ],
-						[ 4.39561824, 50.8474953328 ],
-						[ 4.3950168601, 50.8480644252 ],
-						[ 4.3948121959, 50.8476493562 ],
-						[ 4.3938515354, 50.8472075949 ],
-						[ 4.3930724043, 50.8472004379 ]
-					]
-				]
-			},
-			"properties" : {
 				"Chantier" : 518449,
 				"CoordonneesGeographiques_wsg84" : "POINT (4.39445 50.8472)",
 				"SectorName" : "Dehors",
@@ -23807,181 +23592,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.4082359126, 50.8381003079 ],
-							[ 4.4082367032, 50.8380988033 ],
-							[ 4.4082425487, 50.8381199237 ],
-							[ 4.408311697, 50.8384808251 ],
-							[ 4.4083175325, 50.8388450485 ],
-							[ 4.4083355744, 50.8388431381 ],
-							[ 4.4083698522, 50.8388469283 ],
-							[ 4.408448727, 50.8389353523 ],
-							[ 4.4083330855, 50.8389939968 ],
-							[ 4.4083306472, 50.8390078196 ],
-							[ 4.4083286294, 50.8390089066 ],
-							[ 4.408327037, 50.8390282853 ],
-							[ 4.4082908699, 50.8392333139 ],
-							[ 4.4082265168, 50.8395347859 ],
-							[ 4.408206948, 50.8396047166 ],
-							[ 4.4081520851, 50.8397527141 ],
-							[ 4.4081149377, 50.839828151 ],
-							[ 4.4080849367, 50.8398984456 ],
-							[ 4.4078406092, 50.8403445152 ],
-							[ 4.4075594721, 50.8408061222 ],
-							[ 4.4072205681, 50.8413727479 ],
-							[ 4.4070087753, 50.8417586325 ],
-							[ 4.406689099, 50.842273971 ],
-							[ 4.4066866138, 50.8422937698 ],
-							[ 4.4066849995, 50.842296454 ],
-							[ 4.4066857793, 50.842300418 ],
-							[ 4.4066814358, 50.8423350201 ],
-							[ 4.4067003309, 50.8423497288 ],
-							[ 4.4067103256, 50.8423617097 ],
-							[ 4.4067306211, 50.8423757886 ],
-							[ 4.4066699861, 50.8424815355 ],
-							[ 4.4066159986, 50.8424888789 ],
-							[ 4.406614835, 50.8424910928 ],
-							[ 4.4066136012, 50.8424912806 ],
-							[ 4.4065943689, 50.842525299 ],
-							[ 4.4065724391, 50.8425233228 ],
-							[ 4.4065519909, 50.8425184709 ],
-							[ 4.4065503034, 50.842521328 ],
-							[ 4.4065427477, 50.8425206471 ],
-							[ 4.4062770037, 50.8429724783 ],
-							[ 4.4060528075, 50.8433684594 ],
-							[ 4.4058929787, 50.8436394774 ],
-							[ 4.4058057826, 50.8437942152 ],
-							[ 4.4058110012, 50.8437955362 ],
-							[ 4.4057339753, 50.8439213389 ],
-							[ 4.4057277916, 50.8439198238 ],
-							[ 4.4055302477, 50.844254074 ],
-							[ 4.4054296741, 50.8444183326 ],
-							[ 4.4054308056, 50.8444226175 ],
-							[ 4.4054253443, 50.8444318738 ],
-							[ 4.4054386293, 50.8444522461 ],
-							[ 4.405445148, 50.8444769323 ],
-							[ 4.4053295356, 50.8445941784 ],
-							[ 4.4050911274, 50.8449977802 ],
-							[ 4.4050972608, 50.8449996965 ],
-							[ 4.405032965, 50.8451119464 ],
-							[ 4.404897945, 50.845075361 ],
-							[ 4.4055064959, 50.8440227268 ],
-							[ 4.406877616, 50.8417171644 ],
-							[ 4.4071856943, 50.8411749687 ],
-							[ 4.4075245051, 50.8404984593 ],
-							[ 4.4076900925, 50.8402102637 ],
-							[ 4.4079326313, 50.8397144833 ],
-							[ 4.4080634413, 50.8393506011 ],
-							[ 4.408117005, 50.8388500008 ],
-							[ 4.4080470443, 50.8382078144 ],
-							[ 4.4080199816, 50.8381272421 ],
-							[ 4.4082359126, 50.8381003079 ]
-						]
-					],
-					[
-						[
-							[ 4.4076228463, 50.8382055163 ],
-							[ 4.4077886354, 50.8381663905 ],
-							[ 4.4078892429, 50.8385717058 ],
-							[ 4.4078435923, 50.8393116061 ],
-							[ 4.4077243089, 50.8396266468 ],
-							[ 4.4074202097, 50.8402958197 ],
-							[ 4.4069002215, 50.8410700634 ],
-							[ 4.4063379264, 50.8420079232 ],
-							[ 4.4059913093, 50.8426038499 ],
-							[ 4.4056985859, 50.8430849908 ],
-							[ 4.4051131423, 50.8440741307 ],
-							[ 4.4045767992, 50.8450002325 ],
-							[ 4.4044311707, 50.8449582973 ],
-							[ 4.4045929511, 50.8446896425 ],
-							[ 4.4045875602, 50.8446864601 ],
-							[ 4.4045935926, 50.8446767765 ],
-							[ 4.4045582301, 50.8446691456 ],
-							[ 4.404536266, 50.8446561795 ],
-							[ 4.4045438687, 50.844643624 ],
-							[ 4.4045967169, 50.844572432 ],
-							[ 4.4046545811, 50.8445870652 ],
-							[ 4.4050821207, 50.8438616986 ],
-							[ 4.4055096588, 50.8431509815 ],
-							[ 4.4056752698, 50.8428652308 ],
-							[ 4.4056220408, 50.8428572922 ],
-							[ 4.4055826939, 50.8428465606 ],
-							[ 4.4056373913, 50.8427615664 ],
-							[ 4.4057253484, 50.8427919589 ],
-							[ 4.4058378021, 50.8425900834 ],
-							[ 4.4060176565, 50.8422767345 ],
-							[ 4.4062067629, 50.8419614288 ],
-							[ 4.4064840414, 50.8414724776 ],
-							[ 4.40658804, 50.8413143525 ],
-							[ 4.4068345351, 50.8409186897 ],
-							[ 4.4069515924, 50.8406987416 ],
-							[ 4.407085606, 50.8404652551 ],
-							[ 4.4073467201, 50.8400370069 ],
-							[ 4.4075392632, 50.839702407 ],
-							[ 4.4076200392, 50.8394533097 ],
-							[ 4.4076353232, 50.839284816 ],
-							[ 4.4076423022, 50.8392537643 ],
-							[ 4.4076520175, 50.8392495799 ],
-							[ 4.4076760962, 50.8391034041 ],
-							[ 4.4077006374, 50.8389942122 ],
-							[ 4.4076755166, 50.838824762 ],
-							[ 4.4076801372, 50.8388224776 ],
-							[ 4.4076901672, 50.8388139072 ],
-							[ 4.4076915798, 50.8388110754 ],
-							[ 4.4077043395, 50.8388110711 ],
-							[ 4.4076989795, 50.8387722081 ],
-							[ 4.4077022385, 50.8387004821 ],
-							[ 4.4076954675, 50.8385836205 ],
-							[ 4.4076779079, 50.8384679311 ],
-							[ 4.4076228463, 50.8382055163 ]
-						]
-					],
-					[
-						[
-							[ 4.4076199071, 50.8381988716 ],
-							[ 4.4076150988, 50.8381640073 ],
-							[ 4.407621614, 50.8381989136 ],
-							[ 4.4076199071, 50.8381988716 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 529892,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.4068 50.8414)",
-				"SectorName" : "Dehors",
-				"Appelant" : "SPRB - BM - DEN - Entretien",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A2",
-				"Coordinateur" : "",
-				"DateDebut" : "15/01/2024",
-				"DateDebutAutorisee" : "16/04/2025",
-				"DateFin" : "31/12/2027",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "150 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "SPRB - BM - DEN - Entretien, SPRB - BM - DEN - Equipement, Wyre",
-				"Nature" : "Travaux de voirie et d'infrastructure ",
-				"Nom" : "trottoir",
-				"Organisation" : "SPRB - BM - DEN - Entretien",
-				"Pilote" : "SPRB - BM - DEN - Entretien",
-				"Responsable" : "NEGULESCU Simona",
-				"Rues" : "Square Maréchal Montgomery (Woluwe-Saint-Pierre), \nBoulevard Brand Whitlock (Woluwe-Saint-Pierre), \nBoulevard Brand Whitlock (Woluwe-Saint-Lambert), \nSquare Vergote (Woluwe-Saint-Lambert), \nAvenue Lambeau (Woluwe-Saint-Lambert), \nAvenue Marie-José (Woluwe-Saint-Lambert), \nTunnel Georges Henri (Woluwe-Saint-Lambert), \nTunnel Montgomery (Woluwe-Saint-Lambert)",
-				"ReferenceInterne" : "réfection trottoir boulevard Brand Whitlock",
-				"Regime" : "PCA",
-				"Statut" : "Autorisé (En phase de réalisation)",
-				"Surface" : "19329,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -24143,7 +23753,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue des Communautés (Woluwe-Saint-Lambert), \nAutoroute E40 (Woluwe-Saint-Lambert), \nAvenue des Constellations (Woluwe-Saint-Lambert), \nAvenue de Mars (Schaerbeek), \nAutoroute E40 (Schaerbeek), \nRue Colonel Bourg (Schaerbeek), \nAvenue Léon Grosjean (Evere), \nAutoroute E40 (Evere)",
 				"ReferenceInterne" : "PMO 817 - Parkway E40",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Statut" : "Renoncé (En phase de réalisation)",
 				"Surface" : "27465,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY, ZP POLBRUNO"
@@ -26333,7 +25943,7 @@ var BoundaryChantiers = {
 				"Rues" : "Boulevard Lambermont (Schaerbeek), \nRue Max Roos (Schaerbeek), \nRue Nicolas Defrêcheux (Schaerbeek), \nAvenue Princesse Elisabeth (Schaerbeek), \nAvenue Gustave Latinis (Schaerbeek), \nRue Guillaume Kennis (Schaerbeek), \nRue Willem Kuhnen (Schaerbeek), \nAvenue Britsiers (Schaerbeek), \nChaussée de Haecht (Schaerbeek), \nAvenue Albert Desenfans (Schaerbeek), \nAvenue des Glycines (Schaerbeek), \nRue Jacques Rayé (Schaerbeek), \nChaussée de Helmet (Schaerbeek), \nRue Jan Blockx (Schaerbeek), \nAvenue Sleeckx (Schaerbeek), \nAvenue Eugène Demolder (Schaerbeek), \nRue Léopold Courouble (Schaerbeek), \nAvenue Albert Giraud (Schaerbeek), \nBoulevard Général Wahis (Schaerbeek), \nAvenue des Jardins (Schaerbeek), \nRue des Pensées (Schaerbeek), \nAvenue des Capucines (Schaerbeek), \nAvenue des Héliotropes (Schaerbeek), \nAvenue des Jacinthes (Schaerbeek), \nAvenue Louis Bertrand (Schaerbeek), \nBoulevard Léopold III (Schaerbeek), \nRue Paul Hymans (Schaerbeek), \nRue des Pavots (Schaerbeek)",
 				"ReferenceInterne" : "1421 1.39.1 bd Lambermont-Latérale EST",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation en attente de décision (En phase de réalisation)",
+				"Statut" : "Demande d'autorisation transmise (En phase de réalisation)",
 				"Surface" : "115274,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -27040,91 +26650,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.4007364245, 50.8559598525 ],
-						[ 4.4006749156, 50.8559162179 ],
-						[ 4.4006111736, 50.8559531824 ],
-						[ 4.4006235291, 50.8559817866 ],
-						[ 4.4004525949, 50.8560009287 ],
-						[ 4.4004460262, 50.8559872084 ],
-						[ 4.4003115915, 50.855659938 ],
-						[ 4.4002719498, 50.8556336995 ],
-						[ 4.4001841371, 50.8555690891 ],
-						[ 4.4000969225, 50.8555482574 ],
-						[ 4.3996264705, 50.8554271165 ],
-						[ 4.3990626591, 50.8552869947 ],
-						[ 4.3989866017, 50.8553209411 ],
-						[ 4.3989280981, 50.8554178091 ],
-						[ 4.3986869505, 50.8553580469 ],
-						[ 4.3989393307, 50.8548989125 ],
-						[ 4.3992121968, 50.854965535 ],
-						[ 4.3991533049, 50.855064247 ],
-						[ 4.3991511824, 50.8550761137 ],
-						[ 4.3991520424, 50.8550880695 ],
-						[ 4.3991574491, 50.8551030805 ],
-						[ 4.3991665471, 50.8551163826 ],
-						[ 4.3991801893, 50.8551290542 ],
-						[ 4.3991916962, 50.855134265 ],
-						[ 4.3995384217, 50.8552199323 ],
-						[ 4.3997279089, 50.8552700427 ],
-						[ 4.4009426734, 50.8555782282 ],
-						[ 4.4030384338, 50.8561080925 ],
-						[ 4.4030607288, 50.8561048496 ],
-						[ 4.403267905, 50.8559800443 ],
-						[ 4.4034354563, 50.8560281262 ],
-						[ 4.4033343927, 50.8560886765 ],
-						[ 4.4033570473, 50.8561861158 ],
-						[ 4.4035064548, 50.8562335674 ],
-						[ 4.4032495761, 50.8563440767 ],
-						[ 4.4030399903, 50.8562912978 ],
-						[ 4.4029939778, 50.8562949972 ],
-						[ 4.4027749574, 50.8564122929 ],
-						[ 4.4026244903, 50.8563397992 ],
-						[ 4.4027766513, 50.8562513728 ],
-						[ 4.4027703816, 50.8562233274 ],
-						[ 4.4015655331, 50.855919473 ],
-						[ 4.4009466388, 50.8557654782 ],
-						[ 4.4008944001, 50.8558011812 ],
-						[ 4.4009397759, 50.8558430075 ],
-						[ 4.4007364245, 50.8559598525 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 570242,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40098 50.8557)",
-				"SectorName" : "Dehors",
-				"Appelant" : "Proximus Infra",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "02/04/2024",
-				"DateDebutAutorisee" : "02/10/2024",
-				"DateFin" : "30/06/2026",
-				"DateFinAutorisee" : "02/11/2025",
-				"Duree" : "40 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"ImpetrantsCoordonnes" : "EF, Proximus Infra, SPRB - BM - DEN - Entretien, SPRB - BM - DEN - Equipement",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "FH07-BL07-Pose de conduites ",
-				"Organisation" : "Proximus Infra",
-				"Pilote" : "Proximus Infra",
-				"Responsable" : "CHERIFI Farida",
-				"Rues" : "Boulevard Auguste Reyers (Schaerbeek), \nBoulevard Général Wahis (Schaerbeek), \nChaussée de Louvain (Schaerbeek), \nRue Jules Lebrun (Schaerbeek), \nRue des Compagnons (Schaerbeek), \nAvenue Fortin (Schaerbeek), \nRue Henri Chomé (Schaerbeek)",
-				"ReferenceInterne" : "FH07-BL07-Pose de conduites ",
-				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation en attente d'avis CCC (En phase de réalisation)",
-				"Surface" : "9023,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3934115525, 50.8703123346 ],
 						[ 4.3934211901, 50.8702940187 ],
 						[ 4.3934404865, 50.8702970668 ],
@@ -27316,7 +26841,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2025",
 				"DateFinAutorisee" : "30/11/2025",
 				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Validation terme de phase (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Evere, Schaerbeek",
 				"ImpetrantsCoordonnes" : "Proximus Infra, Schaerbeek exe, VIVAQUA Assainiss",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -28218,89 +27743,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.4078463553, 50.857182154 ],
-						[ 4.4079384754, 50.8571182075 ],
-						[ 4.4079653662, 50.8570967293 ],
-						[ 4.4080166661, 50.8570599066 ],
-						[ 4.4083125146, 50.8571702044 ],
-						[ 4.4081834712, 50.8572881152 ],
-						[ 4.4082183696, 50.8574077534 ],
-						[ 4.4084738907, 50.8574724182 ],
-						[ 4.4082485934, 50.8575921511 ],
-						[ 4.4078928913, 50.8575108928 ],
-						[ 4.407673372, 50.8576986587 ],
-						[ 4.4073971762, 50.8576255207 ],
-						[ 4.4074335192, 50.857592151 ],
-						[ 4.4075328658, 50.8574895745 ],
-						[ 4.4075377935, 50.8574211988 ],
-						[ 4.4066864583, 50.8572087008 ],
-						[ 4.4047119225, 50.8567132039 ],
-						[ 4.4046478567, 50.8566963237 ],
-						[ 4.4044174513, 50.8566405705 ],
-						[ 4.404377107, 50.8566279977 ],
-						[ 4.4030399903, 50.8562912978 ],
-						[ 4.4029939778, 50.8562949972 ],
-						[ 4.4027507929, 50.8564252342 ],
-						[ 4.402586212, 50.8563514126 ],
-						[ 4.4027766513, 50.8562513728 ],
-						[ 4.4027703816, 50.8562233274 ],
-						[ 4.4025940418, 50.8561788568 ],
-						[ 4.4026843225, 50.8560262553 ],
-						[ 4.4030384338, 50.8561080925 ],
-						[ 4.4030607288, 50.8561048496 ],
-						[ 4.4033169486, 50.8559576952 ],
-						[ 4.4033761058, 50.856063685 ],
-						[ 4.4033343927, 50.8560886765 ],
-						[ 4.4033570473, 50.8561861158 ],
-						[ 4.4036080474, 50.8562484271 ],
-						[ 4.4042086371, 50.8564040316 ],
-						[ 4.4046477166, 50.8565161743 ],
-						[ 4.4050373626, 50.856613768 ],
-						[ 4.4057216284, 50.8567877668 ],
-						[ 4.4063956665, 50.8569530451 ],
-						[ 4.4072731347, 50.8571732675 ],
-						[ 4.4075978295, 50.857203633 ],
-						[ 4.4077161287, 50.8571944687 ],
-						[ 4.4078463553, 50.857182154 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 581564,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40571 50.8569)",
-				"SectorName" : "Dehors",
-				"Appelant" : "Proximus Infra",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A2",
-				"Coordinateur" : "",
-				"DateDebut" : "10/05/2024",
-				"DateDebutAutorisee" : "01/10/2024",
-				"DateFin" : "30/06/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "30 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Evere, Schaerbeek",
-				"ImpetrantsCoordonnes" : "Proximus Infra, SPRB - BM - DEN - Entretien",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "FH07-BL09- Pose de conduites ",
-				"Organisation" : "Proximus Infra",
-				"Pilote" : "Proximus Infra",
-				"Responsable" : "CHERIFI Farida",
-				"Rues" : "Chaussée de Louvain (Schaerbeek), \nAvenue Jacques Georgin (Schaerbeek), \nRue de Genève (Schaerbeek), \nRue Henri Chomé (Schaerbeek), \nRue Jules Lebrun (Schaerbeek), \nChaussée de Louvain (Evere), \nRue de Genève (Evere)",
-				"ReferenceInterne" : "FH07-BL09- Pose de conduites ",
-				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation en attente d'avis CCC (En phase de réalisation)",
-				"Surface" : "10300,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3650383715, 50.8596449208 ],
 						[ 4.3650702011, 50.859638817 ],
 						[ 4.3651338514, 50.8597676262 ],
@@ -28428,130 +27870,6 @@ var BoundaryChantiers = {
 				"Regime" : "PCA",
 				"Statut" : "Enregistré (Brouillon)",
 				"Surface" : "15,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3888635308, 50.8697549369 ],
-							[ 4.388949454, 50.8696346517 ],
-							[ 4.3889572422, 50.8696213186 ],
-							[ 4.3892212359, 50.8696864137 ],
-							[ 4.3891245607, 50.8698254127 ],
-							[ 4.3891380519, 50.8698463827 ],
-							[ 4.3892001447, 50.8698640235 ],
-							[ 4.3891098726, 50.8699974131 ],
-							[ 4.38895569, 50.869953201 ],
-							[ 4.388599157, 50.8698554703 ],
-							[ 4.3880291129, 50.8696966322 ],
-							[ 4.3879982862, 50.8696856056 ],
-							[ 4.3879683854, 50.8696736026 ],
-							[ 4.3878753301, 50.8696300284 ],
-							[ 4.3878379335, 50.8696162539 ],
-							[ 4.3876767637, 50.8695761241 ],
-							[ 4.387456613, 50.869522899 ],
-							[ 4.3870281553, 50.869423141 ],
-							[ 4.3868964165, 50.8694113321 ],
-							[ 4.3862285849, 50.8693797404 ],
-							[ 4.3861460715, 50.8693697749 ],
-							[ 4.3860979088, 50.8693625273 ],
-							[ 4.3861633999, 50.8692437603 ],
-							[ 4.3862641103, 50.8692585211 ],
-							[ 4.3862702018, 50.8692583008 ],
-							[ 4.3862743375, 50.8692554631 ],
-							[ 4.386273002, 50.8692514621 ],
-							[ 4.3862681129, 50.8692493602 ],
-							[ 4.3861720738, 50.8692280302 ],
-							[ 4.3862344422, 50.8691149256 ],
-							[ 4.3863810267, 50.869148472 ],
-							[ 4.3863889267, 50.8691484204 ],
-							[ 4.3863923967, 50.8691469564 ],
-							[ 4.3863945922, 50.869144937 ],
-							[ 4.3863943745, 50.8691404036 ],
-							[ 4.386389546, 50.8691372967 ],
-							[ 4.3862476591, 50.8690909567 ],
-							[ 4.3862535271, 50.8690803151 ],
-							[ 4.3860093358, 50.8690131202 ],
-							[ 4.3854680826, 50.8688363439 ],
-							[ 4.3854402363, 50.8688297857 ],
-							[ 4.3854132441, 50.8688275424 ],
-							[ 4.3853878159, 50.8688291642 ],
-							[ 4.3853760256, 50.8688311436 ],
-							[ 4.3853626676, 50.8688351712 ],
-							[ 4.3853311661, 50.8688265026 ],
-							[ 4.3853745626, 50.8687843744 ],
-							[ 4.3854882678, 50.8686852615 ],
-							[ 4.385491712, 50.8686957453 ],
-							[ 4.3855391114, 50.86871814 ],
-							[ 4.3855417386, 50.8687154697 ],
-							[ 4.3855886692, 50.8687376757 ],
-							[ 4.3855912963, 50.8687350054 ],
-							[ 4.3856387101, 50.868757409 ],
-							[ 4.3856413372, 50.8687547388 ],
-							[ 4.3856913782, 50.8687744631 ],
-							[ 4.3856952125, 50.8687709567 ],
-							[ 4.3860452917, 50.8688837213 ],
-							[ 4.3863376893, 50.8689797106 ],
-							[ 4.3869101002, 50.8691710507 ],
-							[ 4.3873924795, 50.869334086 ],
-							[ 4.3877833604, 50.8694644311 ],
-							[ 4.3883100768, 50.8696120114 ],
-							[ 4.3888370389, 50.869761396 ],
-							[ 4.3888635308, 50.8697549369 ]
-						]
-					],
-					[
-						[
-							[ 4.3847928363, 50.8692806474 ],
-							[ 4.3847378386, 50.8692559316 ],
-							[ 4.3847966685, 50.8692055602 ],
-							[ 4.3848468427, 50.8692302767 ],
-							[ 4.3847928363, 50.8692806474 ]
-						]
-					],
-					[
-						[
-							[ 4.3843703824, 50.8695493095 ],
-							[ 4.3844610408, 50.8694754312 ],
-							[ 4.384524723, 50.8695053348 ],
-							[ 4.3844379235, 50.8695792127 ],
-							[ 4.3843703824, 50.8695493095 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 584964,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38723 50.8694)",
-				"SectorName" : "Dehors",
-				"Appelant" : "Sibelga BE-CO",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "22/05/2024",
-				"DateDebutAutorisee" : "01/03/2025",
-				"DateFin" : "20/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"ImpetrantsCoordonnes" : "SPRB - BM - DEN - Entretien, SPRB - BM - DPV, Sibelga BE-CO, Wyre",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH_4204131_AV URBAIN BRITSIERS 38_CLIENT+CABINE RESEAU HT/BT",
-				"Organisation" : "Sibelga BE-CO",
-				"Pilote" : "Sibelga BE-CO",
-				"Responsable" : "SCHAUT Bruno",
-				"Rues" : "Chaussée de Haecht (Schaerbeek), \nAvenue Docteur Dejase (Schaerbeek), \nBoulevard Lambermont (Schaerbeek), \nAvenue Britsiers (Schaerbeek)",
-				"ReferenceInterne" : "SCH_4204131_AV URBAIN BRITSIERS 38_CLIENT+CABINE RESEAU HT/BT",
-				"Regime" : "PCA",
-				"Statut" : "Renoncé (En phase de réalisation)",
-				"Surface" : "6192,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -28749,11 +28067,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "12/08/2024",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "10/11/2025",
 				"DateFin" : "11/06/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "420 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (17 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -28764,7 +28082,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Jean Jaurès (Schaerbeek)",
 				"ReferenceInterne" : "Zone de stockage - Placement d'échafaudage, élévateur, grue,container Avenue Jean Jaurès (Schaerbe",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Autorisé",
 				"Surface" : "192,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -29052,7 +28370,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue du Noyer (Bruxelles), \nRue des Patriotes (Bruxelles), \nTunnel Reyers-Centre (Bruxelles), \nAvenue de Cortenbergh (Bruxelles)",
 				"ReferenceInterne" : "BXLI_1930609_Noyer",
 				"Regime" : "PCA",
-				"Statut" : "Autorisé",
+				"Statut" : "Renoncé",
 				"Surface" : "1045,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -29150,7 +28468,7 @@ var BoundaryChantiers = {
 				"DateFin" : "01/06/2026",
 				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "453 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (18 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (12 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -29303,7 +28621,7 @@ var BoundaryChantiers = {
 				"DateFin" : "28/08/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "30 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (4 jours ouvrables)<br/>Accusé de réception d'une demande d'autorisation ou autorisation modificative (22 jours ouvrables)",
+				"Echeances" : "Transmission proposition décision de l'administrateur vers CCC (15 jours ouvrables)<br/>Transmission proposition décision de l'administrateur vers CCC (15 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Etterbeek, Schaerbeek, Woluwe-Saint-Lambert",
 				"ImpetrantsCoordonnes" : "Sibelga BE-CO, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -29314,7 +28632,7 @@ var BoundaryChantiers = {
 				"Rues" : "Square Vergote (Schaerbeek), \nSquare Vergote (Woluwe-Saint-Lambert), \nRue de Linthout (Schaerbeek), \nRue de Linthout (Etterbeek), \nRue Vergote (Schaerbeek), \nRue Vergote (Woluwe-Saint-Lambert), \nRue de l'Orme (Schaerbeek), \nRue de l'Orme (Etterbeek), \nRue Léon de Lantsheere (Etterbeek), \nRue de Linthout (Woluwe-Saint-Lambert), \nRue Charles Degroux (Etterbeek)",
 				"ReferenceInterne" : "CST_WYREPOP8_BrandWhitlocklaan145_AAN_20240507_25149795",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Demande d'autorisation réputée recevable",
 				"Surface" : "10377,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY, ZP POLBRUNO"
@@ -29365,7 +28683,7 @@ var BoundaryChantiers = {
 				"Rues" : "Boulevard Général Wahis (Schaerbeek), \nChaussée de Louvain (Schaerbeek), \nBoulevard Auguste Reyers (Schaerbeek)",
 				"ReferenceInterne" : "JMS/618365_02EVE00045",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Demande d'autorisation en attente d'avis CCC",
 				"Surface" : "204,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -29592,9 +28910,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "14/05/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "14/05/2025",
 				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "31/12/2025",
 				"Duree" : "5 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Woluwe-Saint-Lambert",
@@ -29607,124 +28925,8 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Herbert Hoover (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "CST_WYRE_POP13_HerbertHooverlaan174",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation recevable par défaut",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "505,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.401151958, 50.8418964314 ],
-							[ 4.4011648601, 50.8418643387 ],
-							[ 4.4013255693, 50.8419066831 ],
-							[ 4.4013064722, 50.8419547478 ],
-							[ 4.4013241069, 50.8419761019 ],
-							[ 4.4055999445, 50.8429826548 ],
-							[ 4.4056285932, 50.8429321274 ],
-							[ 4.4062270526, 50.8430706647 ],
-							[ 4.4061957437, 50.843122106 ],
-							[ 4.4063008351, 50.8431451281 ],
-							[ 4.406228226, 50.8432740584 ],
-							[ 4.4061235343, 50.8432485401 ],
-							[ 4.4060876946, 50.8433090295 ],
-							[ 4.4054877192, 50.8431705657 ],
-							[ 4.4055256734, 50.8431072374 ],
-							[ 4.4054712829, 50.8430931412 ],
-							[ 4.405397723, 50.8430768936 ],
-							[ 4.4012727899, 50.8421087569 ],
-							[ 4.4012412634, 50.8421189689 ],
-							[ 4.4012187577, 50.8421745722 ],
-							[ 4.4010562294, 50.8421303379 ],
-							[ 4.4010851299, 50.8420602394 ],
-							[ 4.4010765741, 50.8420479981 ],
-							[ 4.4010325822, 50.8420272258 ],
-							[ 4.401068472, 50.8418728924 ],
-							[ 4.4011295429, 50.8419012921 ],
-							[ 4.401151958, 50.8418964314 ]
-						]
-					],
-					[
-						[
-							[ 4.4058647767, 50.8436895364 ],
-							[ 4.4058057882, 50.843794217 ],
-							[ 4.4059225289, 50.8438223457 ],
-							[ 4.4058455197, 50.8439486326 ],
-							[ 4.4057277973, 50.8439198256 ],
-							[ 4.4056461684, 50.8440578324 ],
-							[ 4.4050411539, 50.8439252302 ],
-							[ 4.4051360222, 50.843763057 ],
-							[ 4.4046899654, 50.843656042 ],
-							[ 4.4044407346, 50.8435932827 ],
-							[ 4.4043194585, 50.8435650033 ],
-							[ 4.4039942541, 50.8434850066 ],
-							[ 4.4035558714, 50.8433801424 ],
-							[ 4.4034100259, 50.8433421607 ],
-							[ 4.4031468843, 50.8432796726 ],
-							[ 4.4030372527, 50.8432518378 ],
-							[ 4.4019709175, 50.8429952301 ],
-							[ 4.4018287696, 50.8429621897 ],
-							[ 4.4016931521, 50.8429277987 ],
-							[ 4.4013425108, 50.8428440084 ],
-							[ 4.4012493825, 50.8428203025 ],
-							[ 4.4009772988, 50.842753515 ],
-							[ 4.4008960303, 50.842830029 ],
-							[ 4.4007447097, 50.8427790684 ],
-							[ 4.4007849044, 50.8427398148 ],
-							[ 4.4007778923, 50.8427220085 ],
-							[ 4.4007010645, 50.842694173 ],
-							[ 4.4007788278, 50.842574451 ],
-							[ 4.400839326, 50.8425973157 ],
-							[ 4.400844012, 50.8425983032 ],
-							[ 4.4008494071, 50.8425979421 ],
-							[ 4.4008604796, 50.8425950624 ],
-							[ 4.4008671503, 50.8425916445 ],
-							[ 4.4008705539, 50.8425859801 ],
-							[ 4.4008934989, 50.842529625 ],
-							[ 4.4010499458, 50.8425916381 ],
-							[ 4.4010257424, 50.8426514343 ],
-							[ 4.4022634367, 50.8429468535 ],
-							[ 4.4034058212, 50.8432261072 ],
-							[ 4.4046337767, 50.8435210368 ],
-							[ 4.4047525853, 50.8435529575 ],
-							[ 4.4051961426, 50.8436603777 ],
-							[ 4.4052625747, 50.8435531297 ],
-							[ 4.4058647767, 50.8436895364 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 608737,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40374 50.843)",
-				"SectorName" : "Dehors",
-				"Appelant" : "VIVAQUA Assainiss",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "06/01/2025",
-				"DateDebutAutorisee" : "26/05/2025",
-				"DateFin" : "31/03/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "130 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Etterbeek, Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "VIVAQUA Assainiss, Wyre",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "ALBERT JONNART / ROGATIONS",
-				"Organisation" : "VIVAQUA Assainiss",
-				"Pilote" : "VIVAQUA Assainiss",
-				"Responsable" : "VAN CROMBRUGGE  Serge",
-				"Rues" : "Boulevard Brand Whitlock (Woluwe-Saint-Lambert), \nTunnel Georges Henri (Woluwe-Saint-Lambert), \nAvenue Marie-José (Woluwe-Saint-Lambert), \nAvenue Albertyn (Woluwe-Saint-Lambert), \nRue de Linthout (Woluwe-Saint-Lambert), \nAvenue Albert Jonnart (Woluwe-Saint-Lambert), \nAvenue des Rogations (Woluwe-Saint-Lambert), \nRue d'Oultremont (Etterbeek), \nRue de Linthout (Etterbeek), \nRue Henri de Braeckeleer (Etterbeek)",
-				"ReferenceInterne" : "ASS VGS 04725 ROGATION-ALBERT JONNART",
-				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation en attente d'avis CCC",
-				"Surface" : "13099,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
 			}
@@ -30889,114 +30091,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3743399669, 50.8746064513 ],
-						[ 4.3743910085, 50.8747031687 ],
-						[ 4.3743922369, 50.874702919 ],
-						[ 4.3744502311, 50.8747941755 ],
-						[ 4.3746620125, 50.8747987423 ],
-						[ 4.3746626073, 50.8747967013 ],
-						[ 4.3746638256, 50.8747967158 ],
-						[ 4.3747092669, 50.8746396029 ],
-						[ 4.3747883831, 50.8746411245 ],
-						[ 4.3747348529, 50.8747669943 ],
-						[ 4.3746914422, 50.874815111 ],
-						[ 4.3746417598, 50.8748612035 ],
-						[ 4.374620536, 50.8748795185 ],
-						[ 4.3746061832, 50.8748734955 ],
-						[ 4.374541056, 50.874866784 ],
-						[ 4.374499084, 50.8748542719 ],
-						[ 4.374433715, 50.8748430827 ],
-						[ 4.3743825748, 50.8748131729 ],
-						[ 4.3743583265, 50.8747615001 ],
-						[ 4.3742794321, 50.8746145975 ],
-						[ 4.3743399669, 50.8746064513 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 636480,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37454 50.8748)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "23/10/2024",
-				"DateDebutAutorisee" : "23/07/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "19/12/2025",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "Schaerbeek - Trecnhing",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "",
-				"Responsable" : "PORTIER Kenny",
-				"Rues" : "Boulevard Lambermont (Schaerbeek), \nRue François-Joseph Navez (Schaerbeek), \nRue Portaels (Schaerbeek)",
-				"ReferenceInterne" : "Schaerbeek 00064",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "318,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3737693243, 50.8542125176 ],
-						[ 4.3737780078, 50.854243956 ],
-						[ 4.3737596843, 50.8542460935 ],
-						[ 4.3737915215, 50.8543428504 ],
-						[ 4.3737302823, 50.8543510946 ],
-						[ 4.3736598544, 50.854133773 ],
-						[ 4.3737230221, 50.8541252235 ],
-						[ 4.3737500364, 50.8542152656 ],
-						[ 4.3737693243, 50.8542125176 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 637493,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37373 50.8542)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "29/10/2024",
-				"DateDebutAutorisee" : "29/10/2024",
-				"DateFin" : "28/10/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "Sibelga",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "D'OURS Mikael",
-				"Rues" : "Rue du Mérinos (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "Rue Merinos  24  1210 St Josse  D; 02146102",
-				"Regime" : "A",
-				"Statut" : "Terminé",
-				"Surface" : "114",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3889118866, 50.8651313627 ],
 						[ 4.3889099698, 50.8651594443 ],
 						[ 4.3885376176, 50.8651521843 ],
@@ -31797,7 +30891,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue du Centaure (Woluwe-Saint-Lambert), \nAvenue Cassiopée (Woluwe-Saint-Lambert), \nClos Cassiopée (Woluwe-Saint-Lambert), \nAvenue des Constellations (Woluwe-Saint-Lambert), \nClos du Dragon (Woluwe-Saint-Lambert), \nAvenue Orion (Woluwe-Saint-Lambert), \nClos de la Licorne (Woluwe-Saint-Lambert), \nAvenue Pégase (Woluwe-Saint-Lambert), \nAvenue de la Licorne (Woluwe-Saint-Lambert), \nClos Sirius (Woluwe-Saint-Lambert), \nClos du Dauphin (Woluwe-Saint-Lambert), \nPromenade verte (Woluwe-Saint-Lambert), \nAvenue du Capricorne (Woluwe-Saint-Lambert), \nAvenue du Sagittaire (Woluwe-Saint-Lambert), \nClos du Centaure (Woluwe-Saint-Lambert), \nAvenue des Pléiades (Woluwe-Saint-Lambert), \nAvenue des Gémeaux (Woluwe-Saint-Lambert), \nClos de la Carène (Woluwe-Saint-Lambert), \nRue de la Charrette (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "G4F - WSLFH03 Blok 16+17+18+19+20",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation recevable par défaut (En phase de réalisation)",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "42233,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
@@ -34498,7 +33592,7 @@ var BoundaryChantiers = {
 				"DateFin" : "18/12/2026",
 				"DateFinAutorisee" : "30/04/2026",
 				"Duree" : "40 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Transmission décision administrateur si CCC (17 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel, Schaerbeek exe, Sibelga BE-CO, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -34509,7 +33603,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Fraternité (Schaerbeek), \nRue Dupont (Schaerbeek), \nRue de Quatrecht (Schaerbeek), \nRue de Brabant (Schaerbeek), \nRue Verte (Schaerbeek), \nRue Allard (Schaerbeek)",
 				"ReferenceInterne" : "SCH_1964158_BRABANT_Wyre_SCH02_POP02",
 				"Regime" : "PCA",
-				"Statut" : "Autorisé",
+				"Statut" : "Demande d'autorisation en attente de décision",
 				"Surface" : "7982,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -35054,7 +34148,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue du Moulin (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "02188629 rue du Moulin / Molenstraat 169",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "123",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -35555,84 +34649,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3880356562, 50.8573042189 ],
-						[ 4.3876153991, 50.8573960921 ],
-						[ 4.3875111667, 50.8574310785 ],
-						[ 4.387437613, 50.8574691162 ],
-						[ 4.3873680361, 50.8575076926 ],
-						[ 4.3872976043, 50.8575398865 ],
-						[ 4.3872281647, 50.8575673158 ],
-						[ 4.3871480715, 50.8575909712 ],
-						[ 4.387021538, 50.8576205671 ],
-						[ 4.3870032267, 50.8576457406 ],
-						[ 4.3870480833, 50.8577280956 ],
-						[ 4.3868479016, 50.8577669176 ],
-						[ 4.3867829446, 50.8576479334 ],
-						[ 4.3867627727, 50.8576376886 ],
-						[ 4.3866744309, 50.8576342866 ],
-						[ 4.3865771425, 50.8576333131 ],
-						[ 4.3864775865, 50.857645105 ],
-						[ 4.3849946334, 50.8579700234 ],
-						[ 4.384880124, 50.8577126575 ],
-						[ 4.3863803368, 50.8573787617 ],
-						[ 4.386431316, 50.8573582577 ],
-						[ 4.3864375547, 50.8573317377 ],
-						[ 4.3863089823, 50.8572625911 ],
-						[ 4.3864476685, 50.8571726586 ],
-						[ 4.3866143496, 50.8572634797 ],
-						[ 4.3867050891, 50.8572263388 ],
-						[ 4.3867678556, 50.8572045742 ],
-						[ 4.3868334646, 50.8571880231 ],
-						[ 4.3869075957, 50.8571731786 ],
-						[ 4.3870220616, 50.8571575185 ],
-						[ 4.3870959122, 50.8571515735 ],
-						[ 4.3871754451, 50.8571489536 ],
-						[ 4.3873918073, 50.8571522443 ],
-						[ 4.387635638, 50.8569332017 ],
-						[ 4.3877698462, 50.8569913636 ],
-						[ 4.3876814482, 50.8570725494 ],
-						[ 4.3877171045, 50.8570918708 ],
-						[ 4.387892299, 50.8570535341 ],
-						[ 4.3880356562, 50.8573042189 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 657099,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38656 50.8575)",
-				"SectorName" : "Dehors",
-				"Appelant" : "Sibelga BE-CO",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "06/01/2025",
-				"DateDebutAutorisee" : "07/07/2025",
-				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "STIB - VOIES - PROJET, Schaerbeek exe, Sibelga BE-CO",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH_ROGIER/BIENFAITEUR_1917008",
-				"Organisation" : "Sibelga BE-CO",
-				"Pilote" : "Sibelga BE-CO",
-				"Responsable" : "SCHAUT Bruno",
-				"Rues" : "Avenue Rogier (Schaerbeek), \nRue Alexandre Markelbach (Schaerbeek), \nRue Vandenbussche (Schaerbeek), \nRue Auguste Lambiotte (Schaerbeek)",
-				"ReferenceInterne" : "SCH_ROGIER/BIENFAITEUR_1917008",
-				"Regime" : "PCA",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "8394,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3876508407, 50.8620674869 ],
 						[ 4.3877353809, 50.8620331863 ],
 						[ 4.3878472709, 50.8621583491 ],
@@ -35907,9 +34923,9 @@ var BoundaryChantiers = {
 				"DateDebut" : "28/04/2025",
 				"DateDebutAutorisee" : "02/06/2025",
 				"DateFin" : "02/04/2027",
-				"DateFinAutorisee" : "31/10/2025",
+				"DateFinAutorisee" : "31/01/2026",
 				"Duree" : "70 Jours Ouvrables",
-				"Echeances" : "Transmission décision administrateur si CCC (19 jours ouvrables)<br/>",
+				"Echeances" : "Validation terme de phase (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
 				"ImpetrantsCoordonnes" : "Proximus Infra, Sibelga BE-CO, VIVAQUA Assainiss, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -35920,7 +34936,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue du Noyer (Bruxelles), \nAvenue Eugène Plasky (Schaerbeek), \nRue Rasson (Schaerbeek), \nRue du Noyer (Schaerbeek), \nAvenue Milcamps (Schaerbeek), \nRue Victor Oudart (Schaerbeek), \nPlace des Chasseurs Ardennais (Schaerbeek), \nPlace de Jamblinne de Meux (Schaerbeek)",
 				"ReferenceInterne" : "ASS CSA 05364 RASSON#8000043468",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation en attente de décision (En phase de réalisation)",
+				"Statut" : "Renoncé (En phase de réalisation)",
 				"Surface" : "8307,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
@@ -35982,7 +34998,7 @@ var BoundaryChantiers = {
 				"DateFin" : "10/01/2026",
 				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "40 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Validation terme de phase (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
 				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -36046,10 +35062,10 @@ var BoundaryChantiers = {
 				"Coordinateur" : "",
 				"DateDebut" : "10/01/2025",
 				"DateDebutAutorisee" : "04/08/2025",
-				"DateFin" : "31/01/2026",
+				"DateFin" : "29/05/2026",
 				"DateFinAutorisee" : "31/01/2026",
 				"Duree" : "25 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel, Schaerbeek exe",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -36057,11 +35073,11 @@ var BoundaryChantiers = {
 				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
 				"Pilote" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
 				"Responsable" : "RODRIGUEZ Nicolas",
-				"Rues" : "Avenue Félix Marchal (Schaerbeek), \nAvenue Léon Mahillon (Schaerbeek), \nAvenue Charbo (Schaerbeek), \nRue Marcel Mariën (Schaerbeek), \nRue Louis Scutenaire (Schaerbeek), \nPlace des Chasseurs Ardennais (Schaerbeek)",
+				"Rues" : "Rue Marcel Mariën (Schaerbeek), \nRue Louis Scutenaire (Schaerbeek), \nAvenue Félix Marchal (Schaerbeek), \nAvenue Charbo (Schaerbeek), \nAvenue Léon Mahillon (Schaerbeek), \nPlace des Chasseurs Ardennais (Schaerbeek)",
 				"ReferenceInterne" : "digi belgium réf 00375 + 00574",
 				"Regime" : "PCA",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "5622,9",
+				"Statut" : "Demande d'autorisation transmise (En phase de réalisation)",
+				"Surface" : "5606,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -36204,7 +35220,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Metsys (Schaerbeek)",
 				"ReferenceInterne" : "Ref 00023-Schaerbeek",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "99,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -36260,7 +35276,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Fraikin (Schaerbeek)",
 				"ReferenceInterne" : "Ref 27-Schaerbeek",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "101,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -36317,8 +35333,63 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée de Haecht (Schaerbeek)",
 				"ReferenceInterne" : "Ref34-Schaerbeek",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "52,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3781528754, 50.8657620665 ],
+						[ 4.3781507245, 50.8657710737 ],
+						[ 4.3781416467, 50.865866927 ],
+						[ 4.3781022258, 50.86586519 ],
+						[ 4.3780838865, 50.8658139128 ],
+						[ 4.3780245488, 50.8657577554 ],
+						[ 4.3779661915, 50.8657760741 ],
+						[ 4.3780231244, 50.8658645862 ],
+						[ 4.3779718719, 50.8658652643 ],
+						[ 4.3776304567, 50.8655917426 ],
+						[ 4.3776883289, 50.8655599939 ],
+						[ 4.3779107158, 50.8657357884 ],
+						[ 4.3779782362, 50.8657125851 ],
+						[ 4.3777712842, 50.8655404523 ],
+						[ 4.3778243338, 50.8655129772 ],
+						[ 4.3781528754, 50.8657620665 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 662815,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37792 50.8657)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/01/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "23/12/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (29 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux en voirie non standards",
+				"Nom" : "Ref43-Schaerbeek",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "BEMA Admin",
+				"Rues" : "Place de Houffalize (Schaerbeek)",
+				"ReferenceInterne" : "Ref43-Schaerbeek",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "488,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -36373,7 +35444,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de Jérusalem (Schaerbeek)",
 				"ReferenceInterne" : "Ref 48-Schaerbeek",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "62,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -36530,7 +35601,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Huart Hamoir (Schaerbeek)",
 				"ReferenceInterne" : "CTLA#8000046256#HB av Huart Hamoir 33 nv rac im  infra",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Statut" : "Terminé",
 				"Surface" : "101,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -36794,7 +35865,7 @@ var BoundaryChantiers = {
 				"DateFin" : "27/01/2027",
 				"DateFinAutorisee" : "31/03/2026",
 				"Duree" : "40 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (26 jours ouvrables)<br/>Accusé de réception d'une demande d'autorisation ou autorisation modificative (26 jours ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (20 jours ouvrables)<br/>Accusé de réception d'une demande d'autorisation ou autorisation modificative (20 jours ouvrables",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
 				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel, SPRB - BM - DEN - Télématique, Sibelga BE-CO, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -36805,7 +35876,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue des Palais (Schaerbeek), \nRue Liedts (Schaerbeek), \nPlace Liedts (Schaerbeek), \nRue Verte (Schaerbeek), \nAvenue de la Reine (Schaerbeek), \nRue de Brabant (Schaerbeek)",
 				"ReferenceInterne" : "SCH_1964158_BRABANT",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Incomplet/Non conforme",
 				"Surface" : "3878,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -37154,7 +36225,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Auguste Lambiotte (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00226-T",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "142,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -37224,50 +36295,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3843960472, 50.8773711038 ],
-						[ 4.3841721459, 50.8772313395 ],
-						[ 4.3843390358, 50.8771305907 ],
-						[ 4.384555221, 50.8772789022 ],
-						[ 4.3843960472, 50.8773711038 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 667419,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38436 50.8773)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "28/01/2025",
-				"DateDebutAutorisee" : "28/01/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "SIBELGA TC",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "NYAMASHALA Christian",
-				"Rues" : "Avenue Jean Jaurès (Schaerbeek)",
-				"ReferenceInterne" : "01849772 Avenue Jean Jaures 38-40 (travaux pour le batiment av colonel Picquart 83) ",
-				"Regime" : "A",
-				"Statut" : "Terminé",
-				"Surface" : "349,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3697986986, 50.8625559975 ],
 						[ 4.3703663831, 50.8633781268 ],
 						[ 4.3703776855, 50.8633759019 ],
@@ -37293,15 +36320,15 @@ var BoundaryChantiers = {
 				"CoordonneesGeographiques_wsg84" : "POINT (4.36995 50.8632)",
 				"SectorName" : "Dehors",
 				"Appelant" : "Wyre",
-				"AvisCCC" : "Y",
+				"AvisCCC" : "N",
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "28/01/2025",
 				"DateDebutAutorisee" : "01/09/2025",
-				"DateFin" : "28/01/2026",
+				"DateFin" : "18/12/2026",
 				"DateFinAutorisee" : "28/01/2026",
 				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel, Sibelga BE-CO, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -37309,10 +36336,10 @@ var BoundaryChantiers = {
 				"Organisation" : "Wyre",
 				"Pilote" : "Wyre",
 				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Rue de la Poste (Schaerbeek), \nRue Vandeweyer (Schaerbeek), \nRue Brichaut (Schaerbeek)",
+				"Rues" : "Rue Brichaut (Schaerbeek), \nRue de la Poste (Schaerbeek), \nRue Vandeweyer (Schaerbeek)",
 				"ReferenceInterne" : "Wyre_SCH02_POP04",
 				"Regime" : "PCA",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Statut" : "Demande d'autorisation transmise (En phase de réalisation)",
 				"Surface" : "2038,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -37430,7 +36457,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "Proximus Infra, Sibelga BE-CO, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -37441,7 +36468,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Royale-Sainte-Marie (Schaerbeek), \nRue Vandeweyer (Schaerbeek), \nRue de la Poste (Schaerbeek), \nPlace Lehon (Schaerbeek), \nRue de Locht (Schaerbeek)",
 				"ReferenceInterne" : "Wyre_SCH02_POP05",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation en attente d'avis CCC",
+				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "6260,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -37750,7 +36777,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/01/2026",
 				"DateFinAutorisee" : "31/01/2026",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Validation terme de chantier (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -37761,7 +36788,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Luzerne (Schaerbeek)",
 				"ReferenceInterne" : "Delleuse - rue de la luzerne 32",
 				"Regime" : "A",
-				"Statut" : "Provisoirement terminé (En phase de réalisation)",
+				"Statut" : "Terminé",
 				"Surface" : "117,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -37867,62 +36894,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "115,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3882845047, 50.8535043077 ],
-							[ 4.388352552, 50.853637377 ],
-							[ 4.3883274801, 50.8536431807 ],
-							[ 4.3882594331, 50.8535104166 ],
-							[ 4.3882845047, 50.8535043077 ]
-						]
-					],
-					[
-						[
-							[ 4.3881681711, 50.8534591852 ],
-							[ 4.3881100064, 50.8533460396 ],
-							[ 4.3881513475, 50.8533388949 ],
-							[ 4.3882247057, 50.8534890564 ],
-							[ 4.3881876532, 50.8534970829 ],
-							[ 4.3881681711, 50.8534591852 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 669052,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38822 50.8535)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "03/02/2025",
-				"DateDebutAutorisee" : "30/04/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "80 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "lift - parking - tunnel pietons",
-				"Organisation" : "VIMAR",
-				"Pilote" : "",
-				"Responsable" : "CRETEN  Stijn",
-				"Rues" : "Avenue Chazal (Schaerbeek)",
-				"ReferenceInterne" : "vimar - chazal 16",
-				"Regime" : "A",
-				"Statut" : "Renoncé",
-				"Surface" : "80",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -38692,70 +37663,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3779738628, 50.8658668536 ],
-							[ 4.3778307405, 50.8657526036 ],
-							[ 4.377890429, 50.8657268148 ],
-							[ 4.3779547578, 50.8657881101 ],
-							[ 4.3780016204, 50.8658029858 ],
-							[ 4.378032984, 50.8658618926 ],
-							[ 4.3780140511, 50.8660457918 ],
-							[ 4.3779934879, 50.8661207315 ],
-							[ 4.3779674605, 50.8662074192 ],
-							[ 4.3779018552, 50.866198463 ],
-							[ 4.3779197808, 50.8661447984 ],
-							[ 4.3779500158, 50.8660613253 ],
-							[ 4.3779747839, 50.8658688923 ],
-							[ 4.3779738628, 50.8658668536 ]
-						]
-					],
-					[
-						[
-							[ 4.3780327138, 50.8662652802 ],
-							[ 4.3779927027, 50.8663705881 ],
-							[ 4.377960386, 50.8663675386 ],
-							[ 4.3779999148, 50.8662622307 ],
-							[ 4.3780327138, 50.8662652802 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 672203,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37797 50.866)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "24/02/2025",
-				"DateDebutAutorisee" : "02/06/2025",
-				"DateFin" : "10/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "JMS 585512",
-				"Organisation" : "Proximus Infra",
-				"Pilote" : "",
-				"Responsable" : "VELISOJU Thirumaleshwarachary",
-				"Rues" : "Place de Houffalize (Schaerbeek), \nRue de Jérusalem (Schaerbeek)",
-				"ReferenceInterne" : "JMS 585512/ -Rue de jerusalem 41-51, Place de Houffalize-2",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "276,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -38802,58 +37709,6 @@ var BoundaryChantiers = {
 				"Surface" : "1362,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3964255418, 50.8474958626 ],
-						[ 4.3964322855, 50.847485483 ],
-						[ 4.3964920785, 50.8474988988 ],
-						[ 4.3964940044, 50.8474946251 ],
-						[ 4.3965933378, 50.8475165777 ],
-						[ 4.3965904483, 50.8475220726 ],
-						[ 4.3966820672, 50.8475434165 ],
-						[ 4.3966733969, 50.8475568489 ],
-						[ 4.3965827419, 50.8475348942 ],
-						[ 4.3965769603, 50.8475416107 ],
-						[ 4.3964795547, 50.8475184367 ],
-						[ 4.3964843713, 50.8475104995 ],
-						[ 4.3964255418, 50.8474958626 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 673835,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39655 50.8475)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/04/2025",
-				"DateDebutAutorisee" : "09/04/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "21 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "Avenue de Roodebeek, 15",
-				"Organisation" : "PHOENIX cit",
-				"Pilote" : "",
-				"Responsable" : "PISCOPO Dario",
-				"Rues" : "Avenue de Roodebeek (Schaerbeek)",
-				"ReferenceInterne" : "Avenue de Roodebeek, 15",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "38,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -39250,139 +38105,6 @@ var BoundaryChantiers = {
 				"Regime" : "PCA",
 				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "10783",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3792770091, 50.8595943012 ],
-						[ 4.3794073203, 50.859808241 ],
-						[ 4.3795056393, 50.8599407365 ],
-						[ 4.3795810828, 50.8600378155 ],
-						[ 4.3795762537, 50.8600383553 ],
-						[ 4.3795799493, 50.860049439 ],
-						[ 4.3795881471, 50.8600595064 ],
-						[ 4.3796002647, 50.8600678385 ],
-						[ 4.3796198709, 50.8600905799 ],
-						[ 4.3797034118, 50.8601986581 ],
-						[ 4.3797210224, 50.8602236179 ],
-						[ 4.3797204656, 50.8602309228 ],
-						[ 4.3797239761, 50.8602399479 ],
-						[ 4.3797314349, 50.8602479478 ],
-						[ 4.3797422026, 50.8602542663 ],
-						[ 4.3797628599, 50.8602829148 ],
-						[ 4.3802315912, 50.8608973468 ],
-						[ 4.3802512385, 50.8609247646 ],
-						[ 4.3803803837, 50.8611301732 ],
-						[ 4.3805593532, 50.8614262306 ],
-						[ 4.3806286606, 50.8615584844 ],
-						[ 4.3808664704, 50.8620635514 ],
-						[ 4.3809057021, 50.8621689937 ],
-						[ 4.3809294085, 50.8622204648 ],
-						[ 4.3810098559, 50.8624554514 ],
-						[ 4.3810315394, 50.8625252915 ],
-						[ 4.3810443941, 50.8625756757 ],
-						[ 4.3810543155, 50.8625812918 ],
-						[ 4.3810638531, 50.862592902 ],
-						[ 4.3811230491, 50.8626195042 ],
-						[ 4.3811619694, 50.8626229069 ],
-						[ 4.3814303551, 50.8625977534 ],
-						[ 4.3814379955, 50.8627587701 ],
-						[ 4.3808206886, 50.8628613963 ],
-						[ 4.3802805848, 50.863112964 ],
-						[ 4.3797481423, 50.8631642969 ],
-						[ 4.3797150125, 50.8631625535 ],
-						[ 4.3792562885, 50.8631808378 ],
-						[ 4.3790034393, 50.8631888892 ],
-						[ 4.3789063397, 50.8631936446 ],
-						[ 4.3788993064, 50.86319304 ],
-						[ 4.3788992784, 50.863071588 ],
-						[ 4.3797152231, 50.8630377077 ],
-						[ 4.3799024906, 50.8630309559 ],
-						[ 4.3799255895, 50.8630128846 ],
-						[ 4.3799234173, 50.8630098512 ],
-						[ 4.3799263193, 50.8630069246 ],
-						[ 4.3797608786, 50.8627828645 ],
-						[ 4.3797210255, 50.8627272089 ],
-						[ 4.3798984981, 50.8626832379 ],
-						[ 4.3801184982, 50.8629762373 ],
-						[ 4.3801609477, 50.8630055351 ],
-						[ 4.380184975, 50.8630042103 ],
-						[ 4.3802067534, 50.8630040913 ],
-						[ 4.38022769, 50.8630024351 ],
-						[ 4.3802310853, 50.8630040079 ],
-						[ 4.3802443228, 50.8630008242 ],
-						[ 4.3802496888, 50.8630006422 ],
-						[ 4.3802805519, 50.8629859879 ],
-						[ 4.3803400667, 50.8629192438 ],
-						[ 4.3803424816, 50.8629200166 ],
-						[ 4.3803500643, 50.8629107657 ],
-						[ 4.3803473084, 50.862909876 ],
-						[ 4.380361267, 50.8628940441 ],
-						[ 4.380397941, 50.8628346737 ],
-						[ 4.3804249285, 50.8627787114 ],
-						[ 4.3804365742, 50.8627503277 ],
-						[ 4.3804441033, 50.8627213925 ],
-						[ 4.3804617874, 50.8625781805 ],
-						[ 4.3804572399, 50.8625627082 ],
-						[ 4.3804537268, 50.8625329631 ],
-						[ 4.3804349445, 50.8624619303 ],
-						[ 4.3803920787, 50.8623410075 ],
-						[ 4.3803806904, 50.8623022602 ],
-						[ 4.3803531855, 50.8622434856 ],
-						[ 4.3802559665, 50.8619988921 ],
-						[ 4.3801589003, 50.8617920543 ],
-						[ 4.3800416424, 50.8615683692 ],
-						[ 4.3800332518, 50.861550207 ],
-						[ 4.3799615549, 50.8614385105 ],
-						[ 4.3797686956, 50.8611257937 ],
-						[ 4.3797033334, 50.8610238595 ],
-						[ 4.3795533205, 50.86081646 ],
-						[ 4.3795003221, 50.8607453134 ],
-						[ 4.3794697425, 50.8607004998 ],
-						[ 4.3790220643, 50.8601413589 ],
-						[ 4.3787551276, 50.8597381607 ],
-						[ 4.3787282346, 50.8596938775 ],
-						[ 4.3786620205, 50.8595743234 ],
-						[ 4.3786014877, 50.8594536 ],
-						[ 4.3785825641, 50.8594129419 ],
-						[ 4.3791183238, 50.8593160048 ],
-						[ 4.3792649922, 50.8595772689 ],
-						[ 4.3792770091, 50.8595943012 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 674232,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37998 50.8614)",
-				"SectorName" : "Dehors",
-				"Appelant" : "Wyre",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "14/02/2025",
-				"DateDebutAutorisee" : "15/09/2025",
-				"DateFin" : "14/02/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "INSKY/DiGi-Belgium - Impétrant institutionnel, Schaerbeek exe, Sibelga BE-CO, Wyre",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH02_POP11",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Avenue Paul Deschanel (Schaerbeek), \nRue des Coteaux (Schaerbeek), \nAvenue des Azalées (Schaerbeek), \nRue Edouard Fiers (Schaerbeek), \nAvenue Louis Bertrand (Schaerbeek)",
-				"ReferenceInterne" : "Wyre_SCH02_POP11",
-				"Regime" : "PCA",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "19379,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -39948,50 +38670,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3638541332, 50.8570195499 ],
-						[ 4.3639476743, 50.8571587388 ],
-						[ 4.3638473667, 50.857187427 ],
-						[ 4.3637615422, 50.8570421337 ],
-						[ 4.3638541332, 50.8570195499 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 676305,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36385 50.8571)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "19/02/2025",
-				"DateDebutAutorisee" : "19/02/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "SIBELGA TC",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "NYAMASHALA Christian",
-				"Rues" : "Rue Verte (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "01945076 rue Verte / Groenstraat 27",
-				"Regime" : "A",
-				"Statut" : "Terminé",
-				"Surface" : "125,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4108645676, 50.8559675774 ],
 						[ 4.4107246321, 50.8558675124 ],
 						[ 4.4107062678, 50.8558235658 ],
@@ -40328,50 +39006,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Refusé",
 				"Surface" : "611,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.376062995, 50.8516646641 ],
-						[ 4.3760386818, 50.8516553708 ],
-						[ 4.3761267657, 50.8515630253 ],
-						[ 4.3761510789, 50.8515723186 ],
-						[ 4.376062995, 50.8516646641 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 677844,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37609 50.8516)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/09/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "114 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue Braemt (Saint-Josse-ten-Noode)",
-				"Organisation" : "WM",
-				"Pilote" : "",
-				"Responsable" : "FONTAINE Benoit",
-				"Rues" : "Rue Braemt (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Demande d'autorisation recevable par défaut",
-				"Surface" : "24",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -40755,7 +39389,7 @@ var BoundaryChantiers = {
 				"Rues" : "Square Marie-José (Woluwe-Saint-Lambert), \nRue Jean-Baptiste Timmermans (Woluwe-Saint-Lambert), \nRue du Bois de Linthout (Woluwe-Saint-Lambert), \nAvenue Marie-José (Woluwe-Saint-Lambert), \nRue Albert et Marie-Louise Servais-Kinet (Woluwe-Saint-Lambert), \nAvenue Georges Henri (Woluwe-Saint-Lambert), \nRue du Pont-Levis (Woluwe-Saint-Lambert), \nAvenue Lambeau (Woluwe-Saint-Lambert), \nAvenue du Prince Héritier (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "CST_WYRE_WOL03_POP20_AAN_20240508_25149989",
 				"Regime" : "PCA",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Demande d'autorisation réputée recevable",
 				"Surface" : "17936,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
@@ -40801,56 +39435,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé (En phase de réalisation)",
 				"Surface" : "6581",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3579385799, 50.8564553424 ],
-						[ 4.3578730171, 50.8563625464 ],
-						[ 4.3583388754, 50.8562328626 ],
-						[ 4.3586938202, 50.8560995054 ],
-						[ 4.358863548, 50.8561767425 ],
-						[ 4.3588828315, 50.8562048253 ],
-						[ 4.3589426033, 50.8563290592 ],
-						[ 4.3586069618, 50.8563870265 ],
-						[ 4.3585553851, 50.8562804965 ],
-						[ 4.3581946579, 50.8563848558 ],
-						[ 4.3579385799, 50.8564553424 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 681132,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35848 50.8563)",
-				"SectorName" : "Dehors",
-				"Appelant" : "EF",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "05/05/2025",
-				"DateDebutAutorisee" : "10/09/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "EF",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "EQU - EUB250206 382025.001.001",
-				"Organisation" : "EF",
-				"Pilote" : "EF",
-				"Responsable" : "TATIANA  Imbornone",
-				"Rues" : "Rue du Progrès (Saint-Josse-ten-Noode), \nRue des Croisades (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "EQU - EUB250206 382025.001.001",
-				"Regime" : "PCA",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "1183",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -40939,6 +39523,54 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Enregistré (Brouillon)",
 				"Surface" : "154,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3855351359, 50.8534864994 ],
+						[ 4.3855476712, 50.8534816138 ],
+						[ 4.3855148684, 50.8534456013 ],
+						[ 4.3855254754, 50.853441937 ],
+						[ 4.3856354617, 50.8535634028 ],
+						[ 4.3856248547, 50.8535670672 ],
+						[ 4.3855901217, 50.8535273922 ],
+						[ 4.3855804788, 50.853530446 ],
+						[ 4.3855351359, 50.8534864994 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 684345,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38557 50.8535)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "18/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "19/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "D'OURS Mikael",
+				"Rues" : "Rue Léon Mignon (Schaerbeek)",
+				"ReferenceInterne" : "Rue Leon Mignon  68  1030 Schaerbeek  D: 02257026",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "18,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -41939,8 +40571,52 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue de la Reine (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00286-T",
 				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "90,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3620999221, 50.8695972634 ],
+						[ 4.3623768803, 50.8692102452 ],
+						[ 4.3624366921, 50.8692163527 ],
+						[ 4.3621600549, 50.8696102896 ],
+						[ 4.3620999221, 50.8695972634 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 689860,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36227 50.8694)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "24/03/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "schaerbeek - trenching",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "PORTIER Kenny",
+				"Rues" : "Avenue de la Reine (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00291-T",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "204,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -42308,95 +40984,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3746991008, 50.874898976 ],
-						[ 4.3746305938, 50.8748715092 ],
-						[ 4.3749036052, 50.8746187633 ],
-						[ 4.3749836907, 50.8746517234 ],
-						[ 4.3749161605, 50.8747054478 ],
-						[ 4.3746991008, 50.874898976 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 690431,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37481 50.8748)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "25/10/2025",
-				"DateFin" : "14/11/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "Enlèvement aiguillages existants",
-				"Organisation" : "STIB - VOIES - PROJET",
-				"Pilote" : "",
-				"Responsable" : "COLLIGNON Cédric",
-				"Rues" : "Boulevard Lambermont (Schaerbeek)",
-				"ReferenceInterne" : "PORTAELS (communication)",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "205,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3715413376, 50.8560638671 ],
-						[ 4.3714747939, 50.856108738 ],
-						[ 4.3713093844, 50.8560144262 ],
-						[ 4.3713739991, 50.8559680292 ],
-						[ 4.3715413376, 50.8560638671 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 690490,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37142 50.856)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "25/03/2025",
-				"DateDebutAutorisee" : "25/03/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "Sibelga TC",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "NYAMASHALA Christian",
-				"Rues" : "Rue Josaphat (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "02284798 rue Josaphat / Josaphatstraat 20",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "108,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
@@ -42446,55 +41033,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Terminé",
 				"Surface" : "847,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4083809112, 50.8432839958 ],
-						[ 4.4085729163, 50.8429577181 ],
-						[ 4.4085559985, 50.8429322836 ],
-						[ 4.4084367584, 50.8429038255 ],
-						[ 4.4084566044, 50.8428665112 ],
-						[ 4.4086600858, 50.8429128363 ],
-						[ 4.4086066502, 50.8430013722 ],
-						[ 4.4085387822, 50.8431253201 ],
-						[ 4.4084376897, 50.8432962852 ],
-						[ 4.4083809112, 50.8432839958 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 690603,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40852 50.8431)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "25/03/2025",
-				"DateDebutAutorisee" : "25/06/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "CST_Wyre_WOL03_POP26_Permit02 _Av. Prekelinden 105 --> Av.George Henri 350_AAN_20240508_25149935",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "MENGA Lucas",
-				"Rues" : "Avenue Georges Henri (Woluwe-Saint-Lambert), \nAvenue Prekelinden (Woluwe-Saint-Lambert)",
-				"ReferenceInterne" : "CST_Wyre_WOL03_POP26_Permit02 _Av. Prekelinden 105 --> Av.George Henri 350_AAN_20240508_25149935",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "238,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
 			}
@@ -42702,65 +41240,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3773083516, 50.8640283586 ],
-							[ 4.3772948286, 50.8639343486 ],
-							[ 4.3773189437, 50.8639337362 ],
-							[ 4.3773353605, 50.8640271356 ],
-							[ 4.3773083516, 50.8640283586 ]
-						]
-					],
-					[
-						[
-							[ 4.3772596904, 50.8638756979 ],
-							[ 4.3772554935, 50.8638346609 ],
-							[ 4.3772221088, 50.8638140326 ],
-							[ 4.3770710155, 50.8638103386 ],
-							[ 4.3770710113, 50.8637884656 ],
-							[ 4.3772648983, 50.8637939448 ],
-							[ 4.3773054212, 50.8638421681 ],
-							[ 4.3773102507, 50.8638751326 ],
-							[ 4.3772596904, 50.8638756979 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 690958,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37724 50.8639)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "26/03/2025",
-				"DateDebutAutorisee" : "23/07/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "Grue - parking - tunnel pietons",
-				"Organisation" : "DELLEUSE SPRL",
-				"Pilote" : "",
-				"Responsable" : "DELLEUSE Stephany ",
-				"Rues" : "Avenue Louis Bertrand (Schaerbeek), \nRue Herman (Schaerbeek)",
-				"ReferenceInterne" : "Delleuse - avenue louis bertrant 60",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "76,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -42800,57 +41279,6 @@ var BoundaryChantiers = {
 				"Surface" : "177,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3619972238, 50.8674479268 ],
-						[ 4.361935408, 50.8674598352 ],
-						[ 4.3618564327, 50.8674773412 ],
-						[ 4.3618416506, 50.8674416656 ],
-						[ 4.3620731789, 50.8674044396 ],
-						[ 4.3621329887, 50.8674074949 ],
-						[ 4.3621870076, 50.867433137 ],
-						[ 4.3622554801, 50.8675936917 ],
-						[ 4.3622072444, 50.867605288 ],
-						[ 4.3621320201, 50.8674386284 ],
-						[ 4.3620972932, 50.8674258069 ],
-						[ 4.3619972238, 50.8674479268 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 691177,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36209 50.8675)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "26/03/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "schaerbeek -  trenching",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "",
-				"Responsable" : "PORTIER Kenny",
-				"Rues" : "Rue Gaucheret (Schaerbeek), \nRue Destouvelles (Schaerbeek)",
-				"ReferenceInterne" : "SCH-00289-T",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "146,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -42969,6 +41397,60 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "904,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3819755321, 50.8755711075 ],
+						[ 4.382052553, 50.8756146657 ],
+						[ 4.3821951909, 50.8756979627 ],
+						[ 4.3821338129, 50.875733682 ],
+						[ 4.3820474806, 50.8756847102 ],
+						[ 4.3820175752, 50.8757012979 ],
+						[ 4.381969502, 50.8757304022 ],
+						[ 4.3820523325, 50.8757773977 ],
+						[ 4.3819942941, 50.8758233926 ],
+						[ 4.3817704116, 50.8756982747 ],
+						[ 4.3818323111, 50.8756579771 ],
+						[ 4.3819188394, 50.8757035479 ],
+						[ 4.3819952096, 50.8756566353 ],
+						[ 4.3819131878, 50.8756118452 ],
+						[ 4.3819755321, 50.8755711075 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 691324,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38198 50.8757)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "26/03/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Schaerbeek - Streetcross",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "PORTIER Kenny",
+				"Rues" : "Avenue Albert Giraud (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00155-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "295,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -43473,53 +41955,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3776315063, 50.850207374 ],
-						[ 4.3775240428, 50.8503045352 ],
-						[ 4.3773155964, 50.8505126786 ],
-						[ 4.3772455862, 50.8504947907 ],
-						[ 4.3773768024, 50.8503678514 ],
-						[ 4.3776074065, 50.8501603387 ],
-						[ 4.377654225, 50.8501837545 ],
-						[ 4.3776315063, 50.850207374 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 692145,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37745 50.8503)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "28/03/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Réparation",
-				"Nom" : "SJTN-00088-T WORK REPAIR ",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "",
-				"Responsable" : "PACINI Marisa",
-				"Rues" : "Rue Braemt (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "SJTN-00088-T WORK REPAIR ",
-				"Regime" : "A",
-				"Statut" : "Refusé par défaut",
-				"Surface" : "210,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3816307895, 50.870130165 ],
 						[ 4.3816278942, 50.8701265026 ],
 						[ 4.3816423642, 50.8701228382 ],
@@ -43699,54 +42134,6 @@ var BoundaryChantiers = {
 				"Regime" : "PCA",
 				"Statut" : "Enregistré (Brouillon)",
 				"Surface" : "22,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4004598677, 50.8495953178 ],
-						[ 4.4003179577, 50.8496495661 ],
-						[ 4.4002867174, 50.8496547026 ],
-						[ 4.4001616751, 50.8495566963 ],
-						[ 4.4019201593, 50.8489652729 ],
-						[ 4.4020128064, 50.8490678041 ],
-						[ 4.4012176281, 50.8493235717 ],
-						[ 4.4010575994, 50.8493900354 ],
-						[ 4.4004598677, 50.8495953178 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 694735,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40108 50.8493)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/05/2025",
-				"DateDebutAutorisee" : "25/06/2025",
-				"DateFin" : "30/09/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "2 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Marquage de la voirie",
-				"Nom" : "marquage de la voirie ",
-				"Organisation" : "SPRB DEN SIGNAL",
-				"Pilote" : "",
-				"Responsable" : "NEGULESCU Simona",
-				"Rues" : "Avenue du Diamant (Schaerbeek), \nBoulevard Auguste Reyers (Schaerbeek)",
-				"ReferenceInterne" : "marquage de la voirie ",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "1810,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -44405,7 +42792,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Musin (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "Rue musin 9  1210 St Josse  D: 01854559",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "23,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -44724,51 +43111,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "5219,4",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3701751355, 50.8527733918 ],
-						[ 4.370209711, 50.8528266655 ],
-						[ 4.3701446355, 50.8528387305 ],
-						[ 4.3701166686, 50.8528420885 ],
-						[ 4.3700814665, 50.8527917259 ],
-						[ 4.3701751355, 50.8527733918 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 697584,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37015 50.8528)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "14/04/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "01/12/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux de voirie et d'infrastructure ",
-				"Nom" : "3686323",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "ALMEIDA Rogerio",
-				"Rues" : "Rue de la Limite (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "102647832575+cstmodal",
-				"Regime" : "A",
-				"Statut" : "Refusé par défaut",
-				"Surface" : "43",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -45880,9 +44222,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "12/05/2025",
-				"DateDebutAutorisee" : "13/08/2025",
+				"DateDebutAutorisee" : "01/11/2025",
 				"DateFin" : "12/05/2026",
-				"DateFinAutorisee" : "31/10/2025",
+				"DateFinAutorisee" : "31/01/2026",
 				"Duree" : "40 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional",
@@ -45895,65 +44237,10 @@ var BoundaryChantiers = {
 				"Rues" : "Boulevard du Roi Albert II (Schaerbeek), \nBoulevard Simon Bolivar (Bruxelles), \nBoulevard du Roi Albert II (Bruxelles)",
 				"ReferenceInterne" : "PMO02137 - MB - Arrêt de bus provisoire WTC-Bolivar",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation en attente de décision",
+				"Statut" : "Autorisé",
 				"Surface" : "4275,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3855200698, 50.8659179704 ],
-							[ 4.3855268389, 50.865962533 ],
-							[ 4.3853975786, 50.8659704882 ],
-							[ 4.3853898452, 50.8659265361 ],
-							[ 4.3855200698, 50.8659179704 ]
-						]
-					],
-					[
-						[
-							[ 4.3853340332, 50.866301978 ],
-							[ 4.3854218151, 50.8662964709 ],
-							[ 4.3854276137, 50.8663251617 ],
-							[ 4.3853407973, 50.8663331105 ],
-							[ 4.3853340332, 50.866301978 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 704543,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38543 50.8661)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "01/05/2025",
-				"DateDebutAutorisee" : "30/07/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "2 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Placement d'éléments de comptage (autre)",
-				"Nom" : "LUS | RADAR | SSK05 | Lambermont - Blauwe Regenlaan",
-				"Organisation" : "SPRB - BM - DEN - Télématique",
-				"Pilote" : "",
-				"Responsable" : "ERMENS John",
-				"Rues" : "Boulevard Lambermont (Schaerbeek)",
-				"ReferenceInterne" : "LUS | RADAR | SSK05 | Lambermont - Blauwe Regenlaan",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "66,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -46668,58 +44955,10 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Gaucheret (Schaerbeek), \nBoulevard du Roi Albert II (Schaerbeek), \nBoulevard du Roi Albert II (Bruxelles), \nPlace Solvay (Schaerbeek)",
 				"ReferenceInterne" : "A224149-Ellipse",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise (En phase de réalisation)",
+				"Statut" : "Demande d'autorisation en attente d'avis CCC (En phase de réalisation)",
 				"Surface" : "7350,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3845403715, 50.8550100573 ],
-						[ 4.384594388, 50.8550344683 ],
-						[ 4.3847004391, 50.8549331164 ],
-						[ 4.3847264836, 50.8549471534 ],
-						[ 4.3844700241, 50.8551700085 ],
-						[ 4.3844545901, 50.8551608537 ],
-						[ 4.3845288247, 50.8550851459 ],
-						[ 4.3844825238, 50.8550613443 ],
-						[ 4.3845403715, 50.8550100573 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 708246,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38457 50.855)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "17/10/2025",
-				"DateDebutAutorisee" : "17/10/2025",
-				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "Sibelga",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "D'OURS Mikael",
-				"Rues" : "Avenue Dailly (Schaerbeek)",
-				"ReferenceInterne" : "Av Dailly  139  1030 SChaerbeek  D: 01843467",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "92,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -48526,50 +46765,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3598242357, 50.8735357709 ],
-						[ 4.3598551149, 50.8735046396 ],
-						[ 4.3600046489, 50.8735687483 ],
-						[ 4.3599785938, 50.8735992695 ],
-						[ 4.3598242357, 50.8735357709 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 711466,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35991 50.8736)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "02/06/2025",
-				"DateDebutAutorisee" : "27/08/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "DO Molenbeek Taque Rive Gauche",
-				"Organisation" : "Hydria",
-				"Pilote" : "",
-				"Responsable" : "SBGE Coordi",
-				"Rues" : "Rue des Palais Outre-Ponts (Bruxelles)",
-				"ReferenceInterne" : "DO Molenbeek Taque Rive Gauche",
-				"Regime" : "A",
-				"Statut" : "Terminé",
-				"Surface" : "50,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
@@ -50132,6 +48327,51 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ 4.3634791239, 50.8676689095 ],
+						[ 4.363529774, 50.8675995242 ],
+						[ 4.3635905482, 50.8676092939 ],
+						[ 4.363375394, 50.8679023068 ],
+						[ 4.3633224333, 50.8678884365 ],
+						[ 4.3634791239, 50.8676689095 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 711921,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36346 50.8677)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "20/05/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Schaerbeek - Trenching",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "PORTIER Kenny",
+				"Rues" : "Avenue de la Reine (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00285-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "149,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ 4.3785841077, 50.8569948514 ],
 						[ 4.3785773743, 50.8569881998 ],
 						[ 4.3782974434, 50.8570507014 ],
@@ -51064,7 +49304,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Colonel Bourg (Evere)",
 				"ReferenceInterne" : "Rue colonel bourg 120  1140 Evere   D: 02264550",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation réputée recevable",
+				"Statut" : "Demande d'autorisation en attente d'avis CCC",
 				"Surface" : "121,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -53968,84 +52208,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3657069707, 50.8680016772 ],
-							[ 4.3656953331, 50.8680637365 ],
-							[ 4.3656320943, 50.8680535814 ],
-							[ 4.3656272739, 50.867994977 ],
-							[ 4.3656330644, 50.8679504135 ],
-							[ 4.3656909536, 50.8677996308 ],
-							[ 4.3657068741, 50.8677373641 ],
-							[ 4.3657348513, 50.8677117253 ],
-							[ 4.3657719927, 50.8676921913 ],
-							[ 4.3658134748, 50.8676818143 ],
-							[ 4.3658154045, 50.8676738783 ],
-							[ 4.3658269809, 50.8676708263 ],
-							[ 4.3658810031, 50.8676769319 ],
-							[ 4.3659456356, 50.8677092875 ],
-							[ 4.3660112322, 50.8677575151 ],
-							[ 4.3661318136, 50.8678667897 ],
-							[ 4.3660584959, 50.8678973115 ],
-							[ 4.36605589, 50.8678971529 ],
-							[ 4.3659372415, 50.8677962545 ],
-							[ 4.3659248119, 50.8677880289 ],
-							[ 4.3659095837, 50.8677819518 ],
-							[ 4.3658924944, 50.8677783826 ],
-							[ 4.3657758094, 50.8677637635 ],
-							[ 4.3657069707, 50.8680016772 ]
-						]
-					],
-					[
-						[
-							[ 4.3660490822, 50.868980245 ],
-							[ 4.3660566736, 50.8690032894 ],
-							[ 4.3660830657, 50.8690652035 ],
-							[ 4.3660304683, 50.869073669 ],
-							[ 4.3658732383, 50.8686811399 ],
-							[ 4.3657864235, 50.8685004418 ],
-							[ 4.3657372282, 50.8684088717 ],
-							[ 4.3658118969, 50.8683947702 ],
-							[ 4.3660490822, 50.868980245 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 713913,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36586 50.8682)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "26/05/2025",
-				"DateDebutAutorisee" : "23/07/2025",
-				"DateFin" : "26/05/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "Schaerbeek, rue du Pavillon 45",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ZATIKIAN Armen",
-				"Rues" : "Rue Van Schoor (Schaerbeek), \nRue des Palais (Schaerbeek), \nRue du Pavillon (Schaerbeek)",
-				"ReferenceInterne" : "AAN-20231030-25131179",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "762,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -54181,57 +52343,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "18,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4073032744, 50.8577117395 ],
-						[ 4.4074335192, 50.857592151 ],
-						[ 4.4075328658, 50.8574895745 ],
-						[ 4.407541901, 50.857422184 ],
-						[ 4.407518885, 50.8574164792 ],
-						[ 4.4075303037, 50.8573941066 ],
-						[ 4.4076827263, 50.8574361772 ],
-						[ 4.4075343348, 50.8576004416 ],
-						[ 4.4074298178, 50.857754558 ],
-						[ 4.4070572676, 50.8580966529 ],
-						[ 4.4069398328, 50.8580454385 ],
-						[ 4.4073032744, 50.8577117395 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 714798,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40731 50.8578)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A2",
-				"Coordinateur" : "",
-				"DateDebut" : "01/09/2025",
-				"DateDebutAutorisee" : "29/09/2025",
-				"DateFin" : "27/02/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "35 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Evere, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "RTL House - quai BUS",
-				"Organisation" : "DITP-ARS",
-				"Pilote" : "",
-				"Responsable" : "DE RUYCK Mathieu",
-				"Rues" : "Chaussée de Louvain (Schaerbeek), \nRue de Genève (Schaerbeek), \nRue de Genève (Evere)",
-				"ReferenceInterne" : "RTL House - quai BUS",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "767,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -54597,55 +52708,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.377299637, 50.8528580833 ],
-						[ 4.3773034983, 50.8528776178 ],
-						[ 4.3747961113, 50.8529339506 ],
-						[ 4.3742599209, 50.8529877009 ],
-						[ 4.3738548676, 50.8528924892 ],
-						[ 4.3738818679, 50.852872953 ],
-						[ 4.3742522026, 50.8529632827 ],
-						[ 4.3747806773, 50.8529070911 ],
-						[ 4.3750005564, 50.8529046365 ],
-						[ 4.377299637, 50.8528580833 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 717651,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.3755 50.8529)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "09/06/2025",
-				"DateDebutAutorisee" : "09/06/2025",
-				"DateFin" : "28/11/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Marquage de la voirie",
-				"Nom" : "P25-02126-01",
-				"Organisation" : "Signco",
-				"Pilote" : "",
-				"Responsable" : "MESKENS Jessica",
-				"Rues" : "Rue Braemt (Saint-Josse-ten-Noode), \nRue des Moissons (Saint-Josse-ten-Noode), \nPlace Houwaert (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "P25-02126-01",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "628,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3863209227, 50.8597113404 ],
 						[ 4.3863223633, 50.8596957746 ],
 						[ 4.3866015729, 50.8597021403 ],
@@ -54727,52 +52789,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "113,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3734932153, 50.853050945 ],
-						[ 4.3734613892, 50.8530387372 ],
-						[ 4.3734989959, 50.8530008867 ],
-						[ 4.3735693997, 50.8530326276 ],
-						[ 4.3734536871, 50.8531528942 ],
-						[ 4.3734141455, 50.8531376345 ],
-						[ 4.3734932153, 50.853050945 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 718573,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37349 50.8531)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "23/06/2025",
-				"DateDebutAutorisee" : "23/06/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : " vivaqua assainissement",
-				"Organisation" : "VIVAQUA Assainiss",
-				"Pilote" : "",
-				"Responsable" : "BENRAMDANE  Boumediene",
-				"Rues" : "Place Houwaert (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "CTLA#4500041062#JO Place Houwaert 3 rem rac im  argea",
-				"Regime" : "A",
-				"Statut" : "Terminé",
-				"Surface" : "66,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -55509,7 +53525,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Validation terme de phase (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Equipements Accessoires souterrains (bacs, trous d'hommes, etc.)",
@@ -55566,53 +53582,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Enregistré (Brouillon)",
 				"Surface" : "16,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4013451536, 50.8514043076 ],
-						[ 4.4012135596, 50.851624391 ],
-						[ 4.401100942, 50.8518194949 ],
-						[ 4.4009623625, 50.8520528114 ],
-						[ 4.4009449103, 50.8520754918 ],
-						[ 4.400889586, 50.8520638352 ],
-						[ 4.4012816053, 50.8513873311 ],
-						[ 4.4013451536, 50.8514043076 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 719510,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40112 50.8517)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "16/06/2025",
-				"DateDebutAutorisee" : "01/09/2025",
-				"DateFin" : "03/08/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "Blv A Reyers 70 1030 Schaerbeek",
-				"Organisation" : "VOO",
-				"Pilote" : "",
-				"Responsable" : "ABBOU Wafa",
-				"Rues" : "Boulevard Auguste Reyers (Schaerbeek)",
-				"ReferenceInterne" : "Blv A Reyers 70 1030 Schaerbeek - Pose de racc - 25/8207 - Madame Lemayene 078505757",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "367,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -55700,53 +53669,8 @@ var BoundaryChantiers = {
 				"Rues" : "Grande rue au Bois (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00342-T",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "240,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3679093672, 50.8606573322 ],
-						[ 4.3677813858, 50.8610750719 ],
-						[ 4.3677291171, 50.8612604793 ],
-						[ 4.367676602, 50.8612543261 ],
-						[ 4.3678560122, 50.8606499691 ],
-						[ 4.3679093672, 50.8606573322 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 721009,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36779 50.861)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "16/06/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "Schaerbeek - Trenching",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "",
-				"Responsable" : "PORTIER Kenny",
-				"Rues" : "Rue des Palais (Schaerbeek)",
-				"ReferenceInterne" : "SCH-00394-T",
-				"Regime" : "A",
-				"Statut" : "Incomplet/Non conforme",
-				"Surface" : "252,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -55798,64 +53722,6 @@ var BoundaryChantiers = {
 				"Surface" : "1729,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3614306134, 50.8729469909 ],
-						[ 4.3615064254, 50.8730497427 ],
-						[ 4.3615555881, 50.8731129233 ],
-						[ 4.3616770407, 50.8732593681 ],
-						[ 4.3617679468, 50.8733559371 ],
-						[ 4.3618828175, 50.8734833058 ],
-						[ 4.3622108076, 50.8738337266 ],
-						[ 4.3622639124, 50.8738827898 ],
-						[ 4.3623309849, 50.8739496088 ],
-						[ 4.3623853741, 50.8740079315 ],
-						[ 4.3623213432, 50.8740260202 ],
-						[ 4.362256786, 50.8740429434 ],
-						[ 4.362009973, 50.8737593283 ],
-						[ 4.3618494896, 50.8735611979 ],
-						[ 4.3616347683, 50.8732998146 ],
-						[ 4.3614667921, 50.8730795795 ],
-						[ 4.361227569, 50.8727602396 ],
-						[ 4.36127687, 50.8727420722 ],
-						[ 4.3614306134, 50.8729469909 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 722546,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36187 50.8735)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A2",
-				"Coordinateur" : "",
-				"DateDebut" : "19/06/2025",
-				"DateDebutAutorisee" : "13/08/2025",
-				"DateFin" : "19/06/2027",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "SCH01_POP01",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Quai des Usines (Bruxelles)",
-				"ReferenceInterne" : "Wyre_SCH01_POP01",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "960,4",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -55920,7 +53786,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2027",
 				"DateFinAutorisee" : "",
 				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "Transmission proposition décision de l'administrateur vers CCC (6 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek, VBX",
 				"ImpetrantsCoordonnes" : "Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -56255,11 +54121,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "23/06/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "23/06/2025",
 				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "31/12/2025",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (17 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -56270,7 +54136,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de Linthout (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00250-T",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "190,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -56327,6 +54193,58 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "121,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3695494343, 50.8582452396 ],
+						[ 4.3695417178, 50.8582257049 ],
+						[ 4.3696950708, 50.8581884647 ],
+						[ 4.3696834963, 50.8581713719 ],
+						[ 4.3695291785, 50.8581988447 ],
+						[ 4.3695203734, 50.8581765542 ],
+						[ 4.3699159355, 50.858090177 ],
+						[ 4.3699236522, 50.8581091012 ],
+						[ 4.3697510096, 50.8581408479 ],
+						[ 4.3697645134, 50.8581658766 ],
+						[ 4.3699332981, 50.8581347405 ],
+						[ 4.3699475427, 50.8581604401 ],
+						[ 4.3695494343, 50.8582452396 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 723904,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36973 50.8582)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "24/06/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/06/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux en voirie non standards",
+				"Nom" : "SCH-00415-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "DERIDDER Frederic",
+				"Rues" : "Rue de Beughem (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00415-T",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "169,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -57621,60 +55539,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.4080933357, 50.8520774955 ],
-						[ 4.408114475, 50.8520332501 ],
-						[ 4.4084449113, 50.8521202727 ],
-						[ 4.4085296241, 50.8521256057 ],
-						[ 4.4086545525, 50.8521067949 ],
-						[ 4.4087117051, 50.852077283 ],
-						[ 4.4092426981, 50.8514483798 ],
-						[ 4.4092977753, 50.8514684687 ],
-						[ 4.4087879459, 50.8520812782 ],
-						[ 4.4087329215, 50.8521228543 ],
-						[ 4.4086630708, 50.8521617545 ],
-						[ 4.4085783764, 50.8521778703 ],
-						[ 4.4084597721, 50.8521631652 ],
-						[ 4.40837081, 50.8521417469 ],
-						[ 4.4080933357, 50.8520774955 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 725925,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40878 50.8519)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A0",
-				"Coordinateur" : "",
-				"DateDebut" : "01/08/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "Pose de conduites : câbles, canalisations, gaines & bacs Rue Colonel Bourg (Schaerbeek), Avenue de M",
-				"Organisation" : "EESI",
-				"Pilote" : "",
-				"Responsable" : "BANGALA Joseph",
-				"Rues" : "Rue Colonel Bourg (Evere), \nAvenue de Mars (Schaerbeek), \nAutoroute E40 (Schaerbeek), \nRue Colonel Bourg (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Incomplet/Non conforme",
-				"Surface" : "571,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3947635527, 50.8795145455 ],
 						[ 4.3946922339, 50.8795095995 ],
 						[ 4.3945895905, 50.8795007622 ],
@@ -57723,55 +55587,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3942339646, 50.8794323974 ],
-						[ 4.3942243384, 50.8794739107 ],
-						[ 4.3938441408, 50.8794453032 ],
-						[ 4.3938499076, 50.8794037907 ],
-						[ 4.393915526, 50.8794098809 ],
-						[ 4.3939879029, 50.879423295 ],
-						[ 4.3940255307, 50.8794153508 ],
-						[ 4.3940274522, 50.8794000889 ],
-						[ 4.3942349203, 50.8794159147 ],
-						[ 4.3942339646, 50.8794323974 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 726231,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39406 50.8794)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "18/08/2025",
-				"DateDebutAutorisee" : "18/08/2025",
-				"DateFin" : "15/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Evere",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "Rue Stroobants",
-				"Organisation" : "Colt",
-				"Pilote" : "",
-				"Responsable" : "NOBLESSE Geert",
-				"Rues" : "Rue Stroobants (Evere)",
-				"ReferenceInterne" : "BCB250014-D",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "148,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4108958928, 50.8554169283 ],
 						[ 4.410879493, 50.8554120505 ],
 						[ 4.4108573437, 50.855448076 ],
@@ -57808,7 +55623,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Jacques Georgin (Schaerbeek)",
 				"ReferenceInterne" : "CTLA#8000052627#HB av Jacques Georgin 28 nv rac im infra",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Statut" : "Terminé",
 				"Surface" : "72,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -58617,7 +56432,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Ruche (Schaerbeek)",
 				"ReferenceInterne" : "Wyre_SCH02_POP10",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "135",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -58716,79 +56531,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.387653494, 50.8771909455 ],
-							[ 4.3876361106, 50.8771537104 ],
-							[ 4.3876583004, 50.8771476021 ],
-							[ 4.3876795443, 50.8771872784 ],
-							[ 4.387653494, 50.8771909455 ]
-						]
-					],
-					[
-						[
-							[ 4.3874608271, 50.8767715919 ],
-							[ 4.3874453763, 50.876740461 ],
-							[ 4.3874627423, 50.8767361849 ],
-							[ 4.387479158, 50.8767673157 ],
-							[ 4.3874608271, 50.8767715919 ]
-						]
-					],
-					[
-						[
-							[ 4.3872503139, 50.8763528513 ],
-							[ 4.3872338972, 50.876318363 ],
-							[ 4.3872541577, 50.8763143917 ],
-							[ 4.3872700918, 50.8763482696 ],
-							[ 4.3872503139, 50.8763528513 ]
-						]
-					],
-					[
-						[
-							[ 4.387035454, 50.8759127449 ],
-							[ 4.3870200026, 50.8758785616 ],
-							[ 4.3870436395, 50.8758736741 ],
-							[ 4.3870605386, 50.8759084676 ],
-							[ 4.387035454, 50.8759127449 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 727337,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38736 50.8765)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "04/08/2025",
-				"DateDebutAutorisee" : "04/08/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Equipements Accessoires souterrains (bacs, trous d'hommes, etc.)",
-				"Nom" : "GEORGES EECKHOUDT",
-				"Organisation" : "VIVAQUA Assainiss",
-				"Pilote" : "",
-				"Responsable" : "CRASSET Alain",
-				"Rues" : "Avenue Georges Eekhoud (Schaerbeek)",
-				"ReferenceInterne" : "ASS CSA 03153 GEORGES EECKHOUDT",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "25,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -58826,50 +56568,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "7,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3846494942, 50.8482327374 ],
-						[ 4.3846751094, 50.8482254836 ],
-						[ 4.384709898, 50.8482747194 ],
-						[ 4.3846842514, 50.8482819821 ],
-						[ 4.3846494942, 50.8482327374 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 727406,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38468 50.8483)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "01/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "23 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue de la Brabançonne (Bru",
-				"Organisation" : "Castan, Fabien",
-				"Pilote" : "",
-				"Responsable" : "CASTAN Fabien",
-				"Rues" : "Avenue de la Brabançonne (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "11,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
@@ -59349,54 +57047,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4092848735, 50.8516637133 ],
-						[ 4.4092078466, 50.8518029261 ],
-						[ 4.4090229659, 50.8521204319 ],
-						[ 4.4090346106, 50.8522034509 ],
-						[ 4.4091233965, 50.8522766755 ],
-						[ 4.4091080283, 50.8523474947 ],
-						[ 4.4087800722, 50.8522670277 ],
-						[ 4.4091536792, 50.8516161432 ],
-						[ 4.4092848735, 50.8516637133 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 729752,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40903 50.852)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "14/09/2025",
-				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "02/11/2025",
-				"Duree" : "6 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "torenkraan",
-				"Organisation" : "Erombaut",
-				"Pilote" : "",
-				"Responsable" : "DOCLOT Pierre",
-				"Rues" : "Rue Colonel Bourg (Schaerbeek), \nAvenue de Mars (Schaerbeek)",
-				"ReferenceInterne" : "SCHKO1224",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "931,4",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
@@ -59582,50 +57232,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "En attente de déclaration d'exécution de chantier",
 				"Surface" : "43,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3802420932, 50.8618557053 ],
-						[ 4.3801870827, 50.8617385023 ],
-						[ 4.380268102, 50.8617226219 ],
-						[ 4.3803221488, 50.8618422668 ],
-						[ 4.3802420932, 50.8618557053 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 730605,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38025 50.8618)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "28/07/2025",
-				"DateDebutAutorisee" : "03/09/2025",
-				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "vivaqua assainissement",
-				"Organisation" : "VIVAQUA Assainiss",
-				"Pilote" : "",
-				"Responsable" : "BENRAMDANE  Boumediene",
-				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
-				"ReferenceInterne" : "CTLA#8000000000#Hb avenue Paul Deschanel 41 rem rac av vivaqua",
-				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "81",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -59886,42 +57492,44 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3592542659, 50.869839139 ],
-						[ 4.3593889718, 50.8700064488 ],
-						[ 4.359361006, 50.8700139538 ],
-						[ 4.3592263002, 50.8698466439 ],
-						[ 4.3592542659, 50.869839139 ]
+						[ 4.3960314116, 50.8758322586 ],
+						[ 4.3960362235, 50.8758115018 ],
+						[ 4.3964945632, 50.8758681645 ],
+						[ 4.3964897478, 50.8758828167 ],
+						[ 4.3961124579, 50.8758297974 ],
+						[ 4.3961095706, 50.8758420073 ],
+						[ 4.3960314116, 50.8758322586 ]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 731534,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35931 50.8699)",
+				"Chantier" : 731286,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39625 50.8758)",
 				"SectorName" : "Dehors",
 				"Appelant" : "",
 				"AvisCCC" : "Y",
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
-				"DateDebut" : "25/08/2025",
-				"DateDebutAutorisee" : "25/08/2025",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "2 Jours Ouvrables",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
 				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
+				"Gestionnaire" : "Evere",
 				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Allée Verte (Bruxelles)",
-				"Organisation" : "ENERGYVISION NV",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
 				"Pilote" : "",
-				"Responsable" : "PHAM  Thanh",
-				"Rues" : "Allée Verte (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Renoncé",
-				"Surface" : "44,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+				"Responsable" : "D'OURS Mikael",
+				"Rues" : "Rue Edouard Stuckens (Evere)",
+				"ReferenceInterne" : "Rue Edouard stuckens 65  1140 Evere  D; 02396211",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "48,9",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -60055,7 +57663,7 @@ var BoundaryChantiers = {
 				"DateFin" : "15/07/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Transmission décision administrateur si CCC (13 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -60066,7 +57674,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Josaphat (Schaerbeek), \nAvenue Louis Bertrand (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00630-T",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation en attente de décision",
+				"Statut" : "Refusé",
 				"Surface" : "186",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -60555,7 +58163,7 @@ var BoundaryChantiers = {
 				"DateFin" : "23/07/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (18 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (12 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -60616,52 +58224,6 @@ var BoundaryChantiers = {
 				"Surface" : "292,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3598834126, 50.873560306 ],
-						[ 4.3599070544, 50.8735374154 ],
-						[ 4.3600445282, 50.8736024389 ],
-						[ 4.3599986925, 50.8736448627 ],
-						[ 4.3599408094, 50.8736137252 ],
-						[ 4.359921036, 50.8735841166 ],
-						[ 4.3598834126, 50.873560306 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 734287,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35996 50.8736)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/09/2025",
-				"DateDebutAutorisee" : "10/09/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "VILVORDE",
-				"Organisation" : "VIVAQUA Assainiss",
-				"Pilote" : "",
-				"Responsable" : "VAN CROMBRUGGE  Serge",
-				"Rues" : "Rue des Palais Outre-Ponts (Bruxelles)",
-				"ReferenceInterne" : "ASS VGS VILVORDE",
-				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
-				"Surface" : "55,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -70547,50 +68109,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3613096703, 50.8707007554 ],
-						[ 4.3614814589, 50.870458894 ],
-						[ 4.3615333976, 50.8704739462 ],
-						[ 4.3613616383, 50.8707175102 ],
-						[ 4.3613096703, 50.8707007554 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 735751,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36142 50.8706)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "31/07/2025",
-				"DateDebutAutorisee" : "22/10/2025",
-				"DateFin" : "31/07/2026",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH01_POP02",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Avenue de la Reine (Bruxelles)",
-				"ReferenceInterne" : "Wyre_SCH01_POP02",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "120,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3618392047, 50.8697479871 ],
 						[ 4.3620284749, 50.8696932999 ],
 						[ 4.3621929118, 50.869463896 ],
@@ -70625,7 +68143,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue de la Reine (Schaerbeek), \nAvenue de la Reine (Bruxelles), \nRue du Pont de l'Avenue (Bruxelles)",
 				"ReferenceInterne" : "Wyre_SCH01_POP02",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "213,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
@@ -70669,7 +68187,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de l'Eclusier Cogge (Bruxelles)",
 				"ReferenceInterne" : "Wyre_SCH01_POP02",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "85,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -70931,7 +68449,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2027",
 				"DateFinAutorisee" : "",
 				"Duree" : "40 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (29 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek, VBX",
 				"ImpetrantsCoordonnes" : "Sibelga BE-CO, Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -70942,54 +68460,10 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Destouvelles (Schaerbeek), \nRue Destouvelles (Bruxelles), \nRue Masui (Bruxelles), \nRue Masui (Schaerbeek), \nChaussée d'Anvers (Bruxelles), \nRue des Rameurs (Bruxelles), \nRue des Régates (Bruxelles), \nAllée Verte (Bruxelles), \nRue de l'Eclusier Cogge (Bruxelles), \nRue du Pont de l'Avenue (Bruxelles), \nRue du Travail (Bruxelles)",
 				"ReferenceInterne" : "Wyre_SCH01_POP02_SCH01_POP04",
 				"Regime" : "PCA",
-				"Statut" : "Préparation de demande d'autorisation",
+				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "17950,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3589593911, 50.8669252423 ],
-						[ 4.3592973962, 50.8671153576 ],
-						[ 4.3592452961, 50.8671556441 ],
-						[ 4.3589134844, 50.8669675966 ],
-						[ 4.3589593911, 50.8669252423 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 735837,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.3591 50.867)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "31/07/2025",
-				"DateDebutAutorisee" : "22/10/2025",
-				"DateFin" : "31/07/2026",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH01_POP03",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Rue Masui (Bruxelles)",
-				"ReferenceInterne" : "Wyre_SCH01_POP03",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "181,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -71032,54 +68506,10 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Destouvelles (Bruxelles), \nRue Masui (Bruxelles)",
 				"ReferenceInterne" : "Wyre_SCH01_POP03",
 				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "289,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3605476667, 50.8676162228 ],
-						[ 4.3609623595, 50.8675366097 ],
-						[ 4.3609788138, 50.8675674231 ],
-						[ 4.3605658414, 50.8676482675 ],
-						[ 4.3605476667, 50.8676162228 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 735840,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36076 50.8676)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "31/07/2025",
-				"DateDebutAutorisee" : "21/10/2025",
-				"DateFin" : "31/07/2026",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH01_POP03",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Rue Destouvelles (Schaerbeek)",
-				"ReferenceInterne" : "Wyre_SCH01_POP03",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "112,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -71167,7 +68597,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/07/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "30 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (23 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (17 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek, VBX",
 				"ImpetrantsCoordonnes" : "Wyre",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -71345,52 +68775,6 @@ var BoundaryChantiers = {
 				"Surface" : "164,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3819984691, 50.847462695 ],
-						[ 4.3820216205, 50.847492605 ],
-						[ 4.38171067, 50.8475866531 ],
-						[ 4.3816995764, 50.8475713927 ],
-						[ 4.3818133499, 50.8475341412 ],
-						[ 4.381805633, 50.8475249851 ],
-						[ 4.3819984691, 50.847462695 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 736310,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38188 50.8475)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/09/2025",
-				"DateDebutAutorisee" : "01/09/2025",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "30/10/2025",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "Rue des Eburons (Devant le 50 Square Ambiorix)",
-				"Organisation" : "ETS TOITURES LAROY DIMITRI SPRL",
-				"Pilote" : "",
-				"Responsable" : "LAROY Dimitri",
-				"Rues" : "Rue des Eburons (Bruxelles)",
-				"ReferenceInterne" : "Rue des Eburons (Devant le 50 Square Ambiorix)",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "71,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -72367,65 +69751,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3597029825, 50.8586332124 ],
-						[ 4.3598803995, 50.8589262469 ],
-						[ 4.3598090324, 50.8588896142 ],
-						[ 4.3597550212, 50.8588835057 ],
-						[ 4.3595196664, 50.8589677326 ],
-						[ 4.3590798319, 50.8590665946 ],
-						[ 4.3590451013, 50.8591093243 ],
-						[ 4.3590470273, 50.8591251964 ],
-						[ 4.3588849837, 50.859154486 ],
-						[ 4.3588483376, 50.8591276228 ],
-						[ 4.3587383794, 50.8591471489 ],
-						[ 4.3585107456, 50.8591923048 ],
-						[ 4.3584394075, 50.8590177066 ],
-						[ 4.3585725097, 50.8590177175 ],
-						[ 4.3589988414, 50.8589200773 ],
-						[ 4.3592052546, 50.858873698 ],
-						[ 4.3594020233, 50.8588224339 ],
-						[ 4.3596354558, 50.8586979166 ],
-						[ 4.3596933331, 50.8586576302 ],
-						[ 4.3597029825, 50.8586332124 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 738294,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35917 50.859)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/09/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Réasphaltage de la couche d'usure de la voirie",
-				"Nom" : "Asphaltage + marquage au sol",
-				"Organisation" : "SPRB - BM - DEN - Entretien",
-				"Pilote" : "",
-				"Responsable" : "SAJID Adil",
-				"Rues" : "Rue du Progrès (Saint-Josse-ten-Noode), \nRue des Charbonniers (Saint-Josse-ten-Noode), \nTunnel STIB Gare du Nord - Rogier (Saint-Josse-ten-Noode), \nBoulevard du Roi Albert II (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "Travaux d'asphaltage et de marquage rue des Charbonniers",
-				"Regime" : "A",
-				"Statut" : "Incomplet/Non conforme",
-				"Surface" : "1945,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3900478409, 50.864446457 ],
 						[ 4.3900767846, 50.8644574399 ],
 						[ 4.3900902922, 50.864463542 ],
@@ -72562,114 +69887,6 @@ var BoundaryChantiers = {
 				"coordinates" : [
 					[
 						[
-							[ 4.3671738595, 50.8627922321 ],
-							[ 4.3672674241, 50.8628020001 ],
-							[ 4.3671986618, 50.863035889 ],
-							[ 4.3670995813, 50.8630290906 ],
-							[ 4.3671738595, 50.8627922321 ]
-						]
-					],
-					[
-						[
-							[ 4.3668531732, 50.8629471234 ],
-							[ 4.3670047897, 50.8627344977 ],
-							[ 4.3670221053, 50.8626766465 ],
-							[ 4.3670330329, 50.8626591502 ],
-							[ 4.3671285265, 50.8626652556 ],
-							[ 4.3670802949, 50.8627775802 ],
-							[ 4.3669413895, 50.8629863569 ],
-							[ 4.366840108, 50.862968042 ],
-							[ 4.3668531732, 50.8629471234 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 738908,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36707 50.8629)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "11/08/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "14/08/2026",
-				"DateFinAutorisee" : "",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux en voirie non standards",
-				"Nom" : "Pose de gaine srv",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "",
-				"Responsable" : "MANDIL Noureddine",
-				"Rues" : "Rue des Palais (Schaerbeek)",
-				"ReferenceInterne" : "SCH-00503-T",
-				"Regime" : "L'avis de la CCC est nécessaire",
-				"Statut" : "Demande Avis Dérogation",
-				"Surface" : "444,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3873347391, 50.8515271641 ],
-						[ 4.3874282164, 50.851469512 ],
-						[ 4.387704785, 50.8513020859 ],
-						[ 4.3877507365, 50.8513348129 ],
-						[ 4.3875743056, 50.8514441154 ],
-						[ 4.3876505111, 50.8514959921 ],
-						[ 4.3876109832, 50.8515216382 ],
-						[ 4.3875203154, 50.8514770894 ],
-						[ 4.3873679836, 50.8515650213 ],
-						[ 4.3873347391, 50.8515271641 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 738914,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38755 50.8514)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "11/08/2025",
-				"DateDebutAutorisee" : "20/10/2025",
-				"DateFin" : "31/08/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "pose de gaine",
-				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
-				"Pilote" : "",
-				"Responsable" : "CIANFARANI Angelin",
-				"Rues" : "Avenue Charbo (Schaerbeek)",
-				"ReferenceInterne" : "SCH-00221-T",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "217,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ 4.3757210208, 50.8600642057 ],
 							[ 4.3756997859, 50.8599701959 ],
 							[ 4.3757518688, 50.8599604251 ],
@@ -72797,7 +70014,7 @@ var BoundaryChantiers = {
 				"Coordinateur" : "",
 				"DateDebut" : "11/08/2025",
 				"DateDebutAutorisee" : "",
-				"DateFin" : "16/11/2025",
+				"DateFin" : "31/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "3 Jours Ouvrables",
 				"Echeances" : "",
@@ -73035,58 +70252,45 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
+				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[
-							[ 4.3693484698, 50.8681535971 ],
-							[ 4.3693188113, 50.8681337574 ],
-							[ 4.369374737, 50.8681026562 ],
-							[ 4.3693899898, 50.8681117717 ],
-							[ 4.3695645451, 50.8680136418 ],
-							[ 4.3695848824, 50.8680297281 ],
-							[ 4.3693484698, 50.8681535971 ]
-						]
-					],
-					[
-						[
-							[ 4.3692510212, 50.868118744 ],
-							[ 4.3693628724, 50.8680538605 ],
-							[ 4.3693789729, 50.8680710193 ],
-							[ 4.3692696637, 50.8681283957 ],
-							[ 4.3692510212, 50.868118744 ]
-						]
+						[ 4.4006479696, 50.8438912182 ],
+						[ 4.4006335155, 50.843904042 ],
+						[ 4.4005264508, 50.8438479089 ],
+						[ 4.400538014, 50.8438375278 ],
+						[ 4.4006479696, 50.8438912182 ]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 739742,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36941 50.8681)",
+				"Chantier" : 739779,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40059 50.8439)",
 				"SectorName" : "Dehors",
 				"Appelant" : "",
 				"AvisCCC" : "N",
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
-				"DateDebut" : "28/08/2025",
-				"DateDebutAutorisee" : "28/08/2025",
-				"DateFin" : "28/10/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "1 Jour Ouvrable",
+				"DateDebut" : "21/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "19/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
 				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
+				"Gestionnaire" : "Woluwe-Saint-Lambert",
 				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue de Moerkerke (Schaerbeek)",
-				"Organisation" : "ENERGYVISION NV",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
 				"Pilote" : "",
-				"Responsable" : "PHAM  Thanh",
-				"Rues" : "Rue de Moerkerke (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "69,3",
+				"Responsable" : "VAN KERCKHOVE Dirk",
+				"Rues" : "Rue Vergote (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "02439219 rue Vergote / Vergotestraat 12 STLW",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "15,5",
 				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
+				"ZonesPolice" : "ZP MONTGOMERY"
 			}
 		},
 		{
@@ -73182,7 +70386,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Geefs (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
-				"Statut" : "Autorisé",
+				"Statut" : "Renoncé",
 				"Surface" : "63,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -73255,9 +70459,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "05/09/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "29/10/2025",
 				"DateFin" : "05/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "1 Jour Ouvrable",
 				"Echeances" : "",
 				"Gestionnaire" : "Woluwe-Saint-Lambert",
@@ -73270,7 +70474,7 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée de Roodebeek (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation en attente de décision",
+				"Statut" : "Autorisé",
 				"Surface" : "83,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
@@ -73457,65 +70661,6 @@ var BoundaryChantiers = {
 				"coordinates" : [
 					[
 						[
-							[ 4.3816657597, 50.8731080424 ],
-							[ 4.3816855297, 50.8730793485 ],
-							[ 4.3816483818, 50.8730683645 ],
-							[ 4.3816840648, 50.8730183026 ],
-							[ 4.3819112915, 50.873076575 ],
-							[ 4.3818731965, 50.8731260268 ],
-							[ 4.3817945593, 50.8731049751 ],
-							[ 4.3817776823, 50.873128785 ],
-							[ 4.3816657597, 50.8731080424 ]
-						]
-					],
-					[
-						[
-							[ 4.381720709, 50.8729560314 ],
-							[ 4.3817351746, 50.8729340532 ],
-							[ 4.3819899002, 50.8730011739 ],
-							[ 4.3819792926, 50.8730188785 ],
-							[ 4.381720709, 50.8729560314 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 741893,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38179 50.8731)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "19/08/2025",
-				"DateDebutAutorisee" : "22/09/2025",
-				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "30 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "Grue - parking - tunnel pietons",
-				"Organisation" : "DELLEUSE SPRL",
-				"Pilote" : "",
-				"Responsable" : "DELLEUSE Stephany ",
-				"Rues" : "Avenue Eugène Demolder (Schaerbeek)",
-				"ReferenceInterne" : "Delleuse - Avenue Eugene demolder 108",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "151,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ 4.3994043795, 50.8731372183 ],
 							[ 4.3994468102, 50.873106684 ],
 							[ 4.3994989285, 50.8731353616 ],
@@ -73593,7 +70738,7 @@ var BoundaryChantiers = {
 				"DateFin" : "27/03/2026",
 				"DateFinAutorisee" : "27/03/2026",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Validation terme de chantier (9 jours ouvrables)<br/>Validation terme de phase (9 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -73604,7 +70749,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Van Hammée (Schaerbeek)",
 				"ReferenceInterne" : "CTLA#8000050856#HB-Rue Van Hamme 64 nv racc  INFRA",
 				"Regime" : "A",
-				"Statut" : "Provisoirement terminé (En phase de réalisation)",
+				"Statut" : "Terminé",
 				"Surface" : "95,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -76629,51 +73774,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3847239244, 50.8787754621 ],
-						[ 4.3846683247, 50.8787472582 ],
-						[ 4.3844933886, 50.8786479528 ],
-						[ 4.3845124549, 50.8786372258 ],
-						[ 4.3847413402, 50.8787611935 ],
-						[ 4.3847239244, 50.8787754621 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 742345,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38462 50.8787)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/09/2025",
-				"DateDebutAutorisee" : "01/09/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "45 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Auguste Snieders (Schaerb",
-				"Organisation" : "Pellikaan",
-				"Pilote" : "",
-				"Responsable" : "DECKERS Shana",
-				"Rues" : "Rue Auguste Snieders (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "42,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
@@ -76744,6 +73844,55 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "139,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.380453673, 50.8704387779 ],
+						[ 4.3803551982, 50.8704655278 ],
+						[ 4.3803408003, 50.8704473362 ],
+						[ 4.3801440057, 50.8704980248 ],
+						[ 4.3801324248, 50.8704827645 ],
+						[ 4.3806330932, 50.8703563467 ],
+						[ 4.3806417792, 50.870368555 ],
+						[ 4.3805096183, 50.8704015339 ],
+						[ 4.380440162, 50.870421076 ],
+						[ 4.380453673, 50.8704387779 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 742948,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38038 50.8704)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "19/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (5 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "D'OURS Mikael",
+				"Rues" : "Rue Waelhem (Schaerbeek)",
+				"ReferenceInterne" : "Rue Waelhem 102  1030 Schaerbeek  D: 02413275",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "80,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -77004,98 +74153,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Autorisé",
 				"Surface" : "78,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3856809156, 50.8583109172 ],
-						[ 4.3855545571, 50.8582846861 ],
-						[ 4.3855617851, 50.8582694235 ],
-						[ 4.38586514, 50.8583267614 ],
-						[ 4.3858550192, 50.8583438559 ],
-						[ 4.3857493986, 50.8583212847 ],
-						[ 4.3857397604, 50.8583392948 ],
-						[ 4.3856727229, 50.8583255695 ],
-						[ 4.3856809156, 50.8583109172 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 743774,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38571 50.8583)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "23/10/2025",
-				"DateDebutAutorisee" : "23/10/2025",
-				"DateFin" : "28/11/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "SIBELGA TC",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "LEJEUNE Laurence",
-				"Rues" : "Avenue Jan Stobbaerts (Schaerbeek)",
-				"ReferenceInterne" : "Rue Jan stobbaerts 22  1030 Schaerbeek  D: 02287648",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "51,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3809873087, 50.8541996659 ],
-						[ 4.3813219712, 50.8543779217 ],
-						[ 4.3812965621, 50.8543940111 ],
-						[ 4.3809746074, 50.8542197756 ],
-						[ 4.3809873087, 50.8541996659 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 744024,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38115 50.8543)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "06/10/2025",
-				"DateDebutAutorisee" : "06/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Alexandre Markelbach (Sch",
-				"Organisation" : "Cesar",
-				"Pilote" : "",
-				"Responsable" : "DAWANS Anastasia",
-				"Rues" : "Rue Alexandre Markelbach (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "72,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -77756,7 +74813,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Hubert Krains (Schaerbeek)",
 				"ReferenceInterne" : "PK0312.2024",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "35,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -77846,7 +74903,7 @@ var BoundaryChantiers = {
 				"Rues" : "Tuinbouw (Evere)",
 				"ReferenceInterne" : "Rue de geneve  1  1140 Evere  D :02420688",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "200,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -77980,11 +75037,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "28/08/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "28/08/2025",
 				"DateFin" : "31/08/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "31/08/2026",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (8 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -77995,7 +75052,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Josaphat (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00656-T + SCH-00655-T",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "370,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -78086,50 +75143,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Préparation de demande d'autorisation",
 				"Surface" : "110,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3619704741, 50.8595109478 ],
-						[ 4.3628378265, 50.8612697872 ],
-						[ 4.3627429293, 50.8613126804 ],
-						[ 4.3618959159, 50.8595323927 ],
-						[ 4.3619704741, 50.8595109478 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 745938,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36238 50.8605)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "27/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue d'Aerschot (Schaerbeek)",
-				"Organisation" : "GROUP MDS",
-				"Pilote" : "",
-				"Responsable" : "DE RIDDER Bram",
-				"Rues" : "Rue d'Aerschot (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "205,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -78307,50 +75320,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Enregistré (Brouillon)",
 				"Surface" : "33,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3870119664, 50.863523005 ],
-						[ 4.3870310249, 50.8635092613 ],
-						[ 4.3871258321, 50.863551138 ],
-						[ 4.3871110103, 50.8635652162 ],
-						[ 4.3870119664, 50.863523005 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 746556,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38707 50.8635)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "01/10/2025",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Avenue des Héliotropes (Schaerbeek)",
-				"Organisation" : "PSY BAVO",
-				"Pilote" : "",
-				"Responsable" : "KEVIN Van Leemputten",
-				"Rues" : "Avenue des Héliotropes (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "16,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -78657,7 +75626,7 @@ var BoundaryChantiers = {
 				"DateFin" : "02/02/2027",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (13 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (7 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -78702,7 +75671,7 @@ var BoundaryChantiers = {
 				"DateFin" : "02/09/2027",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (22 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (16 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -78752,7 +75721,7 @@ var BoundaryChantiers = {
 				"DateFin" : "02/09/2027",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (13 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (7 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -79046,138 +76015,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3673853976, 50.8700505795 ],
-						[ 4.3673347498, 50.8700011319 ],
-						[ 4.3673931166, 50.8699788504 ],
-						[ 4.3674466587, 50.8700221934 ],
-						[ 4.3673853976, 50.8700505795 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 747409,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36739 50.87)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "02/09/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek, VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4484431",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Rue Stephenson (Bruxelles), \nRue Stephenson (Schaerbeek)",
-				"ReferenceInterne" : "102884433965 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Subdivisé (initial)",
-				"Surface" : "28,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3673853976, 50.8700505795 ],
-						[ 4.3673347498, 50.8700011319 ],
-						[ 4.367368737, 50.8699881573 ],
-						[ 4.3674216087, 50.8700338006 ],
-						[ 4.3673853976, 50.8700505795 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 747413,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36738 50.87)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "02/09/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4484431",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Rue Stephenson (Bruxelles), \nRue Stephenson (Schaerbeek)",
-				"ReferenceInterne" : "102884433965 - JAM ",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "15,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3673931166, 50.8699788504 ],
-						[ 4.3674466587, 50.8700221934 ],
-						[ 4.3674216087, 50.8700338006 ],
-						[ 4.367368737, 50.8699881573 ],
-						[ 4.3673931166, 50.8699788504 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 747414,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36741 50.87)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "02/09/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4484431",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Rue Stephenson (Bruxelles), \nRue Stephenson (Schaerbeek)",
-				"ReferenceInterne" : "102884433965 - JAM ",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "13",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3793364115, 50.8715320408 ],
 						[ 4.3791861084, 50.8713161666 ],
 						[ 4.3792351459, 50.8712988256 ],
@@ -79303,51 +76140,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "En attente de déclaration d'exécution de chantier",
 				"Surface" : "94,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3690658377, 50.8709813478 ],
-						[ 4.3690794483, 50.8709662258 ],
-						[ 4.3692241062, 50.8710050385 ],
-						[ 4.3692911238, 50.8710420431 ],
-						[ 4.3692753385, 50.8710572447 ],
-						[ 4.3690658377, 50.8709813478 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 747490,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36918 50.871)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/11/2025",
-				"DateDebutAutorisee" : "01/11/2025",
-				"DateFin" : "02/11/2025",
-				"DateFinAutorisee" : "01/11/2025",
-				"Duree" : "0 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Stephenson (Schaerbeek)",
-				"Organisation" : "VIGUIER Julien",
-				"Pilote" : "",
-				"Responsable" : "VIGUIER Julien",
-				"Rues" : "Rue Stephenson (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "44,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -80077,7 +76869,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Rogier (Schaerbeek), \nRue Godefroid Devreese (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00085-T + SCH-00583-T",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "643,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -80258,11 +77050,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "04/09/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/09/2025",
 				"DateFin" : "30/09/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "30/09/2026",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (12 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -80273,7 +77065,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Metsys (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00024-T",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Autorisé",
 				"Surface" : "489,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -80321,51 +77113,6 @@ var BoundaryChantiers = {
 				"Surface" : "30",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3563877006, 50.8662351303 ],
-						[ 4.3568062377, 50.8667516214 ],
-						[ 4.3567560711, 50.8667674886 ],
-						[ 4.3563394629, 50.8662546602 ],
-						[ 4.3563626174, 50.8662436742 ],
-						[ 4.3563877006, 50.8662351303 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 748857,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.35657 50.8665)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "05/09/2025",
-				"DateDebutAutorisee" : "21/10/2025",
-				"DateFin" : "05/09/2027",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
-				"Nom" : "SCH01_POP04",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ROBIN Jordi",
-				"Rues" : "Allée Verte (Bruxelles)",
-				"ReferenceInterne" : "Wyre_SCH01_POP04",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "256,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -80676,54 +77423,10 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Albert Giraud (Schaerbeek), \nAvenue Emile Verhaeren (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00103-T + SCH-00104-T + SCH-00105-T",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "1864,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3847243532, 50.8482506347 ],
-						[ 4.3846841553, 50.8481929829 ],
-						[ 4.3847086894, 50.8481861017 ],
-						[ 4.3847507722, 50.8482434766 ],
-						[ 4.3847243532, 50.8482506347 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 749267,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38472 50.8482)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "01/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "23 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Avenue de la Brabançonne (Bruxelles)",
-				"Organisation" : "Castan, Fabien",
-				"Pilote" : "",
-				"Responsable" : "CASTAN Fabien",
-				"Rues" : "Avenue de la Brabançonne (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "13,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -80801,7 +77504,7 @@ var BoundaryChantiers = {
 				"DateFin" : "30/09/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (23 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (17 jours ouvrables)<br/>",
 				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -81005,7 +77708,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Poste (Schaerbeek), \nRue Royale-Sainte-Marie (Schaerbeek), \nRue Rogier (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00498-T + SCH-90508-T + SCH-90509-T",
 				"Regime" : "A",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
 				"Surface" : "889,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -81127,11 +77830,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "08/12/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "08/12/2025",
 				"DateFin" : "30/01/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "16/12/2025",
 				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -81142,7 +77845,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
 				"ReferenceInterne" : "Av paul deschanel 94  1030 Schaerbeek  D: 02455394",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "92",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -81699,52 +78402,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.376992702, 50.8661804804 ],
-						[ 4.376997532, 50.8662158867 ],
-						[ 4.3769714865, 50.8662171096 ],
-						[ 4.3769772823, 50.8662586206 ],
-						[ 4.3768682772, 50.8662647334 ],
-						[ 4.3768586158, 50.8661853741 ],
-						[ 4.376992702, 50.8661804804 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 751051,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37692 50.8662)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "22/09/2025",
-				"DateDebutAutorisee" : "22/09/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "Rue Brand 54",
-				"Organisation" : "VD Concept",
-				"Pilote" : "",
-				"Responsable" : "DURIS Vincent",
-				"Rues" : "Rue Joseph Brand (Schaerbeek)",
-				"ReferenceInterne" : "Rue Brand, 54",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "74,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3905590738, 50.8576327248 ],
 						[ 4.3905302727, 50.8576391649 ],
 						[ 4.3904251239, 50.8574322044 ],
@@ -81762,11 +78419,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "24/09/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "15/10/2025",
 				"DateFin" : "24/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Transmission décision administrateur si CCC (8 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -81777,7 +78434,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Chazal (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation en attente de décision",
+				"Statut" : "Autorisé",
 				"Surface" : "48,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -82561,7 +79218,7 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée de Roodebeek (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "CST_Wyre_WOL01_POP10_Permit 2_ChRoodebeek558-564 /  AAN_20241025_25167912",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation réputée recevable",
+				"Statut" : "Demande d'autorisation en attente d'avis CCC",
 				"Surface" : "415,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
@@ -82608,7 +79265,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Albert Jonnart (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "CST_WYRE_WOL03_POP08_P01_AvAlbertJonnart1-145 / AAN_20240507_25149795",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Demande d'autorisation recevable par défaut",
 				"Surface" : "602,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
@@ -82641,7 +79298,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "2 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (25 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (19 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -82690,11 +79347,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "12/09/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "12/09/2025",
 				"DateFin" : "17/09/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "17/09/2026",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (30 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -82705,7 +79362,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Clays (Schaerbeek)",
 				"ReferenceInterne" : "SCH-00216-T",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "305,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -82855,7 +79512,7 @@ var BoundaryChantiers = {
 				"DateFin" : "30/09/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Transmission décision administrateur si CCC (17 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek, VBX",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -82866,7 +79523,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Georges Rodenbach (Schaerbeek), \nAvenue Zénobe Gramme (Schaerbeek), \nRampe du Lion (Bruxelles)",
 				"ReferenceInterne" : "SCH-00184-T + SCH-00426-T + SCH-00427-T",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation en attente d'avis CCC",
+				"Statut" : "Demande d'autorisation en attente de décision",
 				"Surface" : "948,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
@@ -83192,52 +79849,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3897623741, 50.8450520132 ],
-						[ 4.3897935444, 50.8450188088 ],
-						[ 4.3900416533, 50.8451306359 ],
-						[ 4.3899889701, 50.8451734701 ],
-						[ 4.3898862286, 50.8451237422 ],
-						[ 4.3897480512, 50.8450672708 ],
-						[ 4.3897623741, 50.8450520132 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 753328,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38989 50.8451)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "22/09/2025",
-				"DateDebutAutorisee" : "22/09/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "30 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Tunnel Belliard (Bruxelles), Avenue de Cortenbergh (Bruxelles)",
-				"Organisation" : "Bbuild",
-				"Pilote" : "",
-				"Responsable" : "ZAVADOV Elnour",
-				"Rues" : "Avenue de Cortenbergh (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "125,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3851825672, 50.8721225914 ],
 						[ 4.3852037851, 50.8721030536 ],
 						[ 4.385473017, 50.8722623441 ],
@@ -83349,7 +79960,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -83603,51 +80214,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.4117694813, 50.8457664459 ],
-						[ 4.4117964861, 50.8457731509 ],
-						[ 4.4116963499, 50.8459288567 ],
-						[ 4.4116298032, 50.8459136198 ],
-						[ 4.411727979, 50.845756686 ],
-						[ 4.4117694813, 50.8457664459 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 753719,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.41171 50.8458)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "16/09/2025",
-				"DateDebutAutorisee" : "01/10/2025",
-				"DateFin" : "16/09/2026",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
-				"Nom" : "Tourelle d'acces",
-				"Organisation" : "VIMAR",
-				"Pilote" : "",
-				"Responsable" : "CRETEN  Stijn",
-				"Rues" : "Rue du Bois de Linthout (Woluwe-Saint-Lambert)",
-				"ReferenceInterne" : "Vimar - Lindhout 61",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "95,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3608315708, 50.8562497061 ],
 						[ 4.3608730485, 50.8562088076 ],
 						[ 4.3608990877, 50.8562149138 ],
@@ -83881,7 +80447,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Cible (Schaerbeek)",
 				"ReferenceInterne" : "Rue de la cible 21",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "63,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -84010,7 +80576,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Van Schoor (Schaerbeek), \nRue Vanderlinden (Schaerbeek), \nRue du Pavillon (Schaerbeek), \nRue des Palais (Schaerbeek), \nRue Stephenson (Bruxelles), \nRue du Pavillon (Bruxelles)",
 				"ReferenceInterne" : "Wyre_SCH03_POP04_SCH03_POP07",
 				"Regime" : "PCA",
-				"Statut" : "En coordination",
+				"Statut" : "Préparation de demande d'autorisation",
 				"Surface" : "13250,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
@@ -84475,7 +81041,7 @@ var BoundaryChantiers = {
 				"DateDebutAutorisee" : "",
 				"DateFin" : "31/12/2027",
 				"DateFinAutorisee" : "",
-				"Duree" : "210 Jours Ouvrables",
+				"Duree" : "330 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"ImpetrantsCoordonnes" : "SPRB - BM - DEN - Equipement, STIB - C & SST, Sibelga BE-CO, VBX - DU - Mob. & amén. urb., VOO, Wyre",
@@ -84654,7 +81220,7 @@ var BoundaryChantiers = {
 				"Rues" : "Place Eugène Verboekhoven (Schaerbeek), \nAvenue Eugène Demolder (Schaerbeek), \nAvenue Princesse Elisabeth (Schaerbeek), \nRue Waelhem (Schaerbeek), \nRue Léopold Courouble (Schaerbeek)",
 				"ReferenceInterne" : "Wyre_SCH03_POP02",
 				"Regime" : "PCA",
-				"Statut" : "En coordination",
+				"Statut" : "Préparation de demande d'autorisation",
 				"Surface" : "11475,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -84802,7 +81368,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Vondel (Schaerbeek), \nAvenue Voltaire (Schaerbeek), \nAvenue Maréchal Foch (Schaerbeek), \nPlace du Pavillon (Schaerbeek), \nRue Van Oost (Schaerbeek), \nRue Fraikin (Schaerbeek), \nRue Quinaux (Schaerbeek), \nRue Gallait (Schaerbeek), \nRue des Ailes (Schaerbeek)",
 				"ReferenceInterne" : "Wyre_SCH03_POP05",
 				"Regime" : "PCA",
-				"Statut" : "En coordination",
+				"Statut" : "Préparation de demande d'autorisation",
 				"Surface" : "10370,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -84944,50 +81510,6 @@ var BoundaryChantiers = {
 				"Surface" : "79,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3754604461, 50.8782952414 ],
-						[ 4.3754334184, 50.8782283979 ],
-						[ 4.3754831099, 50.8782222902 ],
-						[ 4.3755029006, 50.8782869976 ],
-						[ 4.3754604461, 50.8782952414 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 754599,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37547 50.8783)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "02/10/2025",
-				"DateDebutAutorisee" : "02/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "22 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Réparation",
-				"Nom" : "HT/BT VP",
-				"Organisation" : "SPRB - BM - DGI - Tunnels EM",
-				"Pilote" : "",
-				"Responsable" : "EL KAHIOUI Bilal",
-				"Rues" : "Boulevard Lambermont (Bruxelles)",
-				"ReferenceInterne" : "HT/BT VP REMPLACEMENT TRAPPE ACCES MATERIEL",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "25",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -85203,50 +81725,6 @@ var BoundaryChantiers = {
 				"Regime" : "PCA",
 				"Statut" : "En coordination",
 				"Surface" : "8251,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3858669493, 50.8671119595 ],
-						[ 4.3858713347, 50.8671340518 ],
-						[ 4.3858318121, 50.8671388119 ],
-						[ 4.3858256133, 50.8671145783 ],
-						[ 4.3858669493, 50.8671119595 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 754703,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38585 50.8671)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "17/09/2025",
-				"DateDebutAutorisee" : "15/10/2025",
-				"DateFin" : "14/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Boulevard Lambermont (Schaerbeek)",
-				"Organisation" : "Bacciochi Clement",
-				"Pilote" : "",
-				"Responsable" : "BACCIOCHI Clement",
-				"Rues" : "Boulevard Lambermont (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Autorisé",
-				"Surface" : "7,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -85533,7 +82011,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Auguste Lambiotte (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "12",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -85796,50 +82274,6 @@ var BoundaryChantiers = {
 				"Surface" : "32,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3752596446, 50.8502334481 ],
-						[ 4.3752728775, 50.8502193715 ],
-						[ 4.3755884221, 50.8503396661 ],
-						[ 4.3755720129, 50.8503547484 ],
-						[ 4.3752596446, 50.8502334481 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 757253,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37543 50.8503)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "06/10/2025",
-				"DateDebutAutorisee" : "06/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "20 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Verbist (Saint-Josse-ten-",
-				"Organisation" : "Van Dessel Stefan",
-				"Pilote" : "",
-				"Responsable" : "VAN DESSEL Stefan",
-				"Rues" : "Rue Verbist (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "49,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -86110,6 +82544,55 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ 4.3866562541, 50.873235434 ],
+						[ 4.3866416904, 50.8732202146 ],
+						[ 4.3866202013, 50.8731945471 ],
+						[ 4.3866385276, 50.8731823351 ],
+						[ 4.3865757895, 50.8731158048 ],
+						[ 4.3865931513, 50.8731042033 ],
+						[ 4.3867852287, 50.8733117293 ],
+						[ 4.3867620766, 50.873319669 ],
+						[ 4.3866742429, 50.873226893 ],
+						[ 4.3866562541, 50.873235434 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 757396,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38668 50.8732)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "20/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "D'OURS Mikael",
+				"Rues" : "Chaussée de Helmet (Schaerbeek)",
+				"ReferenceInterne" : "ch de helmet 237  1030 Schaerbeek  D: 02382419 ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "57,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ 4.3742132488, 50.8727000385 ],
 						[ 4.3740772294, 50.8728251898 ],
 						[ 4.3739441049, 50.8729601082 ],
@@ -86292,7 +82775,7 @@ var BoundaryChantiers = {
 				"DateFin" : "28/02/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (8 jours ouvrables)<br/>",
+				"Echeances" : "Transmission décision administrateur (1ère demande) (25 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek, VBX",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -86901,232 +83384,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3868274927, 50.8577385965 ],
-						[ 4.3868550251, 50.857735911 ],
-						[ 4.3869016577, 50.8578297419 ],
-						[ 4.3868825982, 50.8578351071 ],
-						[ 4.3868274927, 50.8577385965 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 759224,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38687 50.8578)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "15/10/2025",
-				"DateDebutAutorisee" : "15/10/2025",
-				"DateFin" : "29/10/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Vandenbussche (Schaerbeek",
-				"Organisation" : "ALL-IN BRUXELLES S.P.R.L.",
-				"Pilote" : "",
-				"Responsable" : "LLAPI Shkelzen ",
-				"Rues" : "Rue Vandenbussche (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "16,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3953754902, 50.8512094667 ],
-						[ 4.3954474763, 50.8511845816 ],
-						[ 4.3954595288, 50.8511988903 ],
-						[ 4.3953878072, 50.8512234558 ],
-						[ 4.3953754902, 50.8512094667 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 759270,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39542 50.8512)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "10/10/2025",
-				"DateDebutAutorisee" : "10/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "16 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Avenue du Diamant (Schaerbeek)",
-				"Organisation" : "1000Brix",
-				"Pilote" : "",
-				"Responsable" : "VERKAEREN Bertrand",
-				"Rues" : "Avenue du Diamant (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "10,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3753926531, 50.8781855572 ],
-						[ 4.3753772095, 50.8781519829 ],
-						[ 4.3754408901, 50.8781336651 ],
-						[ 4.3755113384, 50.8782002007 ],
-						[ 4.375410991, 50.878216079 ],
-						[ 4.3753926531, 50.8781855572 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 759428,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37544 50.8782)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A1",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "13/10/2025",
-				"DateFin" : "13/01/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "Rénov cabine HT 23519",
-				"Organisation" : "Sibelga EE",
-				"Pilote" : "",
-				"Responsable" : "KHALIFA  Soufiane",
-				"Rues" : "Boulevard Lambermont (Bruxelles)",
-				"ReferenceInterne" : "C23519 Blvd Lambermont > Avenue de Vilvorde BXL",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "49,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3845206618, 50.8786618053 ],
-						[ 4.3845370614, 50.8786508148 ],
-						[ 4.3843894015, 50.8785690339 ],
-						[ 4.3844106241, 50.878553159 ],
-						[ 4.3848980033, 50.87883207 ],
-						[ 4.384883532, 50.8788387871 ],
-						[ 4.384743592, 50.8787618892 ],
-						[ 4.3847233329, 50.8787734908 ],
-						[ 4.3845206618, 50.8786618053 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 759429,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38462 50.8787)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "21/10/2025",
-				"DateDebutAutorisee" : "21/10/2025",
-				"DateFin" : "28/11/2025",
-				"DateFinAutorisee" : "29/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "SIBELGA TC",
-				"Organisation" : "Sibelga Tracli",
-				"Pilote" : "",
-				"Responsable" : "LEJEUNE Laurence",
-				"Rues" : "Rue Auguste Snieders (Schaerbeek)",
-				"ReferenceInterne" : "Rue auguste snieders 23  1030 Schaerbeek  D:1898381",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "116,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3991715545, 50.8461538583 ],
-						[ 4.3989648535, 50.8461070595 ],
-						[ 4.3989412954, 50.846101004 ],
-						[ 4.3989630296, 50.8460718779 ],
-						[ 4.3991818492, 50.8461159903 ],
-						[ 4.3991715545, 50.8461538583 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 759450,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39907 50.8461)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "29/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "21 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (11 jours ouvrables)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue Général Gratry (Schaerbeek)",
-				"Organisation" : "Sanchez Gonzalez Marine",
-				"Pilote" : "",
-				"Responsable" : "SANCHEZ GONZALEZ Marine",
-				"Rues" : "Rue Général Gratry (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
-				"Surface" : "65,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4108930157, 50.8530326427 ],
 						[ 4.4106307498, 50.8529325574 ],
 						[ 4.4106695148, 50.852893469 ],
@@ -87214,7 +83471,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Rivière (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "Rue de riviere 15  1210 St Josse  D; 02486166",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "37,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -87407,50 +83664,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3847447148, 50.8489393592 ],
-						[ 4.3847339467, 50.8489284914 ],
-						[ 4.3848062894, 50.8489080377 ],
-						[ 4.3848167049, 50.8489194641 ],
-						[ 4.3847447148, 50.8489393592 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 759963,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38478 50.8489)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "10/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "16 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue des Confédérés (Bruxelles)",
-				"Organisation" : "LM CONSTRUCT",
-				"Pilote" : "",
-				"Responsable" : "LM CONSTRUCT Lm Construct",
-				"Rues" : "Rue des Confédérés (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4077709679, 50.8639678394 ],
 						[ 4.4077429674, 50.8639361049 ],
 						[ 4.4077497181, 50.8639342712 ],
@@ -87518,7 +83731,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (12 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (6 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -87804,53 +84017,8 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Adolphe Lacomblé (Schaerbeek)",
 				"ReferenceInterne" : "Rue Adolphe lacomble 14  1030 Schaerbeek  D: 02491734",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "101,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3973083794, 50.8455439092 ],
-						[ 4.3973117499, 50.8455461395 ],
-						[ 4.3973048731, 50.8455538494 ],
-						[ 4.3972281017, 50.8455290682 ],
-						[ 4.3972360365, 50.8455203527 ],
-						[ 4.3973083794, 50.8455439092 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 760401,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39727 50.8455)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "13/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Théodore Roosevelt (Schae",
-				"Organisation" : "Reno-toit",
-				"Pilote" : "",
-				"Responsable" : "NIX Aurélie",
-				"Rues" : "Rue Théodore Roosevelt (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
 				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "6,7",
+				"Surface" : "101,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -87963,50 +84131,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3972180512, 50.8455408006 ],
-						[ 4.3973721241, 50.8455910329 ],
-						[ 4.3973588998, 50.8456064526 ],
-						[ 4.3972064148, 50.8455558847 ],
-						[ 4.3972180512, 50.8455408006 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 760503,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39729 50.8456)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "13/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue Théodore Roosevelt (Schaerbeek)",
-				"Organisation" : "Reno-toit",
-				"Pilote" : "",
-				"Responsable" : "NIX Aurélie",
-				"Rues" : "Rue Théodore Roosevelt (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "23,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4171035201, 50.853838167 ],
 						[ 4.4170523693, 50.853802171 ],
 						[ 4.4170947876, 50.8537875021 ],
@@ -88051,50 +84175,6 @@ var BoundaryChantiers = {
 				"Surface" : "306,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3791507622, 50.8593640086 ],
-						[ 4.3791742549, 50.8594114467 ],
-						[ 4.3791462853, 50.8594172487 ],
-						[ 4.3791216789, 50.8593693298 ],
-						[ 4.3791507622, 50.8593640086 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 760882,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37915 50.8594)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "29/10/2025",
-				"DateFin" : "01/11/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4512817",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "ATMANI Amine",
-				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
-				"ReferenceInterne" : "101117413459 - JAM",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "11,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -88199,62 +84279,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3675392357, 50.8617211166 ],
-							[ 4.3675657612, 50.8617247795 ],
-							[ 4.3675426108, 50.8617946773 ],
-							[ 4.3675151208, 50.8617913197 ],
-							[ 4.3675310367, 50.8617415671 ],
-							[ 4.3675392357, 50.8617211166 ]
-						]
-					],
-					[
-						[
-							[ 4.3675093331, 50.8618096335 ],
-							[ 4.3675363409, 50.8618136016 ],
-							[ 4.3675025798, 50.8619219584 ],
-							[ 4.3674721959, 50.8619179903 ],
-							[ 4.3675093331, 50.8618096335 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 761116,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36752 50.8618)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "01/10/2025",
-				"DateDebutAutorisee" : "27/10/2025",
-				"DateFin" : "16/12/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Réparation",
-				"Nom" : "Bruxelles, 55 Rue des palais",
-				"Organisation" : "Wyre",
-				"Pilote" : "",
-				"Responsable" : "ZATIKIAN Armen",
-				"Rues" : "Rue des Palais (Schaerbeek)",
-				"ReferenceInterne" : "REP_20250623_25198480",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "41,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -88279,7 +84303,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (13 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (7 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -88691,50 +84715,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.4042885984, 50.8434625452 ],
-						[ 4.4042727314, 50.843479307 ],
-						[ 4.4041054305, 50.8434364608 ],
-						[ 4.4041170619, 50.8434183598 ],
-						[ 4.4042885984, 50.8434625452 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 761662,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.4042 50.8434)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "07/10/2025",
-				"DateDebutAutorisee" : "15/10/2025",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "9 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Avenue Albert Jonnart (Woluwe-Saint-Lambert)",
-				"Organisation" : "MF",
-				"Pilote" : "",
-				"Responsable" : "CATELIN Thomas",
-				"Rues" : "Avenue Albert Jonnart (Woluwe-Saint-Lambert)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "27,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4177438219, 50.8539282066 ],
 						[ 4.4177467067, 50.8539202693 ],
 						[ 4.4177968673, 50.8539312364 ],
@@ -88798,9 +84778,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "03/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "03/11/2025",
 				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "28/11/2025",
 				"Duree" : "15 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode, Schaerbeek",
@@ -88813,7 +84793,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue du Progrès (Saint-Josse-ten-Noode), \nRue du Progrès (Schaerbeek)",
 				"ReferenceInterne" : "Containers sur dalle du CCN",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "499,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -88859,7 +84839,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Linné (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "Rue Linne 90  1210 St joss   D: 02422544",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "36,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -88947,7 +84927,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Franklin (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "10,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -88991,142 +84971,10 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Franklin (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "18,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3890349587, 50.8494756214 ],
-						[ 4.3890921171, 50.8494387461 ],
-						[ 4.3891164759, 50.8494534877 ],
-						[ 4.3890593176, 50.8494903631 ],
-						[ 4.3890349587, 50.8494756214 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 762086,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38908 50.8495)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue du Noyer (Bruxelles)",
-				"Organisation" : "Habay Stéphanie",
-				"Pilote" : "",
-				"Responsable" : "HABAY Stéphanie",
-				"Rues" : "Rue du Noyer (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Incomplet/Non conforme",
-				"Surface" : "13,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3890349587, 50.8494756214 ],
-						[ 4.3890921171, 50.8494387461 ],
-						[ 4.3891164759, 50.8494534877 ],
-						[ 4.3890593176, 50.8494903631 ],
-						[ 4.3890349587, 50.8494756214 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 762088,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38908 50.8495)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "14/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "01/11/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue du Noyer (Bruxelles)",
-				"Organisation" : "Habay Stéphanie",
-				"Pilote" : "",
-				"Responsable" : "HABAY Stéphanie",
-				"Rues" : "Rue du Noyer (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Inactif",
-				"Surface" : "13,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3890349587, 50.8494756214 ],
-						[ 4.3890921171, 50.8494387461 ],
-						[ 4.3891164759, 50.8494534877 ],
-						[ 4.3890593176, 50.8494903631 ],
-						[ 4.3890349587, 50.8494756214 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 762089,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38908 50.8495)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "15/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "02/11/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue du Noyer (Bruxelles)",
-				"Organisation" : "Habay Stéphanie",
-				"Pilote" : "",
-				"Responsable" : "HABAY Stéphanie",
-				"Rues" : "Rue du Noyer (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Inactif",
-				"Surface" : "13,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : ""
 			}
 		},
 		{
@@ -89684,7 +85532,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (15 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (9 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -89787,54 +85635,10 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Metsys (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "32,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3798993892, 50.8487713197 ],
-						[ 4.3798106197, 50.8487561772 ],
-						[ 4.3798203299, 50.8487305598 ],
-						[ 4.3799097542, 50.8487463186 ],
-						[ 4.3798993892, 50.8487713197 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 762351,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37986 50.8488)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "07/10/2025",
-				"DateDebutAutorisee" : "16/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "12 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue de Gravelines (Bruxelles)",
-				"Organisation" : "TONYGROUPE sprl",
-				"Pilote" : "",
-				"Responsable" : "TONYGROUPE Sprl",
-				"Rues" : "Rue de Gravelines (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "18,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -89887,50 +85691,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.385337441, 50.8543808015 ],
-						[ 4.3854073052, 50.8543172492 ],
-						[ 4.3854225556, 50.8543231454 ],
-						[ 4.3853518439, 50.8543856254 ],
-						[ 4.385337441, 50.8543808015 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 762378,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38538 50.8544)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "28/10/2025",
-				"DateDebutAutorisee" : "28/10/2025",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "30/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Avenue Dailly (Schaerbeek)",
-				"Organisation" : "BYHA",
-				"Pilote" : "",
-				"Responsable" : "CANSE Bernard",
-				"Rues" : "Avenue Dailly (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "10,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3796076152, 50.8501179844 ],
 						[ 4.3796216476, 50.8501059829 ],
 						[ 4.3797714256, 50.85016854 ],
@@ -89965,50 +85725,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "En attente de déclaration d'exécution de chantier",
 				"Surface" : "21,4",
-				"Urgence" : "P1 : Urgence urgente",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3790326186, 50.8771002862 ],
-						[ 4.3790077116, 50.8770540399 ],
-						[ 4.3790341956, 50.8770483401 ],
-						[ 4.3790606916, 50.8770935809 ],
-						[ 4.3790326186, 50.8771002862 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 762412,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37903 50.8771)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "20/10/2025",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "29/10/2025",
-				"Duree" : "8 Jours Ouvrables",
-				"Echeances" : "Invitation à l'état des lieux d'entrée (4 jours ouvrables)<br/>Validation terme de chantier (7 jours ouvrables)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue Princesse Elisabeth (S",
-				"Organisation" : "Vander Haegen, Mel",
-				"Pilote" : "",
-				"Responsable" : "VANDER HAEGEN Mel",
-				"Rues" : "Avenue Princesse Elisabeth (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Provisoirement terminé (En phase de réalisation)",
-				"Surface" : "10,8",
 				"Urgence" : "P1 : Urgence urgente",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -90523,7 +86239,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Eeckelaers (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "LTDI#8000054546-JO-RUE EECKELAERS 50 RA",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "27",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -90556,7 +86272,7 @@ var BoundaryChantiers = {
 				"DateFin" : "27/03/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (16 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (10 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -90667,95 +86383,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3896884831, 50.8456406895 ],
-						[ 4.3896648499, 50.8456307209 ],
-						[ 4.389782941, 50.8455185031 ],
-						[ 4.3898065742, 50.8455284717 ],
-						[ 4.3896884831, 50.8456406895 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 763045,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38974 50.8456)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "27/10/2025",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue Le Titien (Bruxelles)",
-				"Organisation" : "Baldoni Lorenzo",
-				"Pilote" : "",
-				"Responsable" : "BALDONI Lorenzo",
-				"Rues" : "Rue Le Titien (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Provisoirement terminé (En phase de réalisation)",
-				"Surface" : "30",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3942476345, 50.8686269864 ],
-						[ 4.3942530978, 50.8685933468 ],
-						[ 4.3942549991, 50.8685149716 ],
-						[ 4.3943127699, 50.8685146524 ],
-						[ 4.394315243, 50.8686245348 ],
-						[ 4.3942476345, 50.8686269864 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 763147,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39428 50.8686)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "07/10/2025",
-				"DateDebutAutorisee" : "21/10/2025",
-				"DateFin" : "07/01/2026",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "4559861",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "FERREIRA Tiago Miguel Gomes",
-				"Rues" : "Rue Alexandre De Craene (Schaerbeek)",
-				"ReferenceInterne" : "102572175407 + cstmodal",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "53",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3730620769, 50.863305612 ],
 						[ 4.3731600032, 50.8634886888 ],
 						[ 4.3731146682, 50.8635005948 ],
@@ -90801,50 +86428,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3712165106, 50.8651345054 ],
-						[ 4.3712652316, 50.8651385257 ],
-						[ 4.3712334663, 50.8652739216 ],
-						[ 4.37117839, 50.8652658798 ],
-						[ 4.3712165106, 50.8651345054 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 763314,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37122 50.8652)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "20/10/2025",
-				"DateFin" : "29/10/2025",
-				"DateFinAutorisee" : "29/10/2025",
-				"Duree" : "8 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue Renkin (Schaerbeek)",
-				"Organisation" : "LFN TOITURES ",
-				"Pilote" : "",
-				"Responsable" : "LAFERTIN Enrique",
-				"Rues" : "Rue Renkin (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "55,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3915244173, 50.8788270702 ],
 						[ 4.3917922875, 50.8789063764 ],
 						[ 4.3917778881, 50.8789246107 ],
@@ -90879,94 +86462,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Demande d'autorisation en attente d'avis CCC",
 				"Surface" : "45,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3812082468, 50.8671017071 ],
-						[ 4.3812772884, 50.8671133459 ],
-						[ 4.3812711902, 50.8671259376 ],
-						[ 4.3812005436, 50.8671132496 ],
-						[ 4.3812082468, 50.8671017071 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 763415,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38124 50.8671)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "6 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue Ernest Renan (Schaerbe",
-				"Organisation" : "Toiture Pierre Feltrin",
-				"Pilote" : "",
-				"Responsable" : "TOITURE PIERRE FELTRIN Srl",
-				"Rues" : "Avenue Ernest Renan (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Préparation de demande d'autorisation",
-				"Surface" : "7,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3812808679, 50.867111706 ],
-						[ 4.3812701053, 50.8671247656 ],
-						[ 4.3811929437, 50.8671128514 ],
-						[ 4.3812028091, 50.8670997919 ],
-						[ 4.3812808679, 50.867111706 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 763416,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38124 50.8671)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "6 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue Ernest Renan (Schaerbe",
-				"Organisation" : "Toiture Pierre Feltrin",
-				"Pilote" : "",
-				"Responsable" : "TOITURE PIERRE FELTRIN Srl",
-				"Rues" : "Avenue Ernest Renan (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "7,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -91066,51 +86561,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "En attente de déclaration d'exécution de chantier",
 				"Surface" : "12",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.384883732, 50.847187033 ],
-						[ 4.3848942846, 50.8470350258 ],
-						[ 4.3850861742, 50.8470386609 ],
-						[ 4.385076587, 50.8471918889 ],
-						[ 4.3848846965, 50.8471876433 ],
-						[ 4.384883732, 50.847187033 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 763601,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38499 50.8471)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "20/10/2025",
-				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux sur Mobilier Urbain et Accessoires Hors Sol",
-				"Nom" : "Installation toilette publique Square Marguerite",
-				"Organisation" : "VBX - EPV - PP",
-				"Pilote" : "",
-				"Responsable" : "VAN WIJNENDAELE Bruno",
-				"Rues" : "Square Ambiorix (Bruxelles), \nSquare Marguerite (Bruxelles)",
-				"ReferenceInterne" : "EPV/2024/09 Installatie openbaar toilet Margaretasquare",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "112,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
@@ -91330,7 +86780,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (21 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -91623,50 +87073,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3759261232, 50.8569627158 ],
-						[ 4.3761522933, 50.8568218089 ],
-						[ 4.3761702977, 50.8568342748 ],
-						[ 4.3759437038, 50.8569738412 ],
-						[ 4.3759261232, 50.8569627158 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764412,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37605 50.8569)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "29/10/2025",
-				"DateDebutAutorisee" : "29/10/2025",
-				"DateFin" : "29/12/2025",
-				"DateFinAutorisee" : "29/10/2025",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue de la Consolation (Schaer",
-				"Organisation" : "ENERGYVISION NV",
-				"Pilote" : "",
-				"Responsable" : "PHAM  Thanh",
-				"Rues" : "Rue de la Consolation (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "40,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
@@ -91702,7 +87108,7 @@ var BoundaryChantiers = {
 				"DateFin" : "29/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (18 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (12 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -91715,182 +87121,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "75,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3685895463, 50.8573324125 ],
-						[ 4.3686196909, 50.8573260663 ],
-						[ 4.3687305143, 50.8573962107 ],
-						[ 4.3687003399, 50.8574025381 ],
-						[ 4.3685895463, 50.8573324125 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764502,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36866 50.8574)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "25/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode, Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Cornet de Grez (Saint-Josse-ten-Noode), Rue Cornet de Grez (Schaerbeek)",
-				"Organisation" : "Choveaux Guillaume",
-				"Pilote" : "",
-				"Responsable" : "CHOVEAUX Guillaume",
-				"Rues" : "Rue Cornet de Grez (Schaerbeek), \nRue Cornet de Grez (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Subdivisé (initial)",
-				"Surface" : "22,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3686755044, 50.8573613929 ],
-						[ 4.3686454205, 50.8573677775 ],
-						[ 4.3685895463, 50.8573324125 ],
-						[ 4.3686196909, 50.8573260663 ],
-						[ 4.3686755044, 50.8573613929 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764503,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36863 50.8573)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "25/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Cornet de Grez (Saint-Josse-ten-Noode), Rue Cornet de Grez (Schaerbeek)",
-				"Organisation" : "Choveaux Guillaume",
-				"Pilote" : "",
-				"Responsable" : "CHOVEAUX Guillaume",
-				"Rues" : "Rue Cornet de Grez (Schaerbeek), \nRue Cornet de Grez (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "11,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3686454205, 50.8573677775 ],
-						[ 4.3686755044, 50.8573613929 ],
-						[ 4.3687305143, 50.8573962107 ],
-						[ 4.3687003399, 50.8574025381 ],
-						[ 4.3686454205, 50.8573677775 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764504,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36869 50.8574)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "25/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Cornet de Grez (Saint-Josse-ten-Noode), Rue Cornet de Grez (Schaerbeek)",
-				"Organisation" : "Choveaux Guillaume",
-				"Pilote" : "",
-				"Responsable" : "CHOVEAUX Guillaume",
-				"Rues" : "Rue Cornet de Grez (Schaerbeek), \nRue Cornet de Grez (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "11",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3687367307, 50.8573819139 ],
-						[ 4.3687282276, 50.8573647594 ],
-						[ 4.3690670093, 50.8572974843 ],
-						[ 4.3690755125, 50.8573146388 ],
-						[ 4.3687367307, 50.8573819139 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764509,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.3689 50.8573)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "25/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Cornet de Grez (Schaerbeek)",
-				"Organisation" : "Choveaux Guillaume",
-				"Pilote" : "",
-				"Responsable" : "CHOVEAUX Guillaume",
-				"Rues" : "Rue Cornet de Grez (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "50",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -91935,50 +87165,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "En attente de déclaration d'exécution de chantier",
 				"Surface" : "12,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3761527886, 50.849937858 ],
-						[ 4.3764320075, 50.8499049861 ],
-						[ 4.3764372002, 50.849922662 ],
-						[ 4.3761579811, 50.8499555339 ],
-						[ 4.3761527886, 50.849937858 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764555,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37629 50.8499)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "28/10/2025",
-				"DateDebutAutorisee" : "28/10/2025",
-				"DateFin" : "29/10/2025",
-				"DateFinAutorisee" : "29/10/2025",
-				"Duree" : "2 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Chaussée de Louvain (Saint-Josse-ten-Noode)",
-				"Organisation" : "Alibey  Kamel ",
-				"Pilote" : "",
-				"Responsable" : "AGENT 4",
-				"Rues" : "Chaussée de Louvain (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
-				"Surface" : "40",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -92057,7 +87243,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (23 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (17 jours ouvrables)<br/>",
 				"Gestionnaire" : "Evere, Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -92070,50 +87256,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "34,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3687468967, 50.8573786966 ],
-						[ 4.3687389621, 50.8573614333 ],
-						[ 4.3690798915, 50.8572986551 ],
-						[ 4.3690878262, 50.8573159184 ],
-						[ 4.3687468967, 50.8573786966 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764608,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36891 50.8573)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "25/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Cornet de Grez (Schaerbeek)",
-				"Organisation" : "Choveaux Guillaume",
-				"Pilote" : "",
-				"Responsable" : "CHOVEAUX Guillaume",
-				"Rues" : "Rue Cornet de Grez (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "50",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -92460,9 +87602,9 @@ var BoundaryChantiers = {
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Constat de chantier fantôme",
 				"Nom" : "Constat de chantier fantôme",
-				"Organisation" : "Administrateur Régional",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
 				"Pilote" : "",
-				"Responsable" : "VERNIERS  Dries",
+				"Responsable" : "BOLOGNESE Julien",
 				"Rues" : "Chaussée de Haecht (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
@@ -92551,7 +87693,7 @@ var BoundaryChantiers = {
 				"DateFin" : "05/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (20 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (14 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -92606,7 +87748,7 @@ var BoundaryChantiers = {
 				"DateFin" : "05/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (20 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (14 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -92650,7 +87792,7 @@ var BoundaryChantiers = {
 				"DateFin" : "06/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (23 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (17 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux sur Mobilier Urbain et Accessoires Hors Sol",
@@ -92663,138 +87805,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "100,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3874045732, 50.8638318099 ],
-						[ 4.3872656434, 50.8637674289 ],
-						[ 4.3873119263, 50.8637228577 ],
-						[ 4.3874561607, 50.8637857115 ],
-						[ 4.3874045732, 50.8638318099 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764962,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38736 50.8638)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "10/10/2025",
-				"DateDebutAutorisee" : "23/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4562522",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Avenue des Héliotropes (Schaerbeek)",
-				"ReferenceInterne" : "103026657890 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "69,4",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4074275355, 50.858479673 ],
-						[ 4.4073976245, 50.8584659477 ],
-						[ 4.4074617194, 50.8584131211 ],
-						[ 4.4074925968, 50.858429288 ],
-						[ 4.4074275355, 50.858479673 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764980,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40745 50.8584)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "10/10/2025",
-				"DateDebutAutorisee" : "23/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Evere",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4562068",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Clos de la Ballade (Evere)",
-				"ReferenceInterne" : "101258355772 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "15,9",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3674744761, 50.8611671377 ],
-						[ 4.3674951642, 50.8611011442 ],
-						[ 4.3675501436, 50.8611066386 ],
-						[ 4.3675322986, 50.8611734841 ],
-						[ 4.3674744761, 50.8611671377 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 764997,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.36751 50.8611)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "10/10/2025",
-				"DateDebutAutorisee" : "23/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4525471",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Rue des Palais (Schaerbeek)",
-				"ReferenceInterne" : "102988749179 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "30,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -92969,7 +87979,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Charles Quint (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "34,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -93026,50 +88036,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "Accord par défaut",
 				"Surface" : "54,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3625884541, 50.8571641141 ],
-						[ 4.3625995395, 50.8571806674 ],
-						[ 4.3624033949, 50.8572332914 ],
-						[ 4.3623923095, 50.857216738 ],
-						[ 4.3625884541, 50.8571641141 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765098,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.3625 50.8572)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue de la Rivière (Saint-Josse-ten-Noode)",
-				"Organisation" : "BEVIC",
-				"Pilote" : "",
-				"Responsable" : "BEVIC Chris",
-				"Rues" : "Rue de la Rivière (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "30",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -93156,98 +88122,10 @@ var BoundaryChantiers = {
 				"Rues" : "Boulevard Clovis (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Provisoirement terminé (En phase de réalisation)",
+				"Statut" : "En remédiation (En phase de réalisation)",
 				"Surface" : "16,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3879084807, 50.847149835 ],
-						[ 4.3879089837, 50.8471408511 ],
-						[ 4.3879941271, 50.8471427618 ],
-						[ 4.3879936241, 50.8471517456 ],
-						[ 4.3879084807, 50.847149835 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765256,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38795 50.8471)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "24/10/2025",
-				"DateDebutAutorisee" : "24/10/2025",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "27/10/2025",
-				"Duree" : "2 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue des Patriotes (Bruxelles)",
-				"Organisation" : "Ursake  Georgiy",
-				"Pilote" : "",
-				"Responsable" : "URSAKE  Georgiy",
-				"Rues" : "Rue des Patriotes (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3701577272, 50.85467725 ],
-						[ 4.3701489616, 50.854666177 ],
-						[ 4.3702146131, 50.8546460676 ],
-						[ 4.3702228406, 50.854658134 ],
-						[ 4.3701577272, 50.85467725 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765270,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37019 50.8547)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "29/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Gillon (Saint-Josse-ten-N",
-				"Organisation" : "Apateanu Ionel",
-				"Pilote" : "",
-				"Responsable" : "APATEANU Ionel",
-				"Rues" : "Rue Gillon (Saint-Josse-ten-Noode)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Préparation de demande d'autorisation",
-				"Surface" : "7,2",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -93320,50 +88198,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3787168399, 50.8485233478 ],
-						[ 4.3788423493, 50.848482037 ],
-						[ 4.3788667856, 50.8485150929 ],
-						[ 4.3787424008, 50.8485547844 ],
-						[ 4.3787168399, 50.8485233478 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765303,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37879 50.8485)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "27/10/2025",
-				"DateFin" : "13/01/2026",
-				"DateFinAutorisee" : "31/10/2025",
-				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Travaux de voirie et d'infrastructure ",
-				"Nom" : "4564488",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "FERREIRA Tiago Miguel Gomes",
-				"Rues" : "Rue des Eburons (Bruxelles)",
-				"ReferenceInterne" : "102513242146 + cstmodal",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "39,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3908015918, 50.8495530313 ],
 						[ 4.3908208851, 50.8495676787 ],
 						[ 4.3906410924, 50.8496760708 ],
@@ -93398,7 +88232,7 @@ var BoundaryChantiers = {
 				"Rues" : "Place des Chasseurs Ardennais (Schaerbeek)",
 				"ReferenceInterne" : "Bak 15 - Ardens Jagersplein 24 Schaarbeek",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "67",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -93454,50 +88288,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3890688299, 50.849452826 ],
-						[ 4.3890881156, 50.849466024 ],
-						[ 4.3890359952, 50.8494965462 ],
-						[ 4.3890167096, 50.8494833482 ],
-						[ 4.3890688299, 50.849452826 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765518,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38905 50.8495)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "13/10/2025",
-				"DateFin" : "01/11/2025",
-				"DateFinAutorisee" : "01/11/2025",
-				"Duree" : "14 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue du Noyer (Bruxelles)",
-				"Organisation" : "Habay Stéphanie",
-				"Pilote" : "",
-				"Responsable" : "HABAY Stéphanie",
-				"Rues" : "Rue du Noyer (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
-				"Surface" : "10",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.38431596, 50.8601242076 ],
 						[ 4.383946382, 50.8604364718 ],
 						[ 4.3839000774, 50.8604163328 ],
@@ -93532,183 +88322,6 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "167,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4095839844, 50.858474321 ],
-						[ 4.4096312189, 50.858445002 ],
-						[ 4.4098241627, 50.8584949915 ],
-						[ 4.4097229061, 50.8585127309 ],
-						[ 4.4097238717, 50.8585139515 ],
-						[ 4.4095839844, 50.858474321 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765645,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40969 50.8585)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "24/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Evere",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4563820",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Avenue du Destrier (Evere)",
-				"ReferenceInterne" : "102851660291 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "35,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4097560909, 50.844361497 ],
-						[ 4.4097960511, 50.844300131 ],
-						[ 4.4098462018, 50.8443135434 ],
-						[ 4.409810096, 50.8443721609 ],
-						[ 4.4097560909, 50.844361497 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765657,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.4098 50.8443)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "24/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4563376",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Avenue du Prince Héritier (Woluwe-Saint-Lambert)",
-				"ReferenceInterne" : "102324674348 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "27",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4082829528, 50.8591509992 ],
-						[ 4.4083191039, 50.8591299258 ],
-						[ 4.4084349086, 50.859203752 ],
-						[ 4.4084031022, 50.8592300129 ],
-						[ 4.4082829528, 50.8591509992 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765661,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40836 50.8592)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "24/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Evere",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4562935",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Avenue de l'Armet (Evere)",
-				"ReferenceInterne" : "102884088809 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "30,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4028139109, 50.8588827791 ],
-						[ 4.4028428224, 50.8588507213 ],
-						[ 4.402939301, 50.8588885413 ],
-						[ 4.4029089417, 50.8589190735 ],
-						[ 4.4028139109, 50.8588827791 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765695,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40288 50.8589)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "13/10/2025",
-				"DateDebutAutorisee" : "24/10/2025",
-				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "28/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4560137",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "TOULLAB Milissa",
-				"Rues" : "Rue Paul Leduc (Schaerbeek)",
-				"ReferenceInterne" : "101147044333 - JAM ",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "31,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -93815,54 +88428,6 @@ var BoundaryChantiers = {
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3905798743, 50.8711968077 ],
-						[ 4.3906228534, 50.8712094911 ],
-						[ 4.3905404198, 50.8713209159 ],
-						[ 4.3905225688, 50.8713148147 ],
-						[ 4.3906025914, 50.8712052218 ],
-						[ 4.3905861884, 50.8712006465 ],
-						[ 4.3905654608, 50.8712314787 ],
-						[ 4.3905570158, 50.8712283575 ],
-						[ 4.3905798743, 50.8711968077 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 765969,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39057 50.8713)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "27/10/2025",
-				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "30/10/2025",
-				"Duree" : "4 Jours Ouvrables",
-				"Echeances" : "Validation terme de chantier (2 jours ouvrables)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "P25-04179",
-				"Organisation" : "Deltatoit",
-				"Pilote" : "",
-				"Responsable" : "MOHAMMADI Ismaël",
-				"Rues" : "Rue de l'Agriculture (Schaerbeek)",
-				"ReferenceInterne" : "P25-04179",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "22,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
 				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
@@ -93909,7 +88474,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de Pavie (Bruxelles)",
 				"ReferenceInterne" : "echaffaudage et stationnement",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
+				"Statut" : "Accord sans conditions particulières (En phase de réalisation)",
 				"Surface" : "23,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -94221,7 +88786,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Constitution (Schaerbeek)",
 				"ReferenceInterne" : "Rue de la constitution 31   1030 Schaerbeek  D: 02413016",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "48,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -94277,50 +88842,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.4070111997, 50.8588650888 ],
-						[ 4.4069990932, 50.8588583532 ],
-						[ 4.407063194, 50.8588116315 ],
-						[ 4.407074518, 50.8588188128 ],
-						[ 4.4070111997, 50.8588650888 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 766379,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40704 50.8588)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "14/10/2025",
-				"DateDebutAutorisee" : "27/10/2025",
-				"DateFin" : "17/11/2025",
-				"DateFinAutorisee" : "29/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Evere",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4555728",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "ATMANI Amine",
-				"Rues" : "Clos de la Ballade (Evere)",
-				"ReferenceInterne" : "102224665227 - JAM",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut (En phase de réalisation)",
-				"Surface" : "7,7",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3790438292, 50.8488559114 ],
 						[ 4.3790107951, 50.8488553782 ],
 						[ 4.3790183781, 50.8486821783 ],
@@ -94353,144 +88874,10 @@ var BoundaryChantiers = {
 				"Rues" : "Rue du Cardinal (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Demande d'autorisation réputée recevable",
 				"Surface" : "44,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3705382861, 50.8580220017 ],
-						[ 4.370530343, 50.8580092667 ],
-						[ 4.37059547, 50.8579978706 ],
-						[ 4.3705997065, 50.8580072544 ],
-						[ 4.3705382861, 50.8580220017 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 766412,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37056 50.858)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "28/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "2 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (22 jours ouvrables)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Van Dyck (Schaerbeek)",
-				"Organisation" : "HOUSE UP",
-				"Pilote" : "",
-				"Responsable" : "DE VIRON Catherine",
-				"Rues" : "Rue Van Dyck (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
-				"Surface" : "6,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3937688645, 50.8676588943 ],
-						[ 4.3937401838, 50.8676681748 ],
-						[ 4.3936262567, 50.8677114516 ],
-						[ 4.3935995574, 50.867681908 ],
-						[ 4.3937562893, 50.8676266434 ],
-						[ 4.3937688645, 50.8676588943 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 766569,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39369 50.8677)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "27/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Julius Hoste (Schaerbeek)",
-				"Organisation" : "amewouame Yao",
-				"Pilote" : "",
-				"Responsable" : "AMEWOUAME Yao",
-				"Rues" : "Rue Julius Hoste (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Préparation de demande d'autorisation",
-				"Surface" : "43,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3937688645, 50.8676588943 ],
-						[ 4.3937401838, 50.8676681748 ],
-						[ 4.3936262567, 50.8677114516 ],
-						[ 4.3935995574, 50.867681908 ],
-						[ 4.3937562893, 50.8676266434 ],
-						[ 4.3937688645, 50.8676588943 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 766570,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39369 50.8677)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "30/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue Julius Hoste (Schaerbeek)",
-				"Organisation" : "amewouame Yao",
-				"Pilote" : "",
-				"Responsable" : "AMEWOUAME Yao",
-				"Rues" : "Rue Julius Hoste (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Inactif",
-				"Surface" : "43,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : ""
 			}
 		},
 		{
@@ -94531,7 +88918,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Verbist (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "46,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -94575,7 +88962,7 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée de Haecht (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "33,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -94719,7 +89106,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Albert Giraud (Schaerbeek)",
 				"ReferenceInterne" : "Albert giraudlaan 36  1030 Schaerbeek  D; 02262498",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "93",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -94753,11 +89140,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "15/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "31/10/2025",
 				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "14/11/2025",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -94768,7 +89155,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue des Mimosas (Schaerbeek), \nAvenue des Capucines (Schaerbeek)",
 				"ReferenceInterne" : "FH09-BL09-Pose de conduites ",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "162,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -94812,8 +89199,56 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Alexandre De Craene (Schaerbeek)",
 				"ReferenceInterne" : "102875916153+cstmodal",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "23,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4117804965, 50.8531903373 ],
+						[ 4.4117631523, 50.8532062159 ],
+						[ 4.4118384076, 50.8532415947 ],
+						[ 4.4118229898, 50.8532550306 ],
+						[ 4.4114583022, 50.8530946141 ],
+						[ 4.411470829, 50.8530836212 ],
+						[ 4.4115943135, 50.8531299707 ],
+						[ 4.4116106957, 50.8531165344 ],
+						[ 4.4117804965, 50.8531903373 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 766922,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.41166 50.8532)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "19/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "19/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "D'OURS Mikael",
+				"Rues" : "Rue Colonel Bourg (Evere)",
+				"ReferenceInterne" : "Rue colonel bourg 105 b  1140 Evere D: 02513496",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "92,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -94893,11 +89328,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "13/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "13/11/2025",
 				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "21/11/2025",
 				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (2 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -94908,7 +89343,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Milcamps (Schaerbeek)",
 				"ReferenceInterne" : "Rue Milcamps 107  1030 Schaerbek  D: 02512462",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "54,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -94954,94 +89389,6 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Incomplet/Non conforme",
 				"Surface" : "89,5",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4069754461, 50.846073237 ],
-						[ 4.4069378926, 50.8461361273 ],
-						[ 4.4069051022, 50.8461288126 ],
-						[ 4.4069397625, 50.8460653128 ],
-						[ 4.4069754461, 50.846073237 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 767018,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40694 50.8461)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "15/10/2025",
-				"DateDebutAutorisee" : "28/10/2025",
-				"DateFin" : "18/11/2025",
-				"DateFinAutorisee" : "30/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Woluwe-Saint-Lambert",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4567698",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "ATMANI Amine",
-				"Rues" : "Avenue Prekelinden (Woluwe-Saint-Lambert)",
-				"ReferenceInterne" : "100843237505 - JAM",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "19,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP MONTGOMERY"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4007740892, 50.8478629995 ],
-						[ 4.4007297264, 50.8478544653 ],
-						[ 4.4007721029, 50.8477799768 ],
-						[ 4.4008145388, 50.8477909534 ],
-						[ 4.4007740892, 50.8478629995 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 767026,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.40077 50.8478)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "15/10/2025",
-				"DateDebutAutorisee" : "28/10/2025",
-				"DateFin" : "16/11/2025",
-				"DateFinAutorisee" : "30/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4567376",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "ATMANI Amine",
-				"Rues" : "Cité Ouvrière de Linthout (Schaerbeek)",
-				"ReferenceInterne" : "102141847940 - JAM",
-				"Regime" : "E",
-				"Statut" : "Accord par défaut",
-				"Surface" : "28,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -95188,49 +89535,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3851068755, 50.8495856378 ],
-						[ 4.3853715508, 50.8495212526 ],
-						[ 4.3850878191, 50.8495910027 ],
-						[ 4.3851068755, 50.8495856378 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 767118,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38519 50.8496)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "28/10/2025",
-				"DateDebutAutorisee" : "28/10/2025",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "30/10/2025",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "VBX",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stationnement",
-				"Nom" : "Zone de stationnement Rue Charles Quint (Bruxelles)",
-				"Organisation" : "OIKONOMIDI  Themis ",
-				"Pilote" : "",
-				"Responsable" : "OIKONOMIDI  Themis ",
-				"Rues" : "Rue Charles Quint (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
-				"Surface" : "0,8",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3617252074, 50.8701182012 ],
 						[ 4.3617498128, 50.8700840167 ],
 						[ 4.3617589776, 50.8700852381 ],
@@ -95263,7 +89567,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue de la Reine (Bruxelles)",
 				"ReferenceInterne" : "JMS 658706",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "2,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -95307,7 +89611,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Rivière (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Accord par défaut",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "30",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -95336,11 +89640,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "16/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "16/10/2025",
 				"DateFin" : "21/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "21/11/2025",
 				"Duree" : "26 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -95351,7 +89655,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Camille Wollès (Schaerbeek)",
 				"ReferenceInterne" : "LTDI HB Rue Camille Wollès 30 OT1000278595",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "5,7",
 				"Urgence" : "P1 : Urgence urgente",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -95382,11 +89686,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "16/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/11/2025",
 				"DateFin" : "31/10/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "16/12/2025",
 				"Duree" : "30 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -95397,7 +89701,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
 				"ReferenceInterne" : "Vimar - Deschanel 19",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "37",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -95426,11 +89730,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "16/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/11/2025",
 				"DateFin" : "31/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "18/11/2025",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -95441,53 +89745,9 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Victor Hugo (Schaerbeek)",
 				"ReferenceInterne" : "FH02-BL05-Pose de conduites - Transition",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "59,3",
 				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3995069081, 50.8627556557 ],
-						[ 4.3995985446, 50.862867946 ],
-						[ 4.3995867748, 50.8628694592 ],
-						[ 4.3994960328, 50.8627635684 ],
-						[ 4.3995069081, 50.8627556557 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 767492,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39954 50.8628)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "15/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "15/11/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "8 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "4555619",
-				"Organisation" : "Proximus Repair",
-				"Pilote" : "",
-				"Responsable" : "COUMANS Laurent",
-				"Rues" : "Boulevard Général Wahis (Schaerbeek)",
-				"ReferenceInterne" : "4555619",
-				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "13",
-				"Urgence" : "P1 : Urgence urgente",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
@@ -95613,9 +89873,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "10/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "10/11/2025",
 				"DateFin" : "08/04/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "17/11/2025",
 				"Duree" : "5 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Evere",
@@ -95628,52 +89888,8 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Pierre Mattheussens (Evere)",
 				"ReferenceInterne" : "Rue Pierre Mattheussens 20",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "53,6",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.4101560608, 50.8592229154 ],
-						[ 4.4101686667, 50.8592118569 ],
-						[ 4.4102448955, 50.8592478468 ],
-						[ 4.410230706, 50.8592580007 ],
-						[ 4.4101560608, 50.8592229154 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 767593,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.4102 50.8592)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "16/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "18/11/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Evere",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Raccordements et reprises de branchement",
-				"Nom" : "4567814",
-				"Organisation" : "Proximus Prov",
-				"Pilote" : "",
-				"Responsable" : "ATMANI Amine",
-				"Rues" : "Avenue du Harnois (Evere)",
-				"ReferenceInterne" : "102971552796 - JAM",
-				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
-				"Surface" : "10",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -95800,9 +90016,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "16/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "16/10/2025",
 				"DateFin" : "16/01/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "05/11/2025",
 				"Duree" : "15 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional",
@@ -95815,7 +90031,7 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée de Haecht (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "T23602 WO510588 Rue du Méridien 100 STJ",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Statut" : "Provisoirement terminé (En phase de réalisation)",
 				"Surface" : "45",
 				"Urgence" : "P1 : Urgence urgente",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -95848,11 +90064,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "12/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "12/11/2025",
 				"DateFin" : "26/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "20/11/2025",
 				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (2 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -95863,7 +90079,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Cible (Schaerbeek)",
 				"ReferenceInterne" : "Rue de la cible 21",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "61,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -95892,9 +90108,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "30/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "30/10/2025",
 				"DateFin" : "19/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "19/11/2025",
 				"Duree" : "14 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "VBX",
@@ -95907,7 +90123,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Le Corrège (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "7,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -95996,7 +90212,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Eugène Plasky (Schaerbeek)",
 				"ReferenceInterne" : "102174827031 - JAM",
 				"Regime" : "E",
-				"Statut" : "Accord avec conditions particulières",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "5,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -96025,9 +90241,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "17/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "30/10/2025",
 				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "03/11/2025",
 				"Duree" : "3 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Evere",
@@ -96040,7 +90256,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue de la Chevauchée (Evere)",
 				"ReferenceInterne" : "102770217172 - JAM",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "6,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -96148,50 +90364,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3989926907, 50.8621267176 ],
-						[ 4.399043119, 50.8621882584 ],
-						[ 4.3990291967, 50.8621883844 ],
-						[ 4.3989872105, 50.8621468841 ],
-						[ 4.3989926907, 50.8621267176 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 768106,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39901 50.8622)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "16/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "16/11/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "8 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (2 jours ouvrables)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "4457870",
-				"Organisation" : "Proximus Repair",
-				"Pilote" : "",
-				"Responsable" : "COUMANS Laurent",
-				"Rues" : "Boulevard Général Wahis (Schaerbeek)",
-				"ReferenceInterne" : "4457870",
-				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "7,6",
-				"Urgence" : "P1 : Urgence urgente",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.3734887025, 50.8587351999 ],
 						[ 4.3734763177, 50.8587190198 ],
 						[ 4.3735146635, 50.8587072617 ],
@@ -96236,50 +90408,6 @@ var BoundaryChantiers = {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3937843706, 50.8713292181 ],
-						[ 4.3937945613, 50.8713124353 ],
-						[ 4.3939271774, 50.8713446765 ],
-						[ 4.3939169867, 50.8713614593 ],
-						[ 4.3937843706, 50.8713292181 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 768145,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39386 50.8713)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Chaussée de Haecht (Schaerbee",
-				"Organisation" : "KHAN ARSH NAVEED",
-				"Pilote" : "",
-				"Responsable" : "KHAN Arsh Naveed",
-				"Rues" : "Chaussée de Haecht (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "20",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ 4.4068856107, 50.8588642664 ],
 						[ 4.4069352529, 50.8588282327 ],
 						[ 4.4069386309, 50.8588309787 ],
@@ -96297,9 +90425,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "17/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "31/10/2025",
 				"DateFin" : "30/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "04/11/2025",
 				"Duree" : "3 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Evere",
@@ -96312,53 +90440,9 @@ var BoundaryChantiers = {
 				"Rues" : "Clos de la Ballade (Evere)",
 				"ReferenceInterne" : "101207045705 - JAM",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "1,8",
 				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3762481438, 50.8562260729 ],
-						[ 4.3762809337, 50.8562178294 ],
-						[ 4.376295887, 50.8562422469 ],
-						[ 4.3762635792, 50.8562501851 ],
-						[ 4.3762481438, 50.8562260729 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 768229,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.37627 50.8562)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "17/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "31/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (2 jours ouvrables)<br/>",
-				"Gestionnaire" : "Schaerbeek",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
-				"Nom" : "Vivaqua Linthout distribution",
-				"Organisation" : "VIVAQUA Distrib",
-				"Pilote" : "",
-				"Responsable" : "PIKET Piquet",
-				"Rues" : "Rue Verboeckhaven (Schaerbeek)",
-				"ReferenceInterne" : "LTDI HB Rue Verboeckhaven 115 - 1000278626",
-				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "7,2",
-				"Urgence" : "P1 : Urgence urgente",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
@@ -96429,9 +90513,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "31/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "31/10/2025",
 				"DateFin" : "09/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "07/11/2025",
 				"Duree" : "6 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "VBX",
@@ -96444,52 +90528,8 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée d'Anvers (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord avec conditions particulières (En phase de réalisation)",
 				"Surface" : "20,3",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3910470793, 50.8481941772 ],
-						[ 4.3912016482, 50.848101402 ],
-						[ 4.3912211878, 50.8481144491 ],
-						[ 4.3910666189, 50.8482072243 ],
-						[ 4.3910470793, 50.8481941772 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 768265,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39113 50.8482)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "N",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "28/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "28/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Rue du Noyer (Bruxelles)",
-				"Organisation" : "Tini Norma",
-				"Pilote" : "",
-				"Responsable" : "TINI Norma",
-				"Rues" : "Rue du Noyer (Bruxelles)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
-				"Surface" : "30",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
@@ -96536,51 +90576,6 @@ var BoundaryChantiers = {
 				"Surface" : "12,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3954796387, 50.8589304802 ],
-						[ 4.3953694876, 50.8590265956 ],
-						[ 4.395352813, 50.8590196426 ],
-						[ 4.3955481583, 50.8588319725 ],
-						[ 4.3955718792, 50.8588418637 ],
-						[ 4.3954796387, 50.8589304802 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 768346,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.39547 50.8589)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A4",
-				"Coordinateur" : "",
-				"DateDebut" : "30/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Déménagement",
-				"Nom" : "Déménagement Boulevard Général Wahis (Schaerbeek)",
-				"Organisation" : "LFS",
-				"Pilote" : "",
-				"Responsable" : "IVAN Laura",
-				"Rues" : "Boulevard Général Wahis (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "A",
-				"Statut" : "Préparation de demande d'autorisation",
-				"Surface" : "46,1",
-				"Urgence" : "Pas d'urgence",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -96650,9 +90645,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "05/12/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "05/12/2025",
 				"DateFin" : "05/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "05/12/2025",
 				"Duree" : "1 Jour Ouvrable",
 				"Echeances" : "",
 				"Gestionnaire" : "VBX",
@@ -96665,7 +90660,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Charles Quint (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord avec conditions particulières",
 				"Surface" : "73,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -96698,7 +90693,7 @@ var BoundaryChantiers = {
 				"DateFin" : "24/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "13 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (21 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -96750,7 +90745,7 @@ var BoundaryChantiers = {
 				"DateFin" : "18/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "15 Jours Ouvrables",
-				"Echeances" : "",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
@@ -96761,7 +90756,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de Brabant (Schaerbeek)",
 				"ReferenceInterne" : "SCH-1964158-BRABANT-EXRA ZONE MANQUANTE_Wyre-SCH02-POP02",
 				"Regime" : "A",
-				"Statut" : "Préparation de demande d'autorisation",
+				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "255,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -96798,7 +90793,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (26 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (20 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -96842,7 +90837,7 @@ var BoundaryChantiers = {
 				"DateFin" : "05/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (26 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (20 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -96882,11 +90877,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "07/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "07/11/2025",
 				"DateFin" : "09/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "09/11/2025",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stationnement",
@@ -96897,7 +90892,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Royale-Sainte-Marie (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "33,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -96926,9 +90921,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "31/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "31/10/2025",
 				"DateFin" : "10/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "10/11/2025",
 				"Duree" : "5 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Saint-Josse-ten-Noode",
@@ -96941,7 +90936,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Vonck (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "10,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97026,9 +91021,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "20/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "31/10/2025",
 				"DateFin" : "17/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "10/11/2025",
 				"Duree" : "1 Jour Ouvrable",
 				"Echeances" : "",
 				"Gestionnaire" : "Saint-Josse-ten-Noode",
@@ -97041,7 +91036,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Vonck (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "21,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97169,11 +91164,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "08/12/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "08/12/2025",
 				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "19/12/2025",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>Invitation à l'état des lieux d'entrée (17 jours ouvrables)<br/>",
+				"Echeances" : "Invitation à l'état des lieux d'entrée (11 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -97184,7 +91179,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Princesse Elisabeth (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "11,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97257,9 +91252,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "21/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/11/2025",
 				"DateFin" : "21/01/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "10/11/2025",
 				"Duree" : "5 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Woluwe-Saint-Lambert",
@@ -97272,7 +91267,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Georges Henri (Woluwe-Saint-Lambert)",
 				"ReferenceInterne" : "102720957845 + cstmodal",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "25,9",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP MONTGOMERY"
@@ -97349,11 +91344,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "21/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/11/2025",
 				"DateFin" : "31/10/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "23/12/2025",
 				"Duree" : "35 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -97364,7 +91359,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
 				"ReferenceInterne" : "Vimar - Deschanel 243",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "40,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97406,11 +91401,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "12/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "12/11/2025",
 				"DateFin" : "26/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "25/11/2025",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -97421,7 +91416,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Gustave Latinis (Schaerbeek)",
 				"ReferenceInterne" : "LTDI#8000054411-HB-AVENUE GUSTAVE LATINIS 152 ETABL",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "118,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97450,9 +91445,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "03/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "03/11/2025",
 				"DateFin" : "28/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "28/11/2025",
 				"Duree" : "19 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional",
@@ -97465,7 +91460,7 @@ var BoundaryChantiers = {
 				"Rues" : "Place Solvay (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Autorisé",
 				"Surface" : "49,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97597,7 +91592,7 @@ var BoundaryChantiers = {
 				"DateFin" : "12/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (21 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -97637,9 +91632,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "21/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "03/11/2025",
 				"DateFin" : "20/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "05/11/2025",
 				"Duree" : "3 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "VBX",
@@ -97652,7 +91647,7 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée d'Anvers (Bruxelles)",
 				"ReferenceInterne" : "101397570172 - JAM",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "7,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -97681,11 +91676,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "21/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "03/11/2025",
 				"DateFin" : "21/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "05/11/2025",
 				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Raccordements et reprises de branchement",
@@ -97696,7 +91691,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Gustave Latinis (Schaerbeek)",
 				"ReferenceInterne" : "102132127328 - JAM",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "15,3",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97725,11 +91720,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "03/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "03/11/2025",
 				"DateFin" : "14/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "14/11/2025",
 				"Duree" : "9 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -97740,7 +91735,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Quinaux (Schaerbeek)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut (En phase de réalisation)",
 				"Surface" : "40",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97773,11 +91768,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "12/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "12/11/2025",
 				"DateFin" : "19/12/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "20/11/2025",
 				"Duree" : "7 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -97788,7 +91783,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue Dailly (Schaerbeek)",
 				"ReferenceInterne" : "Av Dailly  139  1030 SChaerbeek  D: 01843467",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "93,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97817,9 +91812,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "22/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/11/2025",
 				"DateFin" : "20/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "06/11/2025",
 				"Duree" : "3 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Evere",
@@ -97832,7 +91827,7 @@ var BoundaryChantiers = {
 				"Rues" : "Avenue du Fléau d'Armes (Evere)",
 				"ReferenceInterne" : "102335847637 - JAM",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "19,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -97865,7 +91860,7 @@ var BoundaryChantiers = {
 				"DateFin" : "06/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (28 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (22 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -97878,6 +91873,50 @@ var BoundaryChantiers = {
 				"Regime" : "A",
 				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "50,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3798740169, 50.8612965702 ],
+						[ 4.3797686956, 50.8611257937 ],
+						[ 4.3798498952, 50.8611051085 ],
+						[ 4.3799598973, 50.8612760268 ],
+						[ 4.3798740169, 50.8612965702 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 769908,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37986 50.8612)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "BR001 Lightning",
+				"Organisation" : "Proximus Infra",
+				"Pilote" : "",
+				"Responsable" : "BOTERDAEL David",
+				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
+				"ReferenceInterne" : "BR001 Lightning",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "129,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -97909,7 +91948,7 @@ var BoundaryChantiers = {
 				"DateFin" : "06/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (28 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (22 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -98008,7 +92047,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue de la Poste (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "",
 				"Regime" : "A",
-				"Statut" : "Préparation de demande d'autorisation",
+				"Statut" : "Demande d'autorisation transmise",
 				"Surface" : "22",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -98151,7 +92190,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Colonel Bourg (Schaerbeek)",
 				"ReferenceInterne" : "25/6459 + 25/11133 - POSE DE GAINE + CV - LEMAYENE AURELIE - 078505757",
 				"Regime" : "A",
-				"Statut" : "Demande d'autorisation transmise",
+				"Statut" : "Incomplet/Non conforme",
 				"Surface" : "67,7",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -98269,11 +92308,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "22/10/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "04/11/2025",
 				"DateFin" : "20/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "06/11/2025",
 				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Raccordements et reprises de branchement",
@@ -98284,7 +92323,7 @@ var BoundaryChantiers = {
 				"Rues" : "Cité Ouvrière de Linthout (Schaerbeek)",
 				"ReferenceInterne" : "100974188515 - JAM",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "9,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -98357,11 +92396,11 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "05/11/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "05/11/2025",
 				"DateFin" : "07/11/2025",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "07/11/2025",
 				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (4 jours ouvrables)<br/>",
+				"Echeances" : "",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -98372,7 +92411,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Léon Frédéric (Schaerbeek)",
 				"ReferenceInterne" : "ARTS C./Léon Frédéric 25/1030B",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord par défaut",
 				"Surface" : "36,5",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -98405,7 +92444,7 @@ var BoundaryChantiers = {
 				"DateFin" : "28/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "19 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (0 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stationnement",
@@ -98449,7 +92488,7 @@ var BoundaryChantiers = {
 				"DateFin" : "23/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (0 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -98493,7 +92532,7 @@ var BoundaryChantiers = {
 				"DateFin" : "28/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "13 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (0 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
@@ -98604,7 +92643,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Verboeckhaven (Saint-Josse-ten-Noode)",
 				"ReferenceInterne" : "Jadot 101600",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Provisoirement terminé",
 				"Surface" : "33,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -98652,6 +92691,50 @@ var BoundaryChantiers = {
 				"Surface" : "4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3946065583, 50.8443032192 ],
+						[ 4.3946306602, 50.8442974143 ],
+						[ 4.3946856789, 50.8444014861 ],
+						[ 4.3946610945, 50.8444066806 ],
+						[ 4.3946065583, 50.8443032192 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 770467,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39465 50.8444)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "H34531 HERS Erwin Woff",
+				"Organisation" : "Weemaes Glas",
+				"Pilote" : "",
+				"Responsable" : "VANDENABEELE Liselot",
+				"Rues" : "Rue Murillo (Bruxelles)",
+				"ReferenceInterne" : "H34531 HERS Erwin Woff",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "22,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
 			}
 		},
 		{
@@ -98770,7 +92853,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/12/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "29 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (0 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -98814,7 +92897,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/03/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (28 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (22 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -98868,7 +92951,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Jenneval (Bruxelles)",
 				"ReferenceInterne" : "",
 				"Regime" : "E",
-				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "0,2",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
@@ -99030,7 +93113,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "120 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -99043,6 +93126,67 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "20325,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.382071439, 50.8693996184 ],
+							[ 4.3820125908, 50.8693989309 ],
+							[ 4.3820125849, 50.869379029 ],
+							[ 4.3819768907, 50.8693805594 ],
+							[ 4.3819768844, 50.8693594985 ],
+							[ 4.3820405566, 50.8693613223 ],
+							[ 4.3820714284, 50.8693637605 ],
+							[ 4.382071439, 50.8693996184 ]
+						]
+					],
+					[
+						[
+							[ 4.3820294454, 50.8693045508 ],
+							[ 4.382028486, 50.8693222543 ],
+							[ 4.381857247, 50.8693183065 ],
+							[ 4.3817757298, 50.8693241154 ],
+							[ 4.381775242, 50.8693054964 ],
+							[ 4.3818895589, 50.8692972418 ],
+							[ 4.3820270325, 50.8693008883 ],
+							[ 4.3820294454, 50.8693045508 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 770682,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38195 50.8693)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "10/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "05/11/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "110 Jours Ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (25 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
+				"Nom" : "Vimar - Jacques Rayé 39-41",
+				"Organisation" : "VIMAR",
+				"Pilote" : "",
+				"Responsable" : "CRETEN  Stijn",
+				"Rues" : "Rue Jacques Rayé (Schaerbeek)",
+				"ReferenceInterne" : "Vimar - Jacques Rayé 39-41",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "63,4",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -99183,7 +93327,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "120 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -99299,7 +93443,7 @@ var BoundaryChantiers = {
 				"DateFin" : "31/12/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "120 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -99387,7 +93531,7 @@ var BoundaryChantiers = {
 				"DateFin" : "24/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "5 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -99591,7 +93735,7 @@ var BoundaryChantiers = {
 				"DateFin" : "06/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
@@ -99635,7 +93779,7 @@ var BoundaryChantiers = {
 				"DateFin" : "11/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "10 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stationnement",
@@ -99648,6 +93792,190 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "45,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.380658455, 50.8626677772 ],
+						[ 4.380619843, 50.8625603401 ],
+						[ 4.3807008652, 50.862550564 ],
+						[ 4.380739478, 50.862660443 ],
+						[ 4.3807896347, 50.8626543329 ],
+						[ 4.3808012229, 50.8627031686 ],
+						[ 4.3806758296, 50.8627129495 ],
+						[ 4.380658455, 50.8626677772 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771091,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3807 50.8626)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "24/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "24/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Tirage / Soufflage de câble (dans gaine ou canalisation existante)",
+				"Nom" : "SCH02_POP11",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
+				"ReferenceInterne" : "Wyre_SCH02_POP11_PDP010",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "119,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3800334763, 50.8629492654 ],
+						[ 4.3799480821, 50.8628378648 ],
+						[ 4.3799199786, 50.8627987218 ],
+						[ 4.3799801282, 50.8627849841 ],
+						[ 4.3801150559, 50.8629692845 ],
+						[ 4.380058564, 50.8629819226 ],
+						[ 4.3800334763, 50.8629492654 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771095,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38002 50.8629)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "24/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "24/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Tirage / Soufflage de câble (dans gaine ou canalisation existante)",
+				"Nom" : "SCH02_POP11",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Rue des Coteaux (Schaerbeek)",
+				"ReferenceInterne" : "Wyre_SCH02_POP11_DP015",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "99,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3798458959, 50.8628980056 ],
+						[ 4.3797649975, 50.8627884429 ],
+						[ 4.3798216769, 50.8627687065 ],
+						[ 4.3799779966, 50.8629933407 ],
+						[ 4.3799249466, 50.8630031134 ],
+						[ 4.3798458959, 50.8628980056 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771101,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37987 50.8629)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "24/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "24/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Tirage / Soufflage de câble (dans gaine ou canalisation existante)",
+				"Nom" : "SCH02_POP11",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Rue des Coteaux (Schaerbeek)",
+				"ReferenceInterne" : "Wyre_SCH02_POP11_DP020",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "113,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3792847929, 50.8596070804 ],
+						[ 4.3794088806, 50.8598103437 ],
+						[ 4.3793377425, 50.859828218 ],
+						[ 4.3792221906, 50.8596534842 ],
+						[ 4.3791392067, 50.8595045392 ],
+						[ 4.3792047885, 50.8594813355 ],
+						[ 4.3792847929, 50.8596070804 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771105,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37927 50.8597)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "24/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "24/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH02_POP11",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
+				"ReferenceInterne" : "Wyre_SCH02_POP11_DP035",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "220,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -99723,7 +94051,7 @@ var BoundaryChantiers = {
 				"DateFin" : "30/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Raccordements et reprises de branchement",
@@ -99767,9 +94095,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A3",
 				"Coordinateur" : "",
 				"DateDebut" : "08/12/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "08/12/2025",
 				"DateFin" : "29/05/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "17/12/2025",
 				"Duree" : "8 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional",
@@ -99782,7 +94110,7 @@ var BoundaryChantiers = {
 				"Rues" : "Chaussée de Haecht (Schaerbeek)",
 				"ReferenceInterne" : "423 Chée D'Haecht",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord avec conditions particulières",
 				"Surface" : "42,1",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -99853,7 +94181,7 @@ var BoundaryChantiers = {
 				"DateFin" : "19/09/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "120 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Travaux en voirie non standards",
@@ -99866,6 +94194,53 @@ var BoundaryChantiers = {
 				"Regime" : "E",
 				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
 				"Surface" : "9522,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3798989725, 50.8613370351 ],
+						[ 4.3797686956, 50.8611257937 ],
+						[ 4.3797340278, 50.8610717283 ],
+						[ 4.3797904111, 50.8610575683 ],
+						[ 4.3798521636, 50.8611424164 ],
+						[ 4.3799148847, 50.8612425259 ],
+						[ 4.3799612036, 50.8613231022 ],
+						[ 4.3798989725, 50.8613370351 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771117,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37985 50.8612)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "24/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "24/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Tirage / Soufflage de câble (dans gaine ou canalisation existante)",
+				"Nom" : "SCH02_POP11",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
+				"ReferenceInterne" : "Wyre_SCH02_POP11_DP040",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "149,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
@@ -99907,9 +94282,9 @@ var BoundaryChantiers = {
 				"ClasseVoirieMax" : "A4",
 				"Coordinateur" : "",
 				"DateDebut" : "19/09/2025",
-				"DateDebutAutorisee" : "",
+				"DateDebutAutorisee" : "06/11/2025",
 				"DateFin" : "19/09/2026",
-				"DateFinAutorisee" : "",
+				"DateFinAutorisee" : "28/04/2026",
 				"Duree" : "120 Jours Ouvrables",
 				"Echeances" : "",
 				"Gestionnaire" : "Administrateur Régional",
@@ -99922,7 +94297,7 @@ var BoundaryChantiers = {
 				"Rues" : "Rue Brichaut (Schaerbeek), \nRue des Palais (Schaerbeek), \nRue Vandeweyer (Schaerbeek), \nPlace Liedts (Schaerbeek), \nRue Lefrancq (Schaerbeek), \nRue de la Marne (Schaerbeek)",
 				"ReferenceInterne" : "Wyre_SCH02_POP04_OsirisLight",
 				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Statut" : "Accord avec conditions particulières",
 				"Surface" : "1326,6",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP POLBRUNO"
@@ -100334,7 +94709,7 @@ var BoundaryChantiers = {
 				"DateFin" : "12/01/2026",
 				"DateFinAutorisee" : "",
 				"Duree" : "1 Jour Ouvrable",
-				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (30 jours ouvrables)<br/>",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (24 jours ouvrables)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
@@ -100422,7 +94797,7 @@ var BoundaryChantiers = {
 				"DateFin" : "30/11/2025",
 				"DateFinAutorisee" : "",
 				"Duree" : "3 Jours Ouvrables",
-				"Echeances" : "Avis de démarrage / Accord de chantier à valider (7 jours ouvrables)<br/>",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (1 jour ouvrable)<br/>",
 				"Gestionnaire" : "Schaerbeek",
 				"ImpetrantsCoordonnes" : "",
 				"Nature" : "Raccordements et reprises de branchement",
@@ -100525,53 +94900,6 @@ var BoundaryChantiers = {
 				"Surface" : "27,8",
 				"Urgence" : "Pas d'urgence",
 				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.38837905, 50.8527072535 ],
-						[ 4.388369999, 50.8527011275 ],
-						[ 4.388477764, 50.8526375667 ],
-						[ 4.3885984879, 50.8526681102 ],
-						[ 4.388593384, 50.8526755232 ],
-						[ 4.3884989471, 50.8526511026 ],
-						[ 4.3884657002, 50.8526544597 ],
-						[ 4.38837905, 50.8527072535 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 771237,
-				"CoordonneesGeographiques_wsg84" : "POINT (4.38848 50.8527)",
-				"SectorName" : "Dehors",
-				"Appelant" : "",
-				"AvisCCC" : "Y",
-				"ClasseVoirieMax" : "A3",
-				"Coordinateur" : "",
-				"DateDebut" : "27/10/2025",
-				"DateDebutAutorisee" : "",
-				"DateFin" : "30/10/2025",
-				"DateFinAutorisee" : "",
-				"Duree" : "4 Jours Ouvrables",
-				"Echeances" : "",
-				"Gestionnaire" : "Administrateur Régional",
-				"ImpetrantsCoordonnes" : "",
-				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
-				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Place Dailly (Schaerbeek), Ch",
-				"Organisation" : "Animus",
-				"Pilote" : "",
-				"Responsable" : "CLOSSET Douglas",
-				"Rues" : "Chaussée de Louvain (Schaerbeek), \nPlace Dailly (Schaerbeek)",
-				"ReferenceInterne" : "",
-				"Regime" : "E",
-				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
-				"Surface" : "17,2",
-				"Urgence" : "P1 : Urgence urgente",
-				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		},
 		{
@@ -100967,6 +95295,4736 @@ var BoundaryChantiers = {
 				"Statut" : "En attente de déclaration d'exécution de chantier",
 				"Surface" : "42,8",
 				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3845481181, 50.8734104655 ],
+						[ 4.3846220073, 50.8734994932 ],
+						[ 4.3846515285, 50.873531469 ],
+						[ 4.3846047331, 50.8735488244 ],
+						[ 4.3845004912, 50.8734264418 ],
+						[ 4.3845481181, 50.8734104655 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771350,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38458 50.8735)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "27/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (2 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "4527318",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "FERREIRA Tiago Miguel Gomes",
+				"Rues" : "Rue Nestor De Tière (Schaerbeek)",
+				"ReferenceInterne" : "103013545817 + cstmodal",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "57,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4097497472, 50.8443585834 ],
+						[ 4.4097834344, 50.8442908098 ],
+						[ 4.4098538334, 50.844304215 ],
+						[ 4.40981629, 50.8443726005 ],
+						[ 4.4097497472, 50.8443585834 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771544,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.4098 50.8443)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Woluwe-Saint-Lambert",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4563376",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Avenue du Prince Héritier (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "102324674348 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "32,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4083238282, 50.8591786726 ],
+						[ 4.4083500902, 50.8591620259 ],
+						[ 4.4084390721, 50.8592208572 ],
+						[ 4.4084140617, 50.8592387722 ],
+						[ 4.4083238282, 50.8591786726 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771558,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40838 50.8592)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4562935",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Avenue de l'Armet (Evere)",
+				"ReferenceInterne" : "102884088809 - JAM",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "24,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3907795888, 50.8730145578 ],
+							[ 4.3908509407, 50.8729257221 ],
+							[ 4.390909801, 50.8729418878 ],
+							[ 4.3908389326, 50.8730328602 ],
+							[ 4.3907795888, 50.8730145578 ]
+						]
+					],
+					[
+						[
+							[ 4.3906595257, 50.8731269057 ],
+							[ 4.3907381111, 50.8730322692 ],
+							[ 4.3908519744, 50.8730679591 ],
+							[ 4.3907743554, 50.8731656477 ],
+							[ 4.3906595257, 50.8731269057 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771666,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39078 50.8731)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "11/12/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "10/04/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (25 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "TS-IC-MO251396-Terusus-Apollosquare 1 (opstelplaats Georges Raeymaekersstraat)-Schaarbeek",
+				"Organisation" : "Traffic Signs",
+				"Pilote" : "",
+				"Responsable" : "CENENS Iris",
+				"Rues" : "Rue Georges Raeymaekers (Schaerbeek)",
+				"ReferenceInterne" : "TS-IC-MO251396-Terusus-Apollosquare 1 (opstelplaats Georges Raeymaekersstraat)-Schaarbeek",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "160,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3785971563, 50.8740694843 ],
+						[ 4.3788327739, 50.8741515041 ],
+						[ 4.3788141338, 50.8741708096 ],
+						[ 4.3785819047, 50.8740834273 ],
+						[ 4.3785971563, 50.8740694843 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771706,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37871 50.8741)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "10/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "12/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (25 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue Albert Giraud (Schaerb",
+				"Organisation" : "ENERGYVISION NV",
+				"Pilote" : "",
+				"Responsable" : "PHAM  Thanh",
+				"Rues" : "Avenue Albert Giraud (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "41,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3744301314, 50.8811288839 ],
+						[ 4.3744822326, 50.8810788235 ],
+						[ 4.3749493024, 50.8812729229 ],
+						[ 4.3754530516, 50.8815097503 ],
+						[ 4.375827486, 50.8816660036 ],
+						[ 4.3768272705, 50.8820517432 ],
+						[ 4.3768446361, 50.8820297654 ],
+						[ 4.3773175021, 50.8821579254 ],
+						[ 4.3784775221, 50.8826522997 ],
+						[ 4.3795661451, 50.8831014956 ],
+						[ 4.380749372, 50.8835946242 ],
+						[ 4.3807069544, 50.8837545688 ],
+						[ 4.377782709, 50.8825681159 ],
+						[ 4.3763756475, 50.8819858464 ],
+						[ 4.374408906, 50.8811569661 ],
+						[ 4.3744069761, 50.8811569662 ],
+						[ 4.3744301314, 50.8811288839 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771753,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37799 50.8826)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A1",
+				"Coordinateur" : "",
+				"DateDebut" : "06/01/2026",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/04/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "40 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux en voirie non standards",
+				"Nom" : "PMO 2188",
+				"Organisation" : "SPRB - BM - DPV",
+				"Pilote" : "",
+				"Responsable" : "JOSSART Léna",
+				"Rues" : "Quai Léon Monnoyer (Bruxelles), \nQuai des Usines (Bruxelles)",
+				"ReferenceInterne" : "Réaménagement Quai Monnoyer ",
+				"Regime" : "A",
+				"Statut" : "Préparation de demande d'autorisation",
+				"Surface" : "7758,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3981196217, 50.8712601976 ],
+							[ 4.3980885565, 50.8712934657 ],
+							[ 4.3980557461, 50.871280044 ],
+							[ 4.3980846675, 50.8712464613 ],
+							[ 4.3981196217, 50.8712601976 ]
+						]
+					],
+					[
+						[
+							[ 4.3980248263, 50.8712055757 ],
+							[ 4.3980402664, 50.8712116764 ],
+							[ 4.3979004755, 50.8713679898 ],
+							[ 4.3978869653, 50.8713624991 ],
+							[ 4.3980248263, 50.8712055757 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771777,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39801 50.8713)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "26/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "14 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "D'OURS Mikael",
+				"Rues" : "Rue Adolphe De Brandt (Evere)",
+				"ReferenceInterne" : "Rue adolphe de brandt 27  1140 Evere  D: 02500164",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "36,1",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3906475823, 50.8474391506 ],
+						[ 4.3906496991, 50.8474378096 ],
+						[ 4.3907047456, 50.8474203719 ],
+						[ 4.3907301543, 50.8474176859 ],
+						[ 4.3906475823, 50.8474391506 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771793,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39069 50.8474)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "06/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "07/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "2 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "Zone de stationnement Rue des Confédérés (Bruxelles), Place des Gueux (Bruxelles)",
+				"Organisation" : "Koskinen Ismo",
+				"Pilote" : "",
+				"Responsable" : "KOSKINEN Ismo",
+				"Rues" : "Rue des Confédérés (Bruxelles), \nPlace des Gueux (Bruxelles)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Provisoirement terminé",
+				"Surface" : "1,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.388050264, 50.8595647751 ],
+						[ 4.3880708197, 50.859602934 ],
+						[ 4.3881074703, 50.8596174907 ],
+						[ 4.3883304526, 50.8595975857 ],
+						[ 4.3886795512, 50.8595587803 ],
+						[ 4.3887332576, 50.8595516641 ],
+						[ 4.3887480707, 50.8595979021 ],
+						[ 4.3881200367, 50.859667502 ],
+						[ 4.3880681106, 50.859661508 ],
+						[ 4.3880098778, 50.8595671486 ],
+						[ 4.3880426689, 50.8595610384 ],
+						[ 4.388050264, 50.8595647751 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771794,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38837 50.8596)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Avenue Général Eisenhower (Schaerbeek), \nRue Vandenbussche (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00736-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "273",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3819821611, 50.8598322691 ],
+						[ 4.3820105242, 50.859886529 ],
+						[ 4.3821061947, 50.8600774835 ],
+						[ 4.3820413731, 50.8600881533 ],
+						[ 4.3819197708, 50.8598454072 ],
+						[ 4.3819821611, 50.8598322691 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771813,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38201 50.86)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Rue des Pâquerettes (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00738-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "133,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3905641234, 50.8591410081 ],
+						[ 4.3905807377, 50.8591427575 ],
+						[ 4.3906992018, 50.8591640398 ],
+						[ 4.3907351329, 50.8591583695 ],
+						[ 4.3910485512, 50.8590677844 ],
+						[ 4.3910682126, 50.8590429598 ],
+						[ 4.3911003666, 50.8590896253 ],
+						[ 4.3909909113, 50.8591238326 ],
+						[ 4.3907401741, 50.8591977472 ],
+						[ 4.3907011263, 50.8592288884 ],
+						[ 4.3905371443, 50.8591977863 ],
+						[ 4.3905641234, 50.8591410081 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771815,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39079 50.8592)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "pose de gaines",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "BOLOGNESE Julien",
+				"Rues" : "Avenue Général Eisenhower (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00670-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "201,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.393831387, 50.8473285865 ],
+						[ 4.3938517073, 50.8473146403 ],
+						[ 4.3939923452, 50.8473811007 ],
+						[ 4.3939771075, 50.8473961182 ],
+						[ 4.393831387, 50.8473285865 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771837,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39391 50.8474)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "15/12/2025",
+				"DateDebutAutorisee" : "15/12/2025",
+				"DateFin" : "17/12/2025",
+				"DateFinAutorisee" : "17/12/2025",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "Zone de stationnement Place de Jamblinne de Meux (Schaerbeek)",
+				"Organisation" : "de Looz louis-Guillaume",
+				"Pilote" : "",
+				"Responsable" : "DE LOOZ Louis-Guillaume",
+				"Rues" : "Place de Jamblinne de Meux (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "25,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3911797296, 50.854117584 ],
+						[ 4.391898371, 50.8545190752 ],
+						[ 4.3919797652, 50.8545660944 ],
+						[ 4.3919440926, 50.8545874679 ],
+						[ 4.3911443714, 50.8541413791 ],
+						[ 4.3911797296, 50.854117584 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771842,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39156 50.8544)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "pose de gaines",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "BOLOGNESE Julien",
+				"Rues" : "Rue de la Luzerne (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00640-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "270,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3970222485, 50.8505970359 ],
+						[ 4.3970719012, 50.8505799307 ],
+						[ 4.3971022993, 50.8506147196 ],
+						[ 4.3970521643, 50.850631825 ],
+						[ 4.3970222485, 50.8505970359 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771853,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39706 50.8506)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "10/11/2025",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "13/11/2025",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4537609",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Avenue du Diamant (Schaerbeek)",
+				"ReferenceInterne" : "102351405629 - JAM",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "17,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3836766745, 50.857742486 ],
+						[ 4.3837290419, 50.8576965254 ],
+						[ 4.3837830891, 50.8577133208 ],
+						[ 4.383833232, 50.857682791 ],
+						[ 4.3838997693, 50.8576473752 ],
+						[ 4.3839846316, 50.8576119569 ],
+						[ 4.3839942815, 50.8576272172 ],
+						[ 4.3837927374, 50.8577236974 ],
+						[ 4.3837840557, 50.8577194253 ],
+						[ 4.383740667, 50.8577585008 ],
+						[ 4.3836895705, 50.8578219957 ],
+						[ 4.3836221321, 50.8578073754 ],
+						[ 4.3836766745, 50.857742486 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 771863,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38377 50.8577)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "27/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "pose de gaines",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "BOLOGNESE Julien",
+				"Rues" : "Place des Bienfaiteurs (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00639-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "102,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3660197959, 50.8669641955 ],
+						[ 4.3658836372, 50.8674221114 ],
+						[ 4.3658056412, 50.8674125569 ],
+						[ 4.3659407174, 50.8669559346 ],
+						[ 4.3660197959, 50.8669641955 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772084,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36591 50.8672)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "17/11/2025",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "28/11/2025",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00694-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue des Palais (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00694-T",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "290,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3692243523, 50.8692948792 ],
+						[ 4.3690858395, 50.8691741024 ],
+						[ 4.3687151705, 50.8688611118 ],
+						[ 4.3687569558, 50.8688392685 ],
+						[ 4.3692711574, 50.8692751334 ],
+						[ 4.3692243523, 50.8692948792 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772098,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36899 50.8691)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00693-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue Vanderlinden (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00693-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "228,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3991432903, 50.8553056914 ],
+						[ 4.3991509991, 50.8552956167 ],
+						[ 4.399311121, 50.8553349491 ],
+						[ 4.3993038949, 50.8553456341 ],
+						[ 4.3991432903, 50.8553056914 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772112,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39923 50.8553)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A2",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "04/11/2025",
+				"DateFin" : "28/02/2026",
+				"DateFinAutorisee" : "28/01/2026",
+				"Duree" : "59 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Échafaudage avec tunnel pour piéton",
+				"Organisation" : "Rebeton",
+				"Pilote" : "",
+				"Responsable" : "CETERIS Services",
+				"Rues" : "Chaussée de Louvain (Schaerbeek)",
+				"ReferenceInterne" : "Échafaudage avec tunnel pour piéton",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "15,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3816386908, 50.8671742691 ],
+						[ 4.3816886581, 50.8671826922 ],
+						[ 4.3817186336, 50.8671889813 ],
+						[ 4.3817548538, 50.8671754929 ],
+						[ 4.3817686152, 50.8671138236 ],
+						[ 4.381797679, 50.8669167712 ],
+						[ 4.3818338583, 50.8664246028 ],
+						[ 4.3818410842, 50.8662147788 ],
+						[ 4.3818547873, 50.8659553412 ],
+						[ 4.3818533519, 50.8659045509 ],
+						[ 4.381856617, 50.8658488877 ],
+						[ 4.3818709676, 50.865424763 ],
+						[ 4.3818739439, 50.8654018575 ],
+						[ 4.3818787523, 50.8652809755 ],
+						[ 4.3819642251, 50.8652813237 ],
+						[ 4.381877894, 50.8669381257 ],
+						[ 4.3818413005, 50.867156675 ],
+						[ 4.3817602798, 50.8671981959 ],
+						[ 4.3817159075, 50.8672079684 ],
+						[ 4.3816368023, 50.867201873 ],
+						[ 4.3816386908, 50.8671742691 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772117,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38187 50.8662)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (29 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux en voirie non standards",
+				"Nom" : "SCH-00688-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Avenue du Suffrage Universel (Schaerbeek), \nAvenue Ernest Renan (Schaerbeek), \nAvenue Louis Bertrand (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00688-T",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "1182,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3579020259, 50.8603825125 ],
+						[ 4.3579667214, 50.8605051253 ],
+						[ 4.3580789133, 50.860482217 ],
+						[ 4.3583097547, 50.8610028049 ],
+						[ 4.3582064812, 50.8610239736 ],
+						[ 4.3587541057, 50.8620858645 ],
+						[ 4.3587962713, 50.8620771333 ],
+						[ 4.3589467024, 50.8623513337 ],
+						[ 4.3588868302, 50.8623637486 ],
+						[ 4.3593994564, 50.863355875 ],
+						[ 4.3594055773, 50.8633620782 ],
+						[ 4.3594317473, 50.8634090502 ],
+						[ 4.3593978807, 50.8634571767 ],
+						[ 4.3593916218, 50.8635525282 ],
+						[ 4.3589928079, 50.8636342926 ],
+						[ 4.3589207933, 50.8634910784 ],
+						[ 4.3591952344, 50.8634263906 ],
+						[ 4.3586588021, 50.8623737534 ],
+						[ 4.3585989963, 50.862383516 ],
+						[ 4.3584852178, 50.8621796124 ],
+						[ 4.3585469532, 50.8621661873 ],
+						[ 4.3579530167, 50.8610502129 ],
+						[ 4.3576867867, 50.8611136777 ],
+						[ 4.357364503, 50.8604859133 ],
+						[ 4.3579020259, 50.8603825125 ]
+					],
+					[
+						[ 4.3592054373, 50.8634244991 ],
+						[ 4.359203304, 50.8634270248 ],
+						[ 4.3592063783, 50.8634263171 ],
+						[ 4.3592054373, 50.8634244991 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772135,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35839 50.8617)",
+				"SectorName" : "Dehors",
+				"Appelant" : "Sibelga BE-CO",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "01/01/2026",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2027",
+				"DateFinAutorisee" : "",
+				"Duree" : "200 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "SPRB - BM - DEN - Télématique, Sibelga BE-CO",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "BXL2-1968217-Chaussee d'Anvers",
+				"Organisation" : "Sibelga BE-CO",
+				"Pilote" : "Sibelga BE-CO",
+				"Responsable" : "HEYVAERT Kristof",
+				"Rues" : "Boulevard Simon Bolivar (Schaerbeek), \nBoulevard du Roi Albert II (Schaerbeek), \nRue du Progrès (Schaerbeek), \nPlace Solvay (Schaerbeek)",
+				"ReferenceInterne" : "BXL2-1968217-Chaussee d'Anvers",
+				"Regime" : "PCA",
+				"Statut" : "En coordination",
+				"Surface" : "8713,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.379786626, 50.8695225465 ],
+						[ 4.3790443229, 50.8692957348 ],
+						[ 4.3790322187, 50.8692932728 ],
+						[ 4.3790149729, 50.8692954229 ],
+						[ 4.3790033671, 50.8692982197 ],
+						[ 4.378990739, 50.869303237 ],
+						[ 4.3789479512, 50.8693699967 ],
+						[ 4.3789027615, 50.8694324147 ],
+						[ 4.3788495027, 50.8694957952 ],
+						[ 4.3787621049, 50.8695913251 ],
+						[ 4.3787164028, 50.869571191 ],
+						[ 4.3787790954, 50.8695070869 ],
+						[ 4.37883407, 50.8694429835 ],
+						[ 4.3789121857, 50.8693263783 ],
+						[ 4.3789623392, 50.869275095 ],
+						[ 4.3790481958, 50.869260436 ],
+						[ 4.3798180996, 50.869492947 ],
+						[ 4.379786626, 50.8695225465 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772137,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3792 50.8694)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (29 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux en voirie non standards",
+				"Nom" : "SCH-00680-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue Général Eenens (Schaerbeek), \nAvenue Voltaire (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00680-T",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "383,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3749118471, 50.8537901243 ],
+							[ 4.3749408345, 50.8538366302 ],
+							[ 4.3749308795, 50.8538387091 ],
+							[ 4.3749044006, 50.8537934671 ],
+							[ 4.3749118471, 50.8537901243 ]
+						]
+					],
+					[
+						[
+							[ 4.3749277065, 50.8538645149 ],
+							[ 4.3749001761, 50.8538698787 ],
+							[ 4.3748281551, 50.8537559361 ],
+							[ 4.374853038, 50.8537485617 ],
+							[ 4.3749277065, 50.8538645149 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772144,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37488 50.8538)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "20/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "15 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
+				"Nom" : "Travaux privés d'immeubles ou aménagement de zone Rue Verboeckhaven (Saint-Josse-ten-Noode)",
+				"Organisation" : "RB",
+				"Pilote" : "",
+				"Responsable" : "BERNIMONT Manon",
+				"Rues" : "Rue Verboeckhaven (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "Jadot 101600",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "31",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3711470332, 50.8657359631 ],
+						[ 4.3715188593, 50.8657811675 ],
+						[ 4.3715085409, 50.8658184909 ],
+						[ 4.3711371485, 50.8657745479 ],
+						[ 4.3711470332, 50.8657359631 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772156,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37133 50.8658)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-01714-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue Rubens (Schaerbeek)",
+				"ReferenceInterne" : "SCH-01714-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "114",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4071464858, 50.8471358115 ],
+						[ 4.40716301, 50.8471457019 ],
+						[ 4.4071201772, 50.8471809924 ],
+						[ 4.4070454155, 50.8471434737 ],
+						[ 4.4070891941, 50.8471065768 ],
+						[ 4.4071464858, 50.8471358115 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772160,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.4071 50.8471)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek, Woluwe-Saint-Lambert",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4374789",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Avenue Herbert Hoover (Schaerbeek), \nAvenue Herbert Hoover (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "101171344853 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Subdivisé (initial)",
+				"Surface" : "34,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.407132588, 50.8471707669 ],
+						[ 4.4071201772, 50.8471809924 ],
+						[ 4.4070454155, 50.8471434737 ],
+						[ 4.4070581402, 50.8471327492 ],
+						[ 4.407132588, 50.8471707669 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772161,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40709 50.8472)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4374789",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Avenue Herbert Hoover (Schaerbeek), \nAvenue Herbert Hoover (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "101171344853 - JAM ",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "9,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4070581402, 50.8471327492 ],
+						[ 4.4070891941, 50.8471065768 ],
+						[ 4.4071464858, 50.8471358115 ],
+						[ 4.40716301, 50.8471457019 ],
+						[ 4.407132588, 50.8471707669 ],
+						[ 4.4070581402, 50.8471327492 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772163,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40711 50.8471)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Woluwe-Saint-Lambert",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4374789",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Avenue Herbert Hoover (Schaerbeek), \nAvenue Herbert Hoover (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "101171344853 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "24,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4119304921, 50.8532377979 ],
+						[ 4.4119517172, 50.8532469469 ],
+						[ 4.4119372622, 50.8532585511 ],
+						[ 4.4119179647, 50.8532481804 ],
+						[ 4.4119304921, 50.8532377979 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772203,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.41193 50.8532)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "17/02/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "20 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "coupure branchement client",
+				"Organisation" : "Sibelga EG",
+				"Pilote" : "",
+				"Responsable" : "BONTE Marina",
+				"Rues" : "Rue Colonel Bourg (Evere)",
+				"ReferenceInterne" : "rue du colonel bourg 105B - Evere",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "1,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4023608309, 50.8467398387 ],
+						[ 4.4024415491, 50.8467580457 ],
+						[ 4.4024329072, 50.8467734563 ],
+						[ 4.4023493181, 50.846755152 ],
+						[ 4.4023608309, 50.8467398387 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772211,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.4024 50.8468)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "15/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "53 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Général Gratry (Schaerbee",
+				"Organisation" : "NRS Construct",
+				"Pilote" : "",
+				"Responsable" : "SELMANAJ Rame",
+				"Rues" : "Rue Général Gratry (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "11,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3686086996, 50.8665915954 ],
+						[ 4.3684447809, 50.8664015674 ],
+						[ 4.3683175433, 50.8662508455 ],
+						[ 4.3681152889, 50.8660146614 ],
+						[ 4.3680214182, 50.8659063786 ],
+						[ 4.3680621622, 50.8658910992 ],
+						[ 4.3686486775, 50.8665784771 ],
+						[ 4.3686086996, 50.8665915954 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772240,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36833 50.8662)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-90116-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue Gallait (Schaerbeek)",
+				"ReferenceInterne" : "SCH-90116-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "281,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4023514122, 50.8467625662 ],
+						[ 4.4026461714, 50.8468282207 ],
+						[ 4.4026261413, 50.846843658 ],
+						[ 4.4023405954, 50.846780754 ],
+						[ 4.4023514122, 50.8467625662 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772268,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40249 50.8468)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "15/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "45 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "Zone de stationnement Rue Général Gratry (Schaerbeek)",
+				"Organisation" : "NRS Construct",
+				"Pilote" : "",
+				"Responsable" : "SELMANAJ Rame",
+				"Rues" : "Rue Général Gratry (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "46",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4109607636, 50.8489346842 ],
+						[ 4.4110300109, 50.8487350371 ],
+						[ 4.4110517096, 50.8487371658 ],
+						[ 4.4109786057, 50.8489374248 ],
+						[ 4.4109607636, 50.8489346842 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772273,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.41101 50.8488)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "01/12/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "01/02/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "20 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Woluwe-Saint-Lambert",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "DEM AP 23634",
+				"Organisation" : "Sibelga EE",
+				"Pilote" : "",
+				"Responsable" : "KHALIFA  Soufiane",
+				"Rues" : "Avenue de Mars (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "AP23634 Avenue de Mars 30-32 WSL",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "32,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3572382559, 50.8570466693 ],
+						[ 4.3571765256, 50.8570649775 ],
+						[ 4.3570386508, 50.8568769421 ],
+						[ 4.3571042387, 50.8568586343 ],
+						[ 4.3572382559, 50.8570466693 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772275,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35714 50.857)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4579443",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Rue du Marché (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "103031725435 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "102,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3591293428, 50.8678023587 ],
+						[ 4.3590689466, 50.8678111472 ],
+						[ 4.3590515925, 50.8677577306 ],
+						[ 4.3591080283, 50.8677494937 ],
+						[ 4.3591293428, 50.8678023587 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772283,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35909 50.8678)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "20/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "03/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "vivaqua distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Chaussée d'Anvers (Bruxelles)",
+				"ReferenceInterne" : "LTDI#8000054913-BR7-CHAUSSEE D ANVERS 359 TIR FUSEE",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "25,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.396770206, 50.8585011866 ],
+						[ 4.396697895, 50.8585186423 ],
+						[ 4.3966547979, 50.8584390918 ],
+						[ 4.3967426064, 50.8584216324 ],
+						[ 4.396770206, 50.8585011866 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772292,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39672 50.8585)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A1",
+				"Coordinateur" : "",
+				"DateDebut" : "27/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "2 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue des Jardins (Schaerbee",
+				"Organisation" : "HOME CONCEPT OH",
+				"Pilote" : "",
+				"Responsable" : "HENROUL Amandine",
+				"Rues" : "Boulevard Général Wahis (Schaerbeek), \nAvenue des Jardins (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "53,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3923490227, 50.8760992121 ],
+						[ 4.3923904801, 50.8760381575 ],
+						[ 4.3924474131, 50.8760503549 ],
+						[ 4.3924049915, 50.8761126306 ],
+						[ 4.3923490227, 50.8760992121 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772306,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3924 50.8761)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4260792",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Rue du Tilleul (Schaerbeek)",
+				"ReferenceInterne" : "102506770832 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "27,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3712639033, 50.8521025462 ],
+						[ 4.3712127888, 50.8520561524 ],
+						[ 4.3712605238, 50.8520393633 ],
+						[ 4.3713077808, 50.8520851468 ],
+						[ 4.3712639033, 50.8521025462 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772317,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37126 50.8521)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4575967",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Rue Potagère (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "103031141617 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "22,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3608281078, 50.8556597962 ],
+						[ 4.3608821903, 50.8556443527 ],
+						[ 4.3610147735, 50.8558256683 ],
+						[ 4.3609795696, 50.8558369598 ],
+						[ 4.360920752, 50.8557487443 ],
+						[ 4.360899051, 50.855755458 ],
+						[ 4.3608281078, 50.8556597962 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772335,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36092 50.8557)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "21/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "30 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
+				"Nom" : "lift - parking ",
+				"Organisation" : "VIMAR",
+				"Pilote" : "",
+				"Responsable" : "CRETEN  Stijn",
+				"Rues" : "Rue Gineste (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "Vimar - Passage charles Rogier Phase III",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "76",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3953749437, 50.8526335634 ],
+						[ 4.3953903951, 50.8526701876 ],
+						[ 4.3953701456, 50.8526744656 ],
+						[ 4.3952735789, 50.8524516688 ],
+						[ 4.3952909348, 50.852446781 ],
+						[ 4.3953112131, 50.8524925611 ],
+						[ 4.3953782063, 50.852482695 ],
+						[ 4.3954395496, 50.8526207286 ],
+						[ 4.3953749437, 50.8526335634 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772341,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39536 50.8526)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "19/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "26/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga TC",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "LEJEUNE Laurence",
+				"Rues" : "Avenue Milcamps (Schaerbeek)",
+				"ReferenceInterne" : "02436820 avenue Milcamps / Milcampslaan 183 SCHA",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "114,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3919179309, 50.8526643583 ],
+						[ 4.3918012236, 50.8526295856 ],
+						[ 4.391832021, 50.8525948521 ],
+						[ 4.3919747496, 50.8526320892 ],
+						[ 4.3919179309, 50.8526643583 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772342,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39188 50.8526)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4572178",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "TOULLAB Milissa",
+				"Rues" : "Rue du Radium (Schaerbeek)",
+				"ReferenceInterne" : "102257205390 - JAM ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "46,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4066549714, 50.8602333361 ],
+						[ 4.4066641264, 50.8602235657 ],
+						[ 4.4067331084, 50.8602452144 ],
+						[ 4.4067239551, 50.8602571214 ],
+						[ 4.4066549714, 50.8602333361 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772375,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40669 50.8602)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4580343",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Avenue de la Hallebarde (Evere)",
+				"ReferenceInterne" : "102131761859 - JAM",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "7,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3660567271, 50.865901228 ],
+						[ 4.3661891876, 50.8654550174 ],
+						[ 4.3662680024, 50.8654635308 ],
+						[ 4.366135828, 50.8659103863 ],
+						[ 4.3660567271, 50.865901228 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772397,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36616 50.8657)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "17/11/2025",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "28/11/2025",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00696-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue des Palais (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00696-T",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "285,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3943534433, 50.8597010139 ],
+						[ 4.3943669528, 50.8597119992 ],
+						[ 4.3942854792, 50.8597632963 ],
+						[ 4.3942700412, 50.8597532271 ],
+						[ 4.3943534433, 50.8597010139 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772423,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39432 50.8597)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "13/11/2025",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "18/11/2025",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4562127",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Boulevard Général Wahis (Schaerbeek)",
+				"ReferenceInterne" : "101150687287 - JAM",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "12,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3827665336, 50.8720268887 ],
+						[ 4.3827827747, 50.8720121363 ],
+						[ 4.3830742111, 50.8721405922 ],
+						[ 4.3830581345, 50.8721551903 ],
+						[ 4.3827665336, 50.8720268887 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772472,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38292 50.8721)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "19/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "Zone de stationnement Rue Jan Blockx (Schaerbeek)",
+				"Organisation" : "Power Installation NV",
+				"Pilote" : "",
+				"Responsable" : "VAN DEN BERGH Dieter",
+				"Rues" : "Rue Jan Blockx (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "49,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3805761612, 50.8716875913 ],
+						[ 4.3806578331, 50.8716409499 ],
+						[ 4.3806736073, 50.8716545141 ],
+						[ 4.3805832278, 50.8717054644 ],
+						[ 4.3805660109, 50.8716926665 ],
+						[ 4.3805761612, 50.8716875913 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772483,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38062 50.8717)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "01/04/2026",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/04/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "21 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Boulevard Lambermont (Schaerb",
+				"Organisation" : "Tanguy d'Hose",
+				"Pilote" : "",
+				"Responsable" : "TANGUY D'hose",
+				"Rues" : "Boulevard Lambermont (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Préparation de demande d'autorisation",
+				"Surface" : "15,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4117693975, 50.846321159 ],
+						[ 4.4122101752, 50.8464449184 ],
+						[ 4.4121928416, 50.8464693435 ],
+						[ 4.4117539905, 50.846343752 ],
+						[ 4.4117693975, 50.846321159 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772518,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.41198 50.8464)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "03/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Woluwe-Saint-Lambert",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
+				"Nom" : "Travaux corniches - Lift",
+				"Organisation" : "ARTEDEM",
+				"Pilote" : "",
+				"Responsable" : "DEMEESTERE Thierry",
+				"Rues" : "Avenue Lambeau (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "Artedem - Av Lambeau",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation réputée recevable",
+				"Surface" : "97",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3716446707, 50.8638483343 ],
+						[ 4.3721249176, 50.8637561767 ],
+						[ 4.3722068886, 50.8637397838 ],
+						[ 4.3722197727, 50.8637723914 ],
+						[ 4.3716632029, 50.8638780196 ],
+						[ 4.3716446707, 50.8638483343 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772521,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37194 50.8638)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00683-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue de Locht (Schaerbeek), \nRue Royale-Sainte-Marie (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00683-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "148,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3595870808, 50.8702160214 ],
+						[ 4.3597621331, 50.8704335408 ],
+						[ 4.3597078832, 50.8704528074 ],
+						[ 4.3595352335, 50.870236692 ],
+						[ 4.3595870808, 50.8702160214 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772526,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35965 50.8703)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "12/11/2025",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "18/11/2025",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH01_POP04",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Allée Verte (Bruxelles)",
+				"ReferenceInterne" : "Wyre_SCH01_POP04",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "117,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.374047908, 50.8584010975 ],
+						[ 4.3739732333, 50.8583027213 ],
+						[ 4.3738968105, 50.858209594 ],
+						[ 4.3738468317, 50.8581420225 ],
+						[ 4.3738829846, 50.8581318826 ],
+						[ 4.3740980989, 50.8583891817 ],
+						[ 4.374047908, 50.8584010975 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772528,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37397 50.8583)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00662-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Rue Josaphat (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00662-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "105,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.359314696, 50.8699540081 ],
+						[ 4.3590812879, 50.8696548648 ],
+						[ 4.359121809, 50.8696414377 ],
+						[ 4.3593619707, 50.8699393606 ],
+						[ 4.359314696, 50.8699540081 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772534,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35922 50.8698)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "12/11/2025",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "18/11/2025",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH01_POP04",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Allée Verte (Bruxelles)",
+				"ReferenceInterne" : "Wyre_SCH01_POP04",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "128,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3563953253, 50.8662396871 ],
+						[ 4.3565467049, 50.8664277504 ],
+						[ 4.356805711, 50.8667533654 ],
+						[ 4.3567536152, 50.8667692324 ],
+						[ 4.3563563007, 50.8662539641 ],
+						[ 4.356352443, 50.866250301 ],
+						[ 4.3563953253, 50.8662396871 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772565,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35659 50.8665)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "12/11/2025",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "18/11/2025",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH01_POP04",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Allée Verte (Bruxelles)",
+				"ReferenceInterne" : "Wyre_SCH01_POP04",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "234,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3743402101, 50.8746069121 ],
+						[ 4.3743910085, 50.8747031687 ],
+						[ 4.3744000638, 50.8747013279 ],
+						[ 4.3744517939, 50.8747941813 ],
+						[ 4.3746638256, 50.8747967158 ],
+						[ 4.3747083756, 50.8746393992 ],
+						[ 4.3747886244, 50.8746413263 ],
+						[ 4.3747350942, 50.874767084 ],
+						[ 4.3746202949, 50.8748803307 ],
+						[ 4.3744335919, 50.8748244839 ],
+						[ 4.3743964429, 50.8748025094 ],
+						[ 4.3743728011, 50.8747771766 ],
+						[ 4.3742787085, 50.874614494 ],
+						[ 4.3743402101, 50.8746069121 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772577,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37454 50.8748)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A1",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00064-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Boulevard Lambermont (Schaerbeek), \nRue François-Joseph Navez (Schaerbeek), \nRue Portaels (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00064-T",
+				"Regime" : "E",
+				"Statut" : "Subdivisé (initial)",
+				"Surface" : "296,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3730633923, 50.8603373115 ],
+							[ 4.3730861145, 50.8603337107 ],
+							[ 4.3730954361, 50.860350408 ],
+							[ 4.3730788466, 50.8603552314 ],
+							[ 4.3730850431, 50.8603772057 ],
+							[ 4.3730633923, 50.8603373115 ]
+						]
+					],
+					[
+						[
+							[ 4.3730850431, 50.8603772057 ],
+							[ 4.3730861798, 50.8603812367 ],
+							[ 4.3728635575, 50.8604281615 ],
+							[ 4.372849087, 50.8604043541 ],
+							[ 4.3730539983, 50.860359962 ],
+							[ 4.3730678898, 50.8603805339 ],
+							[ 4.3730850431, 50.8603772057 ]
+						]
+					],
+					[
+						[
+							[ 4.3724145717, 50.8604983821 ],
+							[ 4.3725626254, 50.8604663273 ],
+							[ 4.3725766135, 50.8604901348 ],
+							[ 4.3724271129, 50.8605228001 ],
+							[ 4.3724145717, 50.8604983821 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772644,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37278 50.8604)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "07/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "9 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "ROGIER",
+				"Organisation" : "VIVAQUA Assainiss",
+				"Pilote" : "",
+				"Responsable" : "CRASSET Alain",
+				"Rues" : "Avenue Rogier (Schaerbeek)",
+				"ReferenceInterne" : "ASS CSA 05033 ROGIER 17-31",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "80,4",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.393495245, 50.8516883681 ],
+						[ 4.3935116348, 50.8516804285 ],
+						[ 4.3935502239, 50.8517075858 ],
+						[ 4.3935372092, 50.8517152194 ],
+						[ 4.393495245, 50.8516883681 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772773,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39352 50.8517)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "29/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "15 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "echafaudage",
+				"Organisation" : "Rebeton",
+				"Pilote" : "",
+				"Responsable" : "CETERIS Services",
+				"Rues" : "Avenue Léon Mahillon (Schaerbeek)",
+				"ReferenceInterne" : "echafaudage",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "5,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3787931677, 50.8507487395 ],
+						[ 4.3788259458, 50.8507075302 ],
+						[ 4.3788466805, 50.8507139382 ],
+						[ 4.3788139024, 50.8507551475 ],
+						[ 4.3787931677, 50.8507487395 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772820,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37882 50.8507)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4465240",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Avenue Georges Petre (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "101188531031 - JAM",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "8,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3609237567, 50.8682573198 ],
+						[ 4.3606068814, 50.8680802664 ],
+						[ 4.3606628409, 50.8680347906 ],
+						[ 4.3609744093, 50.8682179482 ],
+						[ 4.3609237567, 50.8682573198 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772830,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36079 50.8681)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek, VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Rue Masui (Schaerbeek), \nRue Masui (Bruxelles)",
+				"ReferenceInterne" : "SCH-00290-T",
+				"Regime" : "E",
+				"Statut" : "Subdivisé (initial)",
+				"Surface" : "180,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3620980805, 50.8674284973 ],
+						[ 4.361935408, 50.8674598352 ],
+						[ 4.361856899, 50.8674772469 ],
+						[ 4.3618412933, 50.8674414912 ],
+						[ 4.3620400222, 50.8674060949 ],
+						[ 4.3620843982, 50.8674012135 ],
+						[ 4.362126844, 50.8674021313 ],
+						[ 4.3621471015, 50.8674085422 ],
+						[ 4.362177969, 50.8674268576 ],
+						[ 4.3622580169, 50.867592907 ],
+						[ 4.362206887, 50.8676057241 ],
+						[ 4.3621311803, 50.8674396749 ],
+						[ 4.3620980805, 50.8674284973 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772839,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36209 50.8675)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Rue Destouvelles (Schaerbeek), \nRue Gaucheret (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00289-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "154,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4062418269, 50.8594093704 ],
+						[ 4.4062779626, 50.8593678472 ],
+						[ 4.4063011167, 50.8593748599 ],
+						[ 4.4062630513, 50.8594154681 ],
+						[ 4.4062418269, 50.8594093704 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772884,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40627 50.8594)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4559163",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Clos de la Pastourelle (Evere)",
+				"ReferenceInterne" : "100841714302 - JAM",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3871862543, 50.8493318449 ],
+						[ 4.387209189, 50.8493631836 ],
+						[ 4.3871706073, 50.8493783121 ],
+						[ 4.3871435927, 50.8493441305 ],
+						[ 4.3871862543, 50.8493318449 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772911,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38718 50.8494)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "29/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "8 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "4545218",
+				"Organisation" : "Proximus Repair",
+				"Pilote" : "",
+				"Responsable" : "VAN DER STICHELEN Sandra",
+				"Rues" : "Rue Van Campenhout (Bruxelles)",
+				"ReferenceInterne" : "4545218",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "13,1",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3976771779, 50.8541034775 ],
+						[ 4.3976219441, 50.8539796011 ],
+						[ 4.3976720863, 50.8539686001 ],
+						[ 4.3977261722, 50.8540943419 ],
+						[ 4.3976771779, 50.8541034775 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772952,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39767 50.854)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "12/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Vivaqua Linthout distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Avenue Eugène Plasky (Schaerbeek)",
+				"ReferenceInterne" : "LTDI_HB - Avenue Eugène Plasky 210_1000278719",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "52,8",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3819425911, 50.8507651871 ],
+						[ 4.3819821324, 50.850776476 ],
+						[ 4.3819729749, 50.8507889916 ],
+						[ 4.3819343982, 50.8507786182 ],
+						[ 4.3819425911, 50.8507651871 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772963,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38196 50.8508)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "12/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Vivaqua Linthout distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Chaussée de Louvain (Bruxelles)",
+				"ReferenceInterne" : "LTDI BR Chaussée de Louvain 282 - 1000278720",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "4,7",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4059359909, 50.8596407982 ],
+						[ 4.406004437, 50.8595974333 ],
+						[ 4.4060227727, 50.8596096366 ],
+						[ 4.4059543267, 50.8596530015 ],
+						[ 4.4059359909, 50.8596407982 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 772964,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40598 50.8596)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4582141",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Clos de la Pastourelle (Evere)",
+				"ReferenceInterne" : "102473111024 - JAM",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "12,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3770703213, 50.8537266006 ],
+						[ 4.3772845711, 50.8536650096 ],
+						[ 4.3773089932, 50.8536428935 ],
+						[ 4.3773265056, 50.8531474809 ],
+						[ 4.3773330561, 50.8530942446 ],
+						[ 4.3773375203, 50.8529749805 ],
+						[ 4.3773062595, 50.852955341 ],
+						[ 4.3770587335, 50.8529599441 ],
+						[ 4.3770587134, 50.8529351202 ],
+						[ 4.3773282576, 50.8529299103 ],
+						[ 4.3773456168, 50.8529314351 ],
+						[ 4.3773581549, 50.8529366231 ],
+						[ 4.377367318, 50.8529442531 ],
+						[ 4.3773716597, 50.8529543254 ],
+						[ 4.3773716617, 50.8529640928 ],
+						[ 4.3773639766, 50.8531164041 ],
+						[ 4.3773572429, 50.8532021747 ],
+						[ 4.3773423818, 50.8536441514 ],
+						[ 4.377339974, 50.8536603289 ],
+						[ 4.3773351535, 50.8536679601 ],
+						[ 4.3773259935, 50.8536768125 ],
+						[ 4.3773153862, 50.8536826127 ],
+						[ 4.3772874208, 50.8536932981 ],
+						[ 4.3770873187, 50.8537497814 ],
+						[ 4.3770703213, 50.8537266006 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773053,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37729 50.8533)",
+				"SectorName" : "Dehors",
+				"Appelant" : "Proximus Infra",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/06/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "Proximus Infra",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "G4F - STJFH02 bloc28",
+				"Organisation" : "Proximus Infra",
+				"Pilote" : "Proximus Infra",
+				"Responsable" : "BOTERDAEL David",
+				"Rues" : "Rue du Moulin (Saint-Josse-ten-Noode), \nRue des Moissons (Saint-Josse-ten-Noode), \nSquare Armand Steurs (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "G4F - STJFH02 bloc28",
+				"Regime" : "PCA",
+				"Statut" : "En coordination",
+				"Surface" : "301,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3698991533, 50.8629752467 ],
+						[ 4.3695010477, 50.8630705898 ],
+						[ 4.3694820191, 50.8630338621 ],
+						[ 4.3698794271, 50.8629410665 ],
+						[ 4.3698991533, 50.8629752467 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773054,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36969 50.863)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH02_POP04",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Rue Brichaut (Schaerbeek)",
+				"ReferenceInterne" : "Wyre_SCH02_POP04",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "125,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.382140535, 50.8707724521 ],
+						[ 4.3821032421, 50.8707510078 ],
+						[ 4.3823421655, 50.8705911864 ],
+						[ 4.3823930176, 50.8706147738 ],
+						[ 4.382140535, 50.8707724521 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773065,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38225 50.8707)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "13/12/2025",
+				"DateDebutAutorisee" : "13/12/2025",
+				"DateFin" : "13/12/2025",
+				"DateFinAutorisee" : "13/12/2025",
+				"Duree" : "0 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Déménagement",
+				"Nom" : "Déménagement Boulevard Lambermont (Schaerbeek)",
+				"Organisation" : "Hennuy Marzia",
+				"Pilote" : "",
+				"Responsable" : "HENNUY Marzia",
+				"Rues" : "Boulevard Lambermont (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Accord avec conditions particulières",
+				"Surface" : "98,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.360547494, 50.867616256 ],
+						[ 4.3609618792, 50.8675367019 ],
+						[ 4.3609783687, 50.8675677283 ],
+						[ 4.3605625767, 50.8676491989 ],
+						[ 4.360547494, 50.867616256 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773073,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36076 50.8676)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "21/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (3 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH01_POP03",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Rue Destouvelles (Schaerbeek)",
+				"ReferenceInterne" : "Wyre SCH01_POP03",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "113,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3997137773, 50.8498511378 ],
+						[ 4.3999068599, 50.8497878116 ],
+						[ 4.3997680161, 50.8498929483 ],
+						[ 4.3997137773, 50.8498511378 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773093,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3998 50.8498)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "12/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "13/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "2 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue du Diamant (Schaerbeek",
+				"Organisation" : "Le Vide Maison",
+				"Pilote" : "",
+				"Responsable" : "BEGGAR  Abdelaziz ",
+				"Rues" : "Avenue du Diamant (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "33,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3589593313, 50.8669263667 ],
+						[ 4.3592969309, 50.867115025 ],
+						[ 4.3592448307, 50.8671565324 ],
+						[ 4.358913019, 50.8669678745 ],
+						[ 4.3589593313, 50.8669263667 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773103,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3591 50.867)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "29/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH01_POP03",
+				"Organisation" : "Wyre",
+				"Pilote" : "",
+				"Responsable" : "ROBIN Jordi",
+				"Rues" : "Rue Masui (Bruxelles)",
+				"ReferenceInterne" : "Wyre_SCH01_POP03",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "181,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3895931613, 50.8476390909 ],
+						[ 4.3896693822, 50.8476189686 ],
+						[ 4.3896799741, 50.8476283505 ],
+						[ 4.3896011066, 50.8476492587 ],
+						[ 4.3895931613, 50.8476390909 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773112,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38964 50.8476)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "07/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "12/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue des Confédérés (Bruxelles",
+				"Organisation" : "Parete, Quentin",
+				"Pilote" : "",
+				"Responsable" : "PARETE Quentin",
+				"Rues" : "Rue des Confédérés (Bruxelles)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "7,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3745111768, 50.865722289 ],
+						[ 4.3745347453, 50.8657604603 ],
+						[ 4.3745250992, 50.8657635132 ],
+						[ 4.3744985662, 50.8657253608 ],
+						[ 4.3745111768, 50.865722289 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773120,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37452 50.8657)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "30/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "03/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Travaux privés d'immeubles ou aménagement de zone",
+				"Nom" : "echafaudage avec un passage pieton ",
+				"Organisation" : "CITY FACADE SA",
+				"Pilote" : "",
+				"Responsable" : "ALLALI Youssef",
+				"Rues" : "Chaussée de Haecht (Schaerbeek)",
+				"ReferenceInterne" : "chaussée de haecht 352 ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "3,9",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3983171695, 50.8762465594 ],
+						[ 4.3983268114, 50.8762361791 ],
+						[ 4.3983736185, 50.8762535651 ],
+						[ 4.3983639761, 50.8762633349 ],
+						[ 4.3983171695, 50.8762465594 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773245,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39835 50.8762)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "10/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Rue Edouard Stuckens (Evere)",
+				"ReferenceInterne" : "LTDI_1000278702_Rue Edouard Stuckens 115_EV",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "5",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3967813766, 50.8585048213 ],
+						[ 4.396728009, 50.858525542 ],
+						[ 4.39667976, 50.8584688802 ],
+						[ 4.396736568, 50.8584421644 ],
+						[ 4.3967813766, 50.8585048213 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773373,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39673 50.8585)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "27/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "2 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue des Jardins (Schaerbee",
+				"Organisation" : "HOME CONCEPT OH",
+				"Pilote" : "",
+				"Responsable" : "HENROUL Amandine",
+				"Rues" : "Avenue des Jardins (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "33,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3730976082, 50.8634725981 ],
+						[ 4.3730339327, 50.8633596654 ],
+						[ 4.3730856913, 50.8633479281 ],
+						[ 4.3731458372, 50.8634628287 ],
+						[ 4.3730976082, 50.8634725981 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773405,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37309 50.8634)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "20/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "03/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "vivaqua distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Chaussée de Haecht (Schaerbeek)",
+				"ReferenceInterne" : "LTDI#8000053833-HB-CHAUSSEE DE HAECHT 272 MODIF",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "49,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3611441067, 50.8670526403 ],
+						[ 4.3611243305, 50.8670553862 ],
+						[ 4.3611035965, 50.8670120423 ],
+						[ 4.3611228905, 50.8670080754 ],
+						[ 4.3611441067, 50.8670526403 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773411,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36112 50.867)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "30/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (5 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Raccordements et reprises de branchement",
+				"Nom" : "4550062",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "ATMANI Amine",
+				"Rues" : "Rue Jolly (Schaerbeek)",
+				"ReferenceInterne" : "102130930689 - JAM",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "7,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4018658126, 50.8626660341 ],
+						[ 4.4018653037, 50.8626291013 ],
+						[ 4.401886042, 50.8626287901 ],
+						[ 4.4018865507, 50.8626654176 ],
+						[ 4.4018658126, 50.8626660341 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773482,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.40188 50.8626)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "10/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Clos de l'Oasis (Evere)",
+				"ReferenceInterne" : "LTDI_1000278701_Clos de L'Oasis 6_EV",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "6",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3792347762, 50.8498451559 ],
+						[ 4.3792179087, 50.8498796487 ],
+						[ 4.3790988096, 50.8498564623 ],
+						[ 4.3791069983, 50.8498219703 ],
+						[ 4.3792347762, 50.8498451559 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773485,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37917 50.8499)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "vivaqua distribution",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Chaussée de Louvain (Bruxelles)",
+				"ReferenceInterne" : "LTDI#8000054539-BR5-CHAUSSEE DE LOUVAIN 216 RA",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "35,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3955612371, 50.8535206162 ],
+						[ 4.3955332354, 50.8534620182 ],
+						[ 4.3955988068, 50.8534491831 ],
+						[ 4.3955621048, 50.8533551804 ],
+						[ 4.395591033, 50.853349069 ],
+						[ 4.3956856653, 50.8535566043 ],
+						[ 4.3956519147, 50.8535621064 ],
+						[ 4.3956277719, 50.8535059494 ],
+						[ 4.3955612371, 50.8535206162 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773512,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39561 50.8535)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "18/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "7 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (5 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Sibelga TC",
+				"Organisation" : "Sibelga Tracli",
+				"Pilote" : "",
+				"Responsable" : "NYAMASHALA Christian",
+				"Rues" : "Avenue Milcamps (Schaerbeek)",
+				"ReferenceInterne" : "\tMilcampslaan 168 1030 Schaerbeek D:01843597 ",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "90,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4096684442, 50.847484371 ],
+						[ 4.4097463491, 50.8474628945 ],
+						[ 4.4097548291, 50.8474741521 ],
+						[ 4.4099394303, 50.8474242179 ],
+						[ 4.4099555385, 50.8474413712 ],
+						[ 4.4096862559, 50.8475122481 ],
+						[ 4.4096684442, 50.847484371 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773518,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.4098 50.8475)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "19/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "19/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Woluwe-Saint-Lambert",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue des Cerisiers (Woluwe-",
+				"Organisation" : "ENERGYVISION NV",
+				"Pilote" : "",
+				"Responsable" : "PHAM  Thanh",
+				"Rues" : "Avenue des Cerisiers (Woluwe-Saint-Lambert)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation réputée recevable",
+				"Surface" : "51",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP MONTGOMERY"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3980904058, 50.8457888202 ],
+						[ 4.3986847829, 50.8459236156 ],
+						[ 4.3986558744, 50.8459692019 ],
+						[ 4.3980629092, 50.8458357466 ],
+						[ 4.3980904058, 50.8457888202 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773529,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39837 50.8459)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "12/12/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "17/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Général Gratry (Schaerbee",
+				"Organisation" : "All glass solutions ",
+				"Pilote" : "",
+				"Responsable" : "AGENT 3",
+				"Rues" : "Rue Général Gratry (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Préparation de demande d'autorisation",
+				"Surface" : "244,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3888318708, 50.8595385977 ],
+						[ 4.3890871596, 50.8595047711 ],
+						[ 4.3894261648, 50.8594489752 ],
+						[ 4.3894633741, 50.8594422263 ],
+						[ 4.3894839994, 50.8594202009 ],
+						[ 4.3894560065, 50.8593719795 ],
+						[ 4.3895003706, 50.8593640354 ],
+						[ 4.3895351274, 50.8594391159 ],
+						[ 4.389518744, 50.8594684211 ],
+						[ 4.3894502715, 50.8594867475 ],
+						[ 4.3891840853, 50.8595331908 ],
+						[ 4.3887633395, 50.8595918192 ],
+						[ 4.3887510239, 50.8595509713 ],
+						[ 4.3888318708, 50.8595385977 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773537,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38917 50.8595)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "30/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (5 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Avenue Général Eisenhower (Schaerbeek), \nSquare Prévost-Delaunay (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00737-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "282,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3583893922, 50.8590342425 ],
+						[ 4.3581353391, 50.8585194511 ],
+						[ 4.3581395768, 50.8585114081 ],
+						[ 4.3583893922, 50.8590342425 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773579,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.35822 50.8587)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "01/12/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "01/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue des Charbonniers (Saint-J",
+				"Organisation" : "ALTEZ",
+				"Pilote" : "",
+				"Responsable" : "ALTEZ NV Ward",
+				"Rues" : "Rue du Marché (Saint-Josse-ten-Noode), \nRue des Charbonniers (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Préparation de demande d'autorisation",
+				"Surface" : "16,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3777554772, 50.8569491906 ],
+						[ 4.3777427362, 50.8567867172 ],
+						[ 4.377773234, 50.8567856423 ],
+						[ 4.3777859749, 50.8569475794 ],
+						[ 4.3777554772, 50.8569491906 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773601,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37776 50.8569)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "14/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "14/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (27 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Avenue Paul Deschanel (Schaer",
+				"Organisation" : "ENERGYVISION NV",
+				"Pilote" : "",
+				"Responsable" : "PHAM  Thanh",
+				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "38,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3678814924, 50.8607483182 ],
+						[ 4.3677813858, 50.8610750719 ],
+						[ 4.3677281788, 50.8612638076 ],
+						[ 4.3676619709, 50.8612556596 ],
+						[ 4.3678433103, 50.8606378725 ],
+						[ 4.3679146864, 50.8606342098 ],
+						[ 4.3678814924, 50.8607483182 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773615,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36779 50.8609)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "30/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00394-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "DERIDDER Frederic",
+				"Rues" : "Rue des Palais (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00394-T",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "334,9",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3783313032, 50.8505090156 ],
+						[ 4.3784525083, 50.8503744877 ],
+						[ 4.3784949544, 50.8503889515 ],
+						[ 4.3783744428, 50.8505254008 ],
+						[ 4.3783313032, 50.8505090156 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773621,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37841 50.8504)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "30/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/06/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "G4F - STJFH02 bloc23",
+				"Organisation" : "Proximus Infra",
+				"Pilote" : "",
+				"Responsable" : "BOTERDAEL David",
+				"Rues" : "Rue des Deux Tours (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "G4F - STJFH02 bloc23",
+				"Regime" : "A",
+				"Statut" : "Préparation de demande d'autorisation",
+				"Surface" : "60",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3942494012, 50.8686161084 ],
+						[ 4.3942530978, 50.8685933468 ],
+						[ 4.3942550831, 50.8685115112 ],
+						[ 4.3943153091, 50.8685121123 ],
+						[ 4.3943023497, 50.8686268819 ],
+						[ 4.3942488082, 50.8686262834 ],
+						[ 4.3942494012, 50.8686161084 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773710,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39428 50.8686)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "31/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "4552892",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "FERREIRA Tiago Miguel Gomes",
+				"Rues" : "Rue Alexandre De Craene (Schaerbeek)",
+				"ReferenceInterne" : "102875916153 + cstmodal",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "50,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3654631767, 50.8565878421 ],
+						[ 4.3654557647, 50.8565774527 ],
+						[ 4.3660159567, 50.8564470956 ],
+						[ 4.3660233687, 50.8564611715 ],
+						[ 4.3657480384, 50.8565235018 ],
+						[ 4.365661733, 50.8565405921 ],
+						[ 4.3654631767, 50.8565878421 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773788,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36576 50.8565)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "10/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "19/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "29 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Saint-François (Saint-Jos",
+				"Organisation" : "HBM de Saint-Josse",
+				"Pilote" : "",
+				"Responsable" : "THONNARD Marc",
+				"Rues" : "Rue Saint-François (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "58,4",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3686624782, 50.8560543154 ],
+						[ 4.3686567747, 50.8560449645 ],
+						[ 4.3685317679, 50.8559536065 ],
+						[ 4.3685811308, 50.8559277689 ],
+						[ 4.3687238701, 50.8560339887 ],
+						[ 4.3686624782, 50.8560543154 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773813,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36863 50.856)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "31/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "31/01/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "4583545",
+				"Organisation" : "Proximus Prov",
+				"Pilote" : "",
+				"Responsable" : "FERREIRA Tiago Miguel Gomes",
+				"Rues" : "Chaussée de Haecht (Saint-Josse-ten-Noode)",
+				"ReferenceInterne" : "103034238139 + cstmodal",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "66,8",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3601498123, 50.8632453246 ],
+						[ 4.3601275785, 50.8632017554 ],
+						[ 4.3602250196, 50.8631796429 ],
+						[ 4.3602472533, 50.8632245527 ],
+						[ 4.3601498123, 50.8632453246 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773820,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36019 50.8632)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "31/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "Accusé de réception d'une demande d'autorisation ou autorisation modificative (29 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "A224149 - Ellipse",
+				"Organisation" : "Blaton",
+				"Pilote" : "",
+				"Responsable" : "VINEL Laurent",
+				"Rues" : "Rue Gaucheret (Schaerbeek)",
+				"ReferenceInterne" : "A224149 - Ellipse ",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "25,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.380260884, 50.8745648463 ],
+						[ 4.3802513456, 50.8745487608 ],
+						[ 4.3805362957, 50.8744837147 ],
+						[ 4.3805458344, 50.8745004704 ],
+						[ 4.380260884, 50.8745648463 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773841,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3804 50.8745)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "10/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "18/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "6 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "Zone de stationnement Avenue Emile Verhaeren (Schaerbeek)",
+				"Organisation" : "Docteur Toitures",
+				"Pilote" : "",
+				"Responsable" : "PANDUCCIO Dany",
+				"Rues" : "Avenue Emile Verhaeren (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "41,5",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3774453503, 50.8484927589 ],
+						[ 4.3774386647, 50.8484795693 ],
+						[ 4.3774547819, 50.8484765815 ],
+						[ 4.3774614673, 50.8484885268 ],
+						[ 4.3774453503, 50.8484927589 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773859,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37745 50.8485)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "10/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "16/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "4 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Square Gutenberg (Bruxelles)",
+				"Organisation" : "Zahorski Philippe Christian",
+				"Pilote" : "",
+				"Responsable" : "ZAHORSKI PHILIPPE Christian",
+				"Rues" : "Square Gutenberg (Bruxelles)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "1,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3608202356, 50.8681994779 ],
+						[ 4.3606068814, 50.8680802664 ],
+						[ 4.3606628409, 50.8680347906 ],
+						[ 4.3607699965, 50.868097783 ],
+						[ 4.3608202356, 50.8681994779 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773905,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36071 50.8681)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Rue Masui (Schaerbeek), \nRue Masui (Bruxelles)",
+				"ReferenceInterne" : "SCH-00290-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "94,6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3609744093, 50.8682179482 ],
+						[ 4.3609237567, 50.8682573198 ],
+						[ 4.3608202356, 50.8681994779 ],
+						[ 4.3607699965, 50.868097783 ],
+						[ 4.3609744093, 50.8682179482 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773906,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36087 50.8682)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "29/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "Pose de gaine srv",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "MANDIL Noureddine",
+				"Rues" : "Rue Masui (Schaerbeek), \nRue Masui (Bruxelles)",
+				"ReferenceInterne" : "SCH-00290-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "85,7",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3786889569, 50.8584598206 ],
+						[ 4.3786285292, 50.8583210018 ],
+						[ 4.3786560774, 50.8583163048 ],
+						[ 4.3787133267, 50.8584564652 ],
+						[ 4.3786889569, 50.8584598206 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773925,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37867 50.8584)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "07/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "11/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "2 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Déménagement",
+				"Nom" : "Déménagement Avenue Paul Deschanel (Schaerbeek)",
+				"Organisation" : "Marcipont Honorine",
+				"Pilote" : "",
+				"Responsable" : "MARCIPONT Honorine",
+				"Rues" : "Avenue Paul Deschanel (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "30,2",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3747083756, 50.8746393992 ],
+							[ 4.3747608935, 50.8746406603 ],
+							[ 4.3746638256, 50.8747967158 ],
+							[ 4.3747083756, 50.8746393992 ]
+						]
+					],
+					[
+						[
+							[ 4.3743728011, 50.8747771766 ],
+							[ 4.3742787085, 50.874614494 ],
+							[ 4.3743402101, 50.8746069121 ],
+							[ 4.3743910085, 50.8747031687 ],
+							[ 4.3744000638, 50.8747013279 ],
+							[ 4.3744517939, 50.8747941813 ],
+							[ 4.3744334618, 50.874824407 ],
+							[ 4.3743964429, 50.8748025094 ],
+							[ 4.3743728011, 50.8747771766 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773937,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37445 50.8747)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "Avis de démarrage / Accord de chantier à valider (6 jours ouvrables)<br/>",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00064-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Boulevard Lambermont (Schaerbeek), \nRue François-Joseph Navez (Schaerbeek), \nRue Portaels (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00064-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "136,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3744517939, 50.8747941813 ],
+						[ 4.3746638256, 50.8747967158 ],
+						[ 4.3747608935, 50.8746406603 ],
+						[ 4.3747886244, 50.8746413263 ],
+						[ 4.3747350942, 50.874767084 ],
+						[ 4.3746202949, 50.8748803307 ],
+						[ 4.3744335919, 50.8748244839 ],
+						[ 4.3744517939, 50.8747941813 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773938,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37462 50.8748)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A1",
+				"Coordinateur" : "",
+				"DateDebut" : "28/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "28/10/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Pose de conduites : câbles, canalisations, gaines & bacs",
+				"Nom" : "SCH-00064-T",
+				"Organisation" : "INSKY/DiGi-Belgium - Impétrant institutionnel",
+				"Pilote" : "",
+				"Responsable" : "ISHRAT Bilal",
+				"Rues" : "Boulevard Lambermont (Schaerbeek), \nRue François-Joseph Navez (Schaerbeek), \nRue Portaels (Schaerbeek)",
+				"ReferenceInterne" : "SCH-00064-T",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "160,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3875437635, 50.8499008108 ],
+						[ 4.3875693423, 50.8498929978 ],
+						[ 4.3876927609, 50.8500549243 ],
+						[ 4.3876671821, 50.8500627373 ],
+						[ 4.3875437635, 50.8499008108 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 773978,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38762 50.85)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "05/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "06/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "2 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue Van Campenhout (Bruxelles",
+				"Organisation" : "FAYER-STERN  Danièle ",
+				"Pilote" : "",
+				"Responsable" : "FAYER-STERN  Danièle ",
+				"Rues" : "Rue Van Campenhout (Bruxelles)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "40",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3962101788, 50.8544133352 ],
+						[ 4.3962292238, 50.8543878602 ],
+						[ 4.3962758284, 50.8544092978 ],
+						[ 4.3964706952, 50.85445617 ],
+						[ 4.3964495276, 50.8544736022 ],
+						[ 4.3962101788, 50.8544133352 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774045,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.39634 50.8544)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A3",
+				"Coordinateur" : "",
+				"DateDebut" : "12/01/2026",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "22/02/2026",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.) Chaussée de Louvain (Schaerbeek)",
+				"Organisation" : "RSK",
+				"Pilote" : "",
+				"Responsable" : "HELLA Emilie",
+				"Rues" : "Chaussée de Louvain (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "A",
+				"Statut" : "Demande d'autorisation transmise",
+				"Surface" : "41",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3585804096, 50.8635656037 ],
+						[ 4.3585385484, 50.8634845806 ],
+						[ 4.3586006559, 50.8634383507 ],
+						[ 4.3586700953, 50.8634969606 ],
+						[ 4.3586700948, 50.8634994024 ],
+						[ 4.3585804096, 50.8635656037 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774062,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.3586 50.8635)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "31/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "30/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "8 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Administrateur Régional",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "4584053",
+				"Organisation" : "Proximus Repair",
+				"Pilote" : "",
+				"Responsable" : "VAN DER STICHELEN Sandra",
+				"Rues" : "Boulevard du Roi Albert II (Bruxelles)",
+				"ReferenceInterne" : "4584053",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "67,4",
+				"Urgence" : "P1 : Urgence urgente",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3685046905, 50.8606928647 ],
+						[ 4.3684554981, 50.8606000747 ],
+						[ 4.3684844343, 50.8605939699 ],
+						[ 4.3685307331, 50.86068676 ],
+						[ 4.3685046905, 50.8606928647 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774071,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.36849 50.8606)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "31/10/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "01/01/3000",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Constat de chantier fantôme",
+				"Nom" : "Constat de chantier fantôme",
+				"Organisation" : "Schaerbeek",
+				"Pilote" : "",
+				"Responsable" : "EL HARRACK El Alami",
+				"Rues" : "Rue de la Poste (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "PCA",
+				"Statut" : "Enregistré (Brouillon)",
+				"Surface" : "22,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3779383533, 50.8700027466 ],
+						[ 4.378114176, 50.8699383857 ],
+						[ 4.3781438403, 50.8699625129 ],
+						[ 4.3779680181, 50.870029555 ],
+						[ 4.3779383533, 50.8700027466 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774072,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.37804 50.87)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "25/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "25/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "1 Jour Ouvrable",
+				"Echeances" : "",
+				"Gestionnaire" : "Schaerbeek",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stationnement",
+				"Nom" : "Zone de stationnement Avenue Voltaire (Schaerbeek)",
+				"Organisation" : "Master Meubel",
+				"Pilote" : "",
+				"Responsable" : "INTERIOR Master",
+				"Rues" : "Avenue Voltaire (Schaerbeek)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "En attente de déclaration d'exécution de chantier",
+				"Surface" : "50,3",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP POLBRUNO"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3872467166, 50.8496221226 ],
+						[ 4.3871704381, 50.8495108693 ],
+						[ 4.3872043157, 50.84950148 ],
+						[ 4.3872805942, 50.8496127332 ],
+						[ 4.3872467166, 50.8496221226 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774136,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38723 50.8496)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "24/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "26/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "3 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Déménagement",
+				"Nom" : "Déménagement Rue Van Campenhout (Bruxelles)",
+				"Organisation" : "GUSTIN Raphaël",
+				"Pilote" : "",
+				"Responsable" : "GUSTIN Raphaël",
+				"Rues" : "Rue Van Campenhout (Bruxelles)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "35,1",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3879084796, 50.8471471539 ],
+						[ 4.3879093348, 50.8471381807 ],
+						[ 4.387994377, 50.8471414292 ],
+						[ 4.3879935218, 50.8471504024 ],
+						[ 4.3879084796, 50.8471471539 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774140,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.38795 50.8471)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "N",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "17/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "22/11/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "5 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "VBX",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container",
+				"Nom" : "Zone de stockage - Placement d'échafaudage, élévateur, grue, container Rue des Patriotes (Bruxelles)",
+				"Organisation" : "Ursake  Georgiy",
+				"Pilote" : "",
+				"Responsable" : "URSAKE  Georgiy",
+				"Rues" : "Rue des Patriotes (Bruxelles)",
+				"ReferenceInterne" : "",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé",
+				"Surface" : "6",
+				"Urgence" : "Pas d'urgence",
+				"ZonesPolice" : "ZP BRUXELLES CAPITALE IXELLES"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.4113405164, 50.85606337 ],
+						[ 4.411307751, 50.8560914634 ],
+						[ 4.4111890757, 50.8560390072 ],
+						[ 4.4112189467, 50.856009694 ],
+						[ 4.4113405164, 50.85606337 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 774142,
+				"CoordonneesGeographiques_wsg84" : "POINT (4.41126 50.8561)",
+				"SectorName" : "Dehors",
+				"Appelant" : "",
+				"AvisCCC" : "Y",
+				"ClasseVoirieMax" : "A4",
+				"Coordinateur" : "",
+				"DateDebut" : "01/11/2025",
+				"DateDebutAutorisee" : "",
+				"DateFin" : "01/12/2025",
+				"DateFinAutorisee" : "",
+				"Duree" : "10 Jours Ouvrables",
+				"Echeances" : "",
+				"Gestionnaire" : "Evere",
+				"ImpetrantsCoordonnes" : "",
+				"Nature" : "Ouverture Ponctuelles (fouilles, raccordements, jonctions, etc.)",
+				"Nom" : "Fuite conduite mère",
+				"Organisation" : "VIVAQUA Distrib",
+				"Pilote" : "",
+				"Responsable" : "PIKET Piquet",
+				"Rues" : "Avenue Léonard Mommaerts (Evere)",
+				"ReferenceInterne" : "Ltdi-1000278742-Avenue Leonard Mommaerts Face 14  Evere",
+				"Regime" : "E",
+				"Statut" : "Avis de démarrage/Déclaration d'exécution de chantier envoyé (En phase de réalisation)",
+				"Surface" : "40",
+				"Urgence" : "P1 : Urgence urgente",
 				"ZonesPolice" : "ZP POLBRUNO"
 			}
 		}
