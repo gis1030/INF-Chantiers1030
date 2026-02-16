@@ -1451,8 +1451,8 @@ var GroupMarkersMap1030_2030 = new L.featureGroup([
 ]);
 
 
-carte.addLayer(GroupMarkersMap1030_ALL)
-//carte.addLayer(GroupChantiersMap1030_ALL)
+//carte.addLayer(GroupMarkersMap1030_ALL)
+carte.addLayer(GroupChantiersMap1030_ALL)
 //carte.addLayer(Chantier1030_00)
 //carte.addLayer(Chantier1030_Processed)
 //carte.addLayer(Chantier1030_Request)

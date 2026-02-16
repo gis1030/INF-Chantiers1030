@@ -11,38 +11,38 @@ var CarteGroup = {
 };
 
 var GroupDataALL = {
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Chantiers</b></br>": GroupMarkersMap1030_00,
+    "Toutes les Chantiers</b></br>": GroupMarkersMap1030_00,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2015</b></br>": GroupMarkersMap1030_2015,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2016</b></br>": GroupMarkersMap1030_2016,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2017</b></br>": GroupMarkersMap1030_2017,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2018</b></br>": GroupMarkersMap1030_2018,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2019</b></br>": GroupMarkersMap1030_2019,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2020</b></br>": GroupMarkersMap1030_2020,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2021</b></br>": GroupMarkersMap1030_2021,
+    "Anne 2015</b></br>": GroupMarkersMap1030_2015,
+    "Anne 2016</b></br>": GroupMarkersMap1030_2016,
+    "Anne 2017</b></br>": GroupMarkersMap1030_2017,
+    "Anne 2018</b></br>": GroupMarkersMap1030_2018,
+    "Anne 2019</b></br>": GroupMarkersMap1030_2019,
+    "Anne 2020</b></br>": GroupMarkersMap1030_2020,
+    "Anne 2021</b></br>": GroupMarkersMap1030_2021,
 };
 
 var GroupDataPeriode = {
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2015 Debut</b></br>": GroupMarkersMap1030_Q01,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2015 Fin</b></br>": GroupMarkersMap1030_Q01B,
+    "2015 Debut</b></br>": GroupMarkersMap1030_Q01,
+    "2015 Fin</b></br>": GroupMarkersMap1030_Q01B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2016 Debut</b></br>": GroupMarkersMap1030_Q02,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2016 Fin</b></br>": GroupMarkersMap1030_Q02B,
+    "2016 Debut</b></br>": GroupMarkersMap1030_Q02,
+    "2016 Fin</b></br>": GroupMarkersMap1030_Q02B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2017 Debut</b></br>": GroupMarkersMap1030_Q03,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2017 Fin</b></br>": GroupMarkersMap1030_Q03B,
+    "2017 Debut</b></br>": GroupMarkersMap1030_Q03,
+    "2017 Fin</b></br>": GroupMarkersMap1030_Q03B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2018 Debut</b></br>": GroupMarkersMap1030_Q04,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2018 Fin</b></br>": GroupMarkersMap1030_Q04B,
+    "2018 Debut</b></br>": GroupMarkersMap1030_Q04,
+    "2018 Fin</b></br>": GroupMarkersMap1030_Q04B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2019 Debut</b></br>": GroupMarkersMap1030_Q05,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2019 Fin</b></br>": GroupMarkersMap1030_Q05B,
+    "2019 Debut</b></br>": GroupMarkersMap1030_Q05,
+    "2019 Fin</b></br>": GroupMarkersMap1030_Q05B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2020 Debut</b></br>": GroupMarkersMap1030_Q06,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2020 Fin</b></br>": GroupMarkersMap1030_Q06B,
+    "2020 Debut</b></br>": GroupMarkersMap1030_Q06,
+    "2020 Fin</b></br>": GroupMarkersMap1030_Q06B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2021 Debut</b></br>": GroupMarkersMap1030_Q07,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2021 Fin</b></br>": GroupMarkersMap1030_Q07B,
+    "2021 Debut</b></br>": GroupMarkersMap1030_Q07,
+    "2021 Fin</b></br>": GroupMarkersMap1030_Q07B,
 }
 
 var LControl00 = L.control.layers(CarteGroup).addTo(carte);
@@ -118,3 +118,27 @@ carte.on('click', function (e) {
             .openPopup();
     });
 });
+
+// +++++++ menu principal +++++++++++++++++
+let MyControlClass = L.Control.extend({
+    options: {
+        position: 'topleft',
+    },
+
+    onAdd: function (carte) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+
+        var myButton = L.DomUtil.create('button', 'my-button-class', div);
+        myButton.innerHTML = 'menu principal';
+        myButton.style.width = '85px';
+        L.DomEvent.on(myButton, 'click', function () {
+            window.open("../index.html");
+            window.close();
+        }, this);
+        return div;
+    },
+
+    onRemove: function (carte) {
+    }
+});
+let myControl = new MyControlClass().addTo(carte);

@@ -11,74 +11,83 @@ var CarteGroup = {
 };
 
 var GroupDataALL = {
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Chantiers Position</b></br>": GroupMarkersMap1030_00,
+    "<b>Toutes les Chantiers</b></br>": GroupMarkersMap1030_00,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2014</b></br>": GroupMarkersMap1030_2014,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2015</b></br>": GroupMarkersMap1030_2015,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2016</b></br>": GroupMarkersMap1030_2016,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2017</b></br>": GroupMarkersMap1030_2017,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2018</b></br>": GroupMarkersMap1030_2018,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2019</b></br>": GroupMarkersMap1030_2019,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2020</b></br>": GroupMarkersMap1030_2020,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2021</b></br>": GroupMarkersMap1030_2021,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2022</b></br>": GroupMarkersMap1030_2022,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2023</b></br>": GroupMarkersMap1030_2023,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2024</b></br>": GroupMarkersMap1030_2024,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2025</b></br>": GroupMarkersMap1030_2025,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2024</b></br>": GroupMarkersMap1030_2026,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2025</b></br>": GroupMarkersMap1030_2027,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2026</b></br>": GroupMarkersMap1030_2026,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2027</b></br>": GroupMarkersMap1030_2027,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2028</b></br>": GroupMarkersMap1030_2028,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2029</b></br>": GroupMarkersMap1030_2029,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2030</b></br>": GroupMarkersMap1030_2030,
+    //"<b>Anne 2014</b></br>": GroupMarkersMap1030_2014,
+    "<b>Anne 2015</b></br>": GroupMarkersMap1030_2015,
+    "<b>Anne 2016</b></br>": GroupMarkersMap1030_2016,
+    "<b>Anne 2017</b></br>": GroupMarkersMap1030_2017,
+    "<b>Anne 2018</b></br>": GroupMarkersMap1030_2018,
+    "<b>Anne 2019</b></br>": GroupMarkersMap1030_2019,
+    "<b>Anne 2020</b></br>": GroupMarkersMap1030_2020,
+    "<b>Anne 2021</b></br>": GroupMarkersMap1030_2021,
+    "<b>Anne 2022</b></br>": GroupMarkersMap1030_2022,
+    "<b>Anne 2023</b></br>": GroupMarkersMap1030_2023,
+    "<b>Anne 2024</b></br>": GroupMarkersMap1030_2024,
+    "<b>Anne 2025</b></br>": GroupMarkersMap1030_2025,
+    "<b>Anne 2024</b></br>": GroupMarkersMap1030_2026,
+    "<b>Anne 2025</b></br>": GroupMarkersMap1030_2027,
+    "<b>Anne 2026</b></br>": GroupMarkersMap1030_2026,
+    "<b>Anne 2027</b></br>": GroupMarkersMap1030_2027,
+    "<b>Anne 2028</b></br>": GroupMarkersMap1030_2028,
+    "<b>Anne 2029</b></br>": GroupMarkersMap1030_2029,
+    "<b>Anne 2030</b></br>": GroupMarkersMap1030_2030,
 };
 
 var GroupDataPeriode = {
     /*
-     "<img src='images/icon-Entreprises.png' width='24px'/><b>2015 Debut</b></br>":  GroupMarkersMap1030_Q01,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2015 Fin</b></br>":  GroupMarkersMap1030_Q01B,
+     "<b>2015 Debut</b></br>":  GroupMarkersMap1030_Q01,
+      "<b>2015 Fin</b></br>":  GroupMarkersMap1030_Q01B,
 
-     "<img src='images/icon-Entreprises.png' width='24px'/><b>2016 Debut</b></br>":  GroupMarkersMap1030_Q02,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2016 Fin</b></br>":  GroupMarkersMap1030_Q02B,
+     "<b>2016 Debut</b></br>":  GroupMarkersMap1030_Q02,
+      "<b>2016 Fin</b></br>":  GroupMarkersMap1030_Q02B,
 
-     "<img src='images/icon-Entreprises.png' width='24px'/><b>2017 Debut</b></br>":  GroupMarkersMap1030_Q03,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2017 Fin</b></br>":  GroupMarkersMap1030_Q3B,
+     "<b>2017 Debut</b></br>":  GroupMarkersMap1030_Q03,
+      "<b>2017 Fin</b></br>":  GroupMarkersMap1030_Q3B,
 
-     "<img src='images/icon-Entreprises.png' width='24px'/><b>2018 Debut</b></br>":  GroupMarkersMap1030_Q04,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2018 Fin</b></br>":  GroupMarkersMap1030_Q04B,
+     "<b>2018 Debut</b></br>":  GroupMarkersMap1030_Q04,
+      "<b>2018 Fin</b></br>":  GroupMarkersMap1030_Q04B,
 
-     "<img src='images/icon-Entreprises.png' width='24px'/><b>2019 Debut</b></br>":  GroupMarkersMap1030_Q05,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2019 Fin</b></br>":  GroupMarkersMap1030_Q05B,
+     "<b>2019 Debut</b></br>":  GroupMarkersMap1030_Q05,
+      "<b>2019 Fin</b></br>":  GroupMarkersMap1030_Q05B,
 
-     "<img src='images/icon-Entreprises.png' width='24px'/><b>2020 Debut</b></br>":  GroupMarkersMap1030_Q06,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2020 Fin</b></br>":  GroupMarkersMap1030_Q06B,
+     "<b>2020 Debut</b></br>":  GroupMarkersMap1030_Q06,
+      "<b>2020 Fin</b></br>":  GroupMarkersMap1030_Q06B,
 
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2021 Debut Position</b></br>": GroupMarkersMap1030_Q07,
-      "<img src='images/icon-Entreprises.png' width='24px'/><b>2021 Fin Position</b></br>": GroupMarkersMap1030_Q07B,
+      "<b>2021 Debut Position</b></br>": GroupMarkersMap1030_Q07,
+      "<b>2021 Fin Position</b></br>": GroupMarkersMap1030_Q07B,
      */
 
     /*
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2021 Debut Chantier</b></br>": Work1030_07,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2021 Fin Chantier</b></br>": Work1030_14,
+    "<b>2021 Debut Chantier</b></br>": Work1030_07,
+    "<b>2021 Fin Chantier</b></br>": Work1030_14,
     */
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Zones de Chantiers</b></br>": DBPolygonsChantiers,
+    "<b>Toutes les Zones de Chantiers</b></br>": DBPolygonsChantiers,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2025 Debut Position</b></br>": GroupMarkersMap1030_Q11,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2025 Fin Position</b></br>": GroupMarkersMap1030_Q11B,
+    "<b>2025 Debut Chantier</b></br>": GroupMarkersMap1030_Q11,
+    "<b>2025 Fin Chantier</b></br>": GroupMarkersMap1030_Q11B,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2026 Debut Position</b></br>": GroupMarkersMap1030_Q12,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>2026 Fin Position</b></br>": GroupMarkersMap1030_Q12B,
+    "<b>2026 Debut Chantier</b></br>": GroupMarkersMap1030_Q12,
+    "<b>2026 Fin Chantier</b></br>": GroupMarkersMap1030_Q12B,
 
-    //    "<img src='images/icon-Entreprises.png' width='24px'/><b>Debut Chantier</b></br>": GroupMarkersMap1030_Q99,
-    //    "<img src='images/icon-Entreprises.png' width='24px'/><b>Fin Chantier</b></br>": GroupMarkersMap1030_Q99B,
+    "<b>2027 Debut Chantier</b></br>": GroupMarkersMap1030_Q13,
+    "<b>2027 Fin Chantier</b></br>": GroupMarkersMap1030_Q13B,
+
+    //    "<b>Debut Chantier</b></br>": GroupMarkersMap1030_Q99,
+    //    "<b>Fin Chantier</b></br>": GroupMarkersMap1030_Q99B,
 }
 
 var LControl00 = L.control.layers(CarteGroup).addTo(carte);
 //var LControl01 = L.control.layers(GroupDataALL).addTo(carte);
 
-var LControl02 = L.control.layers(GroupDataALL, GroupDataPeriode).addTo(carte);
+var LControl01 = L.control.layers(null, GroupDataALL).addTo(carte);
+var container = LControl01.getContainer().querySelector('.leaflet-control-layers-overlays');
+container.insertAdjacentHTML('afterbegin', '<div style="font-weight:bold; font-size:14px; padding: 5px 0;">Année autorisée</div>');
+
+var LControl02 = L.control.layers(null, GroupDataPeriode).addTo(carte);
+var container = LControl02.getContainer().querySelector('.leaflet-control-layers-overlays');
+container.insertAdjacentHTML('afterbegin', '<div style="font-weight:bold; font-size:14px; padding: 5px 0;">Chantiers 2025-2027</div>');
 // ++++++++ Choix de cartes et Elements ++++++++
 
 // +++++++ Revient a la position initial ++++++++
@@ -148,3 +157,27 @@ carte.on('click', function (e) {
             .openPopup();
     });
 });
+
+// +++++++ menu principal +++++++++++++++++
+let MyControlClass = L.Control.extend({
+    options: {
+        position: 'topleft',
+    },
+
+    onAdd: function (carte) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+
+        var myButton = L.DomUtil.create('button', 'my-button-class', div);
+        myButton.innerHTML = 'menu principal';
+        myButton.style.width = '85px';
+        L.DomEvent.on(myButton, 'click', function () {
+            window.open("../index.html");
+            window.close();
+        }, this);
+        return div;
+    },
+
+    onRemove: function (carte) {
+    }
+});
+let myControl = new MyControlClass().addTo(carte);

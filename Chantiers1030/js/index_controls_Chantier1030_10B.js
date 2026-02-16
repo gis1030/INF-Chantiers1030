@@ -12,39 +12,44 @@ var CarteGroup = {
 };
 
 var GroupDataALL = {
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Chantiers (Position)</b></br>": GroupMarkersMap1030_ALL,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Toutes les Chantiers (Surface)</b></br>": GroupChantiersMap1030_ALL,
+    "Toutes les Chantiers</b></br>": GroupMarkersMap1030_ALL,
+    // "Toutes les Chantiers (Surface)</b></br>": GroupChantiersMap1030_ALL,
 
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2014</b></br>": GroupMarkersMap1030_2014,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2015</b></br>": GroupMarkersMap1030_2015,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2016</b></br>": GroupMarkersMap1030_2016,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2017</b></br>": GroupMarkersMap1030_2017,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2018</b></br>": GroupMarkersMap1030_2018,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2019</b></br>": GroupMarkersMap1030_2019,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2020</b></br>": GroupMarkersMap1030_2020,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2021</b></br>": GroupMarkersMap1030_2021,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2022</b></br>": GroupMarkersMap1030_2022,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2023</b></br>": GroupMarkersMap1030_2023,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2024</b></br>": GroupMarkersMap1030_2024,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2025</b></br>": GroupMarkersMap1030_2025,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2026</b></br>": GroupMarkersMap1030_2026,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2027</b></br>": GroupMarkersMap1030_2027,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2028</b></br>": GroupMarkersMap1030_2029,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2029</b></br>": GroupMarkersMap1030_2029,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Anne 2030</b></br>": GroupMarkersMap1030_2030,
+    //"Anne 2014</b></br>": GroupMarkersMap1030_2014,
+    "Anne 2015</b></br>": GroupMarkersMap1030_2015,
+    "Anne 2016</b></br>": GroupMarkersMap1030_2016,
+    "Anne 2017</b></br>": GroupMarkersMap1030_2017,
+    "Anne 2018</b></br>": GroupMarkersMap1030_2018,
+    "Anne 2019</b></br>": GroupMarkersMap1030_2019,
+    "Anne 2020</b></br>": GroupMarkersMap1030_2020,
+    "Anne 2021</b></br>": GroupMarkersMap1030_2021,
+    "Anne 2022</b></br>": GroupMarkersMap1030_2022,
+    "Anne 2023</b></br>": GroupMarkersMap1030_2023,
+    "Anne 2024</b></br>": GroupMarkersMap1030_2024,
+    "Anne 2025</b></br>": GroupMarkersMap1030_2025,
+    "Anne 2026</b></br>": GroupMarkersMap1030_2026,
+    "Anne 2027</b></br>": GroupMarkersMap1030_2027,
+    "Anne 2028</b></br>": GroupMarkersMap1030_2029,
+    "Anne 2029</b></br>": GroupMarkersMap1030_2029,
+    "Anne 2030</b></br>": GroupMarkersMap1030_2030,
 
 };
 
 var GroupDataChantiers = {
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Chantiers Demandé</b></br>": Chantier1030_Processed,
-    "<img src='images/icon-Entreprises.png' width='24px'/><b>Chantiers Autorisé</b></br>": Chantier1030_Request,
+    "Toutes les Chantiers</b></br>": GroupChantiersMap1030_ALL,
+    "Chantiers Demandé</b></br>": Chantier1030_Processed,
+    "Chantiers Autorisé</b></br>": Chantier1030_Request,
 };
 
 var LControl00 = L.control.layers(CarteGroup).addTo(carte);
-//var LControl01 = L.control.layers(GroupDataALL).addTo(carte);
 
+var LControl01 = L.control.layers(null, GroupDataALL).addTo(carte);
+var container = LControl01.getContainer().querySelector('.leaflet-control-layers-overlays');
+container.insertAdjacentHTML('afterbegin', '<div style="font-weight:bold; font-size:14px; padding: 5px 0;">Année autorisée</div>');
 
-var LControl02 = L.control.layers(GroupDataALL, GroupDataChantiers).addTo(carte);
+var LControl02 = L.control.layers(null, GroupDataChantiers).addTo(carte);
+var container = LControl02.getContainer().querySelector('.leaflet-control-layers-overlays');
+container.insertAdjacentHTML('afterbegin', '<div style="font-weight:bold; font-size:14px; padding: 5px 0;">Condition</div>');
 // var LControl03 = L.control.layers(GroupDataChantiers).addTo(carte);
 // var LControl02 = L.control.layers(GroupDataALL, GroupChantierType).addTo(carte);
 // ++++++++ Choix de cartes et Elements ++++++++
@@ -116,3 +121,27 @@ carte.on('click', function (e) {
             .openPopup();
     });
 });
+
+// +++++++ menu principal +++++++++++++++++
+let MyControlClass = L.Control.extend({
+    options: {
+        position: 'topleft',
+    },
+
+    onAdd: function (carte) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+
+        var myButton = L.DomUtil.create('button', 'my-button-class', div);
+        myButton.innerHTML = 'menu principal';
+        myButton.style.width = '85px';
+        L.DomEvent.on(myButton, 'click', function () {
+            window.open("../index.html");
+            window.close();
+        }, this);
+        return div;
+    },
+
+    onRemove: function (carte) {
+    }
+});
+let myControl = new MyControlClass().addTo(carte);
