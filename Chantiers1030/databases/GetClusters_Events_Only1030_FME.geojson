@@ -6804,28 +6804,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3737858574, 50.8527769268 ]
-			},
-			"properties" : {
-				"Chantier" : 40980,
-				"SectorName" : "Dehors",
-				"DateDebut" : "22/05/2026 06:00:00",
-				"DateFin" : "22/05/2026 22:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Fêtes, concerts, parades",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Oh Festival",
-				"Description" : "Oh Festival",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3588697373, 50.8557699088 ]
 			},
 			"properties" : {
@@ -8578,28 +8556,6 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché hebdomadaire de fruits & légumes",
 				"Description" : "Marché communal hebdomadaire, tous les samedis, pour la vente de fruits et de légumes.",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
-				"Chantier" : 42878,
-				"SectorName" : "Dehors",
-				"DateDebut" : "06/04/2024 06:00:00",
-				"DateFin" : "20/05/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
@@ -12417,28 +12373,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45367,
-				"SectorName" : "Dehors",
-				"DateDebut" : "24/05/2025 06:59:00",
-				"DateFin" : "24/05/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45368,
 				"SectorName" : "Dehors",
 				"DateDebut" : "31/05/2025 06:59:00",
@@ -13546,28 +13480,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45427,
-				"SectorName" : "Dehors",
-				"DateDebut" : "24/05/2025 07:00:00",
-				"DateFin" : "24/05/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
