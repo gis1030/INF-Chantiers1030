@@ -9,10 +9,10 @@
 				"coordinates" : [ 4.3477934729, 50.8598111874 ]
 			},
 			"properties" : {
-				"Chantier" : 45077,
+				"Chantier" : 45075,
 				"SectorName" : "Dehors",
-				"DateDebut" : "06/04/2025 09:00:00",
-				"DateFin" : "25/03/2040 15:00:00",
+				"DateDebut" : "23/03/2025 09:00:00",
+				"DateFin" : "11/03/2040 15:00:00",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
@@ -7156,6 +7156,94 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
+				"coordinates" : [ 4.3581156922, 50.8592025627 ]
+			},
+			"properties" : {
+				"Chantier" : 41882,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3764368516, 50.8513075965 ]
+			},
+			"properties" : {
+				"Chantier" : 41902,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3674734347, 50.8545478338 ]
+			},
+			"properties" : {
+				"Chantier" : 41921,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3745490771, 50.8521379406 ]
+			},
+			"properties" : {
+				"Chantier" : 41936,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
 				"coordinates" : [ 4.3672606357, 50.8535265908 ]
 			},
 			"properties" : {
@@ -8633,28 +8721,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42880,
-				"SectorName" : "Dehors",
-				"DateDebut" : "20/04/2024 06:00:00",
-				"DateFin" : "03/06/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42881,
 				"SectorName" : "Dehors",
 				"DateDebut" : "27/04/2024 06:00:00",
@@ -9598,28 +9664,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3629715887, 50.856120814 ]
-			},
-			"properties" : {
-				"Chantier" : 44013,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/06/2026 07:00:00",
-				"DateFin" : "01/06/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Fêtes, concerts, parades",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Journée Festive du Nettoyage",
-				"Description" : "Journée Festive du Nettoyage",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3623002995, 50.8577478101 ]
 			},
 			"properties" : {
@@ -9755,10 +9799,10 @@
 				"coordinates" : [ 4.3477934729, 50.8598111874 ]
 			},
 			"properties" : {
-				"Chantier" : 45075,
+				"Chantier" : 45076,
 				"SectorName" : "Dehors",
-				"DateDebut" : "23/03/2025 09:00:00",
-				"DateFin" : "11/03/2040 15:00:00",
+				"DateDebut" : "30/03/2025 09:00:00",
+				"DateFin" : "18/03/2040 15:00:00",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
@@ -9777,10 +9821,10 @@
 				"coordinates" : [ 4.3477934729, 50.8598111874 ]
 			},
 			"properties" : {
-				"Chantier" : 45076,
+				"Chantier" : 45077,
 				"SectorName" : "Dehors",
-				"DateDebut" : "30/03/2025 09:00:00",
-				"DateFin" : "18/03/2040 15:00:00",
+				"DateDebut" : "06/04/2025 09:00:00",
+				"DateFin" : "25/03/2040 15:00:00",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
@@ -12395,28 +12439,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45369,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/06/2025 06:59:00",
-				"DateFin" : "07/06/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45370,
 				"SectorName" : "Dehors",
 				"DateDebut" : "14/06/2025 06:59:00",
@@ -13480,28 +13502,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45429,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/06/2025 07:00:00",
-				"DateFin" : "07/06/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
@@ -14584,28 +14584,6 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
 				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3630139883, 50.8561683927 ]
-			},
-			"properties" : {
-				"Chantier" : 45670,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/06/2026 09:00:00",
-				"DateFin" : "07/06/2026 17:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Nettoyage festif - 4° édition",
-				"Description" : "Nettoyage festif - 4° édition",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
