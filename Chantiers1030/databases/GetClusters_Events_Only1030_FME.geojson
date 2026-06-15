@@ -6,28 +6,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3477934729, 50.8598111874 ]
-			},
-			"properties" : {
-				"Chantier" : 45075,
-				"SectorName" : "Dehors",
-				"DateDebut" : "23/03/2025 09:00:00",
-				"DateFin" : "11/03/2040 15:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marcché  Quai des Péniches",
-				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3853900619, 50.8649442157 ]
 			},
 			"properties" : {
@@ -42,6 +20,28 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "10.30",
 				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3477934729, 50.8598111874 ]
+			},
+			"properties" : {
+				"Chantier" : 45075,
+				"SectorName" : "Dehors",
+				"DateDebut" : "23/03/2025 09:00:00",
+				"DateFin" : "11/03/2040 15:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marcché  Quai des Péniches",
+				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
@@ -299,6 +299,28 @@
 				"SectorName" : "Dehors",
 				"DateDebut" : "15/12/2025 07:00:00",
 				"DateFin" : "01/01/2036 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18281,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2026 07:00:00",
+				"DateFin" : "31/12/2036 07:00:00",
 				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Autres événements communaux",
@@ -6804,50 +6826,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3768680056, 50.8502459307 ]
-			},
-			"properties" : {
-				"Chantier" : 40889,
-				"SectorName" : "Dehors",
-				"DateDebut" : "11/06/2026 06:00:00",
-				"DateFin" : "11/06/2026 21:15:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Fêtes des Commerçants de la Chaussée de Louvain",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.376119497, 50.8504374391 ]
-			},
-			"properties" : {
-				"Chantier" : 40940,
-				"SectorName" : "Dehors",
-				"DateDebut" : "11/06/2026 06:00:00",
-				"DateFin" : "11/06/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Fêtes des Commerçants Chaussée de Louvain",
-				"Description" : "Fêtes des Commerçants Chaussée de Louvain",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3588697373, 50.8557699088 ]
 			},
 			"properties" : {
@@ -7301,28 +7279,6 @@
 				"Url" : "",
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
 				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.363127698, 50.8561383104 ]
-			},
-			"properties" : {
-				"Chantier" : 42424,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/06/2026 08:00:00",
-				"DateFin" : "10/06/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Journée de la propreté",
 				"Description" : "",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
@@ -8721,28 +8677,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42881,
-				"SectorName" : "Dehors",
-				"DateDebut" : "27/04/2024 06:00:00",
-				"DateFin" : "10/06/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42882,
 				"SectorName" : "Dehors",
 				"DateDebut" : "04/05/2024 06:00:00",
@@ -9524,6 +9458,50 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché hebdomadaire du Nord",
 				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3592211963, 50.8556445092 ]
+			},
+			"properties" : {
+				"Chantier" : 43047,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/12/2026 06:00:00",
+				"DateFin" : "13/12/2026 20:00:00",
+				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Fêtes, concerts, parades",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Carnaval 2014",
+				"Description" : "Carnaval 2014",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3603803855, 50.8567292794 ]
+			},
+			"properties" : {
+				"Chantier" : 43085,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/12/2026 06:00:00",
+				"DateFin" : "13/12/2026 20:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Validation Demandée",
+				"Type" : "Fêtes, concerts, parades",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Carnaval 2014",
+				"Description" : "Carnaval 2014",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
@@ -12439,28 +12417,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45370,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/06/2025 06:59:00",
-				"DateFin" : "14/06/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45371,
 				"SectorName" : "Dehors",
 				"DateDebut" : "21/06/2025 06:59:00",
@@ -13502,28 +13458,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45430,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/06/2025 07:00:00",
-				"DateFin" : "14/06/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
@@ -14738,6 +14672,28 @@
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO",
 				"Libelle" : "OI POLICE 120",
 				"Description" : "Evénement potentiel\nConnaissance de la survenue de l'événement à J-5",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3750281577, 50.849968676 ]
+			},
+			"properties" : {
+				"Chantier" : 46421,
+				"SectorName" : "Dehors",
+				"DateDebut" : "25/06/2026",
+				"DateFin" : "08/09/2026",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Validation Demandée",
+				"Type" : "Fêtes, concerts, parades",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Source de Saint-Josse",
+				"Description" : "Bron van Saint-Josse - Source de Saint-Josse",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
