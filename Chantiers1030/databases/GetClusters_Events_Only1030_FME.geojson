@@ -6,28 +6,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3477934729, 50.8598111874 ]
-			},
-			"properties" : {
-				"Chantier" : 45078,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13-04-2025 09:00:00",
-				"DateFin" : "01-04-2040 15:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marcché  Quai des Péniches",
-				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3853900619, 50.8649442157 ]
 			},
 			"properties" : {
@@ -42,6 +20,28 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "10.30",
 				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3477934729, 50.8598111874 ]
+			},
+			"properties" : {
+				"Chantier" : 45079,
+				"SectorName" : "Dehors",
+				"DateDebut" : "20-04-2025 09:00:00",
+				"DateFin" : "08-04-2040 15:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marcché  Quai des Péniches",
+				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
@@ -8699,28 +8699,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42883,
-				"SectorName" : "Dehors",
-				"DateDebut" : "11-05-2024 06:00:00",
-				"DateFin" : "24-06-2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42884,
 				"SectorName" : "Dehors",
 				"DateDebut" : "18-05-2024 06:00:00",
@@ -9777,10 +9755,10 @@
 				"coordinates" : [ 4.3477934729, 50.8598111874 ]
 			},
 			"properties" : {
-				"Chantier" : 45079,
+				"Chantier" : 45078,
 				"SectorName" : "Dehors",
-				"DateDebut" : "20-04-2025 09:00:00",
-				"DateFin" : "08-04-2040 15:00:00",
+				"DateDebut" : "13-04-2025 09:00:00",
+				"DateFin" : "01-04-2040 15:00:00",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
@@ -12351,28 +12329,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45372,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28-06-2025 06:59:00",
-				"DateFin" : "28-06-2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45373,
 				"SectorName" : "Dehors",
 				"DateDebut" : "05-07-2025 06:59:00",
@@ -13370,28 +13326,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45432,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28-06-2025 07:00:00",
-				"DateFin" : "28-06-2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
@@ -14460,28 +14394,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3623010373, 50.8577542071 ]
-			},
-			"properties" : {
-				"Chantier" : 45771,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28-06-2026 09:00:00",
-				"DateFin" : "29-06-2026 21:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Fêtes, concerts, parades",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Festival du Fanzine",
-				"Description" : "Stan BD et fanzines",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3595861492, 50.858535603 ]
 			},
 			"properties" : {
@@ -14562,6 +14474,28 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Source de Saint-Josse",
 				"Description" : "Bron van Saint-Josse - Source de Saint-Josse",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3509721151, 50.8669737701 ]
+			},
+			"properties" : {
+				"Chantier" : 46489,
+				"SectorName" : "Dehors",
+				"DateDebut" : "25-06-2026 01:45:00",
+				"DateFin" : "19-06-2036 20:00:00",
+				"Gestionnaire" : "Administrateur Régional, Molenbeek-Saint-Jean, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP BRUXELLES-OUEST",
+				"Libelle" : "ZA - LAEKEN - Maritime",
+				"Description" : "",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
