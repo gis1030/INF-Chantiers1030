@@ -9139,28 +9139,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42885,
-				"SectorName" : "Dehors",
-				"DateDebut" : "25/05/2024 06:00:00",
-				"DateFin" : "08/07/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42886,
 				"SectorName" : "Dehors",
 				"DateDebut" : "01/06/2024 06:00:00",
@@ -12725,28 +12703,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45374,
-				"SectorName" : "Dehors",
-				"DateDebut" : "12/07/2025 06:59:00",
-				"DateFin" : "12/07/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45375,
 				"SectorName" : "Dehors",
 				"DateDebut" : "19/07/2025 06:59:00",
@@ -13700,28 +13656,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45434,
-				"SectorName" : "Dehors",
-				"DateDebut" : "12/07/2025 07:00:00",
-				"DateFin" : "12/07/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
