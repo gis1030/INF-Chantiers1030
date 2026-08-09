@@ -28,6 +28,2734 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
+				"coordinates" : [ 4.3854034992, 50.8648862306 ]
+			},
+			"properties" : {
+				"Chantier" : 16286,
+				"SectorName" : "Terdelt-Fleur",
+				"DateDebut" : "21/09/2026 14:00:00",
+				"DateFin" : "22/09/2026",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"Statut" : "Enregistré",
+				"Type" : "Evénements sportifs",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "10.30",
+				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3846021395, 50.8683439956 ]
+			},
+			"properties" : {
+				"Chantier" : 16296,
+				"SectorName" : "Parc Josaphat",
+				"DateDebut" : "21/09/2026 14:00:00",
+				"DateFin" : "22/09/2026",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"Statut" : "Enregistré",
+				"Type" : "Evénements sportifs",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "10.30",
+				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3558220561, 50.8615913092 ]
+			},
+			"properties" : {
+				"Chantier" : 17309,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/11/2025 10:00:00",
+				"DateFin" : "27/11/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Emplacement Foodtruck",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be\n                   02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3558220561, 50.8615913092 ]
+			},
+			"properties" : {
+				"Chantier" : 17310,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/11/2026 10:00:00",
+				"DateFin" : "27/11/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Emplacement Foodtruck",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be\n                   02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18273,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2018 07:00:00",
+				"DateFin" : "31/12/2028 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18274,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2019 07:00:00",
+				"DateFin" : "31/12/2029 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18275,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2020 07:00:00",
+				"DateFin" : "01/01/2031 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18276,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2021 07:00:00",
+				"DateFin" : "01/01/2032 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18277,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2022 07:00:00",
+				"DateFin" : "31/12/2032 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18278,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2023 07:00:00",
+				"DateFin" : "31/12/2033 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18279,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2024 07:00:00",
+				"DateFin" : "01/01/2035 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18280,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2025 07:00:00",
+				"DateFin" : "01/01/2036 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3539636984, 50.8753417494 ]
+			},
+			"properties" : {
+				"Chantier" : 18281,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/12/2026 07:00:00",
+				"DateFin" : "31/12/2036 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3541472065, 50.875272066 ]
+			},
+			"properties" : {
+				"Chantier" : 18871,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3541472065, 50.875272066 ]
+			},
+			"properties" : {
+				"Chantier" : 18872,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3534552145, 50.8754895006 ]
+			},
+			"properties" : {
+				"Chantier" : 19366,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3943549692, 50.8437985307 ]
+			},
+			"properties" : {
+				"Chantier" : 19426,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/09/2026 15:10:00",
+				"DateFin" : "12/10/2026 14:10:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20571,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20572,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20581,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20582,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20591,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20592,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20601,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20602,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20611,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20612,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20621,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20622,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20631,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20632,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20641,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20642,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20651,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20652,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20661,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20662,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20671,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20672,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20681,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20682,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20691,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20692,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20701,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20702,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20711,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20712,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20721,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20722,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20731,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20732,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20741,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20742,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20751,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3540569974, 50.8753068635 ]
+			},
+			"properties" : {
+				"Chantier" : 20752,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20761,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2026 10:00:00",
+				"DateFin" : "31/12/2026 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3589013688, 50.8734401917 ]
+			},
+			"properties" : {
+				"Chantier" : 20762,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/01/2027 10:00:00",
+				"DateFin" : "31/12/2027 22:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Kermesses",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Kermesse de Quartier Marie-Christine",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 31653,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 31663,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3943140493, 50.8438139682 ]
+			},
+			"properties" : {
+				"Chantier" : 31714,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/09/2026 15:10:00",
+				"DateFin" : "12/10/2026 14:10:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3948841797, 50.843598877 ]
+			},
+			"properties" : {
+				"Chantier" : 31724,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/09/2026 15:10:00",
+				"DateFin" : "12/10/2026 14:10:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32251,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32261,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32271,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32281,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32291,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32301,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32311,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32321,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32331,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32341,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32351,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32361,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32371,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32381,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3533951075, 50.875512831 ]
+			},
+			"properties" : {
+				"Chantier" : 32391,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3588521775, 50.8733944564 ]
+			},
+			"properties" : {
+				"Chantier" : 32401,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/08/2026 10:30:00",
+				"DateFin" : "22/09/2026 22:30:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3854034966, 50.8648862176 ]
+			},
+			"properties" : {
+				"Chantier" : 32527,
+				"SectorName" : "Terdelt-Fleur",
+				"DateDebut" : "21/09/2026 14:00:00",
+				"DateFin" : "22/09/2026",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"Statut" : "Enregistré",
+				"Type" : "Evénements sportifs",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "10.30",
+				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3846022297, 50.8683440157 ]
+			},
+			"properties" : {
+				"Chantier" : 32537,
+				"SectorName" : "Parc Josaphat",
+				"DateDebut" : "21/09/2026 14:00:00",
+				"DateFin" : "22/09/2026",
+				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
+				"Statut" : "Enregistré",
+				"Type" : "Evénements sportifs",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "10.30",
+				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3593120416, 50.8684112264 ]
+			},
+			"properties" : {
+				"Chantier" : 32650,
+				"SectorName" : "Dehors",
+				"DateDebut" : "08/06/2019 07:00:00",
+				"DateFin" : "01/01/2029 07:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
+				"Description" : "Contact Service Commerce VBX : 02/279.25.41",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3608345277, 50.8712438796 ]
+			},
+			"properties" : {
+				"Chantier" : 32651,
+				"SectorName" : "Dehors",
+				"DateDebut" : "08/06/2019 07:00:00",
+				"DateFin" : "01/01/2029 07:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Validation Demandée",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
+				"Description" : "Contact Service Commerce VBX : 02/279.25.41",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.359311893, 50.8684109481 ]
+			},
+			"properties" : {
+				"Chantier" : 32652,
+				"SectorName" : "Dehors",
+				"DateDebut" : "08/06/2019 07:00:00",
+				"DateFin" : "01/01/2029 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validation Demandée",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
+				"Description" : "Contact Service Commerce VBX : 02/279.25.41",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34978,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/07/2020 06:00:00",
+				"DateFin" : "15/07/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34979,
+				"SectorName" : "Dehors",
+				"DateDebut" : "22/07/2020 06:00:00",
+				"DateFin" : "22/07/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34980,
+				"SectorName" : "Dehors",
+				"DateDebut" : "29/07/2020 06:00:00",
+				"DateFin" : "29/07/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34981,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/08/2020 06:00:00",
+				"DateFin" : "05/08/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34982,
+				"SectorName" : "Dehors",
+				"DateDebut" : "12/08/2020 06:00:00",
+				"DateFin" : "12/08/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34983,
+				"SectorName" : "Dehors",
+				"DateDebut" : "19/08/2020 06:00:00",
+				"DateFin" : "19/08/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34984,
+				"SectorName" : "Dehors",
+				"DateDebut" : "26/08/2020 06:00:00",
+				"DateFin" : "26/08/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34985,
+				"SectorName" : "Dehors",
+				"DateDebut" : "02/09/2020 06:00:00",
+				"DateFin" : "02/09/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34986,
+				"SectorName" : "Dehors",
+				"DateDebut" : "09/09/2020 06:00:00",
+				"DateFin" : "09/09/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34987,
+				"SectorName" : "Dehors",
+				"DateDebut" : "16/09/2020 06:00:00",
+				"DateFin" : "16/09/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34988,
+				"SectorName" : "Dehors",
+				"DateDebut" : "23/09/2020 06:00:00",
+				"DateFin" : "23/09/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34989,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/09/2020 06:00:00",
+				"DateFin" : "30/09/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34990,
+				"SectorName" : "Dehors",
+				"DateDebut" : "07/10/2020 06:00:00",
+				"DateFin" : "07/10/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34991,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/10/2020 06:00:00",
+				"DateFin" : "14/10/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34992,
+				"SectorName" : "Dehors",
+				"DateDebut" : "21/10/2020 06:00:00",
+				"DateFin" : "21/10/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34993,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/10/2020 06:00:00",
+				"DateFin" : "28/10/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34994,
+				"SectorName" : "Dehors",
+				"DateDebut" : "04/11/2020 06:00:00",
+				"DateFin" : "04/11/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34995,
+				"SectorName" : "Dehors",
+				"DateDebut" : "11/11/2020 06:00:00",
+				"DateFin" : "11/11/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34996,
+				"SectorName" : "Dehors",
+				"DateDebut" : "18/11/2020 06:00:00",
+				"DateFin" : "18/11/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34997,
+				"SectorName" : "Dehors",
+				"DateDebut" : "25/11/2020 06:00:00",
+				"DateFin" : "25/11/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34998,
+				"SectorName" : "Dehors",
+				"DateDebut" : "02/12/2020 06:00:00",
+				"DateFin" : "02/12/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 34999,
+				"SectorName" : "Dehors",
+				"DateDebut" : "09/12/2020 06:00:00",
+				"DateFin" : "09/12/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35000,
+				"SectorName" : "Dehors",
+				"DateDebut" : "16/12/2020 06:00:00",
+				"DateFin" : "16/12/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35001,
+				"SectorName" : "Dehors",
+				"DateDebut" : "23/12/2020 06:00:00",
+				"DateFin" : "23/12/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35002,
+				"SectorName" : "Dehors",
+				"DateDebut" : "30/12/2020 06:00:00",
+				"DateFin" : "30/12/2030 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35003,
+				"SectorName" : "Dehors",
+				"DateDebut" : "06/01/2021 06:00:00",
+				"DateFin" : "06/01/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35004,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/01/2021 06:00:00",
+				"DateFin" : "13/01/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35005,
+				"SectorName" : "Dehors",
+				"DateDebut" : "20/01/2021 06:00:00",
+				"DateFin" : "20/01/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35006,
+				"SectorName" : "Dehors",
+				"DateDebut" : "27/01/2021 06:00:00",
+				"DateFin" : "27/01/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35007,
+				"SectorName" : "Dehors",
+				"DateDebut" : "03/02/2021 06:00:00",
+				"DateFin" : "03/02/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35008,
+				"SectorName" : "Dehors",
+				"DateDebut" : "10/02/2021 06:00:00",
+				"DateFin" : "10/02/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35009,
+				"SectorName" : "Dehors",
+				"DateDebut" : "17/02/2021 06:00:00",
+				"DateFin" : "17/02/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35010,
+				"SectorName" : "Dehors",
+				"DateDebut" : "24/02/2021 06:00:00",
+				"DateFin" : "24/02/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35011,
+				"SectorName" : "Dehors",
+				"DateDebut" : "03/03/2021 06:00:00",
+				"DateFin" : "03/03/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35012,
+				"SectorName" : "Dehors",
+				"DateDebut" : "10/03/2021 06:00:00",
+				"DateFin" : "10/03/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35013,
+				"SectorName" : "Dehors",
+				"DateDebut" : "17/03/2021 06:00:00",
+				"DateFin" : "17/03/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35014,
+				"SectorName" : "Dehors",
+				"DateDebut" : "24/03/2021 06:00:00",
+				"DateFin" : "24/03/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35015,
+				"SectorName" : "Dehors",
+				"DateDebut" : "31/03/2021 06:00:00",
+				"DateFin" : "31/03/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35016,
+				"SectorName" : "Dehors",
+				"DateDebut" : "07/04/2021 06:00:00",
+				"DateFin" : "07/04/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35017,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/04/2021 06:00:00",
+				"DateFin" : "14/04/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35018,
+				"SectorName" : "Dehors",
+				"DateDebut" : "21/04/2021 06:00:00",
+				"DateFin" : "21/04/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3595888139, 50.8689967613 ]
+			},
+			"properties" : {
+				"Chantier" : 35019,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/04/2021 06:00:00",
+				"DateFin" : "28/04/2031 15:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marché de la Chaussée d'anvers ",
+				"Description" : "Marché en plein air",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
 				"coordinates" : [ 4.3595888139, 50.8689967613 ]
 			},
 			"properties" : {
@@ -4054,138 +6782,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3854034992, 50.8648862306 ]
-			},
-			"properties" : {
-				"Chantier" : 16286,
-				"SectorName" : "Terdelt-Fleur",
-				"DateDebut" : "21/09/2026 14:00:00",
-				"DateFin" : "22/09/2026",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"Statut" : "Enregistré",
-				"Type" : "Evénements sportifs",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "10.30",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3846021395, 50.8683439956 ]
-			},
-			"properties" : {
-				"Chantier" : 16296,
-				"SectorName" : "Parc Josaphat",
-				"DateDebut" : "21/09/2026 14:00:00",
-				"DateFin" : "22/09/2026",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"Statut" : "Enregistré",
-				"Type" : "Evénements sportifs",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "10.30",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3558220561, 50.8615913092 ]
-			},
-			"properties" : {
-				"Chantier" : 17309,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/11/2025 10:00:00",
-				"DateFin" : "27/11/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Emplacement Foodtruck",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be\n                   02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3558220561, 50.8615913092 ]
-			},
-			"properties" : {
-				"Chantier" : 17310,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/11/2026 10:00:00",
-				"DateFin" : "27/11/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Emplacement Foodtruck",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be\n                   02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18273,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2018 07:00:00",
-				"DateFin" : "31/12/2028 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18274,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2019 07:00:00",
-				"DateFin" : "31/12/2029 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3858367204, 50.8470385567 ]
 			},
 			"properties" : {
@@ -4640,28 +7236,6 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Elagage 2022",
 				"Description" : "Elagage Printemps Hiver",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.370865628, 50.856837671 ]
-			},
-			"properties" : {
-				"Chantier" : 41330,
-				"SectorName" : "Dehors",
-				"DateDebut" : "04/08/2026 07:00:00",
-				"DateFin" : "04/08/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage 2022",
-				"Description" : "Elagage 2022",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
@@ -6477,28 +9051,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42889,
-				"SectorName" : "Dehors",
-				"DateDebut" : "22/06/2024 06:00:00",
-				"DateFin" : "05/08/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42890,
 				"SectorName" : "Dehors",
 				"DateDebut" : "29/06/2024 06:00:00",
@@ -7280,2602 +9832,6 @@
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
 				"Libelle" : "Glibert ZPZ POLBRU",
 				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18275,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2020 07:00:00",
-				"DateFin" : "01/01/2031 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18276,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2021 07:00:00",
-				"DateFin" : "01/01/2032 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18277,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2022 07:00:00",
-				"DateFin" : "31/12/2032 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18278,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2023 07:00:00",
-				"DateFin" : "31/12/2033 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18279,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2024 07:00:00",
-				"DateFin" : "01/01/2035 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18280,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2025 07:00:00",
-				"DateFin" : "01/01/2036 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3539636984, 50.8753417494 ]
-			},
-			"properties" : {
-				"Chantier" : 18281,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2026 07:00:00",
-				"DateFin" : "31/12/2036 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3541472065, 50.875272066 ]
-			},
-			"properties" : {
-				"Chantier" : 18871,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3541472065, 50.875272066 ]
-			},
-			"properties" : {
-				"Chantier" : 18872,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3534552145, 50.8754895006 ]
-			},
-			"properties" : {
-				"Chantier" : 19366,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3943549692, 50.8437985307 ]
-			},
-			"properties" : {
-				"Chantier" : 19426,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Brocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20571,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20572,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20581,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20582,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20591,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20592,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20601,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20602,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20611,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20612,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20621,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20622,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20631,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20632,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20641,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20642,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20651,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20652,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20661,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20662,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20671,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20672,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20681,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20682,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20691,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20692,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20701,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20702,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20711,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20712,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20721,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20722,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20731,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20732,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20741,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20742,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20751,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3540569974, 50.8753068635 ]
-			},
-			"properties" : {
-				"Chantier" : 20752,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20761,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2026 10:00:00",
-				"DateFin" : "31/12/2026 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3589013688, 50.8734401917 ]
-			},
-			"properties" : {
-				"Chantier" : 20762,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/01/2027 10:00:00",
-				"DateFin" : "31/12/2027 22:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Kermesses",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Kermesse de Quartier Marie-Christine",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n ",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 31653,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 31663,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3943140493, 50.8438139682 ]
-			},
-			"properties" : {
-				"Chantier" : 31714,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Brocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3948841797, 50.843598877 ]
-			},
-			"properties" : {
-				"Chantier" : 31724,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Brocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32251,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32261,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32271,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32281,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32291,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32301,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32311,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32321,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32331,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32341,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32351,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32361,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32371,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32381,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3533951075, 50.875512831 ]
-			},
-			"properties" : {
-				"Chantier" : 32391,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3588521775, 50.8733944564 ]
-			},
-			"properties" : {
-				"Chantier" : 32401,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/08/2026 10:30:00",
-				"DateFin" : "22/09/2026 22:30:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3854034966, 50.8648862176 ]
-			},
-			"properties" : {
-				"Chantier" : 32527,
-				"SectorName" : "Terdelt-Fleur",
-				"DateDebut" : "21/09/2026 14:00:00",
-				"DateFin" : "22/09/2026",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"Statut" : "Enregistré",
-				"Type" : "Evénements sportifs",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "10.30",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3846022297, 50.8683440157 ]
-			},
-			"properties" : {
-				"Chantier" : 32537,
-				"SectorName" : "Parc Josaphat",
-				"DateDebut" : "21/09/2026 14:00:00",
-				"DateFin" : "22/09/2026",
-				"Gestionnaire" : "Administrateur Régional, Schaerbeek",
-				"Statut" : "Enregistré",
-				"Type" : "Evénements sportifs",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "10.30",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3593120416, 50.8684112264 ]
-			},
-			"properties" : {
-				"Chantier" : 32650,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/06/2019 07:00:00",
-				"DateFin" : "01/01/2029 07:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
-				"Description" : "Contact Service Commerce VBX : 02/279.25.41",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3608345277, 50.8712438796 ]
-			},
-			"properties" : {
-				"Chantier" : 32651,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/06/2019 07:00:00",
-				"DateFin" : "01/01/2029 07:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
-				"Description" : "Contact Service Commerce VBX : 02/279.25.41",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.359311893, 50.8684109481 ]
-			},
-			"properties" : {
-				"Chantier" : 32652,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/06/2019 07:00:00",
-				"DateFin" : "01/01/2029 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
-				"Description" : "Contact Service Commerce VBX : 02/279.25.41",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34978,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/07/2020 06:00:00",
-				"DateFin" : "15/07/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34979,
-				"SectorName" : "Dehors",
-				"DateDebut" : "22/07/2020 06:00:00",
-				"DateFin" : "22/07/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34980,
-				"SectorName" : "Dehors",
-				"DateDebut" : "29/07/2020 06:00:00",
-				"DateFin" : "29/07/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34981,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/08/2020 06:00:00",
-				"DateFin" : "05/08/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34982,
-				"SectorName" : "Dehors",
-				"DateDebut" : "12/08/2020 06:00:00",
-				"DateFin" : "12/08/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34983,
-				"SectorName" : "Dehors",
-				"DateDebut" : "19/08/2020 06:00:00",
-				"DateFin" : "19/08/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34984,
-				"SectorName" : "Dehors",
-				"DateDebut" : "26/08/2020 06:00:00",
-				"DateFin" : "26/08/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34985,
-				"SectorName" : "Dehors",
-				"DateDebut" : "02/09/2020 06:00:00",
-				"DateFin" : "02/09/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34986,
-				"SectorName" : "Dehors",
-				"DateDebut" : "09/09/2020 06:00:00",
-				"DateFin" : "09/09/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34987,
-				"SectorName" : "Dehors",
-				"DateDebut" : "16/09/2020 06:00:00",
-				"DateFin" : "16/09/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34988,
-				"SectorName" : "Dehors",
-				"DateDebut" : "23/09/2020 06:00:00",
-				"DateFin" : "23/09/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34989,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/09/2020 06:00:00",
-				"DateFin" : "30/09/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34990,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/10/2020 06:00:00",
-				"DateFin" : "07/10/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34991,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/10/2020 06:00:00",
-				"DateFin" : "14/10/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34992,
-				"SectorName" : "Dehors",
-				"DateDebut" : "21/10/2020 06:00:00",
-				"DateFin" : "21/10/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34993,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/10/2020 06:00:00",
-				"DateFin" : "28/10/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34994,
-				"SectorName" : "Dehors",
-				"DateDebut" : "04/11/2020 06:00:00",
-				"DateFin" : "04/11/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34995,
-				"SectorName" : "Dehors",
-				"DateDebut" : "11/11/2020 06:00:00",
-				"DateFin" : "11/11/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34996,
-				"SectorName" : "Dehors",
-				"DateDebut" : "18/11/2020 06:00:00",
-				"DateFin" : "18/11/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34997,
-				"SectorName" : "Dehors",
-				"DateDebut" : "25/11/2020 06:00:00",
-				"DateFin" : "25/11/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34998,
-				"SectorName" : "Dehors",
-				"DateDebut" : "02/12/2020 06:00:00",
-				"DateFin" : "02/12/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 34999,
-				"SectorName" : "Dehors",
-				"DateDebut" : "09/12/2020 06:00:00",
-				"DateFin" : "09/12/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35000,
-				"SectorName" : "Dehors",
-				"DateDebut" : "16/12/2020 06:00:00",
-				"DateFin" : "16/12/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35001,
-				"SectorName" : "Dehors",
-				"DateDebut" : "23/12/2020 06:00:00",
-				"DateFin" : "23/12/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35002,
-				"SectorName" : "Dehors",
-				"DateDebut" : "30/12/2020 06:00:00",
-				"DateFin" : "30/12/2030 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35003,
-				"SectorName" : "Dehors",
-				"DateDebut" : "06/01/2021 06:00:00",
-				"DateFin" : "06/01/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35004,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13/01/2021 06:00:00",
-				"DateFin" : "13/01/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35005,
-				"SectorName" : "Dehors",
-				"DateDebut" : "20/01/2021 06:00:00",
-				"DateFin" : "20/01/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35006,
-				"SectorName" : "Dehors",
-				"DateDebut" : "27/01/2021 06:00:00",
-				"DateFin" : "27/01/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35007,
-				"SectorName" : "Dehors",
-				"DateDebut" : "03/02/2021 06:00:00",
-				"DateFin" : "03/02/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35008,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/02/2021 06:00:00",
-				"DateFin" : "10/02/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35009,
-				"SectorName" : "Dehors",
-				"DateDebut" : "17/02/2021 06:00:00",
-				"DateFin" : "17/02/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35010,
-				"SectorName" : "Dehors",
-				"DateDebut" : "24/02/2021 06:00:00",
-				"DateFin" : "24/02/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35011,
-				"SectorName" : "Dehors",
-				"DateDebut" : "03/03/2021 06:00:00",
-				"DateFin" : "03/03/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35012,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/03/2021 06:00:00",
-				"DateFin" : "10/03/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35013,
-				"SectorName" : "Dehors",
-				"DateDebut" : "17/03/2021 06:00:00",
-				"DateFin" : "17/03/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35014,
-				"SectorName" : "Dehors",
-				"DateDebut" : "24/03/2021 06:00:00",
-				"DateFin" : "24/03/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35015,
-				"SectorName" : "Dehors",
-				"DateDebut" : "31/03/2021 06:00:00",
-				"DateFin" : "31/03/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35016,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/04/2021 06:00:00",
-				"DateFin" : "07/04/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35017,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/04/2021 06:00:00",
-				"DateFin" : "14/04/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35018,
-				"SectorName" : "Dehors",
-				"DateDebut" : "21/04/2021 06:00:00",
-				"DateFin" : "21/04/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3595888139, 50.8689967613 ]
-			},
-			"properties" : {
-				"Chantier" : 35019,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/04/2021 06:00:00",
-				"DateFin" : "28/04/2031 15:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marché de la Chaussée d'anvers ",
-				"Description" : "Marché en plein air",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
