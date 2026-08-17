@@ -81,7 +81,7 @@ INF-Chantiers1030/
 
 | Dataset | Source | Date |
 |---|---|---|
-| Public worksites and events | [OSIRIS Brussels — Brussels Mobility](https://www.osiris.brussels/)) | 2025-2026 |
+| Public worksites and events | [OSIRIS Brussels — Brussels Mobility](https://www.osiris.brussels/) | 2025-2026 |
 | Road network — Schaerbeek | Municipal GIS reference layer & [Datastore.brussels](https://datastore.brussels/web/)| 2025-2026 |
 
 Data is extracted from the OSIRIS Brussels platform and packaged as static GeoJSON files for client-side rendering. No server-side queries are performed at runtime.
