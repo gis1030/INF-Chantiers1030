@@ -72,7 +72,7 @@ INF-Chantiers1030/
 
 | Date | Description |
 |---|---|
-| 2026 | Dataset updated — active worksites as of 17/08/2026 |
+| 2026 | Dataset updated — active worksites as of 24/08/2026 |
 | 2025 | Initial publication |
 
 ---
