@@ -1,6 +1,7 @@
 # 🚧 Works & Events on the Public Highway — Schaerbeek 1030
 
-> Cartography of public worksites and events on Schaerbeek's municipal roads, recorded in the OSIRIS Brussels database · Data as of June 2026
+> Cartography of public worksites and events on Schaerbeek's municipal roads, recorded in the OSIRIS Brussels database · 
+> Data from August 24, 2026
 
 ---
 
