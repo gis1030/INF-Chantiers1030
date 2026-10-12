@@ -1,7 +1,7 @@
 # 🚧 Works & Events on the Public Highway — Schaerbeek 1030
 
 > Cartography of public worksites and events on Schaerbeek's municipal roads, recorded in the OSIRIS Brussels database · 
-> Data from October 5, 2026
+> Data from October 12, 2026
 
 ---
 
@@ -73,7 +73,8 @@ INF-Chantiers1030/
 
 | Date | Description |
 |---|---|
-| 2026 | Dataset updated — active worksites as of 05/10/2026 |
+| 2026 | Dataset updated — active worksites as of 12/10/2026 |
+| ... | ... |
 | 2025 | Initial publication |
 ---
 
