@@ -8,894 +8,487 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[ 4.3765152201, 50.8629198613 ],
+						[ 4.3763611377, 50.8629412781 ],
+						[ 4.3763592587, 50.8629424675 ],
+						[ 4.3763461045, 50.862944847 ],
+						[ 4.3763254247, 50.8628889546 ],
+						[ 4.3764982987, 50.862865158 ],
+						[ 4.3765152201, 50.8629198613 ]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45447,
-				"SectorName" : "Dehors",
-				"DateDebut" : "11/10/2025 07:00:00",
-				"DateFin" : "11/10/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Chantier" : 15369,
+				"SectorName" : "Coteaux-Josaphat",
+				"DateDebut" : "08/03/2027 07:00:00",
+				"DateFin" : "08/03/2027 17:00:00",
+				"Gestionnaire" : "Schaerbeek",
 				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"Type" : "Fêtes, concerts, parades",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
+				"Libelle" : "Journée internationale de la femme",
 				"Description" : ""
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45448,
+				"Chantier" : 18273,
 				"SectorName" : "Dehors",
-				"DateDebut" : "18/10/2025 07:00:00",
-				"DateFin" : "18/10/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"DateDebut" : "15/12/2018 07:00:00",
+				"DateFin" : "31/12/2028 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45449,
+				"Chantier" : 18274,
 				"SectorName" : "Dehors",
-				"DateDebut" : "25/10/2025 07:00:00",
-				"DateFin" : "25/10/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"DateDebut" : "15/12/2019 07:00:00",
+				"DateFin" : "31/12/2029 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45450,
+				"Chantier" : 18275,
 				"SectorName" : "Dehors",
-				"DateDebut" : "01/11/2025 07:00:00",
-				"DateFin" : "01/11/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"DateDebut" : "15/12/2020 07:00:00",
+				"DateFin" : "01/01/2031 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45451,
+				"Chantier" : 18276,
 				"SectorName" : "Dehors",
-				"DateDebut" : "08/11/2025 07:00:00",
-				"DateFin" : "08/11/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"DateDebut" : "15/12/2021 07:00:00",
+				"DateFin" : "01/01/2032 07:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45452,
+				"Chantier" : 18277,
 				"SectorName" : "Dehors",
-				"DateDebut" : "15/11/2025 07:00:00",
-				"DateFin" : "15/11/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"DateDebut" : "15/12/2022 07:00:00",
+				"DateFin" : "31/12/2032 07:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45453,
+				"Chantier" : 18278,
 				"SectorName" : "Dehors",
-				"DateDebut" : "22/11/2025 07:00:00",
-				"DateFin" : "22/11/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"DateDebut" : "15/12/2023 07:00:00",
+				"DateFin" : "31/12/2033 07:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45454,
+				"Chantier" : 18279,
 				"SectorName" : "Dehors",
-				"DateDebut" : "29/11/2025 07:00:00",
-				"DateFin" : "29/11/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"DateDebut" : "15/12/2024 07:00:00",
+				"DateFin" : "01/01/2035 07:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45455,
+				"Chantier" : 18280,
 				"SectorName" : "Dehors",
-				"DateDebut" : "06/12/2025 07:00:00",
-				"DateFin" : "06/12/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"DateDebut" : "15/12/2025 07:00:00",
+				"DateFin" : "01/01/2036 07:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
+						[
+							[ 4.3578700404, 50.8739428979 ],
+							[ 4.3577378646, 50.8738286173 ],
+							[ 4.3587774447, 50.8734124053 ],
+							[ 4.3588656405, 50.873540315 ],
+							[ 4.3578700404, 50.8739428979 ]
+						]
+					],
+					[
+						[
+							[ 4.3545512503, 50.8751189043 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546574239, 50.875241958 ],
+							[ 4.3539840909, 50.8755142283 ],
+							[ 4.3537672093, 50.8755886292 ],
+							[ 4.3537080201, 50.8756076648 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528130846, 50.8758954807 ],
+							[ 4.352565595, 50.8759750746 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524632768, 50.8758573838 ],
+							[ 4.3537708834, 50.8754351601 ],
+							[ 4.3545512503, 50.8751189043 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45456,
+				"Chantier" : 18281,
 				"SectorName" : "Dehors",
-				"DateDebut" : "13/12/2025 07:00:00",
-				"DateFin" : "13/12/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"DateDebut" : "15/12/2026 07:00:00",
+				"DateFin" : "31/12/2036 07:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45457,
-				"SectorName" : "Dehors",
-				"DateDebut" : "20/12/2025 07:00:00",
-				"DateFin" : "20/12/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45458,
-				"SectorName" : "Dehors",
-				"DateDebut" : "27/12/2025 07:00:00",
-				"DateFin" : "27/12/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45459,
-				"SectorName" : "Dehors",
-				"DateDebut" : "03/01/2026 07:00:00",
-				"DateFin" : "03/01/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45460,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/01/2026 07:00:00",
-				"DateFin" : "10/01/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45461,
-				"SectorName" : "Dehors",
-				"DateDebut" : "17/01/2026 07:00:00",
-				"DateFin" : "17/01/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45462,
-				"SectorName" : "Dehors",
-				"DateDebut" : "24/01/2026 07:00:00",
-				"DateFin" : "24/01/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45463,
-				"SectorName" : "Dehors",
-				"DateDebut" : "31/01/2026 07:00:00",
-				"DateFin" : "31/01/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45464,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/02/2026 07:00:00",
-				"DateFin" : "07/02/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45465,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/02/2026 07:00:00",
-				"DateFin" : "14/02/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45466,
-				"SectorName" : "Dehors",
-				"DateDebut" : "21/02/2026 07:00:00",
-				"DateFin" : "21/02/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45467,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/02/2026 07:00:00",
-				"DateFin" : "28/02/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45468,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/03/2026 07:00:00",
-				"DateFin" : "07/03/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45469,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/03/2026 07:00:00",
-				"DateFin" : "14/03/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45470,
-				"SectorName" : "Dehors",
-				"DateDebut" : "21/03/2026 07:00:00",
-				"DateFin" : "21/03/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45471,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/03/2026 07:00:00",
-				"DateFin" : "28/03/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45472,
-				"SectorName" : "Dehors",
-				"DateDebut" : "04/04/2026 07:00:00",
-				"DateFin" : "04/04/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45473,
-				"SectorName" : "Dehors",
-				"DateDebut" : "11/04/2026 07:00:00",
-				"DateFin" : "11/04/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45474,
-				"SectorName" : "Dehors",
-				"DateDebut" : "18/04/2026 07:00:00",
-				"DateFin" : "18/04/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45475,
-				"SectorName" : "Dehors",
-				"DateDebut" : "25/04/2026 07:00:00",
-				"DateFin" : "25/04/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45476,
-				"SectorName" : "Dehors",
-				"DateDebut" : "02/05/2026 07:00:00",
-				"DateFin" : "02/05/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45477,
-				"SectorName" : "Dehors",
-				"DateDebut" : "09/05/2026 07:00:00",
-				"DateFin" : "09/05/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3616688322, 50.858793553 ],
-						[ 4.36152999, 50.8584614537 ],
-						[ 4.3616457323, 50.8584419253 ],
-						[ 4.3618000087, 50.8587642579 ],
-						[ 4.3616688322, 50.858793553 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 45478,
-				"SectorName" : "Dehors",
-				"DateDebut" : "16/05/2026 07:00:00",
-				"DateFin" : "16/05/2027 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
+				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
 			}
 		},
 		{
@@ -1006,6 +599,230 @@
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
 				"Libelle" : "Kermesse de Quartier Marie-Christine",
 				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30\n "
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3578992092, 50.8739681176 ],
+							[ 4.3576613167, 50.8737624332 ],
+							[ 4.357649318, 50.8737519734 ],
+							[ 4.3588618672, 50.8733006489 ],
+							[ 4.3590632705, 50.873546899 ],
+							[ 4.3578992092, 50.8739681176 ]
+						]
+					],
+					[
+						[
+							[ 4.3544116226, 50.8749570803 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3545911502, 50.8751651475 ],
+							[ 4.3525146864, 50.8759165214 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524094901, 50.8757955107 ],
+							[ 4.3523482638, 50.8757250859 ],
+							[ 4.3544116226, 50.8749570803 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 19072,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3578992108, 50.873968119 ],
+							[ 4.3576613167, 50.8737624332 ],
+							[ 4.3576493233, 50.873751978 ],
+							[ 4.3587281459, 50.873350429 ],
+							[ 4.3587796764, 50.8733706953 ],
+							[ 4.3587884125, 50.8733781483 ],
+							[ 4.3587900436, 50.8733917674 ],
+							[ 4.3587833066, 50.8734056376 ],
+							[ 4.3587781769, 50.8734094577 ],
+							[ 4.358867715, 50.8735389218 ],
+							[ 4.3588981349, 50.8735302224 ],
+							[ 4.3589260387, 50.873528202 ],
+							[ 4.3589606758, 50.8735318184 ],
+							[ 4.3589980821, 50.873541512 ],
+							[ 4.3590337596, 50.8735575798 ],
+							[ 4.3578992108, 50.873968119 ]
+						]
+					],
+					[
+						[
+							[ 4.3544116249, 50.874957083 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.354591151, 50.8751651484 ],
+							[ 4.352514687, 50.875916522 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524094901, 50.8757955107 ],
+							[ 4.3523482648, 50.875725087 ],
+							[ 4.3544116249, 50.874957083 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 19082,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3590632705, 50.873546899 ],
+						[ 4.3590337596, 50.8735575798 ],
+						[ 4.3589980821, 50.873541512 ],
+						[ 4.3589606758, 50.8735318184 ],
+						[ 4.3589260387, 50.873528202 ],
+						[ 4.3588981349, 50.8735302224 ],
+						[ 4.358867715, 50.8735389218 ],
+						[ 4.3587781769, 50.8734094577 ],
+						[ 4.3587833066, 50.8734056376 ],
+						[ 4.3587900436, 50.8733917674 ],
+						[ 4.3587884125, 50.8733781483 ],
+						[ 4.3587796764, 50.8733706953 ],
+						[ 4.3587281459, 50.873350429 ],
+						[ 4.3588618672, 50.8733006489 ],
+						[ 4.3590632705, 50.873546899 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 19092,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3953854095, 50.844735998 ],
+							[ 4.3953821823, 50.8447416534 ],
+							[ 4.3953494283, 50.8447843929 ],
+							[ 4.3952371491, 50.8449307914 ],
+							[ 4.3952054981, 50.8449720964 ],
+							[ 4.3935866357, 50.8452527069 ],
+							[ 4.3924597982, 50.8430977421 ],
+							[ 4.395316653, 50.8424685794 ],
+							[ 4.3960500382, 50.8432011601 ],
+							[ 4.3960475713, 50.8433075805 ],
+							[ 4.3954225874, 50.8446707749 ],
+							[ 4.3953854095, 50.844735998 ]
+						]
+					],
+					[
+						[
+							[ 4.3935866357, 50.8452527069 ],
+							[ 4.39358775, 50.8452548372 ],
+							[ 4.3935743292, 50.8452548401 ],
+							[ 4.3935866357, 50.8452527069 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 19426,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/09/2026 15:10:00",
+				"DateFin" : "12/10/2026 14:10:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "GeometryCollection",
+				"geometries" : [
+					{
+						"type" : "MultiPolygon",
+						"coordinates" : [
+							[
+								[
+									[ 4.3953854095, 50.844735998 ],
+									[ 4.3953821963, 50.8447416352 ],
+									[ 4.3953821823, 50.8447416534 ],
+									[ 4.3953854095, 50.844735998 ]
+								]
+							],
+							[
+								[
+									[ 4.3952054981, 50.8449720964 ],
+									[ 4.3952371491, 50.8449307914 ],
+									[ 4.3953494283, 50.8447843929 ],
+									[ 4.3952055917, 50.8449720802 ],
+									[ 4.3952054981, 50.8449720964 ]
+								]
+							]
+						]
+					}
+				]
+			},
+			"properties" : {
+				"Chantier" : 19426,
+				"SectorName" : "Linthout",
+				"DateDebut" : "14/09/2026 15:10:00",
+				"DateFin" : "12/10/2026 14:10:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
 			}
 		},
 		{
@@ -2835,84 +2652,180 @@
 				"coordinates" : [
 					[
 						[
-							[ 4.3953854095, 50.844735998 ],
-							[ 4.3953821823, 50.8447416534 ],
-							[ 4.3953494283, 50.8447843929 ],
-							[ 4.3952371491, 50.8449307914 ],
-							[ 4.3952054981, 50.8449720964 ],
-							[ 4.3935866357, 50.8452527069 ],
-							[ 4.3924597982, 50.8430977421 ],
-							[ 4.395316653, 50.8424685794 ],
-							[ 4.3960500382, 50.8432011601 ],
-							[ 4.3960475713, 50.8433075805 ],
-							[ 4.3954225874, 50.8446707749 ],
-							[ 4.3953854095, 50.844735998 ]
+							[ 4.3578992108, 50.873968119 ],
+							[ 4.3576613167, 50.8737624332 ],
+							[ 4.3576493233, 50.873751978 ],
+							[ 4.3587281459, 50.873350429 ],
+							[ 4.3587796764, 50.8733706953 ],
+							[ 4.3587884125, 50.8733781483 ],
+							[ 4.3587900436, 50.8733917674 ],
+							[ 4.3587833066, 50.8734056376 ],
+							[ 4.3587781769, 50.8734094577 ],
+							[ 4.358867715, 50.8735389218 ],
+							[ 4.3588981349, 50.8735302224 ],
+							[ 4.3589260387, 50.873528202 ],
+							[ 4.3589606758, 50.8735318184 ],
+							[ 4.3589980821, 50.873541512 ],
+							[ 4.3590337596, 50.8735575798 ],
+							[ 4.3578992108, 50.873968119 ]
 						]
 					],
 					[
 						[
-							[ 4.3935866357, 50.8452527069 ],
-							[ 4.39358775, 50.8452548372 ],
-							[ 4.3935743292, 50.8452548401 ],
-							[ 4.3935866357, 50.8452527069 ]
+							[ 4.3544116249, 50.874957083 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.354591151, 50.8751651484 ],
+							[ 4.352514687, 50.875916522 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524094901, 50.8757955107 ],
+							[ 4.3523482648, 50.875725087 ],
+							[ 4.3544116249, 50.874957083 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 19426,
+				"Chantier" : 31576,
 				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
+				"Type" : "Autres événements communaux",
 				"Url" : "www.bruxelles.be",
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Brocante",
+				"Libelle" : "Braderie/Bocante",
 				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "GeometryCollection",
-				"geometries" : [
-					{
-						"type" : "MultiPolygon",
-						"coordinates" : [
-							[
-								[
-									[ 4.3953854095, 50.844735998 ],
-									[ 4.3953821963, 50.8447416352 ],
-									[ 4.3953821823, 50.8447416534 ],
-									[ 4.3953854095, 50.844735998 ]
-								]
-							],
-							[
-								[
-									[ 4.3952054981, 50.8449720964 ],
-									[ 4.3952371491, 50.8449307914 ],
-									[ 4.3953494283, 50.8447843929 ],
-									[ 4.3952055917, 50.8449720802 ],
-									[ 4.3952054981, 50.8449720964 ]
-								]
-							]
-						]
-					}
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3590632705, 50.873546899 ],
+						[ 4.3590337596, 50.8735575798 ],
+						[ 4.3589980821, 50.873541512 ],
+						[ 4.3589606758, 50.8735318184 ],
+						[ 4.3589260387, 50.873528202 ],
+						[ 4.3588981349, 50.8735302224 ],
+						[ 4.358867715, 50.8735389218 ],
+						[ 4.3587781769, 50.8734094577 ],
+						[ 4.3587833066, 50.8734056376 ],
+						[ 4.3587900436, 50.8733917674 ],
+						[ 4.3587884125, 50.8733781483 ],
+						[ 4.3587796764, 50.8733706953 ],
+						[ 4.3587281459, 50.873350429 ],
+						[ 4.3588618672, 50.8733006489 ],
+						[ 4.3590632705, 50.873546899 ]
+					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 19426,
-				"SectorName" : "Linthout",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Chantier" : 31586,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "Administrateur Régional",
 				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
+				"Type" : "Autres événements communaux",
 				"Url" : "www.bruxelles.be",
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Brocante",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3578992108, 50.873968119 ],
+							[ 4.3576613167, 50.8737624332 ],
+							[ 4.3576493233, 50.873751978 ],
+							[ 4.3587281459, 50.873350429 ],
+							[ 4.3587796764, 50.8733706953 ],
+							[ 4.3587884125, 50.8733781483 ],
+							[ 4.3587900436, 50.8733917674 ],
+							[ 4.3587833066, 50.8734056376 ],
+							[ 4.3587781769, 50.8734094577 ],
+							[ 4.358867715, 50.8735389218 ],
+							[ 4.3588981349, 50.8735302224 ],
+							[ 4.3589260387, 50.873528202 ],
+							[ 4.3589606758, 50.8735318184 ],
+							[ 4.3589980821, 50.873541512 ],
+							[ 4.3590337596, 50.8735575798 ],
+							[ 4.3578992108, 50.873968119 ]
+						]
+					],
+					[
+						[
+							[ 4.3544116249, 50.874957083 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.354591151, 50.8751651484 ],
+							[ 4.352514687, 50.875916522 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524094901, 50.8757955107 ],
+							[ 4.3523482648, 50.875725087 ],
+							[ 4.3544116249, 50.874957083 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 31596,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3590632705, 50.873546899 ],
+						[ 4.3590337596, 50.8735575798 ],
+						[ 4.3589980821, 50.873541512 ],
+						[ 4.3589606758, 50.8735318184 ],
+						[ 4.3589260387, 50.873528202 ],
+						[ 4.3588981349, 50.8735302224 ],
+						[ 4.358867715, 50.8735389218 ],
+						[ 4.3587781769, 50.8734094577 ],
+						[ 4.3587833066, 50.8734056376 ],
+						[ 4.3587900436, 50.8733917674 ],
+						[ 4.3587884125, 50.8733781483 ],
+						[ 4.3587796764, 50.8733706953 ],
+						[ 4.3587281459, 50.873350429 ],
+						[ 4.3588618672, 50.8733006489 ],
+						[ 4.3590632705, 50.873546899 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 31606,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/04/2027 01:00:00",
+				"DateFin" : "30/04/2027 23:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Bocante",
 				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
 			}
 		},
@@ -3089,28 +3002,32 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3765152201, 50.8629198613 ],
-						[ 4.3763611377, 50.8629412781 ],
-						[ 4.3763592587, 50.8629424675 ],
-						[ 4.3763461045, 50.862944847 ],
-						[ 4.3763254247, 50.8628889546 ],
-						[ 4.3764982987, 50.862865158 ],
-						[ 4.3765152201, 50.8629198613 ]
+						[ 4.3580098294, 50.865623675 ],
+						[ 4.3582895716, 50.8656481168 ],
+						[ 4.3595815778, 50.8690606948 ],
+						[ 4.3607389586, 50.8708311088 ],
+						[ 4.3608836061, 50.8712584395 ],
+						[ 4.3606038379, 50.8711790622 ],
+						[ 4.3604784738, 50.8708433008 ],
+						[ 4.3593403904, 50.8691095141 ],
+						[ 4.3591186182, 50.86851735 ],
+						[ 4.3580001827, 50.8656236742 ],
+						[ 4.3580098294, 50.865623675 ]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 15369,
-				"SectorName" : "Coteaux-Josaphat",
-				"DateDebut" : "08/03/2027 07:00:00",
-				"DateFin" : "08/03/2027 17:00:00",
-				"Gestionnaire" : "Schaerbeek",
-				"Statut" : "Enregistré",
-				"Type" : "Fêtes, concerts, parades",
+				"Chantier" : 32650,
+				"SectorName" : "Dehors",
+				"DateDebut" : "08/06/2019 07:00:00",
+				"DateFin" : "01/01/2029 07:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Journée internationale de la femme",
-				"Description" : ""
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
+				"Description" : "Contact Service Commerce VBX : 02/279.25.41"
 			}
 		},
 		{
@@ -3119,153 +3036,26 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3701637035, 50.8529291717 ],
-						[ 4.3701301071, 50.8528779557 ],
-						[ 4.3715342179, 50.8524628076 ],
-						[ 4.3729305749, 50.8519108992 ],
-						[ 4.3730385871, 50.8519450806 ],
-						[ 4.3736250232, 50.8528192383 ],
-						[ 4.3742345308, 50.8529608354 ],
-						[ 4.3742345378, 50.8530145562 ],
-						[ 4.3736096367, 50.8531904008 ],
-						[ 4.3735401808, 50.8530194743 ],
-						[ 4.3736018866, 50.852892495 ],
-						[ 4.3733892916, 50.8526428271 ],
-						[ 4.3733155481, 50.8525345797 ],
-						[ 4.3733008261, 50.8525389339 ],
-						[ 4.3732357737, 50.8524625365 ],
-						[ 4.3732645715, 50.852454099 ],
-						[ 4.3730753833, 50.8521722863 ],
-						[ 4.372946422, 50.8520148856 ],
-						[ 4.3729042445, 50.8520081452 ],
-						[ 4.3721472179, 50.8523051869 ],
-						[ 4.3720962097, 50.8523273118 ],
-						[ 4.3720535401, 50.8523441311 ],
-						[ 4.3705857641, 50.852803372 ],
-						[ 4.3702590193, 50.8528992632 ],
-						[ 4.3702624485, 50.852904528 ],
-						[ 4.3702381196, 50.8529121397 ],
-						[ 4.3717890385, 50.8553295357 ],
-						[ 4.3730851918, 50.854909489 ],
-						[ 4.3730929041, 50.8548801864 ],
-						[ 4.372645321, 50.8539474168 ],
-						[ 4.3734168264, 50.853786222 ],
-						[ 4.373441056, 50.85383501 ],
-						[ 4.3727972227, 50.8539574594 ],
-						[ 4.3728451883, 50.854027225 ],
-						[ 4.3734779429, 50.8539092843 ],
-						[ 4.3735017134, 50.8539571478 ],
-						[ 4.3728227862, 50.854093921 ],
-						[ 4.373254931, 50.8549143653 ],
-						[ 4.3727833309, 50.8550477132 ],
-						[ 4.3727812835, 50.8550438136 ],
-						[ 4.3726531459, 50.8550858857 ],
-						[ 4.3721053654, 50.8552465023 ],
-						[ 4.3718760592, 50.8553410265 ],
-						[ 4.371836992, 50.8553538532 ],
-						[ 4.3718386395, 50.8553564515 ],
-						[ 4.3717736118, 50.8553832569 ],
-						[ 4.3701637035, 50.8529291717 ]
+						[ 4.360876445, 50.8712547894 ],
+						[ 4.3608826376, 50.871255579 ],
+						[ 4.3608836061, 50.8712584395 ],
+						[ 4.3607337726, 50.8712158022 ],
+						[ 4.360876445, 50.8712547894 ]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 42115,
+				"Chantier" : 32651,
 				"SectorName" : "Dehors",
-				"DateDebut" : "08/03/2027 10:00:00",
-				"DateFin" : "08/03/2027 11:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Fêtes, concerts, parades",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Carnaval Ecole de la Sagesse",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3589423206, 50.8554939632 ],
-							[ 4.3589063234, 50.8554244876 ],
-							[ 4.3593233369, 50.8553155905 ],
-							[ 4.3597053439, 50.8559541642 ],
-							[ 4.3596730864, 50.8559632308 ],
-							[ 4.3596766489, 50.8559675301 ],
-							[ 4.3593789534, 50.8560343684 ],
-							[ 4.3593751132, 50.8560299111 ],
-							[ 4.3594059959, 50.8559905484 ],
-							[ 4.3590587905, 50.8555022939 ],
-							[ 4.358984106, 50.8554822146 ],
-							[ 4.3589423206, 50.8554939632 ]
-						]
-					],
-					[
-						[
-							[ 4.3588311494, 50.8561573583 ],
-							[ 4.3587522221, 50.8561750784 ],
-							[ 4.3587039714, 50.8561022241 ],
-							[ 4.3588311494, 50.8561573583 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 43047,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13/12/2026 06:00:00",
-				"DateFin" : "13/12/2026 20:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Fêtes, concerts, parades",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Carnaval 2014",
-				"Description" : "Carnaval 2014"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3589423206, 50.8554939632 ],
-							[ 4.3589063234, 50.8554244875 ],
-							[ 4.3593233369, 50.8553155905 ],
-							[ 4.3593797893, 50.8554099591 ],
-							[ 4.3590587905, 50.8555022939 ],
-							[ 4.358984106, 50.8554822146 ],
-							[ 4.3589423206, 50.8554939632 ]
-						]
-					],
-					[
-						[
-							[ 4.3587039714, 50.8561022241 ],
-							[ 4.3588311494, 50.8561573583 ],
-							[ 4.3587522221, 50.8561750784 ],
-							[ 4.3587039714, 50.8561022241 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 43066,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13/12/2026 06:00:00",
-				"DateFin" : "13/12/2026 20:00:00",
+				"DateDebut" : "08/06/2019 07:00:00",
+				"DateFin" : "01/01/2029 07:00:00",
 				"Gestionnaire" : "Administrateur Régional",
 				"Statut" : "Validation Demandée",
-				"Type" : "Fêtes, concerts, parades",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Carnaval 2014",
-				"Description" : "Carnaval 2014"
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
+				"Description" : "Contact Service Commerce VBX : 02/279.25.41"
 			}
 		},
 		{
@@ -3274,46 +3064,34 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ 4.3597053439, 50.8559541642 ],
-						[ 4.3596730864, 50.8559632308 ],
-						[ 4.3601179267, 50.8565280267 ],
-						[ 4.360488925, 50.8567261004 ],
-						[ 4.3604474269, 50.8567570369 ],
-						[ 4.3611544185, 50.8571703735 ],
-						[ 4.3612426036, 50.8571586743 ],
-						[ 4.3613349725, 50.8571875449 ],
-						[ 4.3613404684, 50.8571807233 ],
-						[ 4.3617924113, 50.857422001 ],
-						[ 4.3617805895, 50.8574485216 ],
-						[ 4.3617316824, 50.8574619622 ],
-						[ 4.3616905968, 50.8576129975 ],
-						[ 4.3612465932, 50.8576270859 ],
-						[ 4.3611252261, 50.8575639728 ],
-						[ 4.3610707584, 50.8575054427 ],
-						[ 4.3602106294, 50.8570024447 ],
-						[ 4.3599618996, 50.8567326385 ],
-						[ 4.3599856437, 50.85672433 ],
-						[ 4.3599171023, 50.8566630403 ],
-						[ 4.3593751132, 50.8560299111 ],
-						[ 4.3594059959, 50.8559905484 ],
-						[ 4.3590587905, 50.8555022939 ],
-						[ 4.3593797893, 50.8554099591 ],
-						[ 4.3597053439, 50.8559541642 ]
+						[ 4.3580098294, 50.865623675 ],
+						[ 4.3582895716, 50.8656481168 ],
+						[ 4.3595815778, 50.8690606948 ],
+						[ 4.3607389586, 50.8708311088 ],
+						[ 4.3608826376, 50.871255579 ],
+						[ 4.360876445, 50.8712547894 ],
+						[ 4.3607337726, 50.8712158022 ],
+						[ 4.3606038379, 50.8711790622 ],
+						[ 4.3604784738, 50.8708433008 ],
+						[ 4.3593403904, 50.8691095141 ],
+						[ 4.3591186182, 50.86851735 ],
+						[ 4.3580001827, 50.8656236742 ],
+						[ 4.3580098294, 50.865623675 ]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 43085,
+				"Chantier" : 32652,
 				"SectorName" : "Dehors",
-				"DateDebut" : "13/12/2026 06:00:00",
-				"DateFin" : "13/12/2026 20:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"DateDebut" : "08/06/2019 07:00:00",
+				"DateFin" : "01/01/2029 07:00:00",
+				"Gestionnaire" : "VBX",
 				"Statut" : "Validation Demandée",
-				"Type" : "Fêtes, concerts, parades",
+				"Type" : "Autres événements communaux",
 				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Carnaval 2014",
-				"Description" : "Carnaval 2014"
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
+				"Description" : "Contact Service Commerce VBX : 02/279.25.41"
 			}
 		},
 		{
@@ -14359,6 +14137,137 @@
 		{
 			"type" : "Feature",
 			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3593403494, 50.8552734406 ],
+							[ 4.3593893882, 50.8553137679 ],
+							[ 4.3589174982, 50.8554460552 ],
+							[ 4.3588784655, 50.8553707211 ],
+							[ 4.3593403494, 50.8552734406 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 39374,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/10/2026 22:59:00",
+				"DateFin" : "04/02/2027 22:59:00",
+				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO",
+				"Libelle" : "Illuminations Ville de Bruxelles - Zone Centre",
+				"Description" : "Illuminations des rues de Ville de Bruxelles"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3578735851, 50.8739459627 ],
+							[ 4.3577409122, 50.8738312523 ],
+							[ 4.3577506531, 50.8738283258 ],
+							[ 4.3578377143, 50.873788031 ],
+							[ 4.3587352813, 50.8734267087 ],
+							[ 4.3588472632, 50.8735471968 ],
+							[ 4.3584705129, 50.8736996302 ],
+							[ 4.3580252109, 50.8738813775 ],
+							[ 4.3580254902, 50.8738843108 ],
+							[ 4.3578735851, 50.8739459627 ]
+						]
+					],
+					[
+						[
+							[ 4.3545484084, 50.8751156108 ],
+							[ 4.3545706091, 50.8751413407 ],
+							[ 4.3546575189, 50.875242068 ],
+							[ 4.3544411406, 50.8753300761 ],
+							[ 4.3539835187, 50.8755128025 ],
+							[ 4.3537732292, 50.8755935472 ],
+							[ 4.3537665447, 50.8755876529 ],
+							[ 4.3537072557, 50.8756067666 ],
+							[ 4.3536927139, 50.8755896783 ],
+							[ 4.3536177219, 50.8756157544 ],
+							[ 4.3533864803, 50.8756961397 ],
+							[ 4.353095973, 50.8757971401 ],
+							[ 4.3528308768, 50.8758892956 ],
+							[ 4.3525654205, 50.875974874 ],
+							[ 4.3525093171, 50.8759103457 ],
+							[ 4.3524758617, 50.8758718606 ],
+							[ 4.3524626196, 50.8758566277 ],
+							[ 4.3537745905, 50.8754343659 ],
+							[ 4.353784316, 50.8754202483 ],
+							[ 4.3538368944, 50.8754053439 ],
+							[ 4.3540483748, 50.8753159136 ],
+							[ 4.3545484084, 50.8751156108 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 39476,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/10/2026 22:59:00",
+				"DateFin" : "04/02/2027 22:59:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Illuminations Ville de Bruxelles - Laeken Marie-Christine",
+				"Description" : "Illuminations Ville de Bruxelles : \nDécoration au-dessus de voirie\nSapin\nStructure posé au sol "
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3848178898, 50.8465930217 ],
+						[ 4.3848485896, 50.8466213045 ],
+						[ 4.3849211936, 50.8467285228 ],
+						[ 4.3849258951, 50.846732954 ],
+						[ 4.3849328397, 50.8467359914 ],
+						[ 4.3849410474, 50.8467372038 ],
+						[ 4.384975403, 50.8467381347 ],
+						[ 4.3850433155, 50.8468006991 ],
+						[ 4.3850588662, 50.8471376733 ],
+						[ 4.3848274418, 50.8471377066 ],
+						[ 4.3847810757, 50.8469081785 ],
+						[ 4.38468961, 50.84676268 ],
+						[ 4.3846518035, 50.8466879825 ],
+						[ 4.3846205926, 50.8466375007 ],
+						[ 4.3846439172, 50.8466436863 ],
+						[ 4.3848140942, 50.8465941271 ],
+						[ 4.3848178898, 50.8465930217 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 39616,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/10/2026 22:59:00",
+				"DateFin" : "04/02/2027 22:59:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Illuminations Ville de Bruxelles - Zone EU",
+				"Description" : "Illuminations Ville de Bruxelles : \nDécoration au dessus de la voirie\nDécoration des arbres\nStructure lulimineuse au sol"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
 				"type" : "Polygon",
 				"coordinates" : [
 					[
@@ -14514,6 +14423,708 @@
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
 				"Libelle" : "Marché Chaussée d'Anvers",
 				"Description" : "Marché Tout objet neuf et produits alimentaires, le mercredi de 08:00 à 13h00."
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3707372422, 50.8516879503 ],
+						[ 4.3708501276, 50.851630759 ],
+						[ 4.3708957853, 50.8516755989 ],
+						[ 4.3714186973, 50.8521968864 ],
+						[ 4.3715902601, 50.8523948302 ],
+						[ 4.3716342841, 50.8524040881 ],
+						[ 4.3716610887, 50.8523932332 ],
+						[ 4.371717915, 50.8524734102 ],
+						[ 4.3717062891, 50.8524777998 ],
+						[ 4.3716954983, 50.8525034202 ],
+						[ 4.3719396426, 50.8528396197 ],
+						[ 4.3719710957, 50.8528306228 ],
+						[ 4.3720306159, 50.8529145989 ],
+						[ 4.3719991242, 50.8529239123 ],
+						[ 4.3722596346, 50.8532803639 ],
+						[ 4.3723508332, 50.8534112117 ],
+						[ 4.3723868038, 50.8534171322 ],
+						[ 4.3724451546, 50.853499456 ],
+						[ 4.3724336228, 50.8535175904 ],
+						[ 4.3727096648, 50.8539018449 ],
+						[ 4.3727277, 50.8538980796 ],
+						[ 4.3728827086, 50.8541090358 ],
+						[ 4.3730608449, 50.8544642505 ],
+						[ 4.3732231347, 50.8548113897 ],
+						[ 4.3732365302, 50.8548145724 ],
+						[ 4.373291441, 50.854924065 ],
+						[ 4.3732872831, 50.8549300751 ],
+						[ 4.3735701036, 50.8554626897 ],
+						[ 4.3738936995, 50.8560516692 ],
+						[ 4.3737493711, 50.8561189537 ],
+						[ 4.37359287, 50.8558316174 ],
+						[ 4.3731368918, 50.854985457 ],
+						[ 4.3730959893, 50.854974132 ],
+						[ 4.3730515967, 50.8549891378 ],
+						[ 4.3729991462, 50.8549041846 ],
+						[ 4.3730816491, 50.8548754369 ],
+						[ 4.3729363193, 50.8545738365 ],
+						[ 4.3727473967, 50.8541732722 ],
+						[ 4.3726569199, 50.8540426584 ],
+						[ 4.3726184328, 50.8540336704 ],
+						[ 4.3724843258, 50.85407032 ],
+						[ 4.372420644, 50.853967171 ],
+						[ 4.3725460664, 50.853933746 ],
+						[ 4.3725603223, 50.8539082242 ],
+						[ 4.3723049612, 50.8535511259 ],
+						[ 4.3722713031, 50.8535430366 ],
+						[ 4.372173609, 50.8535670303 ],
+						[ 4.3721208063, 50.8534815008 ],
+						[ 4.3722086676, 50.8534597062 ],
+						[ 4.372222867, 50.8534377713 ],
+						[ 4.3715596102, 50.8525325143 ],
+						[ 4.3715313069, 50.8525258719 ],
+						[ 4.3714768448, 50.8525418559 ],
+						[ 4.3714257181, 50.8524785123 ],
+						[ 4.3714658924, 50.8524668128 ],
+						[ 4.3714782886, 50.8524479435 ],
+						[ 4.3713864713, 50.8523436859 ],
+						[ 4.370791555, 50.8517422136 ],
+						[ 4.3707372422, 50.8516879503 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41724,
+				"SectorName" : "Dehors",
+				"DateDebut" : "04/11/2026 07:00:00",
+				"DateFin" : "06/11/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode, Schaerbeek",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3723756393, 50.8564101469 ],
+						[ 4.3723145522, 50.8563099381 ],
+						[ 4.3724283544, 50.8562745271 ],
+						[ 4.3726540718, 50.8566407962 ],
+						[ 4.3726367118, 50.8566432388 ],
+						[ 4.3725344863, 50.856720161 ],
+						[ 4.3723049326, 50.8565883095 ],
+						[ 4.3724611715, 50.8565504551 ],
+						[ 4.3723756393, 50.8564101469 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41745,
+				"SectorName" : "Dehors",
+				"DateDebut" : "07/11/2026 07:00:00",
+				"DateFin" : "07/11/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3717124371, 50.8524677026 ],
+						[ 4.3716507123, 50.8524042162 ],
+						[ 4.3727616277, 50.8519792945 ],
+						[ 4.3728117806, 50.852037897 ],
+						[ 4.3717124371, 50.8524677026 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41765,
+				"SectorName" : "Dehors",
+				"DateDebut" : "04/11/2026 07:00:00",
+				"DateFin" : "06/11/2026 19:50:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3744584895, 50.8529105539 ],
+						[ 4.3746689346, 50.8528949248 ],
+						[ 4.3757429833, 50.8528534562 ],
+						[ 4.3761272918, 50.8528467788 ],
+						[ 4.3762036939, 50.8528445262 ],
+						[ 4.3762304857, 50.8528346307 ],
+						[ 4.3764561695, 50.8528259149 ],
+						[ 4.3764706756, 50.8528401025 ],
+						[ 4.37712904, 50.8528247715 ],
+						[ 4.3773132284, 50.8528196331 ],
+						[ 4.3773480184, 50.8528048876 ],
+						[ 4.3773555549, 50.8527911769 ],
+						[ 4.3776629385, 50.8527793028 ],
+						[ 4.3776566072, 50.8527907493 ],
+						[ 4.3776787652, 50.8528111537 ],
+						[ 4.3777898566, 50.8528093532 ],
+						[ 4.3777658788, 50.8529461196 ],
+						[ 4.377603811, 50.8529495082 ],
+						[ 4.3775755514, 50.8529536456 ],
+						[ 4.377551269, 50.8529623674 ],
+						[ 4.377532242, 50.8529755835 ],
+						[ 4.3775307356, 50.8529776821 ],
+						[ 4.3773336473, 50.8529825766 ],
+						[ 4.3773339926, 50.8529746105 ],
+						[ 4.3772956458, 50.8529568143 ],
+						[ 4.3764481193, 50.8529730588 ],
+						[ 4.3764151757, 50.8529915795 ],
+						[ 4.3764138517, 50.8530054147 ],
+						[ 4.3762470169, 50.8530095564 ],
+						[ 4.3762481702, 50.8529975064 ],
+						[ 4.3762160579, 50.8529784958 ],
+						[ 4.37607477, 50.8529799169 ],
+						[ 4.3746122914, 50.853032488 ],
+						[ 4.374482692, 50.8530411161 ],
+						[ 4.3744709087, 50.8530536333 ],
+						[ 4.3743088637, 50.8530576533 ],
+						[ 4.3741952841, 50.8529251198 ],
+						[ 4.3742129813, 50.8529287887 ],
+						[ 4.3744584895, 50.8529105539 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41791,
+				"SectorName" : "Dehors",
+				"DateDebut" : "10/11/2026 07:00:00",
+				"DateFin" : "14/11/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3729715323, 50.8517709094 ],
+						[ 4.3731204769, 50.8515604589 ],
+						[ 4.3731399287, 50.8515294443 ],
+						[ 4.3733845692, 50.85118127 ],
+						[ 4.3733630935, 50.8511568035 ],
+						[ 4.3734599998, 50.8510177279 ],
+						[ 4.373472213, 50.8510328853 ],
+						[ 4.3735195443, 50.8510369644 ],
+						[ 4.3736228863, 50.8509494108 ],
+						[ 4.3738248911, 50.8508405471 ],
+						[ 4.374116266, 50.8506753953 ],
+						[ 4.3741043346, 50.850652203 ],
+						[ 4.374047704, 50.8506507015 ],
+						[ 4.3741851312, 50.8505789171 ],
+						[ 4.3742818319, 50.8505811767 ],
+						[ 4.3746027964, 50.8504095047 ],
+						[ 4.3746382436, 50.8503280938 ],
+						[ 4.3746401355, 50.8503306404 ],
+						[ 4.3747288373, 50.8501285784 ],
+						[ 4.3748938701, 50.8501573148 ],
+						[ 4.3748179618, 50.8503305458 ],
+						[ 4.3748840413, 50.8503440901 ],
+						[ 4.3746808043, 50.8505444148 ],
+						[ 4.3746639182, 50.8505327474 ],
+						[ 4.3745882213, 50.8505755057 ],
+						[ 4.3745598742, 50.8505547325 ],
+						[ 4.3743791008, 50.8506529347 ],
+						[ 4.3743322564, 50.8506773617 ],
+						[ 4.3737347373, 50.8510070371 ],
+						[ 4.3735962945, 50.8511216599 ],
+						[ 4.3736833308, 50.8511442729 ],
+						[ 4.3736232282, 50.851224948 ],
+						[ 4.3735294185, 50.8512006807 ],
+						[ 4.3730646168, 50.8518552688 ],
+						[ 4.3728814461, 50.8518245839 ],
+						[ 4.3729045897, 50.8518148156 ],
+						[ 4.3729354935, 50.8517704654 ],
+						[ 4.3729715323, 50.8517709094 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41811,
+				"SectorName" : "Dehors",
+				"DateDebut" : "10/11/2026 06:59:00",
+				"DateFin" : "14/11/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3574075284, 50.8592959599 ],
+						[ 4.3587529816, 50.8590037291 ],
+						[ 4.3588146155, 50.8591146859 ],
+						[ 4.3574605398, 50.8594015259 ],
+						[ 4.3574075284, 50.8592959599 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41882,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3759586446, 50.8517049243 ],
+						[ 4.3767646956, 50.8508770786 ],
+						[ 4.37690357, 50.8509259054 ],
+						[ 4.3761129466, 50.8517317743 ],
+						[ 4.3759586446, 50.8517049243 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41902,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3670402586, 50.8546485521 ],
+						[ 4.3670306149, 50.8546253544 ],
+						[ 4.3678966635, 50.8544483247 ],
+						[ 4.3679082364, 50.8544727432 ],
+						[ 4.3670402586, 50.8546485521 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41921,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3742479164, 50.8524489748 ],
+						[ 4.3742074103, 50.852430663 ],
+						[ 4.3748457392, 50.8518299318 ],
+						[ 4.3748862454, 50.8518506852 ],
+						[ 4.3742479164, 50.8524489748 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41936,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/12/2026 07:00:00",
+				"DateFin" : "09/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3669989888, 50.8535826974 ],
+							[ 4.3670824503, 50.8535406475 ],
+							[ 4.3673849987, 50.8534726068 ],
+							[ 4.3684831428, 50.8532256332 ],
+							[ 4.3685062884, 50.8532549354 ],
+							[ 4.3682941227, 50.8533110986 ],
+							[ 4.3682748348, 50.8532842383 ],
+							[ 4.3669989888, 50.8535826974 ]
+						]
+					],
+					[
+						[
+							[ 4.3668115221, 50.8536771476 ],
+							[ 4.3668785016, 50.8536434017 ],
+							[ 4.3668861021, 50.8536578359 ],
+							[ 4.3668115221, 50.8536771476 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 41964,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/11/2026 07:00:00",
+				"DateFin" : "02/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Elagage Communal",
+				"Description" : "Elagage Communal"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3899971593, 50.8452021943 ],
+						[ 4.3901321783, 50.8452607736 ],
+						[ 4.3882816115, 50.8470021521 ],
+						[ 4.3880694811, 50.8470192814 ],
+						[ 4.3899971593, 50.8452021943 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42025,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/01/2023",
+				"DateFin" : "27/01/2044 23:55:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "En Cours de Validation",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Remise en état a contrôler avec attention",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3893889181, 50.8490202743 ],
+						[ 4.3893580472, 50.8489909776 ],
+						[ 4.3879686598, 50.8471207586 ],
+						[ 4.3882695083, 50.8471158235 ],
+						[ 4.389581752, 50.8489616346 ],
+						[ 4.3893889181, 50.8490202743 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42029,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/01/2023 00:25:00",
+				"DateFin" : "31/01/2035 23:25:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Subdivisé (initial)",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Remise en état a contrôler avec attention",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3701637035, 50.8529291717 ],
+						[ 4.3701301071, 50.8528779557 ],
+						[ 4.3715342179, 50.8524628076 ],
+						[ 4.3729305749, 50.8519108992 ],
+						[ 4.3730385871, 50.8519450806 ],
+						[ 4.3736250232, 50.8528192383 ],
+						[ 4.3742345308, 50.8529608354 ],
+						[ 4.3742345378, 50.8530145562 ],
+						[ 4.3736096367, 50.8531904008 ],
+						[ 4.3735401808, 50.8530194743 ],
+						[ 4.3736018866, 50.852892495 ],
+						[ 4.3733892916, 50.8526428271 ],
+						[ 4.3733155481, 50.8525345797 ],
+						[ 4.3733008261, 50.8525389339 ],
+						[ 4.3732357737, 50.8524625365 ],
+						[ 4.3732645715, 50.852454099 ],
+						[ 4.3730753833, 50.8521722863 ],
+						[ 4.372946422, 50.8520148856 ],
+						[ 4.3729042445, 50.8520081452 ],
+						[ 4.3721472179, 50.8523051869 ],
+						[ 4.3720962097, 50.8523273118 ],
+						[ 4.3720535401, 50.8523441311 ],
+						[ 4.3705857641, 50.852803372 ],
+						[ 4.3702590193, 50.8528992632 ],
+						[ 4.3702624485, 50.852904528 ],
+						[ 4.3702381196, 50.8529121397 ],
+						[ 4.3717890385, 50.8553295357 ],
+						[ 4.3730851918, 50.854909489 ],
+						[ 4.3730929041, 50.8548801864 ],
+						[ 4.372645321, 50.8539474168 ],
+						[ 4.3734168264, 50.853786222 ],
+						[ 4.373441056, 50.85383501 ],
+						[ 4.3727972227, 50.8539574594 ],
+						[ 4.3728451883, 50.854027225 ],
+						[ 4.3734779429, 50.8539092843 ],
+						[ 4.3735017134, 50.8539571478 ],
+						[ 4.3728227862, 50.854093921 ],
+						[ 4.373254931, 50.8549143653 ],
+						[ 4.3727833309, 50.8550477132 ],
+						[ 4.3727812835, 50.8550438136 ],
+						[ 4.3726531459, 50.8550858857 ],
+						[ 4.3721053654, 50.8552465023 ],
+						[ 4.3718760592, 50.8553410265 ],
+						[ 4.371836992, 50.8553538532 ],
+						[ 4.3718386395, 50.8553564515 ],
+						[ 4.3717736118, 50.8553832569 ],
+						[ 4.3701637035, 50.8529291717 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42115,
+				"SectorName" : "Dehors",
+				"DateDebut" : "08/03/2027 10:00:00",
+				"DateFin" : "08/03/2027 11:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Fêtes, concerts, parades",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Carnaval Ecole de la Sagesse",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3590341385, 50.855856875 ],
+						[ 4.3589483241, 50.8557482059 ],
+						[ 4.3589936561, 50.8557317269 ],
+						[ 4.3590785055, 50.8558434482 ],
+						[ 4.3590341385, 50.855856875 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42225,
+				"SectorName" : "Dehors",
+				"DateDebut" : "22/12/2026 07:00:00",
+				"DateFin" : "22/12/2026 19:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Non Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Formation prévention incendie",
+				"Description" : "Formation prévention incendie"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3788525975, 50.8490052038 ],
+						[ 4.3788563622, 50.8486397598 ],
+						[ 4.3791070808, 50.8486470621 ],
+						[ 4.379106387, 50.8498008393 ],
+						[ 4.3789607746, 50.8498002425 ],
+						[ 4.3789875916, 50.8490072471 ],
+						[ 4.3788565246, 50.8490060739 ],
+						[ 4.3788525975, 50.8490052038 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42539,
+				"SectorName" : "Dehors",
+				"DateDebut" : "09/08/2023 17:15:00",
+				"DateFin" : "31/08/2033 16:30:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO",
+				"Libelle" : "Remise en état a contrôler avec attention",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3893990986, 50.8490171785 ],
+						[ 4.3894089086, 50.8490069667 ],
+						[ 4.3895608997, 50.8489626567 ],
+						[ 4.3895640686, 50.848967012 ],
+						[ 4.3893990986, 50.8490171785 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42555,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/01/2023 00:25:00",
+				"DateFin" : "31/01/2035 23:25:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Validation Demandée",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Remise en état a contrôler avec attention",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3893889181, 50.8490202743 ],
+						[ 4.3893580472, 50.8489909776 ],
+						[ 4.3879686598, 50.8471207586 ],
+						[ 4.3882695083, 50.8471158235 ],
+						[ 4.389581752, 50.8489616346 ],
+						[ 4.3895640686, 50.848967012 ],
+						[ 4.3895608997, 50.8489626567 ],
+						[ 4.3894089086, 50.8490069667 ],
+						[ 4.3893990986, 50.8490171785 ],
+						[ 4.3893889181, 50.8490202743 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42556,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/01/2023 00:25:00",
+				"DateFin" : "31/01/2035 23:25:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Remise en état a contrôler avec attention",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3794654822, 50.8498629643 ],
+						[ 4.3803890456, 50.8488849075 ],
+						[ 4.3801846019, 50.8488385335 ],
+						[ 4.3803234204, 50.8486822403 ],
+						[ 4.3805587198, 50.8487237271 ],
+						[ 4.3815111702, 50.8477590883 ],
+						[ 4.3817040449, 50.8478249962 ],
+						[ 4.3808364487, 50.8487652088 ],
+						[ 4.3809946023, 50.8487969356 ],
+						[ 4.3808943592, 50.8489581092 ],
+						[ 4.3806436314, 50.8489239503 ],
+						[ 4.3796776463, 50.8499178853 ],
+						[ 4.37949827, 50.8498666239 ],
+						[ 4.3794654822, 50.8498629643 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 42640,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/09/2023 10:15:00",
+				"DateFin" : "30/09/2042 10:15:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Remise en état a contrôler avec attention",
+				"Description" : ""
 			}
 		},
 		{
@@ -18126,89 +18737,6 @@
 				]
 			},
 			"properties" : {
-				"Chantier" : 42898,
-				"SectorName" : "Dehors",
-				"DateDebut" : "24/08/2024 06:00:00",
-				"DateFin" : "07/10/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3633272115, 50.8548604149 ],
-						[ 4.3631035462, 50.855251369 ],
-						[ 4.3630106487, 50.8554083216 ],
-						[ 4.3630008467, 50.8554323231 ],
-						[ 4.3630008451, 50.8554472457 ],
-						[ 4.3630305923, 50.8554993902 ],
-						[ 4.3626035877, 50.8561749531 ],
-						[ 4.3625423171, 50.8561933527 ],
-						[ 4.3624202991, 50.8563681925 ],
-						[ 4.3624521946, 50.8564144667 ],
-						[ 4.362375056, 50.8565365039 ],
-						[ 4.3623298102, 50.856535033 ],
-						[ 4.3620580667, 50.856950963 ],
-						[ 4.3620502533, 50.8569666942 ],
-						[ 4.3620479785, 50.8569854821 ],
-						[ 4.362055787, 50.8570079563 ],
-						[ 4.362197344, 50.8572180134 ],
-						[ 4.3623104103, 50.8571873512 ],
-						[ 4.3623562967, 50.8572400028 ],
-						[ 4.3623359413, 50.8572614723 ],
-						[ 4.3620788957, 50.8573304104 ],
-						[ 4.3621362291, 50.8574131598 ],
-						[ 4.362032675, 50.8574510994 ],
-						[ 4.3619921102, 50.8573919839 ],
-						[ 4.3619352981, 50.8574060045 ],
-						[ 4.3617316824, 50.8574619622 ],
-						[ 4.3616793764, 50.8576542445 ],
-						[ 4.361832041, 50.8581359442 ],
-						[ 4.3613976719, 50.8581865641 ],
-						[ 4.3612510464, 50.8576991768 ],
-						[ 4.3610707584, 50.8575054427 ],
-						[ 4.3601769198, 50.8569827311 ],
-						[ 4.3604771015, 50.8567743861 ],
-						[ 4.3611544185, 50.8571703735 ],
-						[ 4.3612426036, 50.8571586743 ],
-						[ 4.3613349725, 50.8571875449 ],
-						[ 4.3613485951, 50.8571706365 ],
-						[ 4.3613903206, 50.8571808779 ],
-						[ 4.3616304447, 50.8568533234 ],
-						[ 4.3615480743, 50.8568279595 ],
-						[ 4.3615433867, 50.8568340721 ],
-						[ 4.3614915501, 50.8568185174 ],
-						[ 4.3615544789, 50.8567309633 ],
-						[ 4.3611526809, 50.8561450861 ],
-						[ 4.3611252695, 50.8561711191 ],
-						[ 4.3611065032, 50.8561459857 ],
-						[ 4.361412964, 50.8560666514 ],
-						[ 4.3616385312, 50.856400712 ],
-						[ 4.3618610523, 50.8567230961 ],
-						[ 4.3618741754, 50.8567216405 ],
-						[ 4.3619425825, 50.8566567041 ],
-						[ 4.3622643632, 50.8562137454 ],
-						[ 4.3623812826, 50.8560408922 ],
-						[ 4.3625768842, 50.8557176304 ],
-						[ 4.3627911061, 50.8553574943 ],
-						[ 4.3630388045, 50.8549287998 ],
-						[ 4.3631233498, 50.8549087608 ],
-						[ 4.3631409252, 50.8549045938 ],
-						[ 4.3633264145, 50.8548606039 ],
-						[ 4.3633272115, 50.8548604149 ]
-					]
-				]
-			},
-			"properties" : {
 				"Chantier" : 42899,
 				"SectorName" : "Dehors",
 				"DateDebut" : "31/08/2024 06:00:00",
@@ -19719,47 +20247,189 @@
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Polygon",
+				"type" : "MultiPolygon",
 				"coordinates" : [
 					[
-						[ 4.3584908179, 50.8558024364 ],
-						[ 4.358554515, 50.8557887868 ],
-						[ 4.3588468705, 50.8557261398 ],
-						[ 4.3590410567, 50.8556845263 ],
-						[ 4.358973868, 50.8555548505 ],
-						[ 4.3592080434, 50.8554822424 ],
-						[ 4.3601645368, 50.8568302131 ],
-						[ 4.3611134844, 50.8574016665 ],
-						[ 4.3613449193, 50.8576751673 ],
-						[ 4.3615223027, 50.8582563378 ],
-						[ 4.3601886636, 50.8585182117 ],
-						[ 4.3601519824, 50.8584367147 ],
-						[ 4.3614065704, 50.8582074943 ],
-						[ 4.3612677544, 50.8577191162 ],
-						[ 4.3610903217, 50.8575042229 ],
-						[ 4.3600102067, 50.8569229929 ],
-						[ 4.3599562295, 50.8567325248 ],
-						[ 4.3593776954, 50.8559608581 ],
-						[ 4.3593854128, 50.8559510913 ],
-						[ 4.3593468323, 50.8559657396 ],
-						[ 4.3587722404, 50.8561318195 ],
-						[ 4.3586925923, 50.8560972904 ],
-						[ 4.3586266316, 50.8560046446 ],
-						[ 4.3584908179, 50.8558024364 ]
+						[
+							[ 4.3589423206, 50.8554939632 ],
+							[ 4.3589063234, 50.8554244876 ],
+							[ 4.3593233369, 50.8553155905 ],
+							[ 4.3597053439, 50.8559541642 ],
+							[ 4.3596730864, 50.8559632308 ],
+							[ 4.3596766489, 50.8559675301 ],
+							[ 4.3593789534, 50.8560343684 ],
+							[ 4.3593751132, 50.8560299111 ],
+							[ 4.3594059959, 50.8559905484 ],
+							[ 4.3590587905, 50.8555022939 ],
+							[ 4.358984106, 50.8554822146 ],
+							[ 4.3589423206, 50.8554939632 ]
+						]
+					],
+					[
+						[
+							[ 4.3588311494, 50.8561573583 ],
+							[ 4.3587522221, 50.8561750784 ],
+							[ 4.3587039714, 50.8561022241 ],
+							[ 4.3588311494, 50.8561573583 ]
+						]
 					]
 				]
 			},
 			"properties" : {
-				"Chantier" : 45387,
+				"Chantier" : 43047,
 				"SectorName" : "Dehors",
-				"DateDebut" : "11/10/2025 06:59:00",
-				"DateFin" : "11/10/2026 18:00:00",
+				"DateDebut" : "13/12/2026 06:00:00",
+				"DateFin" : "13/12/2026 20:00:00",
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
-				"Type" : "Marchés",
+				"Type" : "Fêtes, concerts, parades",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
+				"Libelle" : "Carnaval 2014",
+				"Description" : "Carnaval 2014"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ 4.3589423206, 50.8554939632 ],
+							[ 4.3589063234, 50.8554244875 ],
+							[ 4.3593233369, 50.8553155905 ],
+							[ 4.3593797893, 50.8554099591 ],
+							[ 4.3590587905, 50.8555022939 ],
+							[ 4.358984106, 50.8554822146 ],
+							[ 4.3589423206, 50.8554939632 ]
+						]
+					],
+					[
+						[
+							[ 4.3587039714, 50.8561022241 ],
+							[ 4.3588311494, 50.8561573583 ],
+							[ 4.3587522221, 50.8561750784 ],
+							[ 4.3587039714, 50.8561022241 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 43066,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/12/2026 06:00:00",
+				"DateFin" : "13/12/2026 20:00:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Validation Demandée",
+				"Type" : "Fêtes, concerts, parades",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Carnaval 2014",
+				"Description" : "Carnaval 2014"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3597053439, 50.8559541642 ],
+						[ 4.3596730864, 50.8559632308 ],
+						[ 4.3601179267, 50.8565280267 ],
+						[ 4.360488925, 50.8567261004 ],
+						[ 4.3604474269, 50.8567570369 ],
+						[ 4.3611544185, 50.8571703735 ],
+						[ 4.3612426036, 50.8571586743 ],
+						[ 4.3613349725, 50.8571875449 ],
+						[ 4.3613404684, 50.8571807233 ],
+						[ 4.3617924113, 50.857422001 ],
+						[ 4.3617805895, 50.8574485216 ],
+						[ 4.3617316824, 50.8574619622 ],
+						[ 4.3616905968, 50.8576129975 ],
+						[ 4.3612465932, 50.8576270859 ],
+						[ 4.3611252261, 50.8575639728 ],
+						[ 4.3610707584, 50.8575054427 ],
+						[ 4.3602106294, 50.8570024447 ],
+						[ 4.3599618996, 50.8567326385 ],
+						[ 4.3599856437, 50.85672433 ],
+						[ 4.3599171023, 50.8566630403 ],
+						[ 4.3593751132, 50.8560299111 ],
+						[ 4.3594059959, 50.8559905484 ],
+						[ 4.3590587905, 50.8555022939 ],
+						[ 4.3593797893, 50.8554099591 ],
+						[ 4.3597053439, 50.8559541642 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 43085,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/12/2026 06:00:00",
+				"DateFin" : "13/12/2026 20:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Validation Demandée",
+				"Type" : "Fêtes, concerts, parades",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Carnaval 2014",
+				"Description" : "Carnaval 2014"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3825404409, 50.8481943393 ],
+						[ 4.3825828187, 50.8480295087 ],
+						[ 4.3829936138, 50.8480624223 ],
+						[ 4.3829801676, 50.848232133 ],
+						[ 4.3825404409, 50.8481943393 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 44708,
+				"SectorName" : "Dehors",
+				"DateDebut" : "17/08/2024",
+				"DateFin" : "31/08/2034 23:55:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Commissariat Europe ZPZ POLBRU",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.357725895, 50.8644572195 ],
+						[ 4.3574867831, 50.8639517359 ],
+						[ 4.3584437183, 50.8637467034 ],
+						[ 4.3587021322, 50.8642497447 ],
+						[ 4.357725895, 50.8644572195 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 44718,
+				"SectorName" : "Dehors",
+				"DateDebut" : "21/08/2024",
+				"DateFin" : "31/08/2034 23:55:00",
+				"Gestionnaire" : "VBX",
+				"Statut" : "Validé",
+				"Type" : "Autres événements communaux",
+				"Url" : "",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Glibert ZPZ POLBRU",
 				"Description" : ""
 			}
 		},
@@ -21226,6 +21896,874 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45448,
+				"SectorName" : "Dehors",
+				"DateDebut" : "18/10/2025 07:00:00",
+				"DateFin" : "18/10/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45449,
+				"SectorName" : "Dehors",
+				"DateDebut" : "25/10/2025 07:00:00",
+				"DateFin" : "25/10/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45450,
+				"SectorName" : "Dehors",
+				"DateDebut" : "01/11/2025 07:00:00",
+				"DateFin" : "01/11/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45451,
+				"SectorName" : "Dehors",
+				"DateDebut" : "08/11/2025 07:00:00",
+				"DateFin" : "08/11/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45452,
+				"SectorName" : "Dehors",
+				"DateDebut" : "15/11/2025 07:00:00",
+				"DateFin" : "15/11/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45453,
+				"SectorName" : "Dehors",
+				"DateDebut" : "22/11/2025 07:00:00",
+				"DateFin" : "22/11/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45454,
+				"SectorName" : "Dehors",
+				"DateDebut" : "29/11/2025 07:00:00",
+				"DateFin" : "29/11/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45455,
+				"SectorName" : "Dehors",
+				"DateDebut" : "06/12/2025 07:00:00",
+				"DateFin" : "06/12/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45456,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/12/2025 07:00:00",
+				"DateFin" : "13/12/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45457,
+				"SectorName" : "Dehors",
+				"DateDebut" : "20/12/2025 07:00:00",
+				"DateFin" : "20/12/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45458,
+				"SectorName" : "Dehors",
+				"DateDebut" : "27/12/2025 07:00:00",
+				"DateFin" : "27/12/2026 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45459,
+				"SectorName" : "Dehors",
+				"DateDebut" : "03/01/2026 07:00:00",
+				"DateFin" : "03/01/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45460,
+				"SectorName" : "Dehors",
+				"DateDebut" : "10/01/2026 07:00:00",
+				"DateFin" : "10/01/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45461,
+				"SectorName" : "Dehors",
+				"DateDebut" : "17/01/2026 07:00:00",
+				"DateFin" : "17/01/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45462,
+				"SectorName" : "Dehors",
+				"DateDebut" : "24/01/2026 07:00:00",
+				"DateFin" : "24/01/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45463,
+				"SectorName" : "Dehors",
+				"DateDebut" : "31/01/2026 07:00:00",
+				"DateFin" : "31/01/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45464,
+				"SectorName" : "Dehors",
+				"DateDebut" : "07/02/2026 07:00:00",
+				"DateFin" : "07/02/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45465,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/02/2026 07:00:00",
+				"DateFin" : "14/02/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45466,
+				"SectorName" : "Dehors",
+				"DateDebut" : "21/02/2026 07:00:00",
+				"DateFin" : "21/02/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45467,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/02/2026 07:00:00",
+				"DateFin" : "28/02/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45468,
+				"SectorName" : "Dehors",
+				"DateDebut" : "07/03/2026 07:00:00",
+				"DateFin" : "07/03/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45469,
+				"SectorName" : "Dehors",
+				"DateDebut" : "14/03/2026 07:00:00",
+				"DateFin" : "14/03/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45470,
+				"SectorName" : "Dehors",
+				"DateDebut" : "21/03/2026 07:00:00",
+				"DateFin" : "21/03/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45471,
+				"SectorName" : "Dehors",
+				"DateDebut" : "28/03/2026 07:00:00",
+				"DateFin" : "28/03/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45472,
+				"SectorName" : "Dehors",
+				"DateDebut" : "04/04/2026 07:00:00",
+				"DateFin" : "04/04/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45473,
+				"SectorName" : "Dehors",
+				"DateDebut" : "11/04/2026 07:00:00",
+				"DateFin" : "11/04/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45474,
+				"SectorName" : "Dehors",
+				"DateDebut" : "18/04/2026 07:00:00",
+				"DateFin" : "18/04/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45475,
+				"SectorName" : "Dehors",
+				"DateDebut" : "25/04/2026 07:00:00",
+				"DateFin" : "25/04/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45476,
+				"SectorName" : "Dehors",
+				"DateDebut" : "02/05/2026 07:00:00",
+				"DateFin" : "02/05/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45477,
+				"SectorName" : "Dehors",
+				"DateDebut" : "09/05/2026 07:00:00",
+				"DateFin" : "09/05/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ 4.3616688322, 50.858793553 ],
+						[ 4.36152999, 50.8584614537 ],
+						[ 4.3616457323, 50.8584419253 ],
+						[ 4.3618000087, 50.8587642579 ],
+						[ 4.3616688322, 50.858793553 ]
+					]
+				]
+			},
+			"properties" : {
+				"Chantier" : 45478,
+				"SectorName" : "Dehors",
+				"DateDebut" : "16/05/2026 07:00:00",
+				"DateFin" : "16/05/2027 18:00:00",
+				"Gestionnaire" : "Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Convois Exceptionnels",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Marché du Nord",
+				"Description" : ""
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ 4.3554792235, 50.8565740228 ],
 						[ 4.3557182453, 50.8568573341 ],
 						[ 4.3558115235, 50.8569738481 ],
@@ -22182,1702 +23720,6 @@
 				"coordinates" : [
 					[
 						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18273,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2018 07:00:00",
-				"DateFin" : "31/12/2028 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18274,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2019 07:00:00",
-				"DateFin" : "31/12/2029 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18275,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2020 07:00:00",
-				"DateFin" : "01/01/2031 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18276,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2021 07:00:00",
-				"DateFin" : "01/01/2032 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18277,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2022 07:00:00",
-				"DateFin" : "31/12/2032 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18278,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2023 07:00:00",
-				"DateFin" : "31/12/2033 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18279,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2024 07:00:00",
-				"DateFin" : "01/01/2035 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18280,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2025 07:00:00",
-				"DateFin" : "01/01/2036 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578700404, 50.8739428979 ],
-							[ 4.3577378646, 50.8738286173 ],
-							[ 4.3587774447, 50.8734124053 ],
-							[ 4.3588656405, 50.873540315 ],
-							[ 4.3578700404, 50.8739428979 ]
-						]
-					],
-					[
-						[
-							[ 4.3545512503, 50.8751189043 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546574239, 50.875241958 ],
-							[ 4.3539840909, 50.8755142283 ],
-							[ 4.3537672093, 50.8755886292 ],
-							[ 4.3537080201, 50.8756076648 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528130846, 50.8758954807 ],
-							[ 4.352565595, 50.8759750746 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524632768, 50.8758573838 ],
-							[ 4.3537708834, 50.8754351601 ],
-							[ 4.3545512503, 50.8751189043 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 18281,
-				"SectorName" : "Dehors",
-				"DateDebut" : "15/12/2026 07:00:00",
-				"DateFin" : "31/12/2036 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Rue Marie-Christine)",
-				"Description" : "Contact Service Commerce VBX: 02/279.22.62"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578992092, 50.8739681176 ],
-							[ 4.3576613167, 50.8737624332 ],
-							[ 4.357649318, 50.8737519734 ],
-							[ 4.3588618672, 50.8733006489 ],
-							[ 4.3590632705, 50.873546899 ],
-							[ 4.3578992092, 50.8739681176 ]
-						]
-					],
-					[
-						[
-							[ 4.3544116226, 50.8749570803 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3545911502, 50.8751651475 ],
-							[ 4.3525146864, 50.8759165214 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524094901, 50.8757955107 ],
-							[ 4.3523482638, 50.8757250859 ],
-							[ 4.3544116226, 50.8749570803 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 19072,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578992108, 50.873968119 ],
-							[ 4.3576613167, 50.8737624332 ],
-							[ 4.3576493233, 50.873751978 ],
-							[ 4.3587281459, 50.873350429 ],
-							[ 4.3587796764, 50.8733706953 ],
-							[ 4.3587884125, 50.8733781483 ],
-							[ 4.3587900436, 50.8733917674 ],
-							[ 4.3587833066, 50.8734056376 ],
-							[ 4.3587781769, 50.8734094577 ],
-							[ 4.358867715, 50.8735389218 ],
-							[ 4.3588981349, 50.8735302224 ],
-							[ 4.3589260387, 50.873528202 ],
-							[ 4.3589606758, 50.8735318184 ],
-							[ 4.3589980821, 50.873541512 ],
-							[ 4.3590337596, 50.8735575798 ],
-							[ 4.3578992108, 50.873968119 ]
-						]
-					],
-					[
-						[
-							[ 4.3544116249, 50.874957083 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.354591151, 50.8751651484 ],
-							[ 4.352514687, 50.875916522 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524094901, 50.8757955107 ],
-							[ 4.3523482648, 50.875725087 ],
-							[ 4.3544116249, 50.874957083 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 19082,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3590632705, 50.873546899 ],
-						[ 4.3590337596, 50.8735575798 ],
-						[ 4.3589980821, 50.873541512 ],
-						[ 4.3589606758, 50.8735318184 ],
-						[ 4.3589260387, 50.873528202 ],
-						[ 4.3588981349, 50.8735302224 ],
-						[ 4.358867715, 50.8735389218 ],
-						[ 4.3587781769, 50.8734094577 ],
-						[ 4.3587833066, 50.8734056376 ],
-						[ 4.3587900436, 50.8733917674 ],
-						[ 4.3587884125, 50.8733781483 ],
-						[ 4.3587796764, 50.8733706953 ],
-						[ 4.3587281459, 50.873350429 ],
-						[ 4.3588618672, 50.8733006489 ],
-						[ 4.3590632705, 50.873546899 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 19092,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578992108, 50.873968119 ],
-							[ 4.3576613167, 50.8737624332 ],
-							[ 4.3576493233, 50.873751978 ],
-							[ 4.3587281459, 50.873350429 ],
-							[ 4.3587796764, 50.8733706953 ],
-							[ 4.3587884125, 50.8733781483 ],
-							[ 4.3587900436, 50.8733917674 ],
-							[ 4.3587833066, 50.8734056376 ],
-							[ 4.3587781769, 50.8734094577 ],
-							[ 4.358867715, 50.8735389218 ],
-							[ 4.3588981349, 50.8735302224 ],
-							[ 4.3589260387, 50.873528202 ],
-							[ 4.3589606758, 50.8735318184 ],
-							[ 4.3589980821, 50.873541512 ],
-							[ 4.3590337596, 50.8735575798 ],
-							[ 4.3578992108, 50.873968119 ]
-						]
-					],
-					[
-						[
-							[ 4.3544116249, 50.874957083 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.354591151, 50.8751651484 ],
-							[ 4.352514687, 50.875916522 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524094901, 50.8757955107 ],
-							[ 4.3523482648, 50.875725087 ],
-							[ 4.3544116249, 50.874957083 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 31576,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3590632705, 50.873546899 ],
-						[ 4.3590337596, 50.8735575798 ],
-						[ 4.3589980821, 50.873541512 ],
-						[ 4.3589606758, 50.8735318184 ],
-						[ 4.3589260387, 50.873528202 ],
-						[ 4.3588981349, 50.8735302224 ],
-						[ 4.358867715, 50.8735389218 ],
-						[ 4.3587781769, 50.8734094577 ],
-						[ 4.3587833066, 50.8734056376 ],
-						[ 4.3587900436, 50.8733917674 ],
-						[ 4.3587884125, 50.8733781483 ],
-						[ 4.3587796764, 50.8733706953 ],
-						[ 4.3587281459, 50.873350429 ],
-						[ 4.3588618672, 50.8733006489 ],
-						[ 4.3590632705, 50.873546899 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 31586,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578992108, 50.873968119 ],
-							[ 4.3576613167, 50.8737624332 ],
-							[ 4.3576493233, 50.873751978 ],
-							[ 4.3587281459, 50.873350429 ],
-							[ 4.3587796764, 50.8733706953 ],
-							[ 4.3587884125, 50.8733781483 ],
-							[ 4.3587900436, 50.8733917674 ],
-							[ 4.3587833066, 50.8734056376 ],
-							[ 4.3587781769, 50.8734094577 ],
-							[ 4.358867715, 50.8735389218 ],
-							[ 4.3588981349, 50.8735302224 ],
-							[ 4.3589260387, 50.873528202 ],
-							[ 4.3589606758, 50.8735318184 ],
-							[ 4.3589980821, 50.873541512 ],
-							[ 4.3590337596, 50.8735575798 ],
-							[ 4.3578992108, 50.873968119 ]
-						]
-					],
-					[
-						[
-							[ 4.3544116249, 50.874957083 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.354591151, 50.8751651484 ],
-							[ 4.352514687, 50.875916522 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524094901, 50.8757955107 ],
-							[ 4.3523482648, 50.875725087 ],
-							[ 4.3544116249, 50.874957083 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 31596,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3590632705, 50.873546899 ],
-						[ 4.3590337596, 50.8735575798 ],
-						[ 4.3589980821, 50.873541512 ],
-						[ 4.3589606758, 50.8735318184 ],
-						[ 4.3589260387, 50.873528202 ],
-						[ 4.3588981349, 50.8735302224 ],
-						[ 4.358867715, 50.8735389218 ],
-						[ 4.3587781769, 50.8734094577 ],
-						[ 4.3587833066, 50.8734056376 ],
-						[ 4.3587900436, 50.8733917674 ],
-						[ 4.3587884125, 50.8733781483 ],
-						[ 4.3587796764, 50.8733706953 ],
-						[ 4.3587281459, 50.873350429 ],
-						[ 4.3588618672, 50.8733006489 ],
-						[ 4.3590632705, 50.873546899 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 31606,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/04/2027 01:00:00",
-				"DateFin" : "30/04/2027 23:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Bocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3580098294, 50.865623675 ],
-						[ 4.3582895716, 50.8656481168 ],
-						[ 4.3595815778, 50.8690606948 ],
-						[ 4.3607389586, 50.8708311088 ],
-						[ 4.3608836061, 50.8712584395 ],
-						[ 4.3606038379, 50.8711790622 ],
-						[ 4.3604784738, 50.8708433008 ],
-						[ 4.3593403904, 50.8691095141 ],
-						[ 4.3591186182, 50.86851735 ],
-						[ 4.3580001827, 50.8656236742 ],
-						[ 4.3580098294, 50.865623675 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 32650,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/06/2019 07:00:00",
-				"DateFin" : "01/01/2029 07:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
-				"Description" : "Contact Service Commerce VBX : 02/279.25.41"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.360876445, 50.8712547894 ],
-						[ 4.3608826376, 50.871255579 ],
-						[ 4.3608836061, 50.8712584395 ],
-						[ 4.3607337726, 50.8712158022 ],
-						[ 4.360876445, 50.8712547894 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 32651,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/06/2019 07:00:00",
-				"DateFin" : "01/01/2029 07:00:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
-				"Description" : "Contact Service Commerce VBX : 02/279.25.41"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3580098294, 50.865623675 ],
-						[ 4.3582895716, 50.8656481168 ],
-						[ 4.3595815778, 50.8690606948 ],
-						[ 4.3607389586, 50.8708311088 ],
-						[ 4.3608826376, 50.871255579 ],
-						[ 4.360876445, 50.8712547894 ],
-						[ 4.3607337726, 50.8712158022 ],
-						[ 4.3606038379, 50.8711790622 ],
-						[ 4.3604784738, 50.8708433008 ],
-						[ 4.3593403904, 50.8691095141 ],
-						[ 4.3591186182, 50.86851735 ],
-						[ 4.3580001827, 50.8656236742 ],
-						[ 4.3580098294, 50.865623675 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 32652,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/06/2019 07:00:00",
-				"DateFin" : "01/01/2029 07:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Rue commerçante (Chaussée d'Anvers)",
-				"Description" : "Contact Service Commerce VBX : 02/279.25.41"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3593403494, 50.8552734406 ],
-							[ 4.3593893882, 50.8553137679 ],
-							[ 4.3589174982, 50.8554460552 ],
-							[ 4.3588784655, 50.8553707211 ],
-							[ 4.3593403494, 50.8552734406 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 39374,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13/10/2026 22:59:00",
-				"DateFin" : "04/02/2027 22:59:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO",
-				"Libelle" : "Illuminations Ville de Bruxelles - Zone Centre",
-				"Description" : "Illuminations des rues de Ville de Bruxelles"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3578735851, 50.8739459627 ],
-							[ 4.3577409122, 50.8738312523 ],
-							[ 4.3577506531, 50.8738283258 ],
-							[ 4.3578377143, 50.873788031 ],
-							[ 4.3587352813, 50.8734267087 ],
-							[ 4.3588472632, 50.8735471968 ],
-							[ 4.3584705129, 50.8736996302 ],
-							[ 4.3580252109, 50.8738813775 ],
-							[ 4.3580254902, 50.8738843108 ],
-							[ 4.3578735851, 50.8739459627 ]
-						]
-					],
-					[
-						[
-							[ 4.3545484084, 50.8751156108 ],
-							[ 4.3545706091, 50.8751413407 ],
-							[ 4.3546575189, 50.875242068 ],
-							[ 4.3544411406, 50.8753300761 ],
-							[ 4.3539835187, 50.8755128025 ],
-							[ 4.3537732292, 50.8755935472 ],
-							[ 4.3537665447, 50.8755876529 ],
-							[ 4.3537072557, 50.8756067666 ],
-							[ 4.3536927139, 50.8755896783 ],
-							[ 4.3536177219, 50.8756157544 ],
-							[ 4.3533864803, 50.8756961397 ],
-							[ 4.353095973, 50.8757971401 ],
-							[ 4.3528308768, 50.8758892956 ],
-							[ 4.3525654205, 50.875974874 ],
-							[ 4.3525093171, 50.8759103457 ],
-							[ 4.3524758617, 50.8758718606 ],
-							[ 4.3524626196, 50.8758566277 ],
-							[ 4.3537745905, 50.8754343659 ],
-							[ 4.353784316, 50.8754202483 ],
-							[ 4.3538368944, 50.8754053439 ],
-							[ 4.3540483748, 50.8753159136 ],
-							[ 4.3545484084, 50.8751156108 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 39476,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13/10/2026 22:59:00",
-				"DateFin" : "04/02/2027 22:59:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Illuminations Ville de Bruxelles - Laeken Marie-Christine",
-				"Description" : "Illuminations Ville de Bruxelles : \nDécoration au-dessus de voirie\nSapin\nStructure posé au sol "
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3848178898, 50.8465930217 ],
-						[ 4.3848485896, 50.8466213045 ],
-						[ 4.3849211936, 50.8467285228 ],
-						[ 4.3849258951, 50.846732954 ],
-						[ 4.3849328397, 50.8467359914 ],
-						[ 4.3849410474, 50.8467372038 ],
-						[ 4.384975403, 50.8467381347 ],
-						[ 4.3850433155, 50.8468006991 ],
-						[ 4.3850588662, 50.8471376733 ],
-						[ 4.3848274418, 50.8471377066 ],
-						[ 4.3847810757, 50.8469081785 ],
-						[ 4.38468961, 50.84676268 ],
-						[ 4.3846518035, 50.8466879825 ],
-						[ 4.3846205926, 50.8466375007 ],
-						[ 4.3846439172, 50.8466436863 ],
-						[ 4.3848140942, 50.8465941271 ],
-						[ 4.3848178898, 50.8465930217 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 39616,
-				"SectorName" : "Dehors",
-				"DateDebut" : "13/10/2026 22:59:00",
-				"DateFin" : "04/02/2027 22:59:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Illuminations Ville de Bruxelles - Zone EU",
-				"Description" : "Illuminations Ville de Bruxelles : \nDécoration au dessus de la voirie\nDécoration des arbres\nStructure lulimineuse au sol"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3707372422, 50.8516879503 ],
-						[ 4.3708501276, 50.851630759 ],
-						[ 4.3708957853, 50.8516755989 ],
-						[ 4.3714186973, 50.8521968864 ],
-						[ 4.3715902601, 50.8523948302 ],
-						[ 4.3716342841, 50.8524040881 ],
-						[ 4.3716610887, 50.8523932332 ],
-						[ 4.371717915, 50.8524734102 ],
-						[ 4.3717062891, 50.8524777998 ],
-						[ 4.3716954983, 50.8525034202 ],
-						[ 4.3719396426, 50.8528396197 ],
-						[ 4.3719710957, 50.8528306228 ],
-						[ 4.3720306159, 50.8529145989 ],
-						[ 4.3719991242, 50.8529239123 ],
-						[ 4.3722596346, 50.8532803639 ],
-						[ 4.3723508332, 50.8534112117 ],
-						[ 4.3723868038, 50.8534171322 ],
-						[ 4.3724451546, 50.853499456 ],
-						[ 4.3724336228, 50.8535175904 ],
-						[ 4.3727096648, 50.8539018449 ],
-						[ 4.3727277, 50.8538980796 ],
-						[ 4.3728827086, 50.8541090358 ],
-						[ 4.3730608449, 50.8544642505 ],
-						[ 4.3732231347, 50.8548113897 ],
-						[ 4.3732365302, 50.8548145724 ],
-						[ 4.373291441, 50.854924065 ],
-						[ 4.3732872831, 50.8549300751 ],
-						[ 4.3735701036, 50.8554626897 ],
-						[ 4.3738936995, 50.8560516692 ],
-						[ 4.3737493711, 50.8561189537 ],
-						[ 4.37359287, 50.8558316174 ],
-						[ 4.3731368918, 50.854985457 ],
-						[ 4.3730959893, 50.854974132 ],
-						[ 4.3730515967, 50.8549891378 ],
-						[ 4.3729991462, 50.8549041846 ],
-						[ 4.3730816491, 50.8548754369 ],
-						[ 4.3729363193, 50.8545738365 ],
-						[ 4.3727473967, 50.8541732722 ],
-						[ 4.3726569199, 50.8540426584 ],
-						[ 4.3726184328, 50.8540336704 ],
-						[ 4.3724843258, 50.85407032 ],
-						[ 4.372420644, 50.853967171 ],
-						[ 4.3725460664, 50.853933746 ],
-						[ 4.3725603223, 50.8539082242 ],
-						[ 4.3723049612, 50.8535511259 ],
-						[ 4.3722713031, 50.8535430366 ],
-						[ 4.372173609, 50.8535670303 ],
-						[ 4.3721208063, 50.8534815008 ],
-						[ 4.3722086676, 50.8534597062 ],
-						[ 4.372222867, 50.8534377713 ],
-						[ 4.3715596102, 50.8525325143 ],
-						[ 4.3715313069, 50.8525258719 ],
-						[ 4.3714768448, 50.8525418559 ],
-						[ 4.3714257181, 50.8524785123 ],
-						[ 4.3714658924, 50.8524668128 ],
-						[ 4.3714782886, 50.8524479435 ],
-						[ 4.3713864713, 50.8523436859 ],
-						[ 4.370791555, 50.8517422136 ],
-						[ 4.3707372422, 50.8516879503 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41724,
-				"SectorName" : "Dehors",
-				"DateDebut" : "04/11/2026 07:00:00",
-				"DateFin" : "06/11/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode, Schaerbeek",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3723756393, 50.8564101469 ],
-						[ 4.3723145522, 50.8563099381 ],
-						[ 4.3724283544, 50.8562745271 ],
-						[ 4.3726540718, 50.8566407962 ],
-						[ 4.3726367118, 50.8566432388 ],
-						[ 4.3725344863, 50.856720161 ],
-						[ 4.3723049326, 50.8565883095 ],
-						[ 4.3724611715, 50.8565504551 ],
-						[ 4.3723756393, 50.8564101469 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41745,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/11/2026 07:00:00",
-				"DateFin" : "07/11/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3717124371, 50.8524677026 ],
-						[ 4.3716507123, 50.8524042162 ],
-						[ 4.3727616277, 50.8519792945 ],
-						[ 4.3728117806, 50.852037897 ],
-						[ 4.3717124371, 50.8524677026 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41765,
-				"SectorName" : "Dehors",
-				"DateDebut" : "04/11/2026 07:00:00",
-				"DateFin" : "06/11/2026 19:50:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3744584895, 50.8529105539 ],
-						[ 4.3746689346, 50.8528949248 ],
-						[ 4.3757429833, 50.8528534562 ],
-						[ 4.3761272918, 50.8528467788 ],
-						[ 4.3762036939, 50.8528445262 ],
-						[ 4.3762304857, 50.8528346307 ],
-						[ 4.3764561695, 50.8528259149 ],
-						[ 4.3764706756, 50.8528401025 ],
-						[ 4.37712904, 50.8528247715 ],
-						[ 4.3773132284, 50.8528196331 ],
-						[ 4.3773480184, 50.8528048876 ],
-						[ 4.3773555549, 50.8527911769 ],
-						[ 4.3776629385, 50.8527793028 ],
-						[ 4.3776566072, 50.8527907493 ],
-						[ 4.3776787652, 50.8528111537 ],
-						[ 4.3777898566, 50.8528093532 ],
-						[ 4.3777658788, 50.8529461196 ],
-						[ 4.377603811, 50.8529495082 ],
-						[ 4.3775755514, 50.8529536456 ],
-						[ 4.377551269, 50.8529623674 ],
-						[ 4.377532242, 50.8529755835 ],
-						[ 4.3775307356, 50.8529776821 ],
-						[ 4.3773336473, 50.8529825766 ],
-						[ 4.3773339926, 50.8529746105 ],
-						[ 4.3772956458, 50.8529568143 ],
-						[ 4.3764481193, 50.8529730588 ],
-						[ 4.3764151757, 50.8529915795 ],
-						[ 4.3764138517, 50.8530054147 ],
-						[ 4.3762470169, 50.8530095564 ],
-						[ 4.3762481702, 50.8529975064 ],
-						[ 4.3762160579, 50.8529784958 ],
-						[ 4.37607477, 50.8529799169 ],
-						[ 4.3746122914, 50.853032488 ],
-						[ 4.374482692, 50.8530411161 ],
-						[ 4.3744709087, 50.8530536333 ],
-						[ 4.3743088637, 50.8530576533 ],
-						[ 4.3741952841, 50.8529251198 ],
-						[ 4.3742129813, 50.8529287887 ],
-						[ 4.3744584895, 50.8529105539 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41791,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/11/2026 07:00:00",
-				"DateFin" : "14/11/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3729715323, 50.8517709094 ],
-						[ 4.3731204769, 50.8515604589 ],
-						[ 4.3731399287, 50.8515294443 ],
-						[ 4.3733845692, 50.85118127 ],
-						[ 4.3733630935, 50.8511568035 ],
-						[ 4.3734599998, 50.8510177279 ],
-						[ 4.373472213, 50.8510328853 ],
-						[ 4.3735195443, 50.8510369644 ],
-						[ 4.3736228863, 50.8509494108 ],
-						[ 4.3738248911, 50.8508405471 ],
-						[ 4.374116266, 50.8506753953 ],
-						[ 4.3741043346, 50.850652203 ],
-						[ 4.374047704, 50.8506507015 ],
-						[ 4.3741851312, 50.8505789171 ],
-						[ 4.3742818319, 50.8505811767 ],
-						[ 4.3746027964, 50.8504095047 ],
-						[ 4.3746382436, 50.8503280938 ],
-						[ 4.3746401355, 50.8503306404 ],
-						[ 4.3747288373, 50.8501285784 ],
-						[ 4.3748938701, 50.8501573148 ],
-						[ 4.3748179618, 50.8503305458 ],
-						[ 4.3748840413, 50.8503440901 ],
-						[ 4.3746808043, 50.8505444148 ],
-						[ 4.3746639182, 50.8505327474 ],
-						[ 4.3745882213, 50.8505755057 ],
-						[ 4.3745598742, 50.8505547325 ],
-						[ 4.3743791008, 50.8506529347 ],
-						[ 4.3743322564, 50.8506773617 ],
-						[ 4.3737347373, 50.8510070371 ],
-						[ 4.3735962945, 50.8511216599 ],
-						[ 4.3736833308, 50.8511442729 ],
-						[ 4.3736232282, 50.851224948 ],
-						[ 4.3735294185, 50.8512006807 ],
-						[ 4.3730646168, 50.8518552688 ],
-						[ 4.3728814461, 50.8518245839 ],
-						[ 4.3729045897, 50.8518148156 ],
-						[ 4.3729354935, 50.8517704654 ],
-						[ 4.3729715323, 50.8517709094 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41811,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/11/2026 06:59:00",
-				"DateFin" : "14/11/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3574075284, 50.8592959599 ],
-						[ 4.3587529816, 50.8590037291 ],
-						[ 4.3588146155, 50.8591146859 ],
-						[ 4.3574605398, 50.8594015259 ],
-						[ 4.3574075284, 50.8592959599 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41882,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/12/2026 07:00:00",
-				"DateFin" : "09/12/2026 19:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3759586446, 50.8517049243 ],
-						[ 4.3767646956, 50.8508770786 ],
-						[ 4.37690357, 50.8509259054 ],
-						[ 4.3761129466, 50.8517317743 ],
-						[ 4.3759586446, 50.8517049243 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41902,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/12/2026 07:00:00",
-				"DateFin" : "09/12/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3670402586, 50.8546485521 ],
-						[ 4.3670306149, 50.8546253544 ],
-						[ 4.3678966635, 50.8544483247 ],
-						[ 4.3679082364, 50.8544727432 ],
-						[ 4.3670402586, 50.8546485521 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41921,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/12/2026 07:00:00",
-				"DateFin" : "09/12/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3742479164, 50.8524489748 ],
-						[ 4.3742074103, 50.852430663 ],
-						[ 4.3748457392, 50.8518299318 ],
-						[ 4.3748862454, 50.8518506852 ],
-						[ 4.3742479164, 50.8524489748 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41936,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/12/2026 07:00:00",
-				"DateFin" : "09/12/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ 4.3669989888, 50.8535826974 ],
-							[ 4.3670824503, 50.8535406475 ],
-							[ 4.3673849987, 50.8534726068 ],
-							[ 4.3684831428, 50.8532256332 ],
-							[ 4.3685062884, 50.8532549354 ],
-							[ 4.3682941227, 50.8533110986 ],
-							[ 4.3682748348, 50.8532842383 ],
-							[ 4.3669989888, 50.8535826974 ]
-						]
-					],
-					[
-						[
-							[ 4.3668115221, 50.8536771476 ],
-							[ 4.3668785016, 50.8536434017 ],
-							[ 4.3668861021, 50.8536578359 ],
-							[ 4.3668115221, 50.8536771476 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 41964,
-				"SectorName" : "Dehors",
-				"DateDebut" : "28/11/2026 07:00:00",
-				"DateFin" : "02/12/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Elagage Communal",
-				"Description" : "Elagage Communal"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3899971593, 50.8452021943 ],
-						[ 4.3901321783, 50.8452607736 ],
-						[ 4.3882816115, 50.8470021521 ],
-						[ 4.3880694811, 50.8470192814 ],
-						[ 4.3899971593, 50.8452021943 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42025,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/01/2023",
-				"DateFin" : "27/01/2044 23:55:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "En Cours de Validation",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3893889181, 50.8490202743 ],
-						[ 4.3893580472, 50.8489909776 ],
-						[ 4.3879686598, 50.8471207586 ],
-						[ 4.3882695083, 50.8471158235 ],
-						[ 4.389581752, 50.8489616346 ],
-						[ 4.3893889181, 50.8490202743 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42029,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/01/2023 00:25:00",
-				"DateFin" : "31/01/2035 23:25:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Subdivisé (initial)",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3590341385, 50.855856875 ],
-						[ 4.3589483241, 50.8557482059 ],
-						[ 4.3589936561, 50.8557317269 ],
-						[ 4.3590785055, 50.8558434482 ],
-						[ 4.3590341385, 50.855856875 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42225,
-				"SectorName" : "Dehors",
-				"DateDebut" : "22/12/2026 07:00:00",
-				"DateFin" : "22/12/2026 19:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Non Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Formation prévention incendie",
-				"Description" : "Formation prévention incendie"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3788525975, 50.8490052038 ],
-						[ 4.3788563622, 50.8486397598 ],
-						[ 4.3791070808, 50.8486470621 ],
-						[ 4.379106387, 50.8498008393 ],
-						[ 4.3789607746, 50.8498002425 ],
-						[ 4.3789875916, 50.8490072471 ],
-						[ 4.3788565246, 50.8490060739 ],
-						[ 4.3788525975, 50.8490052038 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42539,
-				"SectorName" : "Dehors",
-				"DateDebut" : "09/08/2023 17:15:00",
-				"DateFin" : "31/08/2033 16:30:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP POLBRUNO",
-				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3893990986, 50.8490171785 ],
-						[ 4.3894089086, 50.8490069667 ],
-						[ 4.3895608997, 50.8489626567 ],
-						[ 4.3895640686, 50.848967012 ],
-						[ 4.3893990986, 50.8490171785 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42555,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/01/2023 00:25:00",
-				"DateFin" : "31/01/2035 23:25:00",
-				"Gestionnaire" : "Administrateur Régional",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3893889181, 50.8490202743 ],
-						[ 4.3893580472, 50.8489909776 ],
-						[ 4.3879686598, 50.8471207586 ],
-						[ 4.3882695083, 50.8471158235 ],
-						[ 4.389581752, 50.8489616346 ],
-						[ 4.3895640686, 50.848967012 ],
-						[ 4.3895608997, 50.8489626567 ],
-						[ 4.3894089086, 50.8490069667 ],
-						[ 4.3893990986, 50.8490171785 ],
-						[ 4.3893889181, 50.8490202743 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42556,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/01/2023 00:25:00",
-				"DateFin" : "31/01/2035 23:25:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3794654822, 50.8498629643 ],
-						[ 4.3803890456, 50.8488849075 ],
-						[ 4.3801846019, 50.8488385335 ],
-						[ 4.3803234204, 50.8486822403 ],
-						[ 4.3805587198, 50.8487237271 ],
-						[ 4.3815111702, 50.8477590883 ],
-						[ 4.3817040449, 50.8478249962 ],
-						[ 4.3808364487, 50.8487652088 ],
-						[ 4.3809946023, 50.8487969356 ],
-						[ 4.3808943592, 50.8489581092 ],
-						[ 4.3806436314, 50.8489239503 ],
-						[ 4.3796776463, 50.8499178853 ],
-						[ 4.37949827, 50.8498666239 ],
-						[ 4.3794654822, 50.8498629643 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 42640,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/09/2023 10:15:00",
-				"DateFin" : "30/09/2042 10:15:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Remise en état a contrôler avec attention",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3825404409, 50.8481943393 ],
-						[ 4.3825828187, 50.8480295087 ],
-						[ 4.3829936138, 50.8480624223 ],
-						[ 4.3829801676, 50.848232133 ],
-						[ 4.3825404409, 50.8481943393 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 44708,
-				"SectorName" : "Dehors",
-				"DateDebut" : "17/08/2024",
-				"DateFin" : "31/08/2034 23:55:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Commissariat Europe ZPZ POLBRU",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.357725895, 50.8644572195 ],
-						[ 4.3574867831, 50.8639517359 ],
-						[ 4.3584437183, 50.8637467034 ],
-						[ 4.3587021322, 50.8642497447 ],
-						[ 4.357725895, 50.8644572195 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 44718,
-				"SectorName" : "Dehors",
-				"DateDebut" : "21/08/2024",
-				"DateFin" : "31/08/2034 23:55:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Glibert ZPZ POLBRU",
-				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ 4.3632768517, 50.8763187776 ],
 							[ 4.3632343188, 50.8763125189 ],
 							[ 4.3630050184, 50.8762728806 ],
@@ -24314,62 +24156,6 @@
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES, ZP BRUXELLES-OUEST",
 				"Libelle" : "ZA - LAEKEN - Maritime",
 				"Description" : ""
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3866168455, 50.8484270717 ],
-						[ 4.3873496264, 50.8482303842 ],
-						[ 4.3874017255, 50.8482975267 ],
-						[ 4.3866650871, 50.8484954361 ],
-						[ 4.3866168455, 50.8484270717 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 46568,
-				"SectorName" : "Dehors",
-				"DateDebut" : "08/10/2026 06:00:00",
-				"DateFin" : "08/10/2026 18:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Campagne encombrant octobre 2026",
-				"Description" : "Collecte des encombrants "
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ 4.3866129878, 50.8484258514 ],
-						[ 4.387353482, 50.8482267207 ],
-						[ 4.3873959427, 50.8483048532 ],
-						[ 4.3866670171, 50.8484990986 ],
-						[ 4.3866129878, 50.8484258514 ]
-					]
-				]
-			},
-			"properties" : {
-				"Chantier" : 46572,
-				"SectorName" : "Dehors",
-				"DateDebut" : "10/10/2026 06:00:00",
-				"DateFin" : "10/10/2026 18:00:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validation Demandée",
-				"Type" : "Autres événements communaux",
-				"Url" : "",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Campagne encombrant octobre 2026",
-				"Description" : "Collecte encombrant "
 			}
 		}
 	]
