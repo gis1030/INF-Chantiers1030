@@ -6,6 +6,28 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
+				"coordinates" : [ 4.3477934729, 50.8598111874 ]
+			},
+			"properties" : {
+				"Chantier" : 45103,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/10/2025 09:00:00",
+				"DateFin" : "23/09/2040 15:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marcché  Quai des Péniches",
+				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
 				"coordinates" : [ 4.3764209264, 50.8629043451 ]
 			},
 			"properties" : {
@@ -20,28 +42,6 @@
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Journée internationale de la femme",
 				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3477934729, 50.8598111874 ]
-			},
-			"properties" : {
-				"Chantier" : 45109,
-				"SectorName" : "Dehors",
-				"DateDebut" : "16/11/2025 09:00:00",
-				"DateFin" : "04/11/2040 15:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marcché  Quai des Péniches",
-				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
 				"ObjType" : "E",
 				"SymbolInfo" : "event"
 			}
@@ -402,16 +402,82 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3943549692, 50.8437985307 ]
+				"coordinates" : [ 4.3599460397, 50.873924621 ]
 			},
 			"properties" : {
-				"Chantier" : 19426,
+				"Chantier" : 19123,
 				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
+				"DateDebut" : "18/04/2027 00:05:00",
+				"DateFin" : "10/05/2027 23:50:00",
+				"Gestionnaire" : "Administrateur Régional",
 				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3599460397, 50.873924621 ]
+			},
+			"properties" : {
+				"Chantier" : 19576,
+				"SectorName" : "Dehors",
+				"DateDebut" : "18/04/2027 00:05:00",
+				"DateFin" : "10/05/2027 23:50:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3599460397, 50.873924621 ]
+			},
+			"properties" : {
+				"Chantier" : 19595,
+				"SectorName" : "Dehors",
+				"DateDebut" : "18/04/2027 00:05:00",
+				"DateFin" : "10/05/2027 23:50:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
+				"Url" : "www.bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Braderie/Brocante",
+				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3599460397, 50.873924621 ]
+			},
+			"properties" : {
+				"Chantier" : 19610,
+				"SectorName" : "Dehors",
+				"DateDebut" : "18/04/2027 00:05:00",
+				"DateFin" : "10/05/2027 23:50:00",
+				"Gestionnaire" : "Administrateur Régional",
+				"Statut" : "Enregistré",
+				"Type" : "Autres événements communaux",
 				"Url" : "www.bruxelles.be",
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
 				"Libelle" : "Braderie/Brocante",
@@ -1392,38 +1458,16 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3943140493, 50.8438139682 ]
+				"coordinates" : [ 4.3599460397, 50.873924621 ]
 			},
 			"properties" : {
-				"Chantier" : 31714,
+				"Chantier" : 31625,
 				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "VBX",
-				"Statut" : "Validé",
-				"Type" : "Brocantes",
-				"Url" : "www.bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Braderie/Brocante",
-				"Description" : "Contact : Animations.Eco.Animaties@brucity.be  02 279 25 30",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3948841797, 50.843598877 ]
-			},
-			"properties" : {
-				"Chantier" : 31724,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2026 15:10:00",
-				"DateFin" : "12/10/2026 14:10:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
+				"DateDebut" : "18/04/2027 00:05:00",
+				"DateFin" : "10/05/2027 23:50:00",
+				"Gestionnaire" : "Administrateur Régional",
 				"Statut" : "Enregistré",
-				"Type" : "Brocantes",
+				"Type" : "Autres événements communaux",
 				"Url" : "www.bruxelles.be",
 				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
 				"Libelle" : "Braderie/Brocante",
@@ -6870,6 +6914,28 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
+				"coordinates" : [ 4.3680757981, 50.8547832482 ]
+			},
+			"properties" : {
+				"Chantier" : 40870,
+				"SectorName" : "Dehors",
+				"DateDebut" : "13/04/2027 22:59:00",
+				"DateFin" : "14/04/2027 18:59:00",
+				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
+				"Statut" : "Enregistré",
+				"Type" : "Brocantes",
+				"Url" : "",
+				"Zones de police" : "ZP POLBRUNO",
+				"Libelle" : "Fête des Commerçants Méridien Haecht",
+				"Description" : "",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
 				"coordinates" : [ 4.3722358434, 50.8535496968 ]
 			},
 			"properties" : {
@@ -8589,50 +8655,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42899,
-				"SectorName" : "Dehors",
-				"DateDebut" : "31/08/2024 06:00:00",
-				"DateFin" : "14/10/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
-				"Chantier" : 42900,
-				"SectorName" : "Dehors",
-				"DateDebut" : "07/09/2024 06:00:00",
-				"DateFin" : "21/10/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42901,
 				"SectorName" : "Dehors",
 				"DateDebut" : "14/09/2024 06:00:00",
@@ -9755,28 +9777,6 @@
 				"coordinates" : [ 4.3477934729, 50.8598111874 ]
 			},
 			"properties" : {
-				"Chantier" : 45103,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/10/2025 09:00:00",
-				"DateFin" : "23/09/2040 15:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marcché  Quai des Péniches",
-				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3477934729, 50.8598111874 ]
-			},
-			"properties" : {
 				"Chantier" : 45104,
 				"SectorName" : "Dehors",
 				"DateDebut" : "12/10/2025 09:00:00",
@@ -9869,6 +9869,28 @@
 				"SectorName" : "Dehors",
 				"DateDebut" : "09/11/2025 09:00:00",
 				"DateFin" : "28/10/2040 15:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marcché  Quai des Péniches",
+				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3477934729, 50.8598111874 ]
+			},
+			"properties" : {
+				"Chantier" : 45109,
+				"SectorName" : "Dehors",
+				"DateDebut" : "16/11/2025 09:00:00",
+				"DateFin" : "04/11/2040 15:00:00",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
@@ -11779,50 +11801,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45388,
-				"SectorName" : "Dehors",
-				"DateDebut" : "18/10/2025 06:59:00",
-				"DateFin" : "18/10/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
-				"Chantier" : 45389,
-				"SectorName" : "Dehors",
-				"DateDebut" : "25/10/2025 06:59:00",
-				"DateFin" : "25/10/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45390,
 				"SectorName" : "Dehors",
 				"DateDebut" : "01/11/2025 06:59:00",
@@ -12446,50 +12424,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45448,
-				"SectorName" : "Dehors",
-				"DateDebut" : "18/10/2025 07:00:00",
-				"DateFin" : "18/10/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45449,
-				"SectorName" : "Dehors",
-				"DateDebut" : "25/10/2025 07:00:00",
-				"DateFin" : "25/10/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
