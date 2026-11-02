@@ -6,28 +6,6 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3477934729, 50.8598111874 ]
-			},
-			"properties" : {
-				"Chantier" : 45103,
-				"SectorName" : "Dehors",
-				"DateDebut" : "05/10/2025 09:00:00",
-				"DateFin" : "23/09/2040 15:00:00",
-				"Gestionnaire" : "Administrateur Régional, VBX",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "bruxelles.be",
-				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
-				"Libelle" : "Marcché  Quai des Péniches",
-				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
 				"coordinates" : [ 4.3764209264, 50.8629043451 ]
 			},
 			"properties" : {
@@ -8655,28 +8633,6 @@
 				"coordinates" : [ 4.3618921297, 50.8566184807 ]
 			},
 			"properties" : {
-				"Chantier" : 42901,
-				"SectorName" : "Dehors",
-				"DateDebut" : "14/09/2024 06:00:00",
-				"DateFin" : "28/10/2026 16:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché hebdomadaire du Nord",
-				"Description" : "Marché hebdomadaire du Nord tous les samedis.\n",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3618921297, 50.8566184807 ]
-			},
-			"properties" : {
 				"Chantier" : 42902,
 				"SectorName" : "Dehors",
 				"DateDebut" : "21/09/2024 06:00:00",
@@ -9759,6 +9715,28 @@
 				"SectorName" : "Dehors",
 				"DateDebut" : "28/09/2025 09:00:00",
 				"DateFin" : "16/09/2040 15:00:00",
+				"Gestionnaire" : "Administrateur Régional, VBX",
+				"Statut" : "Enregistré",
+				"Type" : "Marchés",
+				"Url" : "bruxelles.be",
+				"Zones de police" : "ZP BRUXELLES CAPITALE IXELLES",
+				"Libelle" : "Marcché  Quai des Péniches",
+				"Description" : "Marché proposant à la vente une offre de produits en vrac, produits locaux et zéro déchet. A lieu tout les dimanches de 9h à 15h, sauf jour férié.",
+				"ObjType" : "E",
+				"SymbolInfo" : "event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3477934729, 50.8598111874 ]
+			},
+			"properties" : {
+				"Chantier" : 45103,
+				"SectorName" : "Dehors",
+				"DateDebut" : "05/10/2025 09:00:00",
+				"DateFin" : "23/09/2040 15:00:00",
 				"Gestionnaire" : "Administrateur Régional, VBX",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
@@ -11801,28 +11779,6 @@
 				"coordinates" : [ 4.3597986366, 50.8566150067 ]
 			},
 			"properties" : {
-				"Chantier" : 45390,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/11/2025 06:59:00",
-				"DateFin" : "01/11/2026 18:00:00",
-				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3597986366, 50.8566150067 ]
-			},
-			"properties" : {
 				"Chantier" : 45391,
 				"SectorName" : "Dehors",
 				"DateDebut" : "08/11/2025 06:59:00",
@@ -12424,28 +12380,6 @@
 				"Gestionnaire" : "Administrateur Régional, Saint-Josse-ten-Noode",
 				"Statut" : "Enregistré",
 				"Type" : "Marchés",
-				"Url" : "",
-				"Zones de police" : "ZP POLBRUNO",
-				"Libelle" : "Marché du Nord",
-				"Description" : "",
-				"ObjType" : "E",
-				"SymbolInfo" : "event"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3616627467, 50.8586193548 ]
-			},
-			"properties" : {
-				"Chantier" : 45450,
-				"SectorName" : "Dehors",
-				"DateDebut" : "01/11/2025 07:00:00",
-				"DateFin" : "01/11/2026 18:00:00",
-				"Gestionnaire" : "Saint-Josse-ten-Noode",
-				"Statut" : "Enregistré",
-				"Type" : "Convois Exceptionnels",
 				"Url" : "",
 				"Zones de police" : "ZP POLBRUNO",
 				"Libelle" : "Marché du Nord",
